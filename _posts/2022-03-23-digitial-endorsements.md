@@ -25,7 +25,7 @@ LinkedIn’s Skill Assessments allow one to verify I am proficient in the domain
 
 \>
 
-![Menerick Hired.com assessments](/images/2022/03/23/Hired.PNG)
+![Menerick Hired.com assessments](/images/Hired.PNG)
 
 
 

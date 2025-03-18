@@ -11,7 +11,7 @@ date: "2022-03-23"
 
 \>
 
-![](https://images.squarespace-cdn.com/content/v1/515f4a80e4b0d5cb9249bcc5/57369f51-415b-4d41-bbe4-8c669959b598/LinkedinAssessments.PNG)
+![](images/LinkedinAssessments.PNG)
 
 ### Linkedin Skill Assessments
 

@@ -11,7 +11,7 @@ date: "2022-03-23"
 
 \>
 
-![](https://images.squarespace-cdn.com/content/v1/515f4a80e4b0d5cb9249bcc5/57369f51-415b-4d41-bbe4-8c669959b598/LinkedinAssessments.PNG)
+![](/images/LinkedinAssessments.PNG)
 
 ### Linkedin Skill Assessments
 
@@ -25,7 +25,7 @@ LinkedIn’s Skill Assessments allow one to verify I am proficient in the domain
 
 \>
 
-![Menerick Hired.com assessments](https://images.squarespace-cdn.com/content/v1/515f4a80e4b0d5cb9249bcc5/64dc084c-f26c-4990-a485-e93903cbf0fe/Hired.PNG)
+![Menerick Hired.com assessments](/images/Hired.PNG)
 
 
 
@@ -49,7 +49,7 @@ Hired’s Assessments
 
 \>
 
-![](https://images.squarespace-cdn.com/content/v1/515f4a80e4b0d5cb9249bcc5/073321d6-183a-4780-bb71-2644ec40c139/HackerRankJavaBasic.PNG)
+![](/images/HackerRankJavaBasic.PNG)
 
 ### HackerRank JAVA (Basic)
 
@@ -61,7 +61,7 @@ The HackerRank Skills Certification Test is a standardized assessment aimed at e
 
 \>
 
-![](https://images.squarespace-cdn.com/content/v1/515f4a80e4b0d5cb9249bcc5/ca115429-b506-448c-955c-9632d1cfe81b/HackerRankPythonBasic.PNG)
+![](/images/HackerRankPythonBasic.PNG)
 
 ### HackerRank Python (Basic)
 
@@ -75,7 +75,7 @@ The HackerRank Skills Certification Test is a standardized assessment aimed at e
 
 \>
 
-![HackTheBox Menerick](https://images.squarespace-cdn.com/content/v1/515f4a80e4b0d5cb9249bcc5/1d0ef42d-245f-4cc1-8c90-88eeeb95dadd/HackTheBox.PNG)
+![HackTheBox Menerick](/images/HackTheBox.PNG)
 
 
 
@@ -101,7 +101,7 @@ The HackerRank Skills Certification Test is a standardized assessment aimed at e
 
 \>
 
-![](https://images.squarespace-cdn.com/content/v1/515f4a80e4b0d5cb9249bcc5/3cf17280-7907-4b0a-829d-89327add9a55/certified-information-systems-security-professional-cissp.png)
+![](/images/certified-information-systems-security-professional-cissp.png)
 
 
 

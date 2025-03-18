@@ -7,7 +7,7 @@ date: "2023-11-17"
 
 \>
 
-![threatintellogo.PNG](https://images.squarespace-cdn.com/content/v1/515f4a80e4b0d5cb9249bcc5/1574534262023-76O0NM43TBZ8BDDHE1UR/threatintellogo.PNG)
+![threatintellogo.PNG](/images/threatintellogo.PNG)
 
 # Projects Overview
 
@@ -21,7 +21,7 @@ Daily, querying threat intelligence platforms to generate metrics and related at
 
 \>
 
-![nvd.png](https://images.squarespace-cdn.com/content/v1/515f4a80e4b0d5cb9249bcc5/1574125876824-PL5HP2DWJKKAZDQPNURJ/nvd.png)
+![nvd.png](/images/nvd.png)
 
 ### Vulnerability and REmediation Metrics
 
@@ -31,11 +31,11 @@ Daily, pulling US DHS National Vulnerability Database to generate vulnerability 
 
 \>
 
-![1580877.png](https://images.squarespace-cdn.com/content/v1/515f4a80e4b0d5cb9249bcc5/1574582456900-BYMVZJ8B3EORFJVL8RKI/1580877.png)
+![1580877.png](/images/1580877.png)
 
 \>
 
-![gyoithon_logo.png](https://images.squarespace-cdn.com/content/v1/515f4a80e4b0d5cb9249bcc5/1575868622496-FJNE8DWZC4IQI3IQZYHD/gyoithon_logo.png)
+![gyoithon_logo.png](/images/gyoithon_logo.png)
 
 ### Rugged SecDevOps Attacks and Testing Plans
 

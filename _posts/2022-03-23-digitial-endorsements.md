@@ -11,7 +11,7 @@ date: "2022-03-23"
 
 \>
 
-![](~/images/LinkedinAssessments.PNG)
+![](images/LinkedinAssessments.PNG)
 
 ### Linkedin Skill Assessments
 
@@ -25,7 +25,7 @@ LinkedIn’s Skill Assessments allow one to verify I am proficient in the domain
 
 \>
 
-![Menerick Hired.com assessments](https://images.squarespace-cdn.com/content/v1/515f4a80e4b0d5cb9249bcc5/64dc084c-f26c-4990-a485-e93903cbf0fe/Hired.PNG)
+![Menerick Hired.com assessments](images/2022/03/23/Hired.PNG)
 
 
 

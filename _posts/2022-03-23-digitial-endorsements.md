@@ -11,7 +11,7 @@ date: "2022-03-23"
 
 \>
 
-![](images/LinkedinAssessments.PNG)
+![](~/images/LinkedinAssessments.PNG)
 
 ### Linkedin Skill Assessments
 

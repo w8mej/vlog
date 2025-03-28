@@ -3,8 +3,7 @@ layout: post
 title: Kubernetes Networks - CNI
 date: 2019-07-24
 categories: ["Kubernetes", "Networking", "CNI", "Network Policies", "Service Mesh", "Routing", "Storage Interface", "Security Best Practices", "Kubernetes Security"]
-excerpt: Within Kubernetes, networks are an interesting beast. They become extremely
-muddled
+excerpt: Within Kubernetes, networks are an interesting beast. They become extremely muddled
 ---
 # Overview
 

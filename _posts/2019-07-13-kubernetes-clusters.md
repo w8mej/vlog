@@ -2,7 +2,7 @@
 layout: post
 title: What is a modern, dynamic service and its' building blocks?
 date: 2019-07-13
-categories: categories: ["Cloud Native", "Modern Services", "Containerization", "CI/CD", "Orchestration", "Kubernetes", "Microservices", "Networking", "Observability", "Service Discovery", "Databases", "Messaging"]
+categories: ["Cloud Native", "Modern Services", "Containerization", "CI/CD", "Orchestration", "Kubernetes", "Microservices", "Networking", "Observability", "Service Discovery", "Databases", "Messaging"]
 excerpt: As I work through the ecosystem, there is no evident, leading best practice.
 ---
 When I look at the Cloud Native ecosystem, I am astonished.  The vendor

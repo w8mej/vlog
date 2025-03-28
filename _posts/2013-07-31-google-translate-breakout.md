@@ -3,8 +3,7 @@ layout: post
 title: Google Translate #vulnerability and #exploit
 date: 2013-07-31
 categories: ["Google Translate", "web vulnerability", "iframe hijacking", "redirect exploit", "HTML5 sandbox", "web security", "safe mode", "security mitigation"]
-excerpt:  the translated website pops out of Google Translate's iframe
-and redirects the user to a website or content of their choosing
+excerpt:  the translated website pops out of Google Translate's iframe and redirects the user to a website or content of their choosing
 ---
 http://www.google.co.uk/translate?hl=en&u=+++mn6i0.tk+%0A%0A++
 

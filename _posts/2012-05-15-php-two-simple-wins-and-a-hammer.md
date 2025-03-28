@@ -3,9 +3,7 @@ layout: post
 title: PHP - two simple wins and a hammer
 date: 2012-05-15
 categories: ["PHP programming", "learning PHP", "PHP security", "PHP tools", "community support", "PHP Hammer of Justice", "safe mode", "suhosin", "web development humor", "security best practices"]
-excerpt: I love programming in PHP.  Fairly simple to learn, easy to code, plenty of
-tools available, and great community.  However, due to the language's inherent
-behaviour, PHP has many security pitfalls.
+excerpt: I love programming in PHP.  Fairly simple to learn, easy to code, plenty of tools available, and great community.  However, due to the language's inherent behaviour, PHP has many security pitfalls.
 ---
 ![](https://images.squarespace-
 cdn.com/content/v1/515f4a80e4b0d5cb9249bcc5/1365200452240-UB8J63VPS0QMBQCRHBM3/image-

@@ -2,7 +2,7 @@
 layout: post
 title: Lazy AWS devops
 date: 2013-06-04
-categories: [TBD]
+categories: ["DevOps", "agile SA", "cloud security tools", "automation in IT", "AWS EC2", "orchestration tools", "configuration management", "Chef", "Puppet", "BCFG2", "Capistrano", "Mcollective", "data center management", "infrastructure as a service", "disaster recovery", "system monitoring"]
 excerpt: I am seeing too much echo chamber, saber rattling, foolish dogma about agile SA
 ---
 I am seeing too much echo chamber, saber rattling, foolish dogma about agile

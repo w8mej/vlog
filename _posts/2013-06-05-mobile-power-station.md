@@ -2,8 +2,8 @@
 layout: post
 title: Malicious mobile power station
 date: 2013-06-05
-categories: [TBD]
-excerpt: A bit back, I looked over [Stavrou's USB smartphone paper
+categories: ["USB security vulnerabilities", "smartphone security", "malicious USB attacks", "Stavrou's research", "cybersecurity threats", "social engineering"]
+excerpt: A bit back, I looked over Stavrou USB smartphone paper evil power station
 ---
 A bit back, I looked over [Stavrou's USB smartphone
 paper](https://media.blackhat.com/bh-dc-11/Stavrou-

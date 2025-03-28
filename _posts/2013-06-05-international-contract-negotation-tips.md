@@ -2,7 +2,7 @@
 layout: post
 title: Startup Comp Structure
 date: 2013-06-05
-categories: [TBD]
+categories: ["startup compensation", "equity compensation", "executive recruitment", "venture capital", "cash vs stock compensation", "benefits program", "stock options", "employee motivation", "startup challenges", "creative compensation strategies", "benefits customization"]
 excerpt: You
 ---
 You’ve decided to start a company. Your business plan is based on sound

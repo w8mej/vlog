@@ -2,7 +2,7 @@
 layout: post
 title: Security is hard.  Security Tools are harder.  Cloud Security Tools are hardest.
 date: 2013-05-09
-categories: [TBD]
+categories: ["cloud security tools", "security orchestration", "vulnerability management", "dynamic infrastructure", "cloud service APIs", "security tool interoperability", "cloud security corporations", "policy compliance", "incident response", "forensic investigations"]
 excerpt: There are tools, security tools, and then there are cloud security tools. Especially in the realm of security orchestration. Many cloud snake oil tools were never designed for the cloud.
 ---
 There are tools, security tools, and then there are cloud security tools.

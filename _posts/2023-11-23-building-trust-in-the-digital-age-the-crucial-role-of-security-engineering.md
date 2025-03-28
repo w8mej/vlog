@@ -3,7 +3,7 @@ layout: post
 title: The Tightrope Walk- Balancing Security Engineering and Privacy in the Tech World
 date: 2023-11-23
 categories: ["Cybersecurity", "Privacy Engineering", "Ethical Frameworks", "Security Engineering", "Digital Trust", "Transparency", "Data Privacy", "Security vs Privacy", "Policy and Regulation", "Public Trust", "Collaborative Efforts"]
-excerpt: In the rapidly evolving world of technology, a critical and often controversial issue stands at the forefront: the balance between robust security measures and the protection of individual privacy rights.
+excerpt: In the rapidly evolving world of technology, a critical and often controversial issue stands at the forefront the balance between robust security measures and the protection of individual privacy rights.
 ---
 ![](https://images.squarespace-
 cdn.com/content/v1/515f4a80e4b0d5cb9249bcc5/abdd9eea-

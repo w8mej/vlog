@@ -2,8 +2,8 @@
 layout: post
 title: Data Controls Code Review
 date: 2018-09-08
-categories: [TBD]
-excerpt: # CIA Triad Users entrust developers with their data. To earn and maintain their trust, we must employ security controls that protect data from unauthorized access. Confidentiality is one of
+categories: categories: ["CIA Triad", "Confidentiality", "Data Protection", "Data Security", "Cryptography", "Secure Coding", "Code Review", "Injection Flaws", "Encryption", "Hashing", "Tokenization"]
+excerpt: The number of user records exposed in the United States has been in the billions in 2016 and 2017. 2018 will likely be the same, once the final tally is calculated.
 ---
 # CIA Triad
 

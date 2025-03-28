@@ -3,7 +3,7 @@ layout: post
 title: Binding Parameters
 date: 2018-09-07
 categories: ["Injection", "SQL Injection", "Input Validation", "Parameterized Statements", "ORM", "Secure Coding", "Code Review"]
-excerpt: In the previous article we reviewed **Input Validation
+excerpt: Notice that the single quote in the name O’Brien is causing a syntax error. The SQL command processor considers the string ends
 ---
 In the previous article we reviewed **Input Validation**. While **Input
 Validation** is an effective deterrent to a large number of attacks, including

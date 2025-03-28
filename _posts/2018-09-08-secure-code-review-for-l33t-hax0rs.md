@@ -2,8 +2,8 @@
 layout: post
 title: Solving 90% of application security defects with a proven technique
 date: 2018-09-08
-categories: [TBD]
-excerpt: >
+categories: categories: ["Application Security", "Input Validation", "OS Command Injection", "Allow List", "Block List", "SQL Injection", "Cross-Site Scripting", "Path Traversal", "Security Best Practices"]
+excerpt: Even when validation is used, a common mistake is to use block lists. For example an application will prevent symbols that are known to cause trouble. The weakness of this countermeasure is that some symbols may be overlooked.
 ---
 > _Would you let someone in your house if you thought they should not be
 > there?_

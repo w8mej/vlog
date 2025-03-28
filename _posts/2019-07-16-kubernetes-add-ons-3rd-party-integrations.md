@@ -2,8 +2,8 @@
 layout: post
 title: Kubernetes Information Security Practices
 date: 2019-07-16
-categories: [TBD]
-excerpt: # Overview We sponsored a Kubernetes security review because of its
+categories: ["Kubernetes", "Information Security", "Vulnerability Scanning", "CI/CD", "Monitoring", "Security Practices", "Compliance", "Cloud Infrastructure", "GKE", "EKS", "Remote Management"]
+excerpt: We sponsored a Kubernetes security review because of its’ popular adoption, glaring insecurities, default insecure states, wasn’t designed to be secure, and everyone wanted to use it and make it available to the Internet
 ---
 # Overview
 

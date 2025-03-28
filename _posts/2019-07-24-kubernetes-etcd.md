@@ -2,7 +2,7 @@
 layout: post
 title: Kubernetes Master Node &amp;amp; Nodes
 date: 2019-07-24
-categories: [TBD]
+categories: ["Kubernetes", "Master Node", "Worker Nodes", "CIS Benchmark", "Security Best Practices", "Configuration Management", "Pod Scheduling", "Cluster Management", "Node Security", "Kubernetes Security"]
 excerpt: One will wish to replicate their Master node to minimize downtime events. These nodes will host the control plane building blocks
 ---
 One will wish to replicate their Master node to minimize downtime events.

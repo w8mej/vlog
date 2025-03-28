@@ -2,8 +2,8 @@
 layout: post
 title: Kubernetes Containers
 date: 2019-07-25
-categories: [TBD]
-excerpt: # Overview When we get into the specifics for containers, the challenge is that the detailed advice differs greatly between the different container technologies. As a result, I will STRONGLY
+categories: ["Kubernetes", "Containers", "Container Security", "Container Technology", "Docker", "Container Vulnerability Scanning", "Image Signing", "Security Best Practices", "CI/CD", "Compliance"]
+excerpt: When we get into the specifics for containers, the challenge is that the detailed advice differs greatly between the different container technologies. As a result, I will STRONGLY recommend one doesn’t run Docker as it was never designed to be secure, requires Swarm to manage some aspects of its’ lacking security, and requires a near-infinite amount of hand holding
 ---
   
 

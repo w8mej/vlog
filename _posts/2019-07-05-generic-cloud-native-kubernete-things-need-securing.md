@@ -2,8 +2,8 @@
 layout: post
 title: Kubernetes Basics
 date: 2019-07-05
-categories: [TBD]
-excerpt: Following up from the previous post, let
+categories: ["Kubernetes", "Cloud Security", "Containerization", "Container Orchestration", "Scaling", "Deployment", "Security", "Cloud-Native", "DevOps"]
+excerpt: Let’s take a look at the simplest part of the previously documented multi-tenancy architecture 
 ---
 Following up from the previous post, let’s take a look at the simplest part of
 the previously documented multi-tenancy architecture (MTA) that provides high

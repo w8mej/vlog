@@ -2,7 +2,7 @@
 layout: post
 title: Kubernetes Scheduler
 date: 2019-07-23
-categories: [TBD]
+categories: ["Kubernetes", "Scheduler", "Resource Management", "CIS Benchmark", "Security Practices", "Pod Scheduling", "Governance", "HTTPS", "Configuration Management"]
 excerpt: # Overview This is the building block that handles pods scheduling based upon resource constraints, requirements, tolerances, governance, and other policies. The scheduler
 ---
 # Overview

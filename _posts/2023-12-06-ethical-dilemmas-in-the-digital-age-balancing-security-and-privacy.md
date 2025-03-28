@@ -2,8 +2,8 @@
 layout: post
 title: Embracing the Cyber Age- The Art of Adaptability in Security Engineering
 date: 2023-12-06
-categories: [TBD]
-excerpt: 
+categories: ["Cybersecurity", "Security Engineering", "Adaptability", "Cyber Threats", "Social Media Security", "AI in Cybersecurity", "Blockchain Security", "Proactive Cybersecurity", "Security Usability", "Cybersecurity Workforce", "Digital Trust", "Global Cybersecurity Trends"]
+excerpt: xIn the dynamic and ever-evolving realm of digital technology, the need for adaptability in combating cyber threats has never been more pronounced.
 ---
 ![](https://images.squarespace-
 cdn.com/content/v1/515f4a80e4b0d5cb9249bcc5/0602b924-e8ff-4a12-bc17-785dcfed3fe2/interesting.png)

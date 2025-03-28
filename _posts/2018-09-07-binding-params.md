@@ -2,7 +2,7 @@
 layout: post
 title: Binding Parameters
 date: 2018-09-07
-categories: [TBD]
+categories: ["Injection", "SQL Injection", "Input Validation", "Parameterized Statements", "ORM", "Secure Coding", "Code Review"]
 excerpt: In the previous article we reviewed **Input Validation
 ---
 In the previous article we reviewed **Input Validation**. While **Input

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Management Wednesday
+title: Management Wednesday - Negotation
 date: 2012-04-07
-categories: [TBD]
+categories: ["management wednesday", "negotiation techniques", "value creation", "cooperative behavior", "relationship building", "active listening", "problem solving", "negotiation strategies", "Pareto Efficiency", "Nash Equilibrium", "fair criteria", "negotiation preparation", "trust in negotiations", "emotional intelligence", "persuasion techniques"]
 excerpt: Management 101 - Negotiating Observe yourself negotiating The more time one spends preparing is directly related to win
 ---
 Management 101 - Negotiating

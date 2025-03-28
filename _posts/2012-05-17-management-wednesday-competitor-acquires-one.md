@@ -2,7 +2,7 @@
 layout: post
 title: Management Wednesday- BPM scoping
 date: 2012-05-17
-categories: [TBD]
+categories: ["business-process-management", "project-scoping", "process-models", "real-time-auditing", "dynamic-execution", "human-capital", "workflow-integration", "project-management", "discovery-sessions", "process-modeling", "integration-complexity", "disruption-management"]
 excerpt: In business process management, there is no defined starting point. The solutions are transposable, adaptive, and can be set into motion regardless of the other solution's state. In project's scoping
 ---
 In business process management, there is no defined starting point. The

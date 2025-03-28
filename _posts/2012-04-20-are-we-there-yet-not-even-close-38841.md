@@ -2,7 +2,7 @@
 layout: post
 title: Management Wednesday- BPM isn’t beats per minute.
 date: 2012-04-20
-categories: [TBD]
+categories: ["business process management", "management practices", "change initiatives", "process optimization", "human error", "stakeholder focus", "miscommunication", "process frameworks", "business efficiency", "agile processes", "information services"]
 excerpt: I was chatting with Alexander Peters and he mentioned an interesting statistic.
 ---
 I was chatting with Alexander Peters and he mentioned an interesting

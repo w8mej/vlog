@@ -2,7 +2,7 @@
 layout: post
 title: Microsoft revokes Microsoft's certificate
 date: 2012-06-25
-categories: [TBD]
+categories: ["PKI private key signing", "code signing vulnerability", "Microsoft security breach", "malicious software", "system security", "key revocation", "cybersecurity incident"]
 excerpt: It is a sad day when a PKI private key signing software is able to sign code on behalf of Microsoft. Especially when it is found in the wild and
 ---
 It is a sad day when a PKI private key signing software is able to sign code

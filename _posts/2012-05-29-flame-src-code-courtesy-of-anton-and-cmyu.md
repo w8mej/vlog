@@ -2,7 +2,7 @@
 layout: post
 title: Gribodemon on SpyEye 2.x - I expected better
 date: 2012-05-29
-categories: [TBD]
+categories: ["application honeypot", "SpyEye malware", "sandbox evasion", "virtualized sandbox security", "insecure coding practices", "buffer overflows", "cryptographic flaws", "command and control systems", "web application vulnerabilities", "XSS vulnerabilities", "SQL injection", "secure coding"]
 excerpt: Saturday, I noticed my application honeypot collected an interesting sample. The cracker took my bait and attempt to hack the planet via a SpyEye 2.x variant. Apparently, the limit of
 ---
 Saturday, I noticed my application honeypot collected an interesting sample.

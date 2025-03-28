@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Google Glass Developer program - DOS and XSS
+title: Google Glass Developer program - more DOS and XSS
 date: 2013-05-03
-categories: [TBD]
+categories: ["Google Glass", "Mirror API", "DOS vulnerability", "XSS vulnerability", "security fixes", "GitHub changeset", "error handling", "code security", "vr insecurity", "ar vulnerability", "augmented reality vulnerability"]
 excerpt: There were two very simple Google Glass Mirror's quickstart DOS and XSS vulnerabilities. The fixes have been introduced in changeset https
 ---
 There were two very simple Google Glass Mirror's quickstart DOS and XSS

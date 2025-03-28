@@ -2,8 +2,8 @@
 layout: post
 title: Rapid7 Google hacks extended
 date: 2013-04-11
-categories: [TBD]
-excerpt: site
+categories: ["data leakage", "S3 bucket security", "sensitive information", "file sharing services", "content delivery networks", "inadvertent sharing", "document security", "Form W-4", "Form W-9", "Form 1099"]
+excerpt: How many other file sharing services are affected by the inadvertant sharing of sensitive information
 ---
 site:s3.amazonaws.com filetype:docx password username
 

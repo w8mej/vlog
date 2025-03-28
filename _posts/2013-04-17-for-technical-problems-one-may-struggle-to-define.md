@@ -2,7 +2,7 @@
 layout: post
 title: Evolutionary hardware
 date: 2013-04-17
-categories: [TBD]
+categories: ["evolutionary algorithms", "soft computing", "design automation", "neural networks", "ReCaptcha", "Amazon Turk", "pattern recognition", "evolvable hardware", "military applications", "industrial applications", "risk management"]
 excerpt: For technical problems, one may struggle to define the specifications. When this happens, look at the behavioral design. Then one may find solutions from the design automation. Thankfully, evolution algorithms
 ---
 For technical problems, one may struggle to define the specifications. When

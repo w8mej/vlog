@@ -2,7 +2,7 @@
 layout: post
 title: Please donate to a worthy crypto security cause
 date: 2014-04-15
-categories: [TBD]
+categories: ["OpenSSL", "Heartbleed", "cryptographic security", "secure code review", "donate to security", "open source funding", "C/C++ vulnerabilities", "software defects", "security research"]
 excerpt: If you have ever used OpenSSL, [please donate money to this worthy cause
 ---
 If you have ever used OpenSSL, [please donate money to this worthy

@@ -2,7 +2,7 @@
 layout: post
 title: Bug Age - Pattern series
 date: 2014-04-07
-categories: [TBD]
+categories: ["bug patterns", "code insecurity", "secure coding", "software vulnerabilities", "formal proofs", "code correctness", "legacy code", "holistic security", "open source security", "security automation", "developer tools"]
 excerpt: I love standards. My blackhat persona says this makes it easy to break into systems
 ---
 I love standards. My blackhat persona says this makes it easy to break into

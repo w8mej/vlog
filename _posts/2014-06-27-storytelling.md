@@ -3,8 +3,7 @@ layout: post
 title: How to sell a story - Ira Glass
 date: 2014-06-27
 categories: ["Ira Glass", "creative process", "storytelling", "artistic growth", "overcoming self doubt", "creative advice", "persistence in art", "closing the gap", "beginner struggles", "motivation for creators"]
-excerpt: If you are just starting this phase, still in this phase, getting out of this
-phase, you gotta know
+excerpt: If you are just starting this phase, still in this phase, getting out of this phase, you gotta know
 ---
 "...What nobody tells people who are beginners — and I really wish someone had
 told this to me . . . is that all of us who do creative work, we get into it

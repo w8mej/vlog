@@ -2,7 +2,7 @@
 layout: post
 title: #GCHQ challenge completed
 date: 2015-05-18
-categories: [TBD]
+categories: ["GCHQ", "cyber challenge", "puzzle solving", "infosec", "cryptography", "intellectual challenge", "capture the flag", "security challenge", "cybersecurity", "GCHQ competition"]
 excerpt: View fullsize
 ---
 View fullsize

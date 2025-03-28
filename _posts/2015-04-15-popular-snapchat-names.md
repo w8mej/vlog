@@ -2,8 +2,8 @@
 layout: post
 title: Need help figuring out a Snapchat username? I have your back.
 date: 2015-04-15
-categories: [TBD]
-excerpt: Jessica asks
+categories: ["Snapchat", "username tips", "social media trends", "username patterns", "data analysis", "popular names", "digital identity", "user behavior", "Jessica username help", "Snapchat analytics"]
+excerpt: I can’t tell you what makes a good Snapchat username.  But what I can tell you is what makes a popular Snapchat username.
 ---
 Jessica asks “I just got a snap chat n I want a cool username my names Jessica
 I tried to do so many user names wit my name but there all taken I want a rely

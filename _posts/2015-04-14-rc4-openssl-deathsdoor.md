@@ -2,8 +2,8 @@
 layout: post
 title: Yet another nail in SSL TLS 's coffin
 date: 2015-04-14
-categories: [TBD]
-excerpt: Via [Ivan](https://community.qualys.com/blogs/securitylabs/2013/03/19/rc4-in- tls
+categories: ["SSL", "TLS", "RC4 vulnerability", "cryptographic attacks", "BEAST attack", "cipher suite weaknesses", "man-in-the-middle", "encryption insecurity", "deprecated protocols", "security research"]
+excerpt: RC4 has long been considered problematic, but until very recently there was no known way to exploit the weaknesses
 ---
 Via [Ivan](https://community.qualys.com/blogs/securitylabs/2013/03/19/rc4-in-
 tls-is-broken-now-what) \- "...RC4 has long been considered problematic, but

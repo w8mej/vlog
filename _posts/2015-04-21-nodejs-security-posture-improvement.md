@@ -2,7 +2,7 @@
 layout: post
 title: Impressive Node.JS vulnerability reduction
 date: 2015-04-21
-categories: [TBD]
+categories: ["NodeJS", "vulnerability reduction", "secure coding", "code review", "security improvements", "open source security", "risk mitigation", "JavaScript security", "community contributions", "remediation efforts"]
 excerpt: In 2013, when I last performed a secure code review on Node.JS, it did not look pretty.
 ---
 In 2013, when I last performed a secure code review on Node.JS, it did not

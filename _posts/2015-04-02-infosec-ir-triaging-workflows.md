@@ -2,8 +2,8 @@
 layout: post
 title: Technical Approaches to Determining if an Incident Occurred
 date: 2015-04-02
-categories: [TBD]
-excerpt: # Key Takeaways When addressing potential incidents and applying best practice incident response procedures
+categories: ["incident response", "cybersecurity best practices", "IOC detection", "anomaly detection", "host-based artifacts", "network-based artifacts", "threat hunting", "digital forensics", "incident mitigation", "security monitoring", "incident handling mistakes", "remediation strategies", "network segmentation", "access control", "backup and recovery", "SIEM", "endpoint detection", "malware analysis", "user education", "secure configuration"]
+excerpt: When addressing potential incidents and applying best practice incident response procedures
 ---
 # Key Takeaways
 

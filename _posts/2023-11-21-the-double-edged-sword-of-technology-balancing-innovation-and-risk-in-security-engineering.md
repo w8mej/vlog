@@ -2,8 +2,8 @@
 layout: post
 title: Embracing Decentralization- The Future of Democratic Oversight and Security Engineering
 date: 2023-11-21
-categories: [TBD]
-excerpt: 
+categories: ["Cybersecurity", "Decentralized Security", "Blockchain", "Democratic Oversight", "Security Engineering", "Transparency", "Distributed Trust", "Cryptography", "AI/ML Security", "Ethical Technology"]
+excerpt: In an era where digital technology is not just a tool but a societal cornerstone, the concepts of democratic oversight in technology and decentralized security models in security engineering are more relevant than ever.
 ---
 ![](https://images.squarespace-
 cdn.com/content/v1/515f4a80e4b0d5cb9249bcc5/703a1eab-3a93-44b4-b7b1-fe7f2933cc73/DALL%C2%B7E+2023-11-15+15.46.21+-+A+conceptual+artwork+depicting+%27Embracing+Decentralization_+The+Future+of+Democratic+Oversight+and+Security+Engineering%27.+The+image+combines+elements+.png)

@@ -2,8 +2,8 @@
 layout: post
 title: Serious XSS affecting Wikipedia
 date: 2017-09-08
-categories: [TBD]
-excerpt: Cross
+categories: categories: ["Vulnerabilities", "Web Security", "XSS", "MediaWiki", "Wikipedia", "Disclosure", "Security Patching", "Manual Code Review"]
+excerpt: XSS vulnerability in thumb.php in Wikipedia Mediawiki
 ---
 Cross-site scripting (XSS) vulnerability in thumb.php in MediaWiki before
 1.23.10, 1.24.x before 1.24.3, and 1.25.x before 1.25.2 allows remote

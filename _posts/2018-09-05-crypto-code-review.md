@@ -2,7 +2,7 @@
 layout: post
 title: Overly Simplistic Crypto Code review
 date: 2018-09-05
-categories: [TBD]
+categories: ["Cryptography", "Secure Coding", "Data Protection", "Code Review", "Encryption", "HTTPS", "Hashing", "Security Best Practices"]
 excerpt: Confidentiality is one of Information Security
 ---
 Confidentiality is one of Information Security’s CIA tenets. Users entrust

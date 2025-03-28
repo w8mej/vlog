@@ -2,8 +2,8 @@
 layout: post
 title: For those who wonder what a Digital authentication cyber arms race looks like
 date: 2018-07-11
-categories: [TBD]
-excerpt: It is heavy on the technical content but is entertaining if you spend the time understanding the language. >
+categories: ["Authentication", "Cybersecurity", "Browser Security", "Phishing", "Digital Identity", "Hardware Tokens", "Defense Strategies"]
+excerpt: It is heavy on the technical content but is entertaining if you spend the time understanding the language.
 ---
 It is heavy on the technical content but is entertaining if you spend the time
 understanding the language.

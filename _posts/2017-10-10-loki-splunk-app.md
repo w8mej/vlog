@@ -2,7 +2,7 @@
 layout: post
 title: Creating a Loki Splunk application
 date: 2017-10-10
-categories: categories: ["Threat Hunting", "Incident Response", "APT Detection", "Open Source Security Tools", "Splunk", "IOC Scanning", "Automation", "YARA", "Threat Intelligence", "Windows Security"]
+categories: ["Threat Hunting", "Incident Response", "APT Detection", "Open Source Security Tools", "Splunk", "IOC Scanning", "Automation", "YARA", "Threat Intelligence", "Windows Security"]
 excerpt: One tool that has caught my interest is the [Loki APT scanner
 ---
 One tool that has caught my interest is the [Loki APT

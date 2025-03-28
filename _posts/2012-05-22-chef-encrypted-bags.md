@@ -1,0 +1,19 @@
+---
+layout: post
+title: Sad reality
+date: 2012-05-22
+categories: [TBD]
+excerpt: 
+---
+![](https://images.squarespace-
+cdn.com/content/v1/515f4a80e4b0d5cb9249bcc5/1365200452200-M9WS3LROGPIBFWZ8MM6A/image-
+asset.jpeg)
+
+I hope you have a gating process in your finance team which halts the ability
+to pay vendors without security approval.  Otherwise, you will end up with 3rd
+party cloud vendors who have a risky portion of your intellectual property
+without you noticing.  Much akin to cloud cat....
+
+
+
+

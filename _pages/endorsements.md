@@ -1,0 +1,47 @@
+---
+layout: page
+title: Endorsements
+permalink: /endorsements/
+---
+![](/images/LinkedinAssessments.PNG)
+
+[Visit LinkedIn](https://www.linkedin.com/in/w8mej/)
+
+
+![Menerick Hired.com assessments](/images/Hired.PNG)
+
+
+
+![](/images/HackerRankJavaBasic.PNG)
+
+### HackerRank JAVA (Basic)
+
+The HackerRank Skills Certification Test is a standardized assessment aimed at evaluating a developer’s technical proficiency. I obtained the only Java certification - Java (Basic.)
+
+[Verify Java (Basic)](https://www.hackerrank.com/certificates/bea0e59a6a42)
+
+
+![](/images/HackerRankPythonBasic.PNG)
+
+### HackerRank Python (Basic)
+
+The HackerRank Skills Certification Test is a standardized assessment aimed at evaluating a developer’s technical proficiency. I obtained the only Python certification - Python (Basic.)
+
+[Verify Python (BASIC)](https://www.hackerrank.com/certificates/4551ad5e1696)
+
+ 
+
+![HackTheBox Menerick](/images/HackTheBox.PNG)
+[Visit HTB Profile](https://app.hackthebox.com/profile/6891)
+## HackTheBox - Solo ranked #602 in the world. Team rank #41.
+
+
+
+ 
+
+
+![](/images/certified-information-systems-security-professional-cissp.png)
+
+
+
+[Validate ISC endorsements](https://www.credly.com/badges/74c8e3e1-c951-4651-a905-adf5e2898186/public_url)

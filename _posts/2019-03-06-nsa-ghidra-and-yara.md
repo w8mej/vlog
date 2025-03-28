@@ -1,0 +1,17 @@
+---
+layout: post
+title: When your SIEM models are not enough
+date: 2019-03-06
+categories: [TBD]
+excerpt: Upon suggestion from Mr. Hay, I took https
+---
+Upon suggestion from Mr. Hay, I took https://sigopt.com/ for a spin.  I
+plugged it into our SIEM and Vulnerability models.  I am astonished.  Just
+when I thought every bit of value was squeezed from the systems, it is
+continuing to pull out indicators and APT actors like candy at a weight loss
+camp.  One should give it a spin when they need to further optimize their
+models.  For blackhats, this technique will become a significant pain as
+additional academic savy private sector practitioners move beyond log
+management and playbooks.
+
+

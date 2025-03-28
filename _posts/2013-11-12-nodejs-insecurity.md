@@ -1,8 +1,8 @@
 ---
 layout: post
-title: NodeJS #vulnerabilities - it hurts to look
+title: NodeJS vulnerabilities - it hurts to look
 date: 2013-11-12
-categories: [TBD]
+categories: ["NodeJS", "JavaScript security", "backend vulnerabilities", "vulnerability classes", "defensive coding", "third party package review", "Shodan", "open source security", "NodeJS hardening"]
 excerpt: Background
 ---
 Background:

@@ -2,7 +2,7 @@
 layout: post
 title: #Carberp vulnerabilities - Overview and poor cryptography
 date: 2013-06-27
-categories: [TBD]
+categories: ["Carberp", "malware analysis", "cryptographic vulnerabilities", "RC4 encryption", "md5 weaknesses", "openssl misuse", "application security", "botnet source code", "secure coding", "PHP security"]
 excerpt: I logged into Reddit this morning and observed Carberp
 ---
 I logged into Reddit this morning and observed Carberp’s source code was

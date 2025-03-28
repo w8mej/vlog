@@ -2,7 +2,7 @@
 layout: post
 title: Random thought for an exploding honey token
 date: 2013-06-27
-categories: [TBD]
+categories: ["honey tokens", "compressed file attacks", "mail server vulnerabilities", "resource exhaustion", "insider threat detection", "security experimentation", "MTA inspection", "system logs monitoring"]
 excerpt: I remember when Nuxi and I would create computationally compact compressed files and see which mail servers would attempt to inspect the contents. Typically, the MTA would fail over due
 ---
 I remember when Nuxi and I would create computationally compact compressed

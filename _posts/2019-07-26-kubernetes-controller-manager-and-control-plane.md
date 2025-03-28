@@ -2,8 +2,8 @@
 layout: post
 title: Kubernetes Pods (PodSec policies)
 date: 2019-07-26
-categories: [TBD]
-excerpt: # Overview Pods hardening is strongly configured and enforced with Pod Security policies
+categories: ["Kubernetes", "Pod Security", "Security Policies", "Pod Security Policies", "Workload Security", "Container Security", "CIS Benchmark", "Kubernetes Best Practices", "Pod Hardening"]
+excerpt: Pods hardening is strongly configured and enforced with Pod Security policies (PodSec.). The security context enables not to restrict privileges, volume mounts, network privileges, cgroups / selinux / app armor / kernel capabilities, access control, read only file-system, etc…. This is where much of the workload insecurity comes from.
 ---
 # Overview
 

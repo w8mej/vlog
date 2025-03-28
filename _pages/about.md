@@ -23,6 +23,35 @@ permalink: /about/
   "aud": "your-client-id.apps.googleusercontent.com"
 }
 {% endhighlight %}
+
+```js
+const add = (a, b) => a + b
+const minus = (a, b) => a - b
+
+console.log(add(100,200))  // 300
+console.log(minus(100,200))  // -100
+```
+
+```js
+{
+  "id": "ocid1.user.oc1..aaaaaaaaxxxxxxxxxxxxxxxxxxxxxxxx",
+  "name": "john.menerick@haxx.ninja",
+  "description": "John Menerick Human",
+  "compartmentId": "ocid1.tenancy.oc1..aaaaaaaayyyyyyyyyyyyyyyyyyyyyyyy",
+  "timeCreated": "2024-01-25T15:00:00.000Z",
+  "lifecycleState": "ACTIVE"
+}
+
+{
+  "email": "john.menerick@haxx.ninja,
+  "sub": "117813812345678901234",
+  "name": "John Menerick",
+  "picture": "https://lh3.googleusercontent.com/a/XYZPhotoURL",
+  "iss": "https://accounts.google.com",
+  "aud": "your-client-id.apps.googleusercontent.com"
+}
+```
+
 </h6>
 [Additional credentials for various services and entities is found here](https://github.com/w8mej/credentials)
 

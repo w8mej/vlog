@@ -2,8 +2,8 @@
 layout: post
 title: Memory Safety Code Review
 date: 2018-11-30
-categories: [TBD]
-excerpt: Memory related vulnerabilities are very dangerous. Essential operating system components and programs such as system services, browsers, crypto libraries and document readers are written in C
+categories: ["Memory Safety", "Buffer Overflow", "CWE 120", "CWE 131", "CWE 134", "CWE 193", "Input Validation", "Format String Injection", "Off-by-One", "Compiler Flags", "Secure Coding Practices"]
+excerpt: Some of our keen readers may have noticed that if the size of userPass is less than 9, then overflow will still occur.
 ---
 Memory related vulnerabilities are very dangerous. Essential operating system
 components and programs such as system services, browsers, crypto libraries

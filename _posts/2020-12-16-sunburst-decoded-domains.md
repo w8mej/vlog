@@ -2,7 +2,7 @@
 layout: post
 title: Intel Sharing Metrics
 date: 2020-12-16
-categories: [TBD]
+categories: ["Threat Intelligence", "Metrics", "Cybersecurity", "Data Visualization", "Intel Sharing", "Incident Response"]
 excerpt: I pulled some metrics from my threat intelligence sharing service to generate cute charts and graphs. If you want to keep up to date, keep an eye on
 ---
 I pulled some metrics from my threat intelligence sharing service to generate

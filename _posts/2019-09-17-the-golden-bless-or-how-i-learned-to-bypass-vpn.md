@@ -2,8 +2,8 @@
 layout: post
 title: Kubernetes CI / CD And Monitoring Pipelines
 date: 2019-09-17
-categories: [TBD]
-excerpt: # Overview When one takes a step back and looks at a typical agile build, test, and release pipeline with a security bent
+categories: ["Kubernetes", "CI/CD", "Monitoring", "DevSecOps", "Security Automation", "Kubernetes Security", "Vulnerability Scanning", "Infrastructure as Code", "Network Policies", "Container Security", "Security Best Practices", "CIS Benchmark"]
+excerpt: When one takes a step back and looks at a typical agile build, test, and release pipeline with a security bent; one observes the following steps and how they feed into each other like a dragon eating its’ tail.
 ---
 #  
 Overview

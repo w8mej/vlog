@@ -2,8 +2,8 @@
 layout: post
 title: Striking the Right Balance- Innovation and Regulation in Security Engineering
 date: 2023-02-08
-categories: [TBD]
-excerpt: 
+categories: ["Security Engineering", "Innovation", "Regulation", "Compliance", "Technology Policy", "Cybersecurity", "Tech Ethics", "Digital Trust"]
+excerpt: In the fast-paced world of technological advancement, balancing innovation with regulation is a crucial challenge, especially in the field of security engineering. 
 ---
 ![](https://images.squarespace-
 cdn.com/content/v1/515f4a80e4b0d5cb9249bcc5/5e1ca351-72ef-4b57-b98d-47fe7aa03c5a/prometheus.png)

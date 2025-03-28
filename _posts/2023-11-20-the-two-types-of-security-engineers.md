@@ -4,6 +4,7 @@ title: South Park's perspective on Hacker culture
 date: 2023-11-20
 categories: [TBD]
 excerpt: Cartman, You know what's like hackers, dudes
+published: false
 ---
 Cartman, You know what's like hackers, dudes? They're like the underpants
 gnomes. Step 1: Hack stuff. Step 2: Uh... Step 3: Profit, I guess?"

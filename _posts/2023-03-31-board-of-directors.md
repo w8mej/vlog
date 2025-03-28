@@ -2,8 +2,8 @@
 layout: post
 title: 2023 update to 2021 White House Cybersecurity Executive Order
 date: 2023-03-31
-categories: [TBD]
-excerpt: When reviewing the latest 2023 2024 infosec trends and technical risk mgt. capabilities, I realized I needed to update the 2021 White House Executive Order
+categories: ["Cybersecurity", "Cyber Risk Management", "White House Cybersecurity Executive Order", "Security Automation", "Infosec Trends", "Risk Assessment", "Cloud Security", "Compliance", "M&A", "SecOps", "Tech Innovation", "AI/ML Security"]
+excerpt: I realized I needed to update the 2021 White House Executive Order …Improving the Nation’s Cybersecurity fundamentals outline. In order to scale with limited resources to achieve the basics, below are the fundamental hygienic basics one must achieve.
 ---
 When reviewing the latest 2023 2024 infosec trends and technical risk mgt.
 capabilities, I realized I needed to update the 2021 White House Executive

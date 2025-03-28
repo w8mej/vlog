@@ -16,5 +16,3 @@ Or once inside vim
 `:set shell=/bin/sh`
 
 `:shell`
-
-

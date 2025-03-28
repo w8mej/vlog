@@ -2,7 +2,7 @@
 layout: post
 title: Failure to meet operational excellence
 date: 2020-02-16
-categories: [TBD]
+categories: ["Operational Excellence", "Security Best Practices", "Certificate Management", "Security Operations", "Incident Response", "Vulnerability Management"]
 excerpt: One would think to rotate their certificates months prior to expiration. Or even the bare minimum
 ---
 One would think to rotate their certificates months prior to expiration. Or

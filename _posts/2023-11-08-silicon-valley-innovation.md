@@ -2,8 +2,8 @@
 layout: post
 title: Annabel's Cypherpunk Manifesto
 date: 2023-11-08
-categories: [TBD]
-excerpt: It was many and many a year ago, In a realm of digital glow, That the Cypherpunks came to know, A love for privacy, like a river's flow. So they
+categories: ["Cybersecurity", "Cyber Risk Management", "White House Cybersecurity Executive Order", "Security Automation", "Infosec Trends", "Risk Assessment", "Cloud Security", "Compliance", "M&A", "SecOps", "Tech Innovation", "AI/ML Security"]
+excerpt: It was many and many a year ago, In a realm of digital glow, That the Cypherpunks came to know, A love for privacy, like a river's flow.
 ---
 It was many and many a year ago,
 

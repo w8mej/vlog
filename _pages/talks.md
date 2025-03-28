@@ -3,7 +3,8 @@ layout: page
 permalink: /talks/
 title: Lectures & Conversations
 ---
-
+Coming Soon To a Browser Near You
+<!--
 <div class="talks">
   {% for talk in site.data.talks %}
   <div class="talk-item" style="margin-bottom: 2em;">
@@ -28,3 +29,4 @@ title: Lectures & Conversations
   <hr />
   {% endfor %}
 </div>
+-->

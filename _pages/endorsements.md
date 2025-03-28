@@ -3,6 +3,11 @@ layout: page
 title: Endorsements
 permalink: /endorsements/
 ---
+
+[Curriculum Vitae](https://cv.securesql.info/)
+
+<hr>
+
 ![](/images/LinkedinAssessments.PNG)
 
 [Visit LinkedIn](https://www.linkedin.com/in/w8mej/)

@@ -2,7 +2,7 @@
 layout: post
 title: The pending crypto singularity
 date: 2018-01-16
-categories: [TBD]
+categories: ["Cryptography", "Security Engineering", "Protocol Design", "Crypto Monoculture", "IETF", "Internet Security", "AEAD", "Curve25519", "Open Source"]
 excerpt: Recently penned by Peter, it is worth a read. Especially for those who are concerned about putting all of their eggs in one basket. On the Impending Crypto Monoculture
 ---
 Recently penned by Peter, it is worth a read.  Especially for those who are

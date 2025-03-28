@@ -2,8 +2,8 @@
 layout: post
 title: Walking the Dark Deep Web
 date: 2017-04-05
-categories: [TBD]
-excerpt: During Black Hat, BsidesLV, and Defcon, I ended up having a quick chat with Justin Seitz about his nifty OSINT automation. I decided to take his data sets and enrich
+categories: categories: ["Dark Web", "OSINT", "Cybersecurity", "Defcon", "BsidesLV", "Black Hat", "Metadata Analysis", "SSH Fingerprinting", "Threat Intelligence", "Adversary Modeling", "Diamond Model", "Network Forensics", "Tor Hidden Services"]
+excerpt: During Black Hat, BsidesLV, and Defcon, I ended up having a chat with Justin Seitz about his nifty OSINT automation. I decided to take his data sets and enrich
 ---
 During Black Hat, BsidesLV, and Defcon, I ended up having a quick chat with
 Justin Seitz about his nifty OSINT automation.  I decided to take his data

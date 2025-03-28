@@ -2,7 +2,7 @@
 layout: attachment
 title: Multiple vulnerabilities in SecurityOnion
 date: 2016-03-22
-categories: categories: ["SecurityOnion", "Vulnerabilities", "PHP Security", "Remote Code Execution", "Web Security", "Disclosure", "Exploit Development", "Open Source Security"]
+categories: ["SecurityOnion", "Vulnerabilities", "PHP Security", "Remote Code Execution", "Web Security", "Disclosure", "Exploit Development", "Open Source Security"]
 excerpt: Let this be a reminder of the joys in programming PHP
 ---
 Let this be a reminder of the joys in programming PHP

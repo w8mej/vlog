@@ -2,7 +2,7 @@
 layout: post
 title: DARPA Cyber Grand Challenge era coming to a close
 date: 2016-08-15
-categories: [TBD]
+categories: ["Cyber Grand Challenge", "DARPA", "Red Teaming", "Automation", "Cybersecurity", "CTF", "AI in Security", "Game Theory", "Big Data Security", "Security Automation", "Cloud Security", "Adversarial Modeling", "CTF Strategy", "Security Research"]
 excerpt: This Thursday, seven research institutions will compete against each other. Unlike other typical hacker challenges, their automations will compete on their behalf. The winning team will take home
 ---
 This Thursday, seven research institutions will compete against each other.

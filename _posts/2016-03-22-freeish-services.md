@@ -2,7 +2,7 @@
 layout: post
 title: Relatively Free #aaS Resources
 date: 2016-03-22
-categories: categories: ["Free Resources", "DevOps", "SaaS", "PaaS", "IaaS", "Cloud Services", "Tools for Developers", "Infrastructure", "Automation", "Open Source"]
+categories: ["Free Resources", "DevOps", "SaaS", "PaaS", "IaaS", "Cloud Services", "Tools for Developers", "Infrastructure", "Automation", "Open Source"]
 excerpt: From my text library, this is list of software
 ---
 

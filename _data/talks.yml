@@ -1,0 +1,16 @@
+---
+- title: "Securing APIs in the Wild"
+  date: "2024-02-14"
+  event: "DEFCON, Las Vegas"
+  slides: "https://speakerdeck.com/johnmenerick/securing-apis"
+  video: "youtube_video_id_here"
+  description: "Discussing API security best practices and common pitfalls."
+
+- title: "Open Source Security Fairy Dust"
+  date: "2023-11-10"
+  event: "RSA Conference"
+  slides: "https://slideshare.net/johnmenerick/open-source-security-fairy-dust"
+  video: "youtube_video_id_here"
+  description: "Exploring how open-source tools can strengthen your cybersecurity posture."
+
+# Add more talks as needed

@@ -10,7 +10,7 @@ name: Menerick’s Security Ledger
 author: John W8MEJ Menerick
 
 # Short bio or description (displayed in the header)
-description: Insights Beyond the Firewall
+description: Explore cutting-edge cybersecurity insights and protective strategies with John Menerick. Deep dives, threat analysis, and live streams from securesql.info.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/reverie.png.avif
@@ -51,8 +51,8 @@ google_analytics_ga4: G-QSRPMJBJVC
 
 # Your website URL (e.g. http://amitmerchant1990.github.io or http://www.amitmerchant.com)
 # Used for Sitemap.xml and your RSS feed
-url: https://charlie.securesql.info
-enforce_ssl: https://charlie.securesql.info
+url: https://www.securesql.info
+enforce_ssl: https://www.securesql.info
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)

@@ -8,9 +8,11 @@ permalink: /endorsements/
 
 <hr>
 
+
 ![](/images/LinkedinAssessments.png.avif)
 
-[Visit LinkedIn](https://www.linkedin.com/in/w8mej/)
+[Visit GCP](https://www.cloudskillsboost.google/public_profiles/335017d3-fb65-41f9-ad58-4e4668f5e783
+
 
 
 ![Menerick Hired.com assessments](/images/Hired.png.avif)
@@ -50,3 +52,10 @@ The HackerRank Skills Certification Test is a standardized assessment aimed at e
 
 
 [Validate ISC endorsements](https://www.credly.com/badges/74c8e3e1-c951-4651-a905-adf5e2898186/public_url)
+
+
+
+![](/images/LinkedinAssessments.png.avif)
+
+[Visit LinkedIn](https://www.linkedin.com/in/w8mej/)
+

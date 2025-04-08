@@ -9,7 +9,7 @@ permalink: /endorsements/
 <hr>
 
 
-![](/images/LinkedinAssessments.png.avif)
+![](/images/GCP.png.avif)
 
 [Visit GCP](https://www.cloudskillsboost.google/public_profiles/335017d3-fb65-41f9-ad58-4e4668f5e783
 

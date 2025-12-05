@@ -3,7 +3,7 @@ layout: post
 title: "Righty Tighty: The \"Physics-Compliant\" Approach to Cross-Cloud Security"
 date: 2025-12-02
 categories: ["Cloud Security", "Multi-Cloud", "OCI", "AWS", "YubiKey", "Terraform", "Infrastructure as Code", "Audit Logging", "Zero Trust"]
-excerpt: We’ve all been there: juggling long-lived AWS access keys, managing OCI config files, and praying that the "secret" API token committed to a private repo three years ago doesn't come back to haunt us. But what if we treated cloud identity less like a password and more like a physical law?
+excerpt: We’ve all been there - juggling long-lived AWS access keys, managing OCI config files, and praying that the "secret" API token committed to a private repo three years ago doesn't come back to haunt us. But what if we treated cloud identity less like a password and more like a physical law?
 ---
 
 *Why your next cloud security strategy might just depend on the laws of physics—and a YubiKey.*

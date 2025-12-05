@@ -7,6 +7,151 @@
     </title>
     {% seo title=false %} {% include meta.html %}
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "{{ site.url }}/#john-menerick",
+  "name": "John Menerick",
+  "alternateName": "W8MEJ",
+  "headline": "Security Engineer | Detection & Response | Zero Trust & Trusted AI Compute",
+  "url": "{{ site.url }}",
+  "image": "{{ site.url }}/images/JohnMenerickfunsized.gif",
+  "description": "{{ site.description }}",
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "name": "FCC Call Sign",
+      "value": "W8MEJ"
+    }
+  ],
+  "worksFor": {
+    "@type": "Organization",
+    "name": "SecureSQL",
+    "url": "{{ site.url }}"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Security Engineer",
+    "occupationalCategory": "15-1212",
+    "description": "Performs applied security engineering in cloud infrastructures, AI systems, and distributed systems, with a focus on detection engineering and zero knowledge."
+  },
+  "skills": [
+    "Detection Engineering",
+    "Incident Response",
+    "Threat Hunting",
+    "Zero Trust Architecture",
+    "Cloud Security (AWS, GCP, OCI)",
+    "Confidential Computing",
+    "Trusted Execution Environments",
+    "Multi-Party Computation (MPC)",
+    "Zero-Knowledge Proof Systems",
+    "Machine Learning Security",
+    "DevSecOps",
+    "Vulnerability Management"
+  ],
+  "knowsAbout": [
+    "Information Security",
+    "Security Engineering",
+    "Threat Detection",
+    "AI and ML Security",
+    "Distributed Systems",
+    "PKI and Hardware Security Keys",
+    "SIEM and Telemetry Pipelines",
+    "Zero Trust Networking",
+    "Offensive Security Research",
+    "Ham Radio and RF Systems"
+  ],
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Amateur General Class License",
+      "credentialCategory": "Professional",
+      "identifier": "W8MEJ",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Federal Communications Commission",
+        "url": "https://www.fcc.gov"
+      }
+    }
+  ],
+  "award": [
+    "Recognized for applied research in trusted AI compute and large-scale detection engineering",
+    "Known for hands-on leadership in zero trust and incident response programs"
+  ],
+  "sameAs": [
+    "https://github.com/w8mej",
+    "https://mastodon.social/@w8mej",
+    "https://www.linkedin.com/in/w8mej",
+    "https://twitter.com/w8mej",
+    "https://securesql.info"
+  ],
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "Business",
+      "email": "mailto:jobs@securesql.info"
+    }
+  ],
+  "email": "mailto:jobs@securesql.info",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Castro Valley",
+    "addressRegion": "CA",
+    "addressCountry": "US"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "{{ site.url }}/#website",
+  "name": "{{ site.name }}",
+  "url": "{{ site.url }}",
+  "description": "{{ site.description }}",
+  "about": {
+    "@id": "{{ site.url }}/#john-menerick"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SecureSQL",
+    "url": "{{ site.url }}"
+  },
+  "inLanguage": "en",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ site.url }}/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "{{ site.url }}{{ page.url }}",
+  "url": "{{ site.url }}{{ page.url }}",
+  "name": "{% if page.title %}{{ page.title }} – {{ site.name }}{% else %}{{ site.name }}{% endif %}",
+  "description": "{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}",
+  "isPartOf": {
+    "@id": "{{ site.url }}/#website"
+  },
+  "about": {
+    "@id": "{{ site.url }}/#john-menerick"
+  },
+  "inLanguage": "en",
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "{{ site.url }}{% if page.image %}{{ page.image }}{% else %}{{ site.avatar }}{% endif %}"
+  }
+}
+</script>
+
+
+
     <link
       rel="stylesheet"
       type="text/css"

@@ -107,7 +107,7 @@ The most powerful aspect of this implementation isn't any single technical compo
 
 ## **Ready to See It in Action?**
 
-This isn't a thought experiment or a research paper. It's production-ready code, fully documented, with clear success criteria and implementation steps. If you're serious about zero-trust infrastructure, hardware-bound deployments, and ephemeral credential architectures, exploring this repository will change how you think about security.
+This isn't a thought experiment or a research paper. It's proof-of-concept-ready code, fully documented, with clear success criteria and implementation steps. If you're serious about zero-trust infrastructure, hardware-bound deployments, and ephemeral credential architectures, exploring this repository will change how you think about security.
 
 **Explore the implementation:** [Immutable-Plan-Enforcer on GitHub](https://github.com/w8mej/Immutable-Plan-Enforcer)
 

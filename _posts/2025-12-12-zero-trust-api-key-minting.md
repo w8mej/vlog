@@ -116,7 +116,7 @@ And the answer is beautiful in its paranoia.
 
 ---
 
-**Want to see how deep this rabbit hole goes?** Dive into the full implementation, FROST threshold signature code, OPA policies, and Kubernetes manifests in the [Zero-Trust API Key Minting repository](https://github.com/w8mej/zero-trust-given). Fair warning: it's a proof of concept, not production-ready. But the ideas inside might just change how you architect your next secure service.
+**Want to see how deep this rabbit hole goes?** Dive into the full implementation, FROST threshold signature code, OPA policies, and Kubernetes manifests in the [Zero-Trust API Key Minting repository](https://github.com/w8mej/zero-trust-given). Fair warning: it's a proof of concept, not proof-of-concept-ready. But the ideas inside might just change how you architect your next secure service.
 
 **Now ask yourself:** If your current API keys were leaked tomorrow on Pastebin, how long would it take before someone noticed? And what would they be able to do in that time?
 

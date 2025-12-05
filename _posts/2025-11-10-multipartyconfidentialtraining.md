@@ -98,7 +98,7 @@ Instead of burying triple generation in some helper function, Mimir treats it li
 
 ## 6. **The README Reads Like a Threat Model, Not a Sales Pitch**
 
-Tucked right after the happy-path description is a blunt warning: this is a **research PoC**, not a production-ready system. [oai_citation:12‡GitHub](https://github.com/w8mej/Mimir)  
+Tucked right after the happy-path description is a blunt warning: this is a **research PoC**, not a proof-of-concept-ready system. [oai_citation:12‡GitHub](https://github.com/w8mej/Mimir)  
 
 The repo calls out limitations such as: [oai_citation:13‡GitHub](https://github.com/w8mej/Mimir)  
 

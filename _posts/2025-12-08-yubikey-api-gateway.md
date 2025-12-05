@@ -128,7 +128,7 @@ Imagine:
 - **API platforms** where every customer key is bound to their own hardware token
 - **Zero-trust networks** where network access requires a physical security key
 
-> "This is a proof of concept — it is **not production-ready**."
+> "This is a proof of concept — it is **not proof-of-concept-ready**."
 
 The disclaimer is honest, but the implications are profound. We're seeing the early stages of a fundamental shift: from "storing secrets securely" to "not storing secrets at all."
 
@@ -147,4 +147,4 @@ We're entering an era where the line between digital and physical security is bl
 **Want to explore this architecture yourself?**  
 Check out the full implementation on GitHub: [w8mej/hard-to-get](https://github.com/w8mej/hard-to-get)
 
-The code is proof-of-concept, but the ideas are production-ready. Perhaps it's time to rethink what "secret storage" really means.
+The code is proof-of-concept, but the ideas are proof-of-concept-ready. Perhaps it's time to rethink what "secret storage" really means.

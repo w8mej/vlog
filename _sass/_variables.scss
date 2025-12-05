@@ -1,18 +1,67 @@
-
 //
 // VARIABLES
 //
 
 // Colors
-$blue: #4183C4;
+:root {
+  --blue: #4183c4;
+  --black: #000;
+  --darkerGray: #222;
+  --darkGray: #333;
+  --gray: #666;
+  --lightGray: #eee;
+  --white: #fff;
 
-// Grays
-$black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
-$white: #fff;
+  --bg-color: var(--white);
+  --text-color: #404040;
+  --heading-color: var(--darkerGray);
+  --border-color: var(--lightGray);
+  --link-color: var(--blue);
+  --blockquote-bg: #ede1ff;
+  --you-may-like-bg: #ddffb5;
+  --code-bg: #f8f8f8;
+  --table-header-bg: #f8f8f8;
+  --search-input-bg: #fff3ff;
+  
+  --tech-blue: #007acc;
+  --tag-bg: #e6f2ff;
+  --timeline-line: #d7e4ed;
+  --chip-bg: #e4e4e4;
+  --highlight-bg: #efd3f9;
+}
+
+[data-theme="dark"] {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --heading-color: #f0f0f0;
+  --border-color: #333;
+  --link-color: #64b5f6;
+  --blockquote-bg: #2a2a40;
+  --you-may-like-bg: #2a402a;
+  --code-bg: #1e1e1e;
+  --table-header-bg: #1e1e1e;
+  --search-input-bg: #2a2a2a;
+  
+  --tech-blue: #64b5f6;
+  --tag-bg: #1e2a3a;
+  --timeline-line: #444;
+  --chip-bg: #333;
+  --highlight-bg: #4a2a4a;
+  
+  --white: #121212; // Inverting meaning for some existing usages if needed, but better to use semantic vars
+  --lightGray: #333;
+  --darkGray: #ccc;
+  --darkerGray: #eee;
+  --black: #fff;
+}
+
+$blue: var(--blue);
+$black: var(--black);
+$darkerGray: var(--darkerGray);
+$darkGray: var(--darkGray);
+$gray: var(--gray);
+$lightGray: var(--lightGray);
+$white: var(--white);
 
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;

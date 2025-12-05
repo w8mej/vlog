@@ -1,4 +1,10 @@
-# The Password Crisis Nobody Talks About: 5 Surprising Lessons from Hardware-Rooted Cloud Security
+---
+layout: post
+title: "The Password Crisis Nobody Talks About: 5 Surprising Lessons from Hardware-Rooted Cloud Security"
+date: 2025-12-03
+categories: ["Cloud Security", "Hardware Authentication", "YubiKey", "HashiCorp Vault", "Terraform", "Zero Trust", "AWS", "Short-lived Credentials", "DevSecOps"]
+excerpt: We've all been there: juggling AWS access keys, rotating credentials quarterly, and praying that developer laptop that went missing last month didn't have plaintext keys. The conventional wisdom says "use long, complex passwords" and "rotate regularly." But what if the real solution is to eliminate passwords entirely?
+---
 
 We've all been there: juggling AWS access keys, rotating credentials quarterly (or let's be honest, yearly), and praying that developer laptop that went missing last month didn't have plaintext keys in a `.env` file somewhere. The conventional wisdom says "use long, complex passwords" and "rotate regularly." But what if the real solution is to eliminate passwords entirely—and make credentials so short-lived that stealing them becomes pointless?
 
@@ -99,3 +105,5 @@ This represents a broader trend in security: moving from "make the user do the r
 ---
 
 *Explore the full implementation at [w8mej/short-term-memory](https://github.com/w8mej/short-term-memory)*
+
+https://github.com/w8mej/short-term-memory

@@ -1,4 +1,10 @@
-# Righty Tighty: The "Physics-Compliant" Approach to Cross-Cloud Security
+---
+layout: post
+title: "Righty Tighty: The \"Physics-Compliant\" Approach to Cross-Cloud Security"
+date: 2025-12-02
+categories: ["Cloud Security", "Multi-Cloud", "OCI", "AWS", "YubiKey", "Terraform", "Infrastructure as Code", "Audit Logging", "Zero Trust"]
+excerpt: We’ve all been there: juggling long-lived AWS access keys, managing OCI config files, and praying that the "secret" API token committed to a private repo three years ago doesn't come back to haunt us. But what if we treated cloud identity less like a password and more like a physical law?
+---
 
 *Why your next cloud security strategy might just depend on the laws of physics—and a YubiKey.*
 
@@ -60,3 +66,5 @@ It serves as a reminder that "infrastructure as code" should really be "security
 **Righty Tighty** challenges us to rethink the ephemeral nature of cloud access. In a world where AI agents and automated scripts are increasingly running our infrastructure, there is something profoundly reassuring about anchoring the most critical actions to a physical object in the real world.
 
 **If your entire cloud infrastructure disappeared tomorrow, could you prove—physically—who turned off the lights?** With this approach, you can.
+
+https://github.com/w8mej/righty-tighty

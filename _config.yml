@@ -98,7 +98,7 @@ plugins:
   - jekyll-paginate
 
 feed:
-  posts_limit: 20
+  posts_limit: 200
 
 include: ['_pages']
 

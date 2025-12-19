@@ -97,6 +97,9 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
 
+feed:
+  posts_limit: 20
+
 include: ['_pages']
 
 paginate: 6

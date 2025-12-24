@@ -244,6 +244,10 @@ a {
   }
 }
 
+p a, li a, blockquote a, .entry a {
+  text-decoration: underline;
+}
+
 ul, ol {
   margin: 15px 0;
   padding-left: 30px;

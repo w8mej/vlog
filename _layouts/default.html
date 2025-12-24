@@ -152,7 +152,12 @@
 
 
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
     <link
       rel="preload"
       as="style"
@@ -200,6 +205,8 @@
               ><img
                 src="{{ site.baseurl }}{{ site.avatar }}"
                 alt="{{ site.title }}"
+                width="70"
+                height="70"
             /></a>
 
             <div class="site-info">
@@ -235,7 +242,7 @@
     </div>
 
     {% include analytics.html %}
-    <script src="{{ site.baseurl }}/assets/js/dark-mode.js"></script>
+    <script data-cfasync="false" src="{{ site.baseurl }}/assets/js/dark-mode.js"></script>
                   <div class="theme-switch-wrapper">
                 <em>Enable dark mode</em>
                 <label class="theme-switch" for="checkbox">

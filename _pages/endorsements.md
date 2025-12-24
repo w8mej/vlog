@@ -16,11 +16,11 @@ permalink: /endorsements/
 
 
 
-<img src="/images/Hired.png.avif" alt="Menerick Hired.com assessments" width="869" height="338">
+<img src="/images/Hired.png.avif" alt="Menerick Hired.com assessments" width="869" height="338" loading="lazy">
 
 
 
-<img src="/images/HackerRankJavaBasic.png.avif" alt="HackerRank Java Basic" width="815" height="608">
+<img src="/images/HackerRankJavaBasic.png.avif" alt="HackerRank Java Basic" width="815" height="608" loading="lazy">
 
 ### HackerRank JAVA (Basic)
 
@@ -29,7 +29,7 @@ The HackerRank Skills Certification Test is a standardized assessment aimed at e
 [Verify Java (Basic)](https://www.hackerrank.com/certificates/bea0e59a6a42)
 
 
-<img src="/images/HackerRankPythonBasic.png.avif" alt="HackerRank Python Basic" width="814" height="614">
+<img src="/images/HackerRankPythonBasic.png.avif" alt="HackerRank Python Basic" width="814" height="614" loading="lazy">
 
 ### HackerRank Python (Basic)
 
@@ -39,7 +39,7 @@ The HackerRank Skills Certification Test is a standardized assessment aimed at e
 
 &nbsp;
 
-<img src="/images/HackTheBox.png.avif" alt="HackTheBox Menerick" width="895" height="681">
+<img src="/images/HackTheBox.png.avif" alt="HackTheBox Menerick" width="895" height="681" loading="lazy">
 [Visit HTB Profile](https://app.hackthebox.com/profile/6891)
 ## HackTheBox - Solo ranked #602 in the world. Team rank #41.
 
@@ -48,7 +48,7 @@ The HackerRank Skills Certification Test is a standardized assessment aimed at e
 &nbsp;
 
 
-<img src="/images/certified-information-systems-security-professional-cissp.png.avif" alt="CISSP" width="285" height="285">
+<img src="/images/certified-information-systems-security-professional-cissp.png.avif" alt="CISSP" width="285" height="285" loading="lazy">
 
 
 
@@ -56,7 +56,7 @@ The HackerRank Skills Certification Test is a standardized assessment aimed at e
 
 
 
-<img src="/images/LinkedinAssessments.png.avif" alt="LinkedIn Assessments" width="543" height="800">
+<img src="/images/LinkedinAssessments.png.avif" alt="LinkedIn Assessments" width="543" height="800" loading="lazy">
 
 [Visit LinkedIn](https://www.linkedin.com/in/w8mej/)
 

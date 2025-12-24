@@ -7,7 +7,8 @@
     </title>
     {% seo title=false %} {% include meta.html %}
 
-<script type="application/ld+json">
+<script type="application/ld+json" data-cfasync="false">
+[
 {
   "@context": "https://schema.org",
   "@type": "Person",
@@ -100,10 +101,7 @@
     "addressRegion": "CA",
     "addressCountry": "US"
   }
-}
-</script>
-
-<script type="application/ld+json">
+},
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
@@ -125,10 +123,7 @@
     "target": "{{ site.url }}/search?q={search_term_string}",
     "query-input": "required name=search_term_string"
   }
-}
-</script>
-
-<script type="application/ld+json">
+},
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -148,6 +143,7 @@
     "url": "{{ site.url }}{% if page.image %}{{ page.image }}{% else %}{{ site.avatar }}{% endif %}"
   }
 }
+]
 </script>
 
 
@@ -250,7 +246,7 @@
                   <div class="slider round"></div>
                 </label>
               </div>
-    <script>
+    <script data-cfasync="false">
       document.addEventListener("DOMContentLoaded", function() {
         var lazyImages = [].slice.call(document.querySelectorAll("img:not([loading])"));
         if ("IntersectionObserver" in window) {

@@ -152,10 +152,25 @@
 
 
 
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link
-      rel="stylesheet"
-      type="text/css"
+      rel="preload"
+      as="style"
       href="{{ site.baseurl }}/assets/style.css"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="{{ site.baseurl }}/assets/style.css"
+      />
+    </noscript>
+    <link
+      rel="preload"
+      as="style"
+      href="{{ site.baseurl }}/assets/icons.css"
+      onload="this.onload=null;this.rel='stylesheet'"
     />
     <link
       rel="alternate"
@@ -228,5 +243,29 @@
                   <div class="slider round"></div>
                 </label>
               </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var lazyImages = [].slice.call(document.querySelectorAll("img:not([loading])"));
+        if ("IntersectionObserver" in window) {
+          let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
+            entries.forEach(function(entry) {
+              if (entry.isIntersecting) {
+                let lazyImage = entry.target;
+                lazyImage.setAttribute('loading', 'lazy');
+                lazyImageObserver.unobserve(lazyImage);
+              }
+            });
+          });
+          lazyImages.forEach(function(lazyImage) {
+            lazyImageObserver.observe(lazyImage);
+          });
+        } else {
+          // Fallback for browsers that don't support IntersectionObserver
+          lazyImages.forEach(function(lazyImage) {
+            lazyImage.setAttribute('loading', 'lazy');
+          });
+        }
+      });
+    </script>
   </body>
 </html>

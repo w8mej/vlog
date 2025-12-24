@@ -4,7 +4,7 @@ permalink: /casting/
 title: "🌀 Casting the Edge of Tomorrow | John Menerick"
 ---
 
-<img src="/images/cybercowboy2.png.avif" alt="cybercowboy" width="35%"/>
+<img src="https://securesql.info/images/cybercowboy2.png.avif" alt="cybercowboy" width="35%"/>
 
 In a networked era drowning in digital noise, **John Menerick** cuts through like neon in night rain. Wired directly into the pulse of emerging cybersecurity paradigms & emergency operations, John streams knowledge beyond mere reaction—*he hacks perception itself.*
 

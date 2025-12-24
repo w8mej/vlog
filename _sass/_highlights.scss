@@ -8,12 +8,16 @@
 
 code {
   font-family:'Bitstream Vera Sans Mono','Courier', monospace;
-  color: #d8d8d8;
+  color: inherit; // Inherit from parent (e.g., blockquote or body)
+}
+
+.highlight code {
+  color: #d8d8d8; // Preserve light color for dark code blocks
 }
 
 .highlighter-rouge { 
   background-color: #FAFAFA; 
-  color: #FF554A; 
+  color: #d32f2f; // Darker red for better contrast (6.5:1 on white)
 }
 
 .highlight .c { color: #586E75 } /* Comment */

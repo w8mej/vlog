@@ -168,12 +168,6 @@
       />
     </noscript>
     <link
-      rel="preload"
-      as="style"
-      href="{{ site.baseurl }}/assets/icons.css"
-      onload="this.onload=null;this.rel='stylesheet'"
-    />
-    <link
       rel="alternate"
       type="application/rss+xml"
       title="{{ site.name }} - {{ site.description }}"
@@ -279,24 +273,42 @@
     <script data-cfasync="false">
       document.addEventListener("DOMContentLoaded", function() {
         var lazyImages = [].slice.call(document.querySelectorAll("img:not([loading])"));
+        var footer = document.querySelector(".wrapper-footer");
+
         if ("IntersectionObserver" in window) {
           let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
             entries.forEach(function(entry) {
               if (entry.isIntersecting) {
-                let lazyImage = entry.target;
-                lazyImage.setAttribute('loading', 'lazy');
-                lazyImageObserver.unobserve(lazyImage);
+                if (entry.target === footer) {
+                  var link = document.createElement("link");
+                  link.rel = "stylesheet";
+                  link.href = "{{ site.baseurl }}/assets/icons.css";
+                  document.head.appendChild(link);
+                  observer.unobserve(footer);
+                } else {
+                  let lazyImage = entry.target;
+                  lazyImage.setAttribute('loading', 'lazy');
+                  lazyImageObserver.unobserve(lazyImage);
+                }
               }
             });
           });
+
           lazyImages.forEach(function(lazyImage) {
             lazyImageObserver.observe(lazyImage);
           });
+          if (footer) {
+            lazyImageObserver.observe(footer);
+          }
         } else {
           // Fallback for browsers that don't support IntersectionObserver
           lazyImages.forEach(function(lazyImage) {
             lazyImage.setAttribute('loading', 'lazy');
           });
+          var link = document.createElement("link");
+          link.rel = "stylesheet";
+          link.href = "{{ site.baseurl }}/assets/icons.css";
+          document.head.appendChild(link);
         }
       });
     </script>

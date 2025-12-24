@@ -9,17 +9,18 @@ permalink: /endorsements/
 <hr>
 
 
-![](/images/GCP.png.avif)
 
-[Visit GCP](https://www.cloudskillsboost.google/public_profiles/335017d3-fb65-41f9-ad58-4e4668f5e783
+<img src="/images/GCP.png.avif" alt="GCP Certification" width="326" height="800" fetchpriority="high">
 
-
-
-![Menerick Hired.com assessments](/images/Hired.png.avif)
+[Visit GCP](https://www.cloudskillsboost.google/public_profiles/335017d3-fb65-41f9-ad58-4e4668f5e783)
 
 
 
-![](/images/HackerRankJavaBasic.png.avif)
+<img src="/images/Hired.png.avif" alt="Menerick Hired.com assessments" width="869" height="338">
+
+
+
+<img src="/images/HackerRankJavaBasic.png.avif" alt="HackerRank Java Basic" width="815" height="608">
 
 ### HackerRank JAVA (Basic)
 
@@ -28,7 +29,7 @@ The HackerRank Skills Certification Test is a standardized assessment aimed at e
 [Verify Java (Basic)](https://www.hackerrank.com/certificates/bea0e59a6a42)
 
 
-![](/images/HackerRankPythonBasic.png.avif)
+<img src="/images/HackerRankPythonBasic.png.avif" alt="HackerRank Python Basic" width="814" height="614">
 
 ### HackerRank Python (Basic)
 
@@ -36,18 +37,18 @@ The HackerRank Skills Certification Test is a standardized assessment aimed at e
 
 [Verify Python (BASIC)](https://www.hackerrank.com/certificates/4551ad5e1696)
 
- 
+&nbsp;
 
-![HackTheBox Menerick](/images/HackTheBox.png.avif)
+<img src="/images/HackTheBox.png.avif" alt="HackTheBox Menerick" width="895" height="681">
 [Visit HTB Profile](https://app.hackthebox.com/profile/6891)
 ## HackTheBox - Solo ranked #602 in the world. Team rank #41.
 
 
 
- 
+&nbsp;
 
 
-![](/images/certified-information-systems-security-professional-cissp.png.avif)
+<img src="/images/certified-information-systems-security-professional-cissp.png.avif" alt="CISSP" width="285" height="285">
 
 
 
@@ -55,7 +56,7 @@ The HackerRank Skills Certification Test is a standardized assessment aimed at e
 
 
 
-![](/images/LinkedinAssessments.png.avif)
+<img src="/images/LinkedinAssessments.png.avif" alt="LinkedIn Assessments" width="543" height="800">
 
 [Visit LinkedIn](https://www.linkedin.com/in/w8mej/)
 

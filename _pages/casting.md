@@ -4,7 +4,7 @@ permalink: /casting/
 title: "🌀 Casting the Edge of Tomorrow | John Menerick"
 ---
 
-<img src="https://securesql.info/images/cybercowboy2.png.avif" alt="cybercowboy" width="35%"/>
+<img src="https://securesql.info/images/cybercowboy2.png.avif" alt="cybercowboy" width="275" height="412" fetchpriority="high" style="width: 35%; height: auto;"/>
 
 In a networked era drowning in digital noise, **John Menerick** cuts through like neon in night rain. Wired directly into the pulse of emerging cybersecurity paradigms & emergency operations, John streams knowledge beyond mere reaction—*he hacks perception itself.*
 
@@ -22,13 +22,13 @@ Step into John's real-time neural-feed on Twitch, an interactive terminal into t
 
 > *"Jack into the stream and ride the dataflow."*
 
-<iframe
-    src="https://player.twitch.tv/?channel=w8mej&parent=www.securesql.info&autoplay=true&muted=true"
-    height="45%"
-    width="60%"
-    style="display: block; margin: auto;"
-    allowfullscreen>
-</iframe>
+<div class="video-responsive">
+  <iframe
+      src="https://player.twitch.tv/?channel=w8mej&parent=www.securesql.info&autoplay=true&muted=true"
+      allowfullscreen
+      loading="lazy">
+  </iframe>
+</div>
 
 
 
@@ -47,7 +47,11 @@ His YouTube channel is a nexus of tactical clarity amid corporate misinformation
 > *"Knowledge is your last firewall—upgrade your OS."*
 
 
-<iframe width="60%" height="45%" style="display: block; margin: auto;" src="https://www.youtube.com/embed/videoseries?si=DkQhV25PuV0436fo&amp;list=PLqkNg6Ph1jC-ey6nGNwx5jSx99VTj0RY7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-responsive">
+  <div class="youtube-facade" data-id="PLqkNg6Ph1jC-ey6nGNwx5jSx99VTj0RY7" style="background-image: url('{{ site.baseurl }}/images/youtube-facade.png');">
+    <div class="play-button"></div>
+  </div>
+</div>
 ---
 
 ## 🎙️ Podcast | Dark Signals from the Infosec Fringe
@@ -62,7 +66,9 @@ John's podcast sends coded transmissions from the infosec abyss, distilling conv
 
 > *"Reality glitches—listen closer."*
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/4BZNfTMlJ5iCD9bUW13sNq?utm_source=generator" width="60%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" style="display: block; margin: auto;" loading="lazy"></iframe>
+<div class="video-responsive">
+  <iframe src="https://open.spotify.com/embed/show/4BZNfTMlJ5iCD9bUW13sNq?utm_source=generator" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div>
 
 ---
 

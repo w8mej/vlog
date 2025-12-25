@@ -233,84 +233,91 @@
     </div>
 
     {% include analytics.html %}
+    <div class="theme-switch-wrapper">
+      <em>Enable dark mode</em>
+      <label class="theme-switch" for="checkbox">
+        <input type="checkbox" id="checkbox" />
+        <div class="slider round"></div>
+      </label>
+    </div>
     <script data-cfasync="false">
-      const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
-      const currentTheme = localStorage.getItem('theme');
+      (function() {
+        const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+        const currentTheme = localStorage.getItem('theme');
 
-      if (currentTheme) {
-        document.documentElement.setAttribute('data-theme', currentTheme);
-        if (currentTheme === 'dark' && toggleSwitch) {
-          toggleSwitch.checked = true;
-        }
-      } else {
-        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        if (currentTheme) {
+          document.documentElement.setAttribute('data-theme', currentTheme);
+          if (currentTheme === 'dark' && toggleSwitch) {
+            toggleSwitch.checked = true;
+          }
+        } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
           document.documentElement.setAttribute('data-theme', 'dark');
           if (toggleSwitch) toggleSwitch.checked = true;
         }
-      }
 
-      function switchTheme(e) {
-        if (e.target.checked) {
-          document.documentElement.setAttribute('data-theme', 'dark');
-          localStorage.setItem('theme', 'dark');
-        } else {
-          document.documentElement.setAttribute('data-theme', 'light');
-          localStorage.setItem('theme', 'light');
+        function switchTheme(e) {
+          const theme = e.target.checked ? 'dark' : 'light';
+          document.documentElement.setAttribute('data-theme', theme);
+          localStorage.setItem('theme', theme);
         }
-      }
 
-      if (toggleSwitch) {
-        toggleSwitch.addEventListener('change', switchTheme, false);
-      }
-    </script>
-                  <div class="theme-switch-wrapper">
-                <em>Enable dark mode</em>
-                <label class="theme-switch" for="checkbox">
-                  <input type="checkbox" id="checkbox" />
-                  <div class="slider round"></div>
-                </label>
-              </div>
-    <script data-cfasync="false">
-      document.addEventListener("DOMContentLoaded", function() {
-        var lazyImages = [].slice.call(document.querySelectorAll("img:not([loading])"));
-        var footer = document.querySelector(".wrapper-footer");
+        if (toggleSwitch) {
+          toggleSwitch.addEventListener('change', switchTheme, false);
+        }
 
-        if ("IntersectionObserver" in window) {
-          let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
-            entries.forEach(function(entry) {
-              if (entry.isIntersecting) {
-                if (entry.target === footer) {
-                  var link = document.createElement("link");
-                  link.rel = "stylesheet";
-                  link.href = "{{ site.baseurl }}/assets/icons.css";
-                  document.head.appendChild(link);
-                  observer.unobserve(footer);
-                } else {
-                  let lazyImage = entry.target;
-                  lazyImage.setAttribute('loading', 'lazy');
-                  lazyImageObserver.unobserve(lazyImage);
-                }
-              }
-            });
-          });
-
-          lazyImages.forEach(function(lazyImage) {
-            lazyImageObserver.observe(lazyImage);
-          });
-          if (footer) {
-            lazyImageObserver.observe(footer);
+        // YouTube Facade Handler
+        document.addEventListener('click', function(e) {
+          const facade = e.target.closest('.youtube-facade');
+          if (facade) {
+            const videoId = facade.getAttribute('data-id');
+            const isPlaylist = videoId.length > 11;
+            const src = isPlaylist 
+              ? `https://www.youtube.com/embed/videoseries?list=${videoId}&autoplay=1`
+              : `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+            
+            const iframe = document.createElement('iframe');
+            iframe.setAttribute('src', src);
+            iframe.setAttribute('frameborder', '0');
+            iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
+            iframe.setAttribute('allowfullscreen', '1');
+            
+            facade.parentNode.replaceChild(iframe, facade);
           }
-        } else {
-          // Fallback for browsers that don't support IntersectionObserver
-          lazyImages.forEach(function(lazyImage) {
-            lazyImage.setAttribute('loading', 'lazy');
-          });
-          var link = document.createElement("link");
-          link.rel = "stylesheet";
-          link.href = "{{ site.baseurl }}/assets/icons.css";
-          document.head.appendChild(link);
-        }
-      });
+        });
+
+        document.addEventListener("DOMContentLoaded", function() {
+          const lazyImages = [].slice.call(document.querySelectorAll("img:not([loading])"));
+          const footer = document.querySelector(".wrapper-footer");
+
+          if ("IntersectionObserver" in window) {
+            const lazyImageObserver = new IntersectionObserver(function(entries, observer) {
+              entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                  if (entry.target === footer) {
+                    const link = document.createElement("link");
+                    link.rel = "stylesheet";
+                    link.href = "{{ site.baseurl }}/assets/icons.css";
+                    document.head.appendChild(link);
+                    observer.unobserve(footer);
+                  } else {
+                    entry.target.setAttribute('loading', 'lazy');
+                    observer.unobserve(entry.target);
+                  }
+                }
+              });
+            });
+
+            lazyImages.forEach(img => lazyImageObserver.observe(img));
+            if (footer) lazyImageObserver.observe(footer);
+          } else {
+            lazyImages.forEach(img => img.setAttribute('loading', 'lazy'));
+            const link = document.createElement("link");
+            link.rel = "stylesheet";
+            link.href = "{{ site.baseurl }}/assets/icons.css";
+            document.head.appendChild(link);
+          }
+        });
+      })();
     </script>
   </body>
 </html>

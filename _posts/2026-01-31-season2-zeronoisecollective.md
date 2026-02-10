@@ -1,11 +1,10 @@
 ---
 layout: post
-title: From Biology to Bot: A Strategic Framework for Governed Agency in Security Engineering
-date: 2026-01-31
+title: "From Biology to Bot: A Strategic Framework for Governed Agency in Security Engineering"
+date: 2026-02-10
 categories: ["Governed Agency", "Biological Control Theory", "TAME Framework", "Scale-Free Cognition", "Security Engineering", "Agentic Workflows", "Risk Management", "Systemic Metastasis", "Bioelectric Code", "Cognitive Light Cones"]
-excerpt: We assume security is about static defense. We assume automation is always deterministic. We assume risk is managed by limiting access. Every single one of these assumptions is obsolete in the age of AI agents—and this biological framework proves why.
+excerpt: "We assume security is about static defense. We assume automation is always deterministic. We assume risk is managed by limiting access. Every single one of these assumptions is obsolete in the age of AI agents—and this biological framework proves why."
 ---
-
 # From Biology to Bot: A Strategic Framework for Governed Agency in Security Engineering
 
 ## 1. Executive Summary: The Rise of the Agentic Enterprise

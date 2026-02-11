@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "From Biology to Bot: A Strategic Framework for Governed Agency in Security Engineering"
-date: 2026-02-10
+date: 2026-01-31
 categories: ["Governed Agency", "Biological Control Theory", "TAME Framework", "Scale-Free Cognition", "Security Engineering", "Agentic Workflows", "Risk Management", "Systemic Metastasis", "Bioelectric Code", "Cognitive Light Cones"]
 excerpt: "We assume security is about static defense. We assume automation is always deterministic. We assume risk is managed by limiting access. Every single one of these assumptions is obsolete in the age of AI agents—and this biological framework proves why."
 ---
@@ -377,6 +377,6 @@ Security is no longer a battle of walls; it is a battle of **Cognitive Light Con
 ### Source List
 
 - **Levin (2019):** *The Computational Boundary of a “Self.”* (Blueprint for scale-free cognition and bio-inspired agency)
-- **Wiener (1961):** *Cybernetics.* (Foundations of feedback loops and control theory)
+- **Wiener (1961):** *Complex Systems.* (Foundations of feedback loops and control theory)
 - **Friston (2013):** *Life as we know it.* (The Markov Blanket and free-energy principle)
 

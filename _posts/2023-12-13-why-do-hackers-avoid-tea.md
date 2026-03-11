@@ -8,6 +8,6 @@ published: false
 ---
 Because it wasn't giving him enough space!
 
-![](/images/_1700977389.3802948.txt.png.avif)
+<img src="/images/_1700977389.3802948.txt.png.avif" alt="" width="1024" height="1792">
 
 

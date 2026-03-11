@@ -60,3 +60,41 @@ The HackerRank Skills Certification Test is a standardized assessment aimed at e
 
 [Visit LinkedIn](https://www.linkedin.com/in/w8mej/)
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "CISSP - Certified Information Systems Security Professional",
+      "credentialCategory": "Professional",
+      "url": "https://www.credly.com/badges/74c8e3e1-c951-4651-a905-adf5e2898186/public_url",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "ISC2"
+      }
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Google Cloud Professional - GCP",
+      "credentialCategory": "Professional",
+      "url": "https://www.cloudskillsboost.google/public_profiles/335017d3-fb65-41f9-ad58-4e4668f5e783",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Google"
+      }
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "HackTheBox Global Rank #602",
+      "credentialCategory": "Assessment",
+      "url": "https://app.hackthebox.com/profile/6891",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "HackTheBox"
+      }
+    }
+  ]
+}
+</script>

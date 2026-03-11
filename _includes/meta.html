@@ -103,7 +103,7 @@
           }
         },
         {
-          "@type": "{% if page.layout == 'page' and page.url != '/about/' and page.url != '/services/' and page.url != '/' and page.url != '/search/' and page.url != '/casting/' %}CollectionPage{% else %}WebPage{% endif %}",
+          "@type": "{% if page.url == '/about/' %}ProfilePage{% elsif page.layout == 'page' and page.url != '/services/' and page.url != '/' and page.url != '/search/' and page.url != '/casting/' %}CollectionPage{% else %}WebPage{% endif %}",
           "@id": "{{ site.url }}{{ page.url }}",
           "url": "{{ site.url }}{{ page.url }}",
           "name": "{% if page.title %}{{ page.title }} – {{ site.name }}{% else %}{{ site.name }}{% endif %}",
@@ -221,7 +221,7 @@
         {
           "@type": "Blog",
           "@id": "{{ site.url }}/blog/",
-          "url": "{{ site.url }}",
+          "url": "{{ site.url }}/blog/",
           "name": "John Menerick's Security Insights",
           "description": "{{ site.description }}",
           "author": { "@id": "{{ site.url }}#john-menerick" }
@@ -249,8 +249,11 @@
             "cssSelector": ["h1", ".entry"]
           },
           "articleSection": "{{ page.categories.first | default: page.category | escape }}",
-          "wordCount": "{{ page.content | number_of_words }}",
-          "keywords": "{{ page.tags | join: ', ' | default: page.keywords | escape }}"
+          "wordCount": "{{ page.content | number_of_words }}"
+{% assign meta_keywords = page.tags | join: ', ' | default: page.keywords | escape %}
+{% if meta_keywords and meta_keywords != "" and meta_keywords != empty %}
+          ,"keywords": "{{ meta_keywords }}"
+{% endif %}
         },
 {% endif %}
         {
@@ -314,7 +317,7 @@
           "uploadDate": "{{ page.date | date_to_xmlschema }}",
           "embedUrl": "https://www.youtube.com/embed/{{ page.youtube_id }}",
           "contentUrl": "https://www.youtube.com/watch?v={{ page.youtube_id }}",
-          "duration": "PT12M30S"
+          "duration": "{{ page.youtube_duration | default: 'PT12M30S' }}"
         }
 {% endif %}
         ,{
@@ -331,7 +334,16 @@
             "@id": "{{ site.url }}#john-menerick"
           },
           "sameAs": [
-             "https://securesql.info"
+            "https://linkedin.com/in/w8mej",
+            "https://github.com/w8mej",
+            "https://haxx.ninja",
+            "https://dev.to/w8mej",
+            "https://gitlab.com/w8mej",
+            "https://twitch.tv/w8mej",
+            "https://www.youtube.com/channel/UCUfaf6mQgh_cX6V-SaAww1w",
+            "https://mastodon.social/@w8mej",
+            "https://twitter.com/w8mej",
+            "https://securesql.info"
           ]
         }
       ]

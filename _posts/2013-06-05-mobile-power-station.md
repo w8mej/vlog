@@ -15,7 +15,7 @@ the USB cords, epoxy the cords to your ports.  While walking around the venue,
 look for those on their phone.  Once discovered, ask them if they would like a
 free charge.   Before you know it, you will look like the following;
 
-![](/images/USBPowerHack.png.avif)
+<img src="/images/USBPowerHack.png.avif" alt="" width="500" height="483">
 
 Easy as apple pie.
 

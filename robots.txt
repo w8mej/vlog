@@ -31,5 +31,16 @@ Allow: /
 User-agent: CCBot
 Crawl-delay: 5
 Allow: /
+User-agent: Bytespider
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Cohere-ai
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
 
 Sitemap: https://www.securesql.info/sitemap.xml

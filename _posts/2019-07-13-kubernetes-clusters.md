@@ -11,7 +11,7 @@ billion.  Below is a rough ecosystem image.
 
 View fullsize
 
-![](/images/CloudNativeRoadmap.png.avif)
+<img src="/images/CloudNativeRoadmap.png.avif" alt="" width="2500" height="1371">
 
 
 

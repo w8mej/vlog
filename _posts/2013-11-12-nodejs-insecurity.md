@@ -41,7 +41,7 @@ vulnerability class pie.
 
 
 
-![](/images/NodeJSVulns.png.avif)
+<img src="/images/NodeJSVulns.png.avif" alt="" width="1354" height="860">
 
 Vulnerability pie
 

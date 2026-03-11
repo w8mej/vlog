@@ -77,7 +77,7 @@ For in the name of privacy, their love gleams,
 
 Like the stars in the night, where the truth redeems.
 
-![](/images/lee.png.avif)
+<img src="/images/lee.png.avif" alt="" width="665" height="665">
 
   
 

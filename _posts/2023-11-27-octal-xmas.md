@@ -10,7 +10,7 @@ Man, every time my computer says 'time for a security update', I feel like
 it's my girlfriend telling me we need to talk. I know it's important, but I
 also know I'm not gonna like it.
 
-![](/images/Untitled.png.avif)
+<img src="/images/Untitled.png.avif" alt="" width="1066" height="1064">
 
 #ComputerUpdates #SecurityUpdates #RelationshipMetaphor #TechHumor
 #SoftwareUpdates #Maintenance #ITLife #TechTalk #UpdatingStruggles

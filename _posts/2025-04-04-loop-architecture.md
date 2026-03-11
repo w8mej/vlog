@@ -70,14 +70,14 @@ A reinforcement learning (RL) agent or genetic algorithm proposes improvements t
 
 or another workflow suiting ITIL based institutions may look like the following;
 
-![](/images/12.png)
+<img src="/images/12.png" alt="" width="1536" height="1024">
 
 ---
 
 ## If you didn't want the self-service workflow
 
 For instance, you operate within a COBIT environment
-![](/images/13.png)
+<img src="/images/13.png" alt="" width="1536" height="1024">
 
 
 ## 🔍 Real Example: Playbooks That Improve Themselves

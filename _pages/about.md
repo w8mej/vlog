@@ -2,6 +2,7 @@
 layout: page
 title: sts:GetCallerIdentity
 permalink: /about/
+description: "John Menerick is a Security Engineer specializing in detection and response, zero trust architecture, and threat hunting. Discover his background, work style, and professional Q&A."
 ---
 <h6>
 {% highlight json %}
@@ -355,3 +356,44 @@ This proactive approach ensures training effectiveness.
 ### Q: Describe building trust when joining new teams.
 
 **A:** I earn trust through active listening, dependability, clear communication, responsibility for my actions, and collaborative support, quickly becoming a valued team member.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do you know of any changes in the information security industry that may cause a disruption? If so, how should we meet these challenges?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, several key transformations in the information security landscape could cause disruptions: Technological innovations, Remote work, and Compliance requirements. To meet these challenges, organizations should: Implement multi-layered security measures, Provide continuous employee training, Stay informed about evolving security threats, and Collaborate with reputable security providers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Describe a situation in which you utilized your Security Information and Event Monitoring (SIEM) expertise effectively.",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "While enhancing security at a major financial institution, I used SIEM tools to analyze logs enterprise-wide. By identifying anomalies early, we prevented potential breaches. Working collaboratively, we addressed vulnerabilities proactively, significantly reducing security incidents and improving the organization's overall security posture."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you prioritize projects under pressure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Under pressure, I prioritize projects by: Completing urgent and critical tasks first, Addressing tasks with approaching deadlines promptly, Evaluating tasks based on their potential impact and prioritizing those offering significant value, and Considering resource availability, delegating effectively, and seeking assistance when necessary."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you measure success in a results-driven culture?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Success means setting clear goals, tracking progress, seeking feedback, and celebrating milestones. A results-driven culture motivates me through clear objectives and measurable outcomes."
+      }
+    }
+  ]
+}
+</script>

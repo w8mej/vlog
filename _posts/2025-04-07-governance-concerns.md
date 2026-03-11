@@ -90,7 +90,7 @@ With them? It’s a force multiplier.
 
 For instance, here is an overly simplified stakeholder engagement and adoption playbook.  
 
-![](/images/16.png)
+<img src="/images/16.png" alt="" width="1536" height="1024">
 
 ---
 

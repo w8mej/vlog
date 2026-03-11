@@ -23,7 +23,7 @@ You should only allow numbers.
 In the two code samples below one has a security issue due to improper input
 validation. Can you tell which?
 
-![](/images/1.png.avif)
+<img src="/images/1.png.avif" alt="" width="709" height="371">
 
 Both code samples, _shell out_ , to execute OS commands, in this case sending
 a ping to a server. _Shelling out_  is an insecure practice because it can
@@ -121,7 +121,7 @@ One little function can prevent multiple attack types. The table below
 demonstrates how the function prevents SQL Injection, OS Injection, Cross-Site
 Scripting and Path Traversal.
 
-![](/images/2.png.avif)
+<img src="/images/2.png.avif" alt="" width="399" height="189">
 
 The function also works for multi-language support. For example the character
 **_è_**  will be considered a letter and will be allowed.

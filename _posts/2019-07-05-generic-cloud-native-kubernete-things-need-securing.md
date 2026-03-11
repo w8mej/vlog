@@ -18,25 +18,25 @@ building blocks. The typical architecture is akin to;
 
   
 
-![](/images/kubes.png.avif)
+<img src="/images/kubes.png.avif" alt="" width="730" height="480">
 
-![](/images/k8s.png.avif)
+<img src="/images/k8s.png.avif" alt="" width="804" height="571">
 
   
 
 Which could run on assets like a Raspberry PI (ARM) cluster
 
-![](/images/432.jpg)
+<img src="/images/432.jpg" alt="" width="900" height="600">
 
 or transform workloads into pods that evaporate in the cloud when terminated
 
   
 
-![](/images/4321.png.avif)
+<img src="/images/4321.png.avif" alt="" width="1500" height="844">
 
   
 
-![](/images/543.png.avif)
+<img src="/images/543.png.avif" alt="" width="1604" height="1280">
 
   
   
@@ -44,7 +44,7 @@ or transform workloads into pods that evaporate in the cloud when terminated
   
   
 
-![](/images/123.png.avif)
+<img src="/images/123.png.avif" alt="" width="1000" height="643">
 
   
   

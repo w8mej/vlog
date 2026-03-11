@@ -6,7 +6,7 @@ categories: [TBD]
 excerpt: 
 published: false
 ---
-![](/images/_1700975760.294574.txt.png.avif)
+<img src="/images/_1700975760.294574.txt.png.avif" alt="" width="1024" height="1792">
 
 Because they like to work in incognito.
 

@@ -7,6 +7,6 @@ excerpt: Sometimes, all it takes is cp and rsync. See the image below for an exa
 ---
 Sometimes, all it takes is cp and rsync. See the image below for an example.
 
-![](/images/exploit)
+<img src="/images/exploit" alt="" width="1108" height="1478">
 
 

@@ -11,6 +11,6 @@ Coding Dojo
 
 View fullsize
 
-![](/images/1_Tud8hr0fKiRDRrgS1Sw3tg.png.avif)
+<img src="/images/1_Tud8hr0fKiRDRrgS1Sw3tg.png.avif" alt="" width="2500" height="1367">
 
 

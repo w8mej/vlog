@@ -63,10 +63,10 @@ Every detection, score, and action is:
 
 Example high level global architecture
 
-![](/images/20.png)
+<img src="/images/20.png" alt="" width="1536" height="1024">
 
 A different sandbox architecture
-![](/images/21.png)
+<img src="/images/21.png" alt="" width="1024" height="1536">
 
 ---
 

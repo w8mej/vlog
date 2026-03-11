@@ -9,10 +9,10 @@ I pulled some metrics from my threat intelligence sharing service to generate
 cute charts and graphs. If you want to keep up to date, keep an eye on
 <https://intelmetrics.haxx.ninja> .
 
-![](/images/usageandbehaviors.png.avif)
+<img src="/images/usageandbehaviors.png.avif" alt="" width="940" height="526">
 
-![](/images/attributeschart.png.avif)
+<img src="/images/attributeschart.png.avif" alt="" width="1813" height="905">
 
-![](/images/tagtreechart.png.avif)
+<img src="/images/tagtreechart.png.avif" alt="" width="966" height="510">
 
 

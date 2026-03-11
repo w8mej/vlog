@@ -13,7 +13,7 @@ Unfortunately the track record is not good. The number of user records exposed
 in the United States has been in the billions in 2016 and 2017. 2018 will
 likely be the same, once the final tally is calculated.
 
-![](/images/1.jpg)
+<img src="/images/1.jpg" alt="" width="800" height="594">
 
 It is worth mentioning that not all of these breaches were caused by
 programming flaws. Some were caused by negligence, many were caused by
@@ -61,7 +61,7 @@ known as cracking. Cracking takes a long time and requires a lot of computing
 resources. Hackers maintain lists of pre-computed hashes, known as rainbow
 tables, in order to avoid the computing cost.
 
-![](/images/2.png.avif)
+<img src="/images/2.png.avif" alt="" width="399" height="189">
 
 The defence employed against rainbow tables is to complicate the calculation
 by adding a _salt_. A _salt_  is a random value that is added to the data
@@ -80,7 +80,7 @@ largely adopted adaptive hashing algorithm is PBKDF2.
 Let’s take a look at the following code snippets. Can you spot the security
 flaw?
 
-![](/images/3.png.avif)
+<img src="/images/3.png.avif" alt="" width="2302" height="1108">
 
 If you identified the top example as being flawed you were correct. The top
 example requires the user password stored as is. The bottom application is
@@ -111,7 +111,7 @@ One of the things that may have prompted many sites to change this behaviour
 was the addition of a **Not Secure**  message to the address bar of the
 popular Google Chrome browser for all `http://` addresses.
 
-![](/images/4.png.avif)
+<img src="/images/4.png.avif" alt="" width="482" height="345">
 
 When a website uses clear text to communicate with its users, _man-in-the-
 middle_  attacks are possible. These attacks are can be online or offline
@@ -131,7 +131,7 @@ up during a code review. This is using `http**s** ://` URLs.
 Let’s take a look at a code example. Can you spot the code that transmits data
 insecurely?
 
-![](/images/5.png.avif)
+<img src="/images/5.png.avif" alt="" width="2176" height="1094">
 
 If you identified the bottom example as insecure you were correct. Notice that
 the URL is prefixed with `http://` meaning that the data is transmitted in
@@ -182,7 +182,7 @@ data is trivial. This scenario is similar to _hiding a key under the mat._
 Let’s take a look at some code examples written in Node.js. Can you identify
 the vulnerable snippet?
 
-![](/images/6.png.avif)
+<img src="/images/6.png.avif" alt="" width="2258" height="1214">
 
 If you identified the top example you are correct. The top example is storing
 the customer personal financial information in a AWS S3 bucket. S3 buckets

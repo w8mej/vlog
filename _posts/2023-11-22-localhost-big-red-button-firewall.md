@@ -14,6 +14,6 @@ resume.
 #CyberDefense #AdversarialRelationship #JobSecurity #CareerChange
 #CatAndMouseGame
 
-![](/images/Untitled.png.avif)
+<img src="/images/Untitled.png.avif" alt="" width="1066" height="1064">
 
 

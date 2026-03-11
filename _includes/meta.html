@@ -89,7 +89,7 @@
           }
         },
         {
-          "@type": "WebPage",
+          "@type": "{% if page.layout == 'page' and page.url != '/about/' and page.url != '/services/' and page.url != '/' and page.url != '/search/' and page.url != '/casting/' %}CollectionPage{% else %}WebPage{% endif %}",
           "@id": "{{ site.url }}{{ page.url }}",
           "url": "{{ site.url }}{{ page.url }}",
           "name": "{% if page.title %}{{ page.title }} – {{ site.name }}{% else %}{{ site.name }}{% endif %}",
@@ -212,6 +212,7 @@
           "description": "{{ site.description }}",
           "author": { "@id": "{{ site.url }}/about/" }
         },
+{% if page.layout == 'post' or page.layout == 'tech_post' %}
         {
           "@type": "BlogPosting",
           "headline": "{{ page.title }}",
@@ -237,6 +238,7 @@
           "wordCount": "{{ page.content | number_of_words }}",
           "keywords": "{{ page.tags | join: ', ' | default: page.keywords | escape }}"
         },
+{% endif %}
         {
           "@type": "BreadcrumbList",
           "itemListElement": [

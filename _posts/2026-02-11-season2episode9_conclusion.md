@@ -4,6 +4,7 @@ title: "The Blueprint for a Living Defense: Why Your SOC Needs a Nervous System"
 date: 2026-02-11
 categories: ["TAME Framework", "Agentic Security", "Complex Systems", "Resilience Engineering", "Bio-Inspired Defense", "SOC Architecture", "Cognitive Light Cone", "Self-Healing Infrastructure", "Governance", "Season Finale"]
 excerpt: "We spent Season 2 exploring the biology of security—from the physics of Complex Systems to the ethics of the 'Worthy Successor.' Now, we turn theory into practice. Here is your complete Morphogenetic SOC Toolkit: the architectures, governance models, and engineering principles needed to stop fixing your network and start letting it heal itself."
+youtube_id: xKtyI68VH2A
 ---
 # The Blueprint for a Living Defense: Why Your SOC Needs a Nervous System
 

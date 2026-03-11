@@ -12,7 +12,7 @@ Part engineer, part cybernetic oracle, he decodes threats before they're born, i
 
 ---
 
-## 🖥️ Twitch Cybernetics | Live from the Sprawl  
+## 🖥️ Twitch Complex Systems | Live from the Sprawl  
 
 Step into John's real-time neural-feed on Twitch, an interactive terminal into the heart of digital airwaves. Raw, unscripted, and vivid—each session unfolds as a living cyberpunk narrative:
 

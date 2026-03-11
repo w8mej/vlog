@@ -2,18 +2,27 @@
 <meta http-equiv='X-UA-Compatible' content='IE=edge'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0'>
 
-{% if page.excerpt %}
-<meta property="og:description" content="{{ page.excerpt| strip_html }}" />
-{% else if page.description %}
+{% if page.description %}
 <meta property="og:description" content="{{ page.description }}" />
+<meta name="description" content="{{ page.description }}" />
+{% elsif page.excerpt %}
+<meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}" />
+<meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}" />
+{% elsif page.content %}
+<meta property="og:description" content="{{ page.content | strip_html | strip_newlines | truncate: 160 }}" />
+<meta name="description" content="{{ page.content | strip_html | strip_newlines | truncate: 160 }}" />
 {% else %}
 <meta property="og:description" content="{{ site.description }}" />
+<meta name="description" content="{{ site.description }}" />
 {% endif %}
 <meta name="author" content="{{ site.name }}" />
 
 {% if page.title %}
 <meta property="og:title" content="{{ page.title }}" />
 <meta property="twitter:title" content="{{ page.title }}" />
+{% else %}
+<meta property="og:title" content="{{ site.name }}" />
+<meta property="twitter:title" content="{{ site.name }}" />
 {% endif %}
 
 {% if page.image %}
@@ -23,15 +32,22 @@
 <meta property="og:image" content="{{ site.url }}{{ site.avatar }}"/>
 <meta property="twitter:image" content="{{ site.url }}{{ site.avatar }}"/>
 {% endif %}
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
 
 <!-- Keywords -->
 <meta name="keywords" content="AI security, financial technology security, fintech security, Security Engineer, Cybersecurity Engineer, Information Security Engineer, Application Security Engineer, Cloud Security, Threat Detection Engineer, Incident Response, Vulnerability Management, SF Bay Area Security Jobs, Secure System Design, SecOps">
 
 <!-- Open Graph Basic Tags -->
+{% if page.layout == 'post' or page.layout == 'tech_post' %}
+<meta property="og:type" content="article"/>
+{% else %}
 <meta property="og:type" content="website"/>
+{% endif %}
 <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
 
 <!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:site" content="@w8mej"/>
 <meta name="twitter:creator" content="@w8mej"/>
 
@@ -77,9 +93,7 @@
             "@id": "{{ site.url }}#john-menerick"
           },
           "publisher": {
-            "@type": "Organization",
-            "name": "SecureSQL",
-            "url": "{{ site.url }}"
+            "@id": "{{ site.url }}#securesql"
           },
           "inLanguage": "en",
           "potentialAction": {
@@ -93,12 +107,15 @@
           "@id": "{{ site.url }}{{ page.url }}",
           "url": "{{ site.url }}{{ page.url }}",
           "name": "{% if page.title %}{{ page.title }} – {{ site.name }}{% else %}{{ site.name }}{% endif %}",
-          "description": "{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}",
+          "description": "{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}",
           "isPartOf": {
             "@id": "{{ site.url }}#website"
           },
           "about": {
             "@id": "{{ site.url }}#john-menerick"
+          },
+          "publisher": {
+            "@id": "{{ site.url }}#securesql"
           },
           "inLanguage": "en",
           "primaryImageOfPage": {
@@ -124,9 +141,7 @@
             }
           ],
           "worksFor": {
-            "@type": "Organization",
-            "name": "SecureSQL",
-            "url": "{{ site.url }}"
+            "@id": "{{ site.url }}#securesql"
           },
           "hasOccupation": {
             "@type": "Occupation",
@@ -186,8 +201,7 @@
             "https://twitch.tv/w8mej",
             "https://www.youtube.com/channel/UCUfaf6mQgh_cX6V-SaAww1w",
             "https://mastodon.social/@w8mej",
-            "https://twitter.com/w8mej",
-            "https://securesql.info"
+            "https://twitter.com/w8mej"
           ],
           "contactPoint": [
             {
@@ -201,7 +215,7 @@
             "@type": "PostalAddress",
             "addressLocality": "Castro Valley",
             "addressRegion": "California",
-            "addressCountry": "USA"
+            "addressCountry": "US"
           }
         },
         {
@@ -210,14 +224,14 @@
           "url": "{{ site.url }}",
           "name": "John Menerick's Security Insights",
           "description": "{{ site.description }}",
-          "author": { "@id": "{{ site.url }}/about/" }
+          "author": { "@id": "{{ site.url }}#john-menerick" }
         },
 {% if page.layout == 'post' or page.layout == 'tech_post' %}
         {
           "@type": "BlogPosting",
           "headline": "{{ page.title }}",
           "image": "{{ site.url }}{{ page.image | default: site.avatar }}",
-          "author": { "@id": "{% raw %}{{ site.url }}{% endraw %}#john-menerick" },
+          "author": { "@id": "https://www.securesql.info#john-menerick" },
           "publisher": {
             "@type": "Organization",
             "name": "John Menerick's Security Blog",
@@ -226,8 +240,8 @@
               "url": "{{ site.url }}{{ site.avatar }}"
             }
           },
-          "datePublished": "{{ page.date }}",
-          "dateModified": "{{ page.modified_date | default: page.date }}",
+          "datePublished": "{{ page.date | date_to_xmlschema }}",
+          "dateModified": "{{ page.modified_date | default: page.date | date_to_xmlschema }}",
           "mainEntityOfPage": "{{ site.url }}{{ page.url }}",
           "description": "{{ page.description | default: page.excerpt | strip_html }}",
           "speakable": {
@@ -282,7 +296,7 @@
           "name": "John Menerick – Information Security Consulting",
           "url": "{{ site.url }}/services",
           "description": "Expert consulting in cybersecurity, security engineering, threat detection, vulnerability management, and incident response.",
-          "provider": { "@id": "{% raw %}{{ site.url }}{% endraw %}#john-menerick" },
+          "provider": { "@id": "https://www.securesql.info#john-menerick" },
           "areaServed": "Global",
           "additionalType": [
             "Information Security Consulting",
@@ -301,6 +315,23 @@
           "embedUrl": "https://www.youtube.com/embed/{{ page.youtube_id }}"
         }
 {% endif %}
+        ,{
+          "@type": "Organization",
+          "@id": "{{ site.url }}#securesql",
+          "name": "SecureSQL",
+          "url": "{{ site.url }}",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "{{ site.url }}{{ site.avatar }}"
+          },
+          "description": "Expert consulting in cybersecurity, threat detection, and zero trust architectures led by John Menerick.",
+          "founder": {
+            "@id": "{{ site.url }}#john-menerick"
+          },
+          "sameAs": [
+             "https://securesql.info"
+          ]
+        }
       ]
     }
     </script>

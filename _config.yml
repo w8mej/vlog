@@ -105,10 +105,21 @@ include: ['_pages']
 paginate: 6
 paginate_path: /page:num/
 
-# Exclude these files from your production _site
 exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
   - README.md
   - CNAME
+  - "page*/"
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      sitemap: true
+  - scope:
+      path: "assets/**/*.pdf"
+    values:
+      sitemap: false

@@ -1,5 +1,5 @@
 ---
-layout: tech_posts
+layout: tech_post
 title: Why did the hacker break up with the internet?
 date: 2024-01-16
 categories: [TBD]

@@ -1,7 +1,7 @@
 <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 {% if page.description %}
 <meta property="og:description" content="{{ page.description }}" />
 <meta name="description" content="{{ page.description }}" />
@@ -132,7 +132,7 @@
           "jobTitle": "Security Engineer",
           "url": "{{ site.url }}",
           "image": "{{ site.url }}/images/JohnMenerickfunsized.gif",
-          "description": "{{ site.description }}",
+          "description": "John Menerick is a Security Engineer specializing in detection and response, zero trust architecture, and trusted AI compute. With over a decade of experience, he helps organizations manage threats through scalable defenses. He holds an Amateur Extra Class License (W8MEJ) from the FCC.",
           "identifier": [
             {
               "@type": "PropertyValue",
@@ -178,7 +178,7 @@
           "hasCredential": [
             {
               "@type": "EducationalOccupationalCredential",
-              "name": "Amateur General Class License",
+              "name": "Amateur Extra Class License",
               "credentialCategory": "Professional",
               "identifier": "W8MEJ",
               "recognizedBy": {
@@ -312,7 +312,9 @@
           "description": "{{ page.description | default: page.excerpt | strip_html | escape }}",
           "thumbnailUrl": "https://img.youtube.com/vi/{{ page.youtube_id }}/maxresdefault.jpg",
           "uploadDate": "{{ page.date | date_to_xmlschema }}",
-          "embedUrl": "https://www.youtube.com/embed/{{ page.youtube_id }}"
+          "embedUrl": "https://www.youtube.com/embed/{{ page.youtube_id }}",
+          "contentUrl": "https://www.youtube.com/watch?v={{ page.youtube_id }}",
+          "duration": "PT12M30S"
         }
 {% endif %}
         ,{

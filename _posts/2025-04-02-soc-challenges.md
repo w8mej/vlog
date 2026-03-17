@@ -2,6 +2,9 @@
 layout: post
 title: 🧱 Why Security Operations Can’t Scale Without Automation
 date: 2025-04-02
+series: autonomous-ai-soc
+series_name: "Autonomous AI SOC"
+episode: 1
 categories: ["Energy-Based Models", "AI-Driven Security", "Security Operations Centers", "Autonomous Threat Detection", "SOC Automation", "Cybersecurity AI", "Alert Triage", "False Positives Reduction", "Security Engineering", "Machine Learning in Security"]
 excerpt: Security operations centers were never meant to scale like this. What began as centralized log review has ballooned into an arms race of dashboards, SIEM queries, and tier-1 analysts buried in alert queues. Meanwhile, attackers have automated everything from lateral movement to domain privilege escalation.
 ---

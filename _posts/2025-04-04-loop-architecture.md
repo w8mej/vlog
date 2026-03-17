@@ -2,6 +2,9 @@
 layout: post
 title: 🔁 Build Once. Learn Always. Inside the Autonomous Detection & Response Loop
 date: 2025-04-04
+series: autonomous-ai-soc
+series_name: "Autonomous AI SOC"
+episode: 3
 categories: ["Autonomous SecOps", "Detection and Response", "Energy-Based Models", "SOAR Automation", "Security Feedback Loops", "Reinforcement Learning in Security", "Self-Healing Playbooks", "Security Operations Engineering", "Threat Simulation", "Adaptive Cyber Defense"]
 excerpt: Let’s be honest—static playbooks aren’t enough anymore. You can’t write a workflow for every edge case. Threats change. Your infrastructure changes. And every incident teaches you something that gets lost in the backlog.  But what if your detection and response system actually learned from every incident?
 ---

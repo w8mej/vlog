@@ -2,6 +2,9 @@
 layout: post
 title: GPU Budgets, Global Models, and Real-Time Risk Scoring Infra Deep Dive
 date: 2025-04-08
+series: autonomous-ai-soc
+series_name: "Autonomous AI SOC"
+episode: 7
 categories: ["Real-Time Detection", "Energy-Based Models", "Security Infrastructure", "GPU Orchestration", "Global Model Deployment", "CI/CD for ML", "Distributed Inference", "Model Versioning", "Cloud-Native Security", "Latency-Aware Threat Response"]
 excerpt: It’s one thing to train a model in a notebook. It’s another to scale that model across multiple clouds, regions, and time zones—scoring millions of events in near-real-time. Energy-Based Models give you power. But that power has a price - compute, latency, and orchestration at scale.
 ---

@@ -2,6 +2,9 @@
 layout: post
 title: ⚡ What Makes Energy-Based Models So Effective for Anomaly Detection?
 date: 2025-04-03
+series: autonomous-ai-soc
+series_name: "Autonomous AI SOC"
+episode: 2
 categories: ["Energy-Based Models", "Anomaly Detection", "AI Security", "Cybersecurity Automation", "Unsupervised Learning", "Behavioral Analytics", "Threat Detection", "Autoencoders", "Security Machine Learning", "SOC Innovation"]
 excerpt: Traditional detection systems—rules, heuristics, even many ML classifiers—struggle in this gray zone. But energy-based models were built for it.
 ---

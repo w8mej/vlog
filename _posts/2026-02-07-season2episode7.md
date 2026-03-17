@@ -2,6 +2,9 @@
 layout: post
 title: "The Cyber-Biological Synthesis: Blueprint for an Agentic SOC"
 date: 2026-02-07
+series: morphogenetic-soc
+series_name: "Morphogenetic SOC"
+episode: 7
 categories: ["MAESTRO Framework", "OWASP Top 10 Agentic", "TAME Framework", "Guardian Swarm", "Cognitive Glue", "Bio-Inspired Security", "Agentic AI", "SOC Architecture", "Shadow Agents", "Complex Systems"]
 excerpt: "Static firewalls cannot stop fluid agents. By merging the biological insights of TAME with the hard engineering of MAESTRO and OWASP, we can build a 'Morphogenetic SOC'—a security architecture that senses, reasons, and heals like a living nervous system."
 ---

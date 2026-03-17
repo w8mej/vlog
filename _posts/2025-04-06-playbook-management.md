@@ -2,6 +2,9 @@
 layout: post
 title: 🧬 From Static Rules to Self-Improving Response Playbooks
 date: 2025-04-06
+series: autonomous-ai-soc
+series_name: "Autonomous AI SOC"
+episode: 5
 categories: ["Adaptive Playbooks", "Security Automation", "SOAR Optimization", "Reinforcement Learning in Security", "Self-Healing Security", "Automated Incident Response", "Genetic Algorithms", "EBM-Based Detection", "Playbook Simulation", "Dynamic Threat Response"]
 excerpt: We’ve all seen it. A detection fires, but the response is ineffective.  An alert escalates to the wrong channel.  A playbook quarantines the wrong asset.  Or worse—nothing happens because the logic broke after a cloud migration.  Why? Because traditional playbooks are manually written, rarely tested end-to-end, and drift out of sync with reality.  But what if they could test themselves? Better yet what if they could optimize themselves?
 ---

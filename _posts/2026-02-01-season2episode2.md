@@ -2,6 +2,9 @@
 layout: post
 title: "The Salamander Strategy: Why Your Cloud Infrastructure Needs to Learn How to Regrow Itself"
 date: 2026-02-01
+series: morphogenetic-soc
+series_name: "Morphogenetic SOC"
+episode: 2
 categories: ["Target Morphology", "Policy-as-Code", "Anatomical Homeostasis", "TOTE Loop", "Self-Healing Infrastructure", "Disaster Recovery", "Resilience Engineering", "Multi-Objective Scoring", "Petrov Rule", "Regenerative Security"]
 excerpt: "We assume disaster recovery is a binder on a shelf. We assume infrastructure drift is a crash to be fixed. We assume resilience means building walls that never break. Every single one of these assumptions is obsolete—and this regenerative framework proves why."
 ---

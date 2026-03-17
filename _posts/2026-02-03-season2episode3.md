@@ -2,6 +2,9 @@
 layout: post
 title: "Ashby’s Ultimatum: Why Your Security Stack Is Mathematically Doomed"
 date: 2026-02-03
+series: morphogenetic-soc
+series_name: "Morphogenetic SOC"
+episode: 3
 categories: ["Complex Systems", "Control Theory", "Requisite Variety", "Good Regulator Theorem", "Ashby's Law", "Requisite Imagination", "Work-as-Imagined", "SOC Architecture", "Autonomous Defense", "Systemic Resilience"]
 excerpt: "We assume security is a resource problem—that more tools and rules will stop the breach. We assume we can regulate threats without modeling them. We assume static defenses can contain dynamic attackers. Complex Systems proves these aren't just bad strategies; they are violations of the fundamental physics of control."
 ---

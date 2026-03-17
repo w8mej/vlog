@@ -2,6 +2,9 @@
 layout: post
 title: "The Bioelectric Blueprint: How to Reprogram Your Infrastructure's 'Mind' Without Touching the Hardware"
 date: 2026-02-06
+series: morphogenetic-soc
+series_name: "Morphogenetic SOC"
+episode: 6
 categories: ["Bioelectricity", "Pattern Memory", "Remediation", "Gap Junctions", "TAME Framework", "Top-Down Control", "Inverse Problem", "Anatomical Homeostasis", "Agentic Security", "Self-Healing"]
 excerpt: "We usually try to secure systems by fixing the 'hardware'—patching servers and blocking IPs. But biology proves that the true driver of resilience is the 'bioelectric software' that dictates the system's shape. By learning how to rewrite the 'pattern memory' of a network, we can engineer security architectures that don't just repair damage, but actively regenerate their own defense."
 ---

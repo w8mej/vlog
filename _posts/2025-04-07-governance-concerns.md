@@ -2,6 +2,9 @@
 layout: post
 title: ⚖️ Can You Trust an AI to Contain a Threat? Legal and Privacy Teams Say Maybe
 date: 2025-04-07
+series: autonomous-ai-soc
+series_name: "Autonomous AI SOC"
+episode: 6
 categories: ["Explainable AI", "Security Governance", "Automated Incident Response", "AI and Privacy", "Legal Compliance in Security", "Tiered Automation", "Immutable Audit Logging", "SOAR Governance", "Trustworthy Automation", "AI Risk Management"]
 excerpt: the moment you say “no human in the loop,” the room changes. “Who’s accountable if something goes wrong?” “How do we prove what happened during an audit?” “Can this system violate a user’s privacy policy?” These aren’t just hypothetical questions—they’re the frontline concerns of your legal, privacy, and compliance stakeholders. And if they’re not addressed head-on, your autonomous response system will never see production.
 ---

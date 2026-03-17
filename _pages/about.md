@@ -2,8 +2,115 @@
 layout: page
 title: sts:GetCallerIdentity
 permalink: /about/
-description: "John Menerick is a Security Engineer specializing in detection and response, zero trust architecture, and threat hunting. Discover his background, work style, and professional Q&A."
+description: "John Menerick is a Security Engineer and complex systems practitioner with 11+ years in information security. Specializing in application security, secure architecture, detection engineering, zero trust, cryptographic engineering, and trusted AI compute."
 ---
+
+Most security programs assume more tools and more operators will keep pace with an ever-expanding attack surface. **John Menerick** believes that assumption is wrong.
+
+With 11+ years securing Fortune 500 financial institutions, tech companies, startups, and public-sector organizations, John treats **defense as a complex adaptive system** — one that senses, responds, and evolves. He draws on complex systems science (TAME, TOTE, Ashby's Law of Requisite Variety) to engineer security architectures that self-correct under pressure, spanning application security, detection engineering, zero trust, cryptographic protocol design, zero knowledge, cloud security, and AI/ML security.
+
+**Proof of work:** Built [Gyoithon](https://github.com/w8mej) (ML-driven pentesting framework), published two whitepapers on agentic defense, reduced MTTD from hours to minutes at a Fortune 500, designed zero trust across 40K+ endpoints, mentored 78+ junior engineers, and maintains open-source tools ([ThreatPlays](https://github.com/w8mej/ThreatPlays), [IRKnowledge](https://github.com/w8mej/IRKnowledge), [IntelMetrics](https://intelmetrics.haxx.ninja)) used by the security community. Amateur Extra Class radio license (W8MEJ).
+
+---
+
+## Core Competencies
+
+**Application & Product Security** — Secure code review, SAST/DAST, threat modeling (STRIDE, PASTA, attack trees), secure SDLC, API & supply chain security
+
+**Detection, Response & Threat Intelligence** — Detection engineering, SIEM/telemetry pipeline design, IR & forensics, threat hunting, vuln management, red team automation
+
+**Secure Architecture & Cryptographic Engineering** — Zero trust/ZK architecture, MPC, threshold cryptography, SPIFFE ,  SPIRE , zk-SNARKs/zk-STARKs, BFT/PBFT, Paxos/Raft consensus security, TEE/confidential compute, side-channel mitigation, PKI lifecycle, formal verification of distributed protocols
+
+**AI/ML Security & Trusted Compute** — LLM security & prompt injection defense, federated learning security, differential privacy, model poisoning defenses, energy model-driven simulations and validations, autonomous agent security & distributed agent consensus, verifiable inference in untrusted environments
+
+**Cloud, Infrastructure & DevSecOps** — AWS/GCP/OCI security, secure CI/CD & IaC hardening, distributed systems security (consistency models, linearizability, causal ordering), container security & service mesh trust, workload orchestration
+
+**Complex Systems Science** — TAME framework, TOTE feedback loops, Ashby's Law of Requisite Variety, adaptive defense modeling from systems & cybernetics
+
+---
+
+## Published Research & Open Source
+
+| Work | Type | Link |
+| --- | --- | --- |
+| From Complex Systems Biology to Agents — CTO Whitepaper | Whitepaper | [PDF](/images/CTOWhitepaper.pdf) |
+| Agentic Defense & Complex Systems Security for AI | Research Paper | [PDF](/images/Agentic_Defense_Biological_Security_for_AI.pdf) |
+| Agentic SOC Framework (Season 2 Series) | Blog Series | [Read →](/2026/01/31/season2-zeronoisecollective/) |
+| Gyoithon: AI-Driven Penetration Testing | Open Source | [GitHub](https://github.com/w8mej) |
+| ThreatPlays / IRKnowledge | Open Source | [GitHub](https://github.com/w8mej/ThreatPlays) |
+| Threat Intel & Vuln Metrics | Dashboards | [Intel](https://intelmetrics.haxx.ninja) · [Vuln](https://vulnmetrics.haxx.ninja/) |
+
+---
+
+## Credentials
+
+| Credential | Issuer |
+| --- | --- |
+| CISSP | (ISC)² |
+| Google Cloud Professional | Google |
+| Oracle Cloud Infrastructure | Oracle |
+| ACSO | CREST |
+| Amateur Extra Class License (W8MEJ) | FCC |
+
+[Full credentials →](https://github.com/w8mej/credentials) · Cryptographic identities via [Keyoxide](https://keyoxide.org/hkp/sephiroth@haxx.ninja)
+
+---
+
+## Work Philosophy
+
+- **Models the problem before reaching for a tool.** Maps feedback loops, failure modes, and emergent behavior before writing a single rule.
+- **Builds what doesn't exist.** Built Gyoithon and IntelMetrics when the tooling wasn't there. Ships solutions, not vendor evaluations.
+- **Operates at both altitudes.** Moves between executive architecture conversations and hands-on code review, packet captures, and IR.
+- **Teaches by doing.** Pairs on incidents and co-authors detections with junior engineers.
+- **Defaults to transparency.** Publishes research and open-sources tooling.
+
+---
+
+## Perspective
+
+### Q: How do you apply complex systems theory to security engineering?
+
+**A:** Threat landscapes are nonlinear — attackers adapt, environments shift, controls interact unpredictably. I use Ashby's Law of Requisite Variety to ensure defensive systems match the adaptive capacity of threats. Practically: detection pipelines with self-tuning feedback loops, architectures where subsystem failure doesn't cascade, and security operations treated as a living system rather than a fixed-state machine.
+
+---
+
+### Q: What's missing from how most organizations approach security engineering today?
+
+**A:** Three critical things. First, most organizations optimize for compliance rather than resilience, failing to account for the perceived singularity acceleration of the cat-and-mouse game. While defenders are checking boxes for annual audits, threat actors are leveraging automated exploitation and AI-driven reconnaissance to compress the attack lifecycle toward near-zero. We aren't just fighting hackers; we're fighting an exponential curve.
+
+Second, there is a massive velocity gap caused by an underinvestment in the "engineering" of security engineering. Organizations buy tools that are static by design, while the threat landscape is fluid. Without building the automated connective tissue—real-time telemetry pipelines and self-healing response workflows—you're bringing a manual process to a machine-speed fight.
+
+Finally, we fail to treat technical security as a high-concurrency distributed systems problem. To survive the acceleration, security can't be a gate; it has to be a set of algorithmic guarantees. You need systems that provide consistency and graceful degradation under fire, effectively creating a defensive "OODA loop" that can programmatically outpace the adversary's evolution.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do you apply complex systems theory to security engineering?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Threat landscapes are nonlinear. I use Ashby's Law of Requisite Variety to ensure defensive systems match the adaptive capacity of threats. This means detection pipelines with self-tuning feedback loops, architectures where failure doesn't cascade, and security operations treated as a living system."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's missing from how most organizations approach security engineering today?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Three things. First, optimizing for compliance rather than resilience while threat actors compress the attack lifecycle with AI. Second, underinvestment in the engineering of security engineering — static tools against a fluid landscape. Third, failing to treat security as a distributed systems problem requiring consistency guarantees, fault tolerance, and graceful degradation."
+      }
+    }
+  ]
+}
+</script>
+
+---
+
+## sts:GetCallerIdentity
+
 <h6>
 {% highlight json %}
 {
@@ -26,374 +133,4 @@ description: "John Menerick is a Security Engineer specializing in detection and
 {% endhighlight %}
 
 </h6>
-[Additional credentials for various services and entities is found here](https://github.com/w8mej/credentials)
-
-In the shadow-web where whispers are currency, and anonymity is the cloak we don, you can trace the digital echoes of my existence. My cryptographic identities, the spectral fingerprints of my presence, are scattered like constellations across this datascape, awaiting your discovery [here.](https://keyoxide.org/hkp/sephiroth@haxx.ninja)
-
-In the cyber-slick heart of the financial nexus, I dance with the ghosts in the financial machines, fracturing infrastructures just for the electric thrill, diving deep into the research abyss, and mentoring the next wave of console cowboys. My playgrounds are the ever-expanding, self-mending nebulas of code that span this terraformed rock we call home, and I revere the alchemy of risk and shadow—where enterprise meets edge, where the purple shroud lies.
-
-I am a disciple of the arcane marriage between ivory tower theories and the renegade blackhat’s dark sorcery, sneering at the charlatans who hawk ancient protocols as today’s miracles.
-
-In this digital tapestry, I am a steadfast sentinel in my citadel, a husband, a father, an uncle whose potential outshines the brightest stars in my cosmos.
-
-
-## User Manual
-
-- Passionate about the dynamics of information and its influence on public discourse.
-- Anticipates and proactively addresses customer and organizational needs.
-- Creates secure, exceptional, and user-focused experiences.
-- Drives strategic initiatives, community engagement, and scalable growth.
-- Continuously innovates to strengthen the organization's security posture.
-- Takes ownership and resolves issues swiftly and effectively.
-- Promotes collaboration, mutual support, and teamwork.
-- Actively pursues continuous professional growth and learning.
-- Participates proactively in planning and decision-making processes.
-- Maintains high standards for privacy, security, ethics, diversity, and inclusivity.
-- Advocates simplicity, efficiency, and minimal necessary processes.
-
----
-
-## Work Style
-
-- Communicates clearly and concisely; avoids jargon and unnecessary complexity.
-- Simplifies tasks and removes barriers proactively.
-- Emphasizes simplicity before optimization.
-- Innovates instead of replicating existing solutions.
-- Actively challenges assumptions and validates questions.
-- Focuses on identifying and executing meaningful, high-impact work.
-- Encourages broad team understanding and shared expertise.
-- Quickly establishes foundational principles and iterates efficiently.
-- Automates routine and repetitive tasks.
-
----
-
-## Execution
-
-- Ensures meetings provide clear value; keeps them brief and purposeful.
-- Adjusts meeting frequency according to urgency and necessity.
-- Encourages direct, transparent, and cross-functional communication.
-- Continuously evaluates and simplifies policies and processes.
-- Clearly defines ownership and accountability for constraints.
-- Prefers practical, common-sense solutions; automates for reliability.
-- Iterates quickly, questions assumptions regularly, and emphasizes results.
-
-
-## Questions & Answers
-
-### Q: Do you know of any changes in the information security industry that may cause a disruption? If so, how should we meet these challenges?
-
-**A:** Yes, several key transformations in the information security landscape could cause disruptions:
-
-- **Technological innovations:** New methods and sophisticated hacking techniques increase the difficulty of preventing breaches.
-- **Remote work:** Greater reliance on remote access has increased phishing, unsecured networks, and loss of physical security controls.
-- **Compliance requirements:** Regulations like GDPR and CCPA demand enhanced data protection practices.
-
-To meet these challenges, organizations should:
-
-- Implement multi-layered security measures (network security, data encryption, access controls, regular audits).
-- Provide continuous employee training to recognize and avoid security threats.
-- Stay informed about evolving security threats and regularly update security protocols.
-- Collaborate with reputable security providers to leverage best practices.
-
----
-
-### Q: Describe a situation in which you utilized your Security Information and Event Monitoring (SIEM) expertise effectively.
-
-**A:** While enhancing security at a major financial institution, I used SIEM tools to analyze logs enterprise-wide. By identifying anomalies early, we prevented potential breaches. Working collaboratively, we addressed vulnerabilities proactively, significantly reducing security incidents and improving the organization's overall security posture.
-
----
-
-### Q: Describe an instance when a change in information security or regulatory compliance caught you off guard. How did you respond?
-
-**A:** The Massachusetts Data Privacy Law (MIPSA) introduction caught me off guard. I learned about it through a professional network and recognized its immediate impact. Now, I stay current by subscribing to industry publications, attending conferences and webinars, and engaging with thought leaders via social media and peer discussions.
-
----
-
-### Q: Describe an instance when you used patching, encryption, or other technological security methods to resolve an issue.
-
-**A:** Upon discovering a critical vulnerability, I recommended immediate patching and encryption of sensitive data. I assessed the issue thoroughly, validated compatibility with our systems, and consulted stakeholders. Implementing these measures successfully prevented potential breaches and strengthened the organization's security posture.
-
----
-
-### Q: Describe when you had to swiftly adapt to new specialist software for security/compliance purposes.
-
-**A:** I quickly adapted to Vanta, new compliance management software, through self-study, training, and peer consultation. Initially, installation faced compatibility issues (resource contention, symlink looping). Collaborating with colleagues, we resolved challenges and completed implementation successfully. Now, I prefer user-friendly software with strong security reputations, ongoing updates, and robust community support.
-
----
-
-### Q: Describe a situation in which you developed and maintained application workflow diagrams and security documentation.
-
-**A:** I created detailed workflow diagrams and documentation for security processes by collaborating with stakeholders and subject matter experts. Regularly reviewing and
-
-## Questions & Answers
-
-### Q: What characteristics define a perfect coworker in your eyes?
-
-**A:** My ideal coworker is reliable, accountable, and dependable. They complete tasks promptly and accurately, willingly assist colleagues, and maintain a respectful and considerate demeanor. They're receptive to feedback, engage effectively, and collaborate towards shared goals.
-
----
-
-### Q: How do you prioritize projects under pressure?
-
-**A:** Under pressure, I prioritize projects by:
-- Completing urgent and critical tasks first.
-- Addressing tasks with approaching deadlines promptly.
-- Evaluating tasks based on their potential impact and prioritizing those offering significant value.
-- Considering resource availability, delegating effectively, and seeking assistance when necessary.
-
-This structured approach helps me manage workload effectively even under tight deadlines.
-
----
-
-### Q: How would you handle an interruption to your schedule?
-
-**A:** When my schedule is interrupted, I reevaluate priorities and adjust plans accordingly. I remain flexible, clearly communicate changes to colleagues and clients, and maintain composure to stay productive and focused despite disruptions.
-
----
-
-### Q: Have you ever deviated from corporate policy to accommodate a request?
-
-**A:** Deviating from corporate policy is sensitive and context-dependent. If faced with such a situation, I'd consult stakeholders, supervisors, or legal counsel, document clearly, and act thoughtfully, always mindful of potential consequences.
-
----
-
-### Q: How have you handled setbacks at work?
-
-**A:** To handle setbacks, I:
-- Step back, analyze the situation calmly, and identify root causes.
-- Communicate openly with colleagues and managers.
-- Develop actionable plans to address issues.
-- Maintain a positive and focused mindset to drive forward despite challenges.
-
----
-
-### Q: How do you manage job training that is failing?
-
-**A:** To manage difficult job training, I:
-- Communicate transparently with trainers or supervisors about challenges.
-- Seek clarification and extra guidance when needed.
-- Take detailed notes and review regularly.
-- Apply learned concepts practically for deeper understanding.
-
-This proactive approach ensures training effectiveness.
-
----
-
-### Q: Have you ever calmed down an angry client or customer? How?
-
-**A:** Yes. I listen attentively, empathize with their concerns, apologize sincerely if appropriate, offer practical solutions, and follow up to ensure satisfaction. Maintaining professionalism and clarity usually diffuses the tension effectively.
-
----
-
-### Q: What regrets do you have regarding your past employment?
-
-**A:** I regret not fully utilizing opportunities for career advancement or advocating more assertively for myself regarding roles, salaries, or conditions. I've learned from these experiences and now actively pursue professional growth and advocate clearly for my interests.
-
----
-
-### Q: How did you interact with your former managers?
-
-**A:** I maintained regular communication with managers through face-to-face meetings, emails, and calls, updating them frequently on progress, actively seeking feedback, and scheduling periodic reviews to align on goals and expectations.
-
----
-
-### Q: Give an example of successfully persuading someone at work.
-
-**A:** I once persuaded a colleague to adopt a new project management tool by clearly presenting its benefits, addressing their concerns, and offering training and support. The tool significantly improved productivity and workflow efficiency, resulting in a favorable outcome.
-
----
-
-### Q: Describe a moment of ineffective communication and your improvements.
-
-**A:** In a team meeting, I once communicated an idea poorly due to inadequate preparation. Recognizing this, I improved by preparing thoroughly, supporting my points with clear evidence, and practicing active listening. These steps significantly enhanced my communication effectiveness.
-
----
-
-### Q: Describe an instance giving a group presentation.
-
-**A:** Presenting a security strategy for a product launch, I prepared visuals, rehearsed thoroughly, and actively engaged the audience. The presentation was well-received, enhanced group understanding, and successfully contributed to a smooth product launch.
-
----
-
-### Q: Describe handling a challenging client situation.
-
-**A:** Faced with an unhappy client, I listened empathetically, validated their feelings, clearly offered a solution, and followed up afterward. Staying calm, professional, and solution-oriented effectively resolved their dissatisfaction.
-
----
-
-### Q: Can you describe delivering bad news at work?
-
-**A:** I once informed a colleague about a delayed project. I carefully prepared facts, empathically communicated the reasons, offered solutions, and worked collaboratively to minimize the impact, successfully preserving trust and cooperation.
-
----
-
-### Q: Describe working with a challenging coworker.
-
-**A:** When working with a challenging coworker, I actively listened, clearly communicated, sought common ground, and maintained professionalism. This approach facilitated improved interactions and successfully completed projects.
-
----
-
-### Q: Describe handling an unresponsive coworker.
-
-**A:** When facing an unresponsive coworker, I proactively tried multiple communication channels, including direct meetings. By clearly communicating urgency and importance, I obtained the necessary information to proceed successfully.
-
----
-
-### Q: Describe successful collaboration on a team project.
-
-**A:** As a UI/UX designer on a website overhaul, I collaborated closely with teammates, actively solicited feedback, communicated clearly, met deadlines, and constructively managed conflicts, ensuring timely and high-quality project completion.
-
----
-
-### Q: Describe handling team disagreements.
-
-**A:** Facing team disagreement, I listened actively, explained my perspective clearly, encouraged alternative ideas, and collaboratively developed a mutually beneficial solution, resulting in a positive outcome.
-
----
-
-### Q: Describe addressing a teammate's poor performance.
-
-**A:** When a teammate underperformed, I addressed it privately, clearly communicated concerns, offered support, and involved management when necessary, resulting in improved performance and successful project completion.
-
----
-
-### Q: Describe a successful compromise within your team.
-
-**A:** During team disagreement, we openly discussed differing views, collaboratively blended ideas, and found a compromise. The resulting solution satisfied all parties and successfully completed the project.
-
----
-
-### Q: Describe encouraging colleagues to support a reorganization.
-
-**A:** When advocating organizational changes, I clearly communicated the rationale and benefits, addressed concerns transparently, and involved colleagues proactively. As a result, my colleagues embraced the changes positively.
-
----
-
-### Q: Describe experiencing failure despite your best effort.
-
-**A:** A product launch I led faced unforeseen technical issues despite extensive preparation. Reflecting, I recognized underestimating complexity and insufficient contingency planning. I learned to plan better and communicate transparently, improving subsequent projects.
-
----
-
-### Q: Describe learning from a mistake at work.
-
-**A:** Overlooking a critical process step, I quickly acknowledged my mistake, involved the team, rectified the issue, and implemented proactive checks. The experience improved my attention to detail, communication, and accountability.
-
----
-
-### Q: Describe successfully adapting to significant changes at work.
-
-**A:** Transitioning to new project management software, I overcame initial resistance by actively engaging in training, practicing extensively, and seeking expert advice. The successful adoption greatly enhanced team productivity.
-
----
-
-### Q: Describe undertaking duties beyond your usual role.
-
-**A:** Tasked unexpectedly with event planning, I quickly researched best practices, collaborated closely with colleagues, actively managed logistics, and successfully hosted the event, receiving strong positive feedback.
-
----
-
-### Q: Describe promoting new practices when colleagues resisted.
-
-**A:** Introducing new software amidst colleague resistance, I provided thorough training, transparently addressed concerns, clearly explained benefits, and patiently guided adoption, ultimately gaining successful team acceptance.
-
----
-
-### Q: Describe overcoming significant project challenges.
-
-**A:** Facing data collection challenges in remote areas, I creatively used offline solutions, established robust backup plans, and ensured careful team coordination, overcoming technical constraints for successful completion.
-
----
-
-### Q: Describe adapting to significant career changes.
-
-**A:** Moving to a new industry, I rapidly educated myself, proactively built professional relationships, and embraced organizational culture, facilitating successful adaptation and performance.
-
----
-
-### Q: Describe responding to questioned honesty by a client.
-
-**A:** When my honesty was questioned by a client, I proactively addressed their concerns transparently, presented detailed evidence, reassured them of my integrity, and collaboratively resolved their concerns.
-
----
-
-### Q: Describe maintaining honesty under difficult circumstances.
-
-**A:** After discovering a budget error, despite temptation to hide it, I transparently informed stakeholders, collaboratively found solutions, and strengthened mutual trust by maintaining honesty and integrity.
-
----
-
-### Q: Describe following a company policy you disagreed with.
-
-**A:** When required to follow a restrictive dress code, I complied professionally, recognizing its organizational value despite personal disagreement, demonstrating adaptability and respect for company norms.
-
----
-
-### Q: Describe addressing inappropriate coworker behavior.
-
-**A:** Noticing a coworker cutting corners, I addressed the issue privately, offered constructive help, and collaborated to improve their work quality, ensuring project success.
-
----
-
-### Q: Describe managing a crisis without your supervisor.
-
-**A:** When handling urgent client issues without supervisory guidance, I independently assessed and resolved the situation using organizational resources, receiving positive feedback afterward.
-
----
-
-### Q: Describe seeking direct feedback from your manager.
-
-**A:** I requested direct manager feedback during performance evaluations to clearly understand my strengths and improvement areas, informing continuous professional growth.
-
----
-
-### Q: Describe how you measure success in a results-driven culture.
-
-**A:** Success means setting clear goals, tracking progress, seeking feedback, and celebrating milestones. A results-driven culture motivates me through clear objectives and measurable outcomes.
-
----
-
-### Q: Describe building trust when joining new teams.
-
-**A:** I earn trust through active listening, dependability, clear communication, responsibility for my actions, and collaborative support, quickly becoming a valued team member.
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do you know of any changes in the information security industry that may cause a disruption? If so, how should we meet these challenges?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, several key transformations in the information security landscape could cause disruptions: Technological innovations, Remote work, and Compliance requirements. To meet these challenges, organizations should: Implement multi-layered security measures, Provide continuous employee training, Stay informed about evolving security threats, and Collaborate with reputable security providers."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Describe a situation in which you utilized your Security Information and Event Monitoring (SIEM) expertise effectively.",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While enhancing security at a major financial institution, I used SIEM tools to analyze logs enterprise-wide. By identifying anomalies early, we prevented potential breaches. Working collaboratively, we addressed vulnerabilities proactively, significantly reducing security incidents and improving the organization's overall security posture."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do you prioritize projects under pressure?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Under pressure, I prioritize projects by: Completing urgent and critical tasks first, Addressing tasks with approaching deadlines promptly, Evaluating tasks based on their potential impact and prioritizing those offering significant value, and Considering resource availability, delegating effectively, and seeking assistance when necessary."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do you measure success in a results-driven culture?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Success means setting clear goals, tracking progress, seeking feedback, and celebrating milestones. A results-driven culture motivates me through clear objectives and measurable outcomes."
-      }
-    }
-  ]
-}
-</script>
+[Additional credentials for various services and entities](https://github.com/w8mej/credentials)

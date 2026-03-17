@@ -11,7 +11,7 @@ their behalf.  The winning team will take home $2,000,000.00.  The automated
 programs will crack, patch, and defend applications / networks.  I will be
 there with my teammates as our program cracks and hacks.  You should come on
 by and cheer us on.  The live feed may be found @
-<https://www.cybergrandchallenge.com/>  
+<https://web.archive.org/web/20160805001337/https://www.cybergrandchallenge.com/>  
 
 
 

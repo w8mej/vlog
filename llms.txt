@@ -19,38 +19,38 @@ layout: null
 - [Research Projects]({{ site.url }}/research/): Active research including threat intelligence metrics, vulnerability analytics, and ML-driven pentesting.
 - [Blog Overview]({{ site.url }}/blog/): Comprehensive archive of posts on cloud security, Kubernetes, incident response, cryptography, and AI/ML security from 2011–present.
 
+## Full Archive (2011–Present) Grouped by Topic
+
+{% assign all_posts = site.posts | concat: site.tech_posts %}
+{% assign categories = all_posts | map: 'categories' | flatten | uniq | sort %}
+
+{% for cat in categories %}
+### {{ cat }}
+{% for post in all_posts %}
+{% if post.categories contains cat %}
+- [{{ post.title }}]({{ site.url }}{{ post.url }}) ({{ post.date | date: "%Y" }})
+{% endif %}
+{% endfor %}
+{% endfor %}
+
+
 ## Authoritative Documentation & Audits
 
 - [Security Policy]({{ site.url }}/Security.md): Project security and vulnerability disclosure policy aligned with ISO/IEC standards.
 
-## Recent Technical Deep Dives
-{% assign recent_tech_posts = site.tech_posts | reverse | slice: 0, 5 %}
-{% for post in recent_tech_posts %}
-- [{{ post.title }}]({{ site.url }}{{ post.url }}): {{ post.date | date: "%Y-%m-%d" }}{% endfor %}
-
-## Recent Blog Posts
-{% assign recent_posts = site.posts | slice: 0, 5 %}
-{% for post in recent_posts %}
-- [{{ post.title }}]({{ site.url }}{{ post.url }}): {{ post.date | date: "%Y-%m-%d" }}{% endfor %}
-
-## Agentic SOC Framework (Season 2 Series)
-
-- [From Complex Systems Biology to Agents]({{ site.url }}/2026/01/31/season2-zeronoisecollective/): Agency Ladder (Levels 0–5), TAME framework, TOTE loops.
-- [Ashby's Ultimatum]({{ site.url }}/2026/02/04/season2episode3/): Law of Requisite Variety applied to cybersecurity defense.
-- [Blueprint for a Living Defense]({{ site.url }}/2026/02/11/season2episode9_conclusion/): Full 8-episode synthesis matrix, TAME summary, CBO governance model.
-
 ## Published Whitepapers
 
-- [From Complex Systems Biology to Agents — CTO Whitepaper]({{ site.url }}/images/CTOWhitepaper.pdf): Executive framework for agentic SOC transition.
-- [Agentic Defense & Complex Systems Security for AI]({{ site.url }}/images/Agentic_Defense_Biological_Security_for_AI.pdf): Research paper on complex systems frameworks applied to AI defense.
+- [From Complex Systems Biology to Agents — CTO Whitepaper]({{ site.url }}/images/CTOWhitepaper.pdf)
+- [Agentic Defense & Complex Systems Security for AI]({{ site.url }}/images/Agentic_Defense_Biological_Security_for_AI.pdf)
 
 ## GitHub Projects
 
-- [Hacker EZines](https://github.com/w8mej/Hacker_EZines): Curated hacker magazine collection.
-- [IR Knowledge](https://github.com/w8mej/IRKnowledge): Incident response tool list.
-- [ThreatPlays](https://github.com/w8mej/ThreatPlays): Threat hunting runbooks.
+- [Hacker EZines](https://github.com/w8mej/Hacker_EZines)
+- [IR Knowledge](https://github.com/w8mej/IRKnowledge)
+- [ThreatPlays](https://github.com/w8mej/ThreatPlays)
 
 ## Site Structure & Indexes
 
+- [Full Archive (llms-full.txt)]({{ site.url }}/llms-full.txt): Complete text-only archive of all technical writings.
 - [Sitemap]({{ site.url }}/sitemap.xml): Full XML index of all URLs on the domain.
-- [Live Streams/Casting]({{ site.url }}/casting/): Recorded security discussions and live sessions.
+- [Live Streams/Casting]({{ site.url }}/casting/): Recorded security discussions.

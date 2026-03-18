@@ -73,8 +73,10 @@
 <!-- Preconnect (Performance) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://analytics.google.com">
+    <link rel="preconnect" href="https://www.google-analytics.com">
+    <link rel="preconnect" href="https://www.googletagmanager.com">
     <link rel="preconnect" href="https://stats.g.doubleclick.net">
+    <!-- Zaraz often runs on the same origin, but preconnecting to GA origins helps when it proxies -->
 
 <!-- Theme Color -->
 <meta name="theme-color" content="#ffffff"/>
@@ -256,6 +258,90 @@
           "description": "NVD parsing and remediation efficiency metrics."
         }
 {% endif %}
+{% if page.url == '/speaking/' %}
+        ,{
+          "@type": "Event",
+          "name": "DEF CON 22: Open Source Fairy Dust",
+          "startDate": "2014-08-07",
+          "location": {
+            "@type": "Place",
+            "name": "Rio Hotel & Casino",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Las Vegas",
+              "addressRegion": "NV",
+              "addressCountry": "US"
+            }
+          },
+          "performer": { "@id": "{{ site.url }}#john-menerick" },
+          "description": "John Menerick discusses open source software security and vulnerability research."
+        }
+        ,{
+          "@type": "Event",
+          "name": "DEF CON 23: Backdooring Git",
+          "startDate": "2015-08-06",
+          "location": {
+            "@type": "Place",
+            "name": "Paris & Bally's",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Las Vegas",
+              "addressRegion": "NV",
+              "addressCountry": "US"
+            }
+          },
+          "performer": { "@id": "{{ site.url }}#john-menerick" },
+          "description": "An exploration of cryptographic weaknesses and supply chain attacks via Git internals."
+        }
+        ,{
+          "@type": "Event",
+          "name": "ROOTCON 9: BackDooring Git",
+          "startDate": "2015-09-17",
+          "location": {
+            "@type": "Place",
+            "name": "Taal Vista Hotel",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Tagaytay",
+              "addressCountry": "PH"
+            }
+          },
+          "performer": { "@id": "{{ site.url }}#john-menerick" },
+          "description": "Deep dive into offensive Git security for the ROOTCON 9 audience."
+        }
+        ,{
+          "@type": "Event",
+          "name": "ROOTCON 10: Liberating Self Driving Cars",
+          "startDate": "2016-09-22",
+          "location": {
+            "@type": "Place",
+            "name": "SMX Convention Center",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Taguig",
+              "addressCountry": "PH"
+            }
+          },
+          "performer": { "@id": "{{ site.url }}#john-menerick" },
+          "description": "Research on the security and autonomy of self-driving vehicle systems."
+        }
+        ,{
+          "@type": "Event",
+          "name": "CCC Chaos Communication Camp: Security Research",
+          "startDate": "2015-08-13",
+          "location": {
+            "@type": "Place",
+            "name": "Ziegeleipark Mildenberg",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Zehdenick",
+              "addressCountry": "DE"
+            }
+          },
+          "performer": { "@id": "{{ site.url }}#john-menerick" },
+          "description": "A discussion on security research methodologies within the global hacker community."
+        }
+{% endif %}
 {% if page.url == '/about/' %}
         ,{
           "@type": "FAQPage",
@@ -274,6 +360,70 @@
               "acceptedAnswer": {
                 "@type": "Answer",
                 "text": "Organizations optimize for compliance over resilience, fail to adapt to machine-speed threats, and neglect the distributed systems nature of security."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is Gyoithon?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Gyoithon is an open-source, ML-driven penetration testing framework designed to automate the discovery and exploitation of vulnerabilities at scale."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do you reduce Mean Time to Detection (MTTD)?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "By building automated telemetry pipelines and self-healing response workflows that move at machine speed rather than relying on manual human intervention."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the TAME framework?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The Technological Approach to Mind-like Entities (TAME) is a framework used to engineer security for autonomous agents and distributed intelligence."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Why focus on Zero Knowledge (ZK) architecture?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "ZK architecture allows for verifiable security guarantees without exposing sensitive data, moving beyond traditional perimeter-based trust models."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is your approach to mentorship?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "I believe in 'teaching by doing,' pairing on active incidents and co-authoring detections to help engineers build genuine systems thinking."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How does systems biology inform cybersecurity?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Just as organisms maintain homeostasis, security infrastructures can use regenerative models to recover from breaches autonomously."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What are the risks of technical debt in security engineering?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Technical debt leads to brittle systems. I prioritize modeling the problem and mapping feedback loops over quickly reaching for vendor tools."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What role does amateur radio play in your security work?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Radio operations (W8MEJ) provide deep insights into distributed systems and maintaining security in high-noise, adversarial environments."
               }
             }
           ]

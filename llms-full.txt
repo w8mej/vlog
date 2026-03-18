@@ -12,7 +12,7 @@ permalink: /llms-full.txt
 
 {% assign all_docs = site.posts | concat: site.tech_posts %}
 {% assign sorted_docs = all_docs | sort: "date" | reverse %}
-{% for post in sorted_docs limit:10 %}
+{% for post in sorted_docs %}
 
 ================================================================================
 # {{ post.title }}

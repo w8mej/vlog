@@ -129,7 +129,7 @@
           {% if page.url == '/' or page.url == '/about/' %}
           ,"speakable": {
             "@type": "SpeakableSpecification",
-            "cssSelector": ["h1", ".entry", ".site-description"]
+            "cssSelector": ["h1", ".entry", ".site-description", ".faq-section"]
           }
           {% endif %}
         },
@@ -203,22 +203,29 @@
           ]
         },
         {
-          "@type": "Organization",
+          "@type": ["Organization", "ProfessionalService"],
           "@id": "https://www.securesql.info#securesql",
           "name": "SecureSQL",
           "url": "{{ site.url }}",
+          "serviceType": [
+            "Detection Engineering",
+            "Incident Response",
+            "Zero Trust Architecture",
+            "Cloud Security Assessment",
+            "Penetration Testing",
+            "Security Architecture Review"
+          ],
           "logo": {
             "@type": "ImageObject",
             "url": "{{ site.url }}{{ site.avatar }}"
           },
           "description": "Expert consulting in cybersecurity, threat detection, and zero trust architectures led by John Menerick.",
           "founder": { "@id": "{{ site.url }}#john-menerick" },
-          "foundingDate": "2005-04",
+          "foundingDate": "2005-04-01",
           "sameAs": [
             "https://linkedin.com/in/w8mej",
             "https://github.com/w8mej",
             "https://twitter.com/w8mej",
-            "https://www.securesql.info",
             "https://www.wikidata.org/wiki/Q138710768",
             "https://haxx.ninja",
             "https://dev.to/w8mej",
@@ -237,7 +244,7 @@
           "author": { "@id": "{{ site.url }}#john-menerick" },
           "publisher": { "@id": "{{ site.url }}#securesql" },
           "datePublished": "{{ page.date | date_to_xmlschema }}",
-          "dateModified": "{{ page.modified_date | default: page.date | date_to_xmlschema }}",
+          "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
           "mainEntityOfPage": { "@id": "{{ site.url }}{{ page.url }}" },
           "about": { "@id": "https://www.securesql.info#john-menerick" },
           "articleSection": {{ page.categories[0] | jsonify }},

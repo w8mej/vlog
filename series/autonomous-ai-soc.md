@@ -5,6 +5,26 @@ description: "Season 1 series on building energy-based AI security operations ce
 permalink: /series/autonomous-ai-soc/
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWorkSeries",
+  "name": "Season 1: Autonomous AI SOC",
+  "numberOfEpisodes": 8,
+  "author": {"@id": "https://www.securesql.info#john-menerick"},
+  "hasPart": [
+    {"@type": "BlogPosting", "position": 1, "@id": "https://www.securesql.info/2025/04/02/soc-challenges/#article"},
+    {"@type": "BlogPosting", "position": 2, "@id": "https://www.securesql.info/2025/04/03/energy-based-models-anomaly-detection/#article"},
+    {"@type": "BlogPosting", "position": 3, "@id": "https://www.securesql.info/2025/04/04/loop-architecture/#article"},
+    {"@type": "BlogPosting", "position": 4, "@id": "https://www.securesql.info/2025/04/05/etl-playbooks/#article"},
+    {"@type": "BlogPosting", "position": 5, "@id": "https://www.securesql.info/2025/04/06/playbook-management/#article"},
+    {"@type": "BlogPosting", "position": 6, "@id": "https://www.securesql.info/2025/04/07/governance-concerns/#article"},
+    {"@type": "BlogPosting", "position": 7, "@id": "https://www.securesql.info/2025/04/08/infra-costs-meet-reality/#article"},
+    {"@type": "BlogPosting", "position": 8, "@id": "https://www.securesql.info/2025/04/09/thoughts/#article"}
+  ]
+}
+</script>
+
 <article class="series-page">
   <nav class="series-page__breadcrumb"><a href="/series/">← All Series</a></nav>
 

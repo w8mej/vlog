@@ -8,20 +8,20 @@ permalink: /series/morphogenetic-soc/
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Morphogenetic SOC — Season 2",
-  "description": "Nine-episode series applying TAME, Ashby's Law, and bioelectric control theory to modern security engineering.",
-  "numberOfItems": 9,
-  "itemListElement": [
-    {"@type":"ListItem","position":1,"url":"https://securesql.info/2026/01/31/season2-zeronoisecollective/"},
-    {"@type":"ListItem","position":2,"url":"https://securesql.info/2026/02/01/season2episode2/"},
-    {"@type":"ListItem","position":3,"url":"https://securesql.info/2026/02/03/season2episode3/"},
-    {"@type":"ListItem","position":4,"url":"https://securesql.info/2026/02/04/season2episode4/"},
-    {"@type":"ListItem","position":5,"url":"https://securesql.info/2026/02/05/season2episode5/"},
-    {"@type":"ListItem","position":6,"url":"https://securesql.info/2026/02/06/season2episode6/"},
-    {"@type":"ListItem","position":7,"url":"https://securesql.info/2026/02/07/season2episode7/"},
-    {"@type":"ListItem","position":8,"url":"https://securesql.info/2026/02/08/season2episode8/"},
-    {"@type":"ListItem","position":9,"url":"https://securesql.info/2026/02/11/season2episode9_conclusion/"}
+  "@type": "CreativeWorkSeries",
+  "name": "Season 2: Morphogenetic SOC",
+  "numberOfEpisodes": 9,
+  "author": {"@id": "https://www.securesql.info#john-menerick"},
+  "hasPart": [
+    {"@type": "BlogPosting", "position": 1, "@id": "https://www.securesql.info/2026/01/31/season2-zeronoisecollective/#article"},
+    {"@type": "BlogPosting", "position": 2, "@id": "https://www.securesql.info/2026/02/01/season2episode2/#article"},
+    {"@type": "BlogPosting", "position": 3, "@id": "https://www.securesql.info/2026/02/03/season2episode3/#article"},
+    {"@type": "BlogPosting", "position": 4, "@id": "https://www.securesql.info/2026/02/04/season2episode4/#article"},
+    {"@type": "BlogPosting", "position": 5, "@id": "https://www.securesql.info/2026/02/05/season2episode5/#article"},
+    {"@type": "BlogPosting", "position": 6, "@id": "https://www.securesql.info/2026/02/06/season2episode6/#article"},
+    {"@type": "BlogPosting", "position": 7, "@id": "https://www.securesql.info/2026/02/07/season2episode7/#article"},
+    {"@type": "BlogPosting", "position": 8, "@id": "https://www.securesql.info/2026/02/08/season2episode8/#article"},
+    {"@type": "BlogPosting", "position": 9, "@id": "https://www.securesql.info/2026/02/11/season2episode9_conclusion/#article"}
   ]
 }
 </script>

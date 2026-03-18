@@ -96,6 +96,7 @@ plugins:
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-redirect-from
 
 feed:
   posts_limit: 200

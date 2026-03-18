@@ -1,4 +1,5 @@
 User-agent: *
+Disallow: /cdn-cgi/
 Allow: /
 
 User-agent: GPTBot

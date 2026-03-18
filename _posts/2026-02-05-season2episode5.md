@@ -9,7 +9,7 @@ categories: ["TAME Framework", "Cognitive Light Cone", "Agentic AI", "Multiscale
 excerpt: "We usually define security tools by their code, but biology suggests we should define them by their goals. By mapping the 'Cognitive Light Cone' of our agents—the exact scope of space and time they care about—we can stop building brittle scripts and start engineering a collective intelligence that acts as a unified immune system."
 ---
 
-# From Dumb Tools to Collective Minds: Why Your Security Stack Needs a "Cognitive Light Cone"
+## From Dumb Tools to Collective Minds: Why Your Security Stack Needs a "Cognitive Light Cone"
 
 We typically view our security infrastructure as a collection of separate tools: a firewall here, an EDR there, and a SIEM trying to make sense of the noise. But if we look at biology, we see that effective defense doesn't come from isolated parts; it comes from collective intelligence.
 

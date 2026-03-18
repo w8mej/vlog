@@ -8,7 +8,7 @@ excerpt: As taken from a dummy account, I wish more CTFs were setup like this. [
 As taken from a dummy account, I wish more CTFs were setup like this.
 [#Polictf](https://twitter.com/search?q=%23Polictf) 2015
 
-![](/images/image-
+![PoliCTF 2015 Results](/images/image-
 asset.png.avif)
 
 

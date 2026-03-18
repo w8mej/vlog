@@ -47,7 +47,7 @@ This approach transforms how we think about credential management. Instead of as
 Here's where it gets truly fascinating. The OCI Function doesn't just check credentials—it validates that the deployment fingerprint matches the certificate fingerprint embedded during deployment.
 
 ```python
-# From handler.py
+## From handler.py
 cert_fingerprint_hex = cert.serial_number.to_bytes(8, "big").hex()
 
 if plan_fingerprint != cert_fingerprint_hex:

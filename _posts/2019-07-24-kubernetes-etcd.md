@@ -30,7 +30,7 @@ exposing these directly to the Internet.
   
   
 
-# CIS Benchmarks
+## CIS Benchmarks
 
 ## 1.1 Master Node
 

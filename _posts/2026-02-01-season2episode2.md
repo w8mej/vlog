@@ -9,7 +9,7 @@ categories: ["Target Morphology", "Policy-as-Code", "Anatomical Homeostasis", "T
 excerpt: "We assume disaster recovery is a binder on a shelf. We assume infrastructure drift is a crash to be fixed. We assume resilience means building walls that never break. Every single one of these assumptions is obsolete—and this regenerative framework proves why."
 ---
 
-# The Salamander Strategy: Why Your Cloud Infrastructure Needs to Learn How to Regrow Itself
+## The Salamander Strategy: Why Your Cloud Infrastructure Needs to Learn How to Regrow Itself
 
 If you cut off a salamander’s limb, the biology doesn’t panic. It doesn’t consult a runbook, and it doesn’t wait for a surgeon. Instead, the cells at the injury site immediately begin a process of **anatomical homeostasis**. They know exactly what a healthy limb looks like—the specific length, the number of digits, the nerve placement—and they simply stop growing once that perfect shape is achieved. They know the **delta to health is zero**.
 

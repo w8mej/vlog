@@ -14,7 +14,7 @@ depicted in the R3 (green) feedback loop. Both loops portray the reinforcing
 of trust in the outsider’s authenticity and the subsequent desire to access
 information or to be helpful.
 
-![](/images/image-
+![Social engineering bias concept](/images/image-
 asset.png.avif)
 
 > “Unintentional Insider Threats: Social Engineering - US CERT

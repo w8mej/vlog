@@ -9,7 +9,7 @@ categories: ["Bioelectricity", "Pattern Memory", "Remediation", "Gap Junctions",
 excerpt: "We usually try to secure systems by fixing the 'hardware'—patching servers and blocking IPs. But biology proves that the true driver of resilience is the 'bioelectric software' that dictates the system's shape. By learning how to rewrite the 'pattern memory' of a network, we can engineer security architectures that don't just repair damage, but actively regenerate their own defense."
 ---
 
-# The Bioelectric Blueprint: Why Security Needs to Move from "Repair" to "Reprogramming"
+## The Bioelectric Blueprint: Why Security Needs to Move from "Repair" to "Reprogramming"
 
 We typically think of remediating a cyber attack as a mechanical process: isolate the host, delete the malware, and patch the vulnerability. It is a "bottom-up" approach focused on fixing broken parts. But biology has a more efficient method. When a salamander loses a limb, it doesn't just glue cells together; it activates a high-level electrical subroutine that guides the construction of a perfect replacement.
 

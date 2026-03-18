@@ -8,7 +8,7 @@ episode: 3
 categories: ["Complex Systems", "Control Theory", "Requisite Variety", "Good Regulator Theorem", "Ashby's Law", "Requisite Imagination", "Work-as-Imagined", "SOC Architecture", "Autonomous Defense", "Systemic Resilience"]
 excerpt: "We assume security is a resource problem—that more tools and rules will stop the breach. We assume we can regulate threats without modeling them. We assume static defenses can contain dynamic attackers. Complex Systems proves these aren't just bad strategies; they are violations of the fundamental physics of control."
 ---
-# Why Your Firewalls Are Mathematically Doomed: The Physics of Control in a Chaos Engine
+## Why Your Firewalls Are Mathematically Doomed: The Physics of Control in a Chaos Engine
 
 We tend to treat cybersecurity as a resource problem: if we just had more analysts, faster logs, or better rules, we would be secure. But 70 years of cybernetic theory suggests the problem isn't a lack of resources; it is a **violation of fundamental laws of physics.**
 

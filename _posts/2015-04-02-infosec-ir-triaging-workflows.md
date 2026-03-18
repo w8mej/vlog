@@ -5,7 +5,7 @@ date: 2015-04-02
 categories: ["incident response", "cybersecurity best practices", "IOC detection", "anomaly detection", "host-based artifacts", "network-based artifacts", "threat hunting", "digital forensics", "incident mitigation", "security monitoring", "incident handling mistakes", "remediation strategies", "network segmentation", "access control", "backup and recovery", "SIEM", "endpoint detection", "malware analysis", "user education", "secure configuration"]
 excerpt: When addressing potential incidents and applying best practice incident response procedures
 ---
-# Key Takeaways
+## Key Takeaways
 
 When addressing potential incidents and applying best practice incident
 response procedures:
@@ -59,7 +59,7 @@ throughout the investigation.
 
   
 
-# **Host-Based Artifacts**
+## **Host-Based Artifacts**
 
   * Running Processes
 
@@ -95,7 +95,7 @@ throughout the investigation.
 
   
 
-# **Information to Review for Host Analysis**
+## **Information to Review for Host Analysis**
 
   * Identify any process that is not signed and is connecting to the internet looking for beaconing or significant data transfers.
 
@@ -125,7 +125,7 @@ throughout the investigation.
 
   
 
-# **Network-Based Artifacts**
+## **Network-Based Artifacts**
 
   * Anomalous DNS traffic and activity, unexpected DNS resolution servers, unauthorized DNS zone transfers, data exfiltration through DNS, and changes to host files
 
@@ -145,7 +145,7 @@ throughout the investigation.
 
   
 
-# **Information to Review for Network Analysis**
+## **Information to Review for Network Analysis**
 
   * Look for new connections on previously unused ports.
 
@@ -212,9 +212,9 @@ investigation and remediation process. **Note:**  Although this guidance
 provides best practices to mitigate common attack vectors, organizations
 should tailor mitigations to their network.
 
-# **General Mitigation Guidance**
+## **General Mitigation Guidance**
 
-# **Restrict or Discontinue Use of FTP and Telnet Services**
+## **Restrict or Discontinue Use of FTP and Telnet Services**
 
 The FTP and Telnet protocols transmit credentials in cleartext, which are
 susceptible to being intercepted. To mitigate this risk, discontinue FTP and
@@ -225,7 +225,7 @@ access services.
 
   * Use Secure Shell (SSH) for access to remote devices and servers.
 
-# **Restrict or Discontinue Use of Non-approved VPN Services**
+## **Restrict or Discontinue Use of Non-approved VPN Services**
 
   * Investigate the business needs and justification for allowing traffic from non-approved VPN services.
 
@@ -233,7 +233,7 @@ access services.
 
   * Enhance endpoint monitoring to obtain visibility on devices with non-approved VPN services running. Enhanced endpoint monitoring and detection capabilities would enable an organization’s IT security personnel to manage approved software as well as identify and remove any instances of unapproved software.
 
-# **Shut down or Decommission Unused Services and Systems**
+## **Shut down or Decommission Unused Services and Systems**
 
   * Cyber actors regularly identify servers that are out of date or end of life (EOL) to gain access to a network and perform malicious activities. These present easy and safe locations to maintain persistence on a network.
 
@@ -241,7 +241,7 @@ access services.
 
   * Ensuring that decommissioning of systems has been completed or taking appropriate action to remove them from the network limits their susceptibility and reduces the investigative surface to be analyzed.
 
-# **Quarantine and Reimage Compromised Hosts**
+## **Quarantine and Reimage Compromised Hosts**
 
 **Note:**  proceed with caution to avoid the adverse effects detailed in the
 Common Mistakes in Incident Handling section above.
@@ -256,7 +256,7 @@ Common Mistakes in Incident Handling section above.
 
   * Improve existing network-based malware detection tools with sandboxing capabilities.
 
-# **Disable Unnecessary Ports, Protocols, and Services**
+## **Disable Unnecessary Ports, Protocols, and Services**
 
   * Identify and disable ports, protocols, and services not needed for official business to prevent would-be attackers from moving laterally to exploit vulnerabilities. This includes external communications as well as communications between networks.
 
@@ -268,7 +268,7 @@ Common Mistakes in Incident Handling section above.
 
   * Enable a firewall log for inbound and outbound network traffic as well as allowed and denied traffic.
 
-# **Restrict or Disable Interactive Login for Service Accounts**
+## **Restrict or Disable Interactive Login for Service Accounts**
 
 Service accounts are privileged accounts dedicated to certain services to
 perform activities related to the service or application without being tied to
@@ -288,13 +288,13 @@ accountability during cyber incidents.
 
   * Rotate service accounts and apply password best practices without service, degradation, or disruption.
 
-# **Disable Unnecessary Remote Network Administration Tools**
+## **Disable Unnecessary Remote Network Administration Tools**
 
   * If an attacker (or malware) gains access to a remote user’s computer, steals authentication data (login/password), hijacks an active remote administration session, or successfully attacks a vulnerability in the remote administration tool’s software, the attacker (or malware) will gain unrestricted control of the enterprise network environment. Attackers can use compromised hosts as a relay server for reverse connections, which could enable them to connect to these remote administration tools from anywhere.
 
   * Remove all remote administration tools that are not required for day-to-day IT operations. Closely monitor and log events for each remote-control session required by department IT operations.
 
-# **Manage Unsecure Remote Desktop Services**
+## **Manage Unsecure Remote Desktop Services**
 
 Allowing unrestricted RDP access can increase opportunities for malicious
 activity such as on path and Pass-the-Hash (PtH) attacks.
@@ -307,7 +307,7 @@ activity such as on path and Pass-the-Hash (PtH) attacks.
 
   * Implement enhanced and continuous monitoring of RDP services by enabling logging and ensure RDP logins are captured in the logs.
 
-# **Credential Reset and Access Policy Review**
+## **Credential Reset and Access Policy Review**
 
 Credential resets need to be done to strategically ensure that all the
 compromised accounts and devices are included and to reduce the likelihood
@@ -323,7 +323,7 @@ that the attacker is able to adapt in response to this.
 
   * Review access policies to temporarily revoke privileges/access for affected accounts/devices. If it is necessary to not alert the attacker (e.g., for intelligence purposes), then privileges can be reduced for affected accounts/devices to “contain” them.
 
-# **Patch Vulnerabilities**
+## **Patch Vulnerabilities**
 
 Attackers frequently exploit software or hardware vulnerabilities to gain
 access to a targeted system.
@@ -336,7 +336,7 @@ access to a targeted system.
 
   * Follow vendor remediation guidance including the installation of new patches as soon as they become available.
 
-# **General Recommendations and Best Practices Prior to an Incident**
+## **General Recommendations and Best Practices Prior to an Incident**
 
 Properly implemented defensive techniques and programs make it more difficult
 for a threat actor to gain access to a network and remain persistent yet
@@ -351,7 +351,7 @@ complex barrier to entry, increase the likelihood of detection, and decrease
 the likelihood of a successful attack. This layered mitigation approach is
 known as defense-in-depth.
 
-# **User Education**
+## **User Education**
 
 End users are the frontline security of the organizations. Educating them in
 security principles as well as actions to take and not take during an incident
@@ -366,7 +366,7 @@ compromises.
 
   * Train users on the actions they can and cannot take if they suspect an incident and why (some users will attempt to remediate and might make things worst).
 
-# **Allowlisting**
+## **Allowlisting**
 
   * Enable application directory allowlisting through Microsoft Software Restriction Policy or AppLocker.
 
@@ -374,7 +374,7 @@ compromises.
 
   * Prevent the execution of unauthorized software by using application allowlisting as part of the OS installation and security hardening process.
 
-# **Account Control**
+## **Account Control**
 
   * Decrease a threat actor’s ability to access key network resources by implementing the principle of least privilege.
 
@@ -386,7 +386,7 @@ compromises.
 
   * Make use of the Protected Users Active Directory group in Windows domains to further secure privileged user accounts against pass-the-hash attacks.
 
-# **Backups**
+## **Backups**
 
   * Identify what data is essential to keeping operations running; make regular backup copies.
 
@@ -396,7 +396,7 @@ compromises.
 
   * Securely store offline backups at an offsite location. If feasible, choose an offsite location that is at a distance from the primary location that would be unaffected in the event of a regional natural disaster.
 
-# **Workstation Management**
+## **Workstation Management**
 
   * Create and deploy a secure system baseline image to all workstations.
 
@@ -406,7 +406,7 @@ compromises.
 
   * Reduce the number of cached credentials to one (if a laptop) or zero (if a desktop or fixed asset).
 
-# **Host-Based Intrusion Detection / Endpoint Detection and Response**
+## **Host-Based Intrusion Detection / Endpoint Detection and Response**
 
   * Configure and monitor workstation system logs through a host-based endpoint detection and response platform and firewall.
 
@@ -416,7 +416,7 @@ compromises.
 
   * Monitor antivirus scan results on a regular basis.
 
-# **Server Management**
+## **Server Management**
 
   * Create a secure system baseline image and deploy it to all servers.
 
@@ -428,7 +428,7 @@ compromises.
 
   * Audit for and disable unnecessary services.
 
-# **Server Configuration and Logging**
+## **Server Configuration and Logging**
 
   * Establish remote server logging and retention.
 
@@ -456,11 +456,11 @@ compromises.
 
   * Mount `/var/tmp` and `/tmp` as `noexec`.
 
-# **Change Control**
+## **Change Control**
 
   * Create a change control process for all implemented changes.
 
-# **Network Security**
+## **Network Security**
 
   * Implement an intrusion detection system (IDS).
 
@@ -524,7 +524,7 @@ compromises.
 
     * Disable legacy email protocols, if not required, or limit their use to specific users.
 
-# **Network Infrastructure Recommendations**
+## **Network Infrastructure Recommendations**
 
   * Create a secure system baseline image and deploy it to all networking equipment (e.g., switches, routers, firewalls).
 
@@ -538,7 +538,7 @@ compromises.
 
   * Ensure that any incident response tools that point to external domains are either removed or updated to point to internal security tools. If this is not done and an external domain to which a tool points expires, a malicious threat actor may register it and start collecting telemetry from the infrastructure.
 
-# **Host Recommendations**
+## **Host Recommendations**
 
   * Implement policies to block workstation-to-workstation RDP connections through a Group Policy Object on Windows, or by a similar mechanism.
 
@@ -546,7 +546,7 @@ compromises.
 
   * Review the configuration of application logs to verify that recorded fields will contribute to an incident response investigation.
 
-# **User Management**
+## **User Management**
 
   * Reduce the number of domain and enterprise administrator accounts.
 
@@ -570,7 +570,7 @@ compromises.
 
   * Implement a security-awareness training program.
 
-# **Segregate Networks and Functions**
+## **Segregate Networks and Functions**
 
 Proper network segmentation is a very effective security mechanism to prevent
 an intruder from propagating exploits or laterally moving around an internal
@@ -582,7 +582,7 @@ network segments based on role and functionality. A securely segregated
 network can contain malicious occurrences, reducing the impact from intruders,
 in the event that they have gained a foothold somewhere inside the network.
 
-# **Physical Separation of Sensitive Information**
+## **Physical Separation of Sensitive Information**
 
 Local Area Network (LAN) segments are separated by traditional network devices
 such as routers. Routers are placed between networks to create boundaries,
@@ -599,7 +599,7 @@ Recommendations:
 
   * Apply security recommendations and secure configurations to all network segments and network layers.
 
-# **Virtual Separation of Sensitive Information**
+## **Virtual Separation of Sensitive Information**
 
 As technologies change, new strategies are developed to improve IT
 efficiencies and network security controls. Virtual separation is the logical
@@ -616,7 +616,7 @@ Recommendations:
 
   * Use VPNs to securely extend a host/network by tunneling through public or private networks.
 
-# **Additional Best Practices**
+## **Additional Best Practices**
 
   * Implement a vulnerability assessment and remediation program.
 

@@ -9,7 +9,7 @@ categories: ["Agentic AI", "World Models", "Good Regulator Theorem", "Predictive
 excerpt: "We treat AI 'hallucination' as a critical flaw, but control theory suggests it is a requirement for survival. New mathematical proofs demonstrate that no agent can be a general defender without an internal 'world model'—a way to simulate the future. Here is why the era of model-free security is over, and why your defense stack needs to learn how to imagine."
 ---
 
-# The "Good Regulator": Why Security Agents Must Hallucinate to Protect You
+## The "Good Regulator": Why Security Agents Must Hallucinate to Protect You
 
 We typically design security tools to be objective observers: they ingest logs, match signatures, and fire alerts based on rigid facts. We fear systems that "imagine" or predict, prioritizing deterministic rules over probability. But 50 years of cybernetic theory and cutting-edge machine learning research suggest this rigid objectivity is actually a fatal flaw: to secure a system, you must be able to simulate it.
 

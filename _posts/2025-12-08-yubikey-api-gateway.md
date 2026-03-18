@@ -44,13 +44,13 @@ Infrastructure as Code (IaC) has revolutionized DevOps, but it's always had an A
 This architecture does something remarkable: **it uses Terraform to provision secrets that are cryptographically bound to specific hardware before they ever reach storage.**
 
 ```hcl
-# The API key exists in Terraform's memory...
+## The API key exists in Terraform's memory...
 resource "random_password" "api" {
   length  = 32
   special = true
 }
 
-# ...gets encrypted to the YubiKey's public key...
+## ...gets encrypted to the YubiKey's public key...
 resource "null_resource" "wrap_for_yubikey" {
   provisioner "local-exec" {
     command = <<-EOT
@@ -61,7 +61,7 @@ resource "null_resource" "wrap_for_yubikey" {
   }
 }
 
-# ...and only the wrapped version reaches Vault
+## ...and only the wrapped version reaches Vault
 ```
 
 **The radical insight:** You can generate and distribute secrets through your normal IaC pipelines without those secrets ever being recoverable from your infrastructure. The secret goes directly from generation to hardware-encrypted storage, with no plaintext exposure window.
@@ -77,7 +77,7 @@ When you compare two strings with `==`, the comparison stops at the first mismat
 Check out this FastAPI gateway code:
 
 ```python
-# 🧾 Constant-time comparison to prevent timing attacks
+## 🧾 Constant-time comparison to prevent timing attacks
 if not hmac.compare_digest(presented_b64, stored_b64):
     raise HTTPException(status_code=403, detail="Invalid API key")
 ```
@@ -93,16 +93,16 @@ That single line—`hmac.compare_digest`—prevents an entire class of attacks. 
 The most security-critical code is often the simplest. This 44-line bash script demonstrates how to handle secrets properly:
 
 ```bash
-# Retrieve encrypted blob from Vault
+## Retrieve encrypted blob from Vault
 WRAPPED_B64=$(vault kv get -field=wrapped_b64 "kv/api/keys/${APP}/wrapped")
 
-# Decrypt using YubiKey hardware
+## Decrypt using YubiKey hardware
 API_KEY=$(yubico-piv-tool -a decrypt -s 9c -i wrapped.bin)
 
-# Clean up immediately
+## Clean up immediately
 rm -f wrapped.bin
 
-# Use it once, never store it
+## Use it once, never store it
 echo "$API_KEY"
 ```
 

@@ -79,7 +79,7 @@ Here's how it works:
 5. After unwrapping, the token is burned forever
 
 ```bash
-# The secret_id is never printed - only a wrapping token
+## The secret_id is never printed - only a wrapping token
 WRAPPED=$(VAULT_TOKEN="$VAULT_TOKEN" vault write -wrap-ttl=5m -field=wrapping_token \
   auth/approle/role/terraform-db/secret-id)
 ```

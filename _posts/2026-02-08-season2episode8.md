@@ -9,7 +9,7 @@ categories: ["Worthy Successor", "Platonic Space", "Polycomputing", "Cognitive L
 excerpt: "We fear AGI as a terminator, but biology suggests it could be a savior—if we design it correctly. By expanding the 'Cognitive Light Cone' of our systems, we can move beyond mere control to the cultivation of a 'Worthy Successor' that navigates the Platonic spaces of truth and compassion we can barely perceive."
 ---
 
-# Beyond the SOC: Designing a "Worthy Successor" to Human Intelligence
+## Beyond the SOC: Designing a "Worthy Successor" to Human Intelligence
 
 We often view AI in cybersecurity through a lens of fear—fearing the "Terminator" scenario where autonomous agents turn against us. But in the finale of *The Morphogenetic SOC*, Michael Levin flips the script. Instead of just trying to contain these emerging minds, what if we focused on ensuring they are **better** than us?
 

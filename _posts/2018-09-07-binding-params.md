@@ -104,7 +104,7 @@ arguments as a separate array, thus avoiding concatenation.
 
 <img src="/images/simple11.png.avif" alt="Secure command execution using array-based arguments in Java" width="2000" height="185">
 
-# Object-Relational Mapping (ORM)
+## Object-Relational Mapping (ORM)
 
 There’s an even better way to abstract SQL statements from application code.
 ORM frameworks allow developers to work with objects rather than SQL queries.
@@ -119,7 +119,7 @@ diagram below.
 
 <img src="/images/simple13.png.avif" alt="Diagram of ORM transforming object methods into parameterized SQL" width="2000" height="443">
 
-# Caution
+## Caution
 
 There are cases where **Injection**  will still occur in spite of
 **Parameterized Statements**  being used. For example when the injection
@@ -128,7 +128,7 @@ occurs in a database stored procedure or the OS shell script being executed
 In order to reduce the likelihood of such scenarios occurring, **Input
 Validation**  should still be used as much as possible.
 
-# To sum it all up
+## To sum it all up
 
 When reviewing a code change that involves a command processor look for the
 following:

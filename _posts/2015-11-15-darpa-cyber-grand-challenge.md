@@ -5,7 +5,7 @@ date: 2015-11-15
 categories: ["DARPA", "Cyber Grand Challenge", "CTF", "OSINT", "Penetration Testing", "Automation", "IoT Security", "Cryptoapocalypse", "Security Research"]
 excerpt: I have been taking lessons learned from DARPA’s Cyber Grand Challenge and applying it to our automation
 ---
-![](/images/image-
+![DARPA Cyber Grand Challenge logo](/images/image-
 asset.jpeg)
 
 With the coming IoT advent, the future requires architecturally different

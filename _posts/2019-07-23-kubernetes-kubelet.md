@@ -5,7 +5,7 @@ date: 2019-07-23
 categories: ["Kubernetes", "Scheduler", "Resource Management", "CIS Benchmark", "Security Practices", "Pod Scheduling", "Governance", "HTTPS", "Configuration Management"]
 excerpt: # Overview This is the building block that handles pods scheduling based upon resource constraints, requirements, tolerances, governance, and other policies. The scheduler
 ---
-# Overview
+## Overview
 
 This is the building block that handles pods scheduling based upon resource
 constraints, requirements, tolerances, governance, and other policies. The
@@ -16,7 +16,7 @@ default.
 
   
 
-# CIS Benchmark
+## CIS Benchmark
 
 1.4.1 Ensure that the --profiling argument is set to false (Automated)
 

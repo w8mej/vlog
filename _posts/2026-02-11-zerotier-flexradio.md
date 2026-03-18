@@ -70,7 +70,7 @@ To ensure the ZeroTier interface is always slaved correctly and maintains the co
 ```bash
 #!/bin/bash
 
-# Configuration
+## Configuration
 INTERFACE="zt4hoamefb"
 BRIDGE="br0"
 TARGET_MTU=1500

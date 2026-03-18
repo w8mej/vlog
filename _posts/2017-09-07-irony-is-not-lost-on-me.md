@@ -9,7 +9,7 @@ Thankfully, Naurus has produced a useful infographic to understand the variety
 of malicious entities.  While it is not all inclusive, it suffices to help one
 quickly prototype simple threat models.
 
-![](/images/image-
+![Irony is not lost on me image](/images/image-
 asset.jpeg)
 
 

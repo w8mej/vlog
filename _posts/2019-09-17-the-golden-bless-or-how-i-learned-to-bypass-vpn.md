@@ -5,7 +5,7 @@ date: 2019-09-17
 categories: ["Kubernetes", "CI/CD", "Monitoring", "DevSecOps", "Security Automation", "Kubernetes Security", "Vulnerability Scanning", "Infrastructure as Code", "Network Policies", "Container Security", "Security Best Practices", "CIS Benchmark"]
 excerpt: When one takes a step back and looks at a typical agile build, test, and release pipeline with a security bent; one observes the following steps and how they feed into each other like a dragon eating its’ tail.
 ---
-#  
+##  
 Overview
 
 When one takes a step back and looks at a typical agile build, test, and
@@ -70,7 +70,7 @@ If you want to learn more about the holy trinity of software engineering,
 systems engineering, and information security - here is a great resource to
 start your path https://owasp.org/www-project-devsecops-maturity-model/
 
-# Static Analysis
+## Static Analysis
 
 KubeAudit - it allows one to audit resource manifest files prior to
 application. It will semantically check proposed code for known
@@ -82,7 +82,7 @@ misconfigurations in infrastructure as code. I love how checkov supports
 namespaces so I can have it not report any findings for the kube-system
 namespace.
 
-# Testing
+## Testing
 
 Netassert and illuminate - great tools to create and execute network test
 cases to ensure existing network policies are operating as expected vs.
@@ -102,7 +102,7 @@ Polaris - great for ensuring pods and controllers are adhering to “best
 practices.” Can operate as a validation webhook, CLI for testing local
 configuration files, or as an Add-on dashboard for reporting and monitoring.  
 
-# Release
+## Release
 
 Netassert and illuminate - great tools to create and execute network test
 cases to ensure existing network policies are operating as expected vs.
@@ -114,7 +114,7 @@ data center floors or evaporating onto the cloud when sent to the Internet.
 may accelerate those who wish to use an ansible-based pipeline.  
   
 
-# Deploy
+## Deploy
 
 Netassert and illuminate - great tools to create and execute network test
 cases to ensure existing network policies are operating as expected vs.
@@ -136,7 +136,7 @@ and many other monitoring tools listed below may be worthwhile to include in
 the Deployment phase if deployment end to end time is not a priority.  
   
 
-# Monitoring:
+## Monitoring:
 
 KubeAudit - it allows one to monitor and audit live environments after
 deployment for known risky configuration patterns such as allowing net_raw
@@ -178,7 +178,7 @@ Kubernetes benchmark.
 <https://kubesec.io/> \- a simple service to determine if known insecure
 patterns are applied to a running cluster.
 
-# No longer maintained tools but may provide limited value
+## No longer maintained tools but may provide limited value
 
   * https://github.com/DenizParlak/Zephyrus
 

@@ -76,13 +76,13 @@ The wrapped key can live in Vault's KV store, it can be committed to Git, it cou
 Here's the actual workflow in practice:
 
 ```bash
-# Retrieve wrapped key from Vault
+## Retrieve wrapped key from Vault
 WRAPPED=$(vault kv get -field=data kv/terraform/state | jq -r .key)
 
-# Unwrap with YubiKey (decryption happens IN the hardware)
+## Unwrap with YubiKey (decryption happens IN the hardware)
 SEED=$(yubico-piv-tool -a decrypt -s 9c -i wrapped.bin)
 
-# Use unwrapped key for Terraform operations
+## Use unwrapped key for Terraform operations
 terraform apply
 ```
 
@@ -105,14 +105,14 @@ terraform apply -auto-approve && ./rotate-key.sh
 The `rotate-key.sh` script is delightfully simple:
 
 ```bash
-# Generate new seed
+## Generate new seed
 NEW_SEED=$(openssl rand -base64 32)
 
-# Wrap with YubiKey
+## Wrap with YubiKey
 WRAPPED_NEW=$(echo -n "$NEW_SEED" | 
   yubico-piv-tool -a encrypt -s 9c -i - | base64)
 
-# Store in Vault
+## Store in Vault
 vault kv put kv/terraform/state key=$WRAPPED_NEW
 ```
 

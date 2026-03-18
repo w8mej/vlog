@@ -31,7 +31,7 @@ permalink: /series/morphogenetic-soc/
 
   <header class="series-page__header">
     <div class="series-page__season-label">Season 2</div>
-    <h2>Morphogenetic SOC</h2>
+    <h1>Morphogenetic SOC</h1>
     <p class="series-page__subtitle">Complex Systems Science in Security Engineering</p>
     <p class="series-page__desc">What if your security infrastructure could regrow a severed limb? This nine-episode series borrows from developmental biology, cybernetics, and cognitive science to build a new kind of security architecture—one that doesn't just defend, but heals. From Ashby's Law and the TAME framework to bioelectric pattern memory and governed agentic swarms, Season 2 is the complete theoretical and engineering blueprint for the Morphogenetic SOC.</p>
   </header>

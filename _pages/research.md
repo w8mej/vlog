@@ -83,7 +83,7 @@ description: "Explore John Menerick's public security research, including threat
 
   <div class="research-page__hero">
     <div class="research-page__season-label">Open Source & Public Labs</div>
-    <h2>Public Research Efforts</h2>
+    <h1>Public Research Efforts</h1>
     <p class="tagline">Data-driven security initiatives focused on global threat signaling, vulnerability prioritization, and machine-learning driven offensive automation.</p>
   </div>
 

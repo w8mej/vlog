@@ -7,7 +7,7 @@ excerpt: Let this be a reminder of the joys in programming PHP
 ---
 Let this be a reminder of the joys in programming PHP
 
-![](/images/image-
+![SecurityOnion Vulnerabilities](/images/image-
 asset.jpeg)
 
 I have started to take a look at a number of security silver bullets.  The

@@ -12,7 +12,7 @@ It sounds like a distributed systems nightmare, doesn't it?
 
 I recently built a Proof of Concept (PoC) to solve exactly this problem—automating credential rotation between AWS RDS and Oracle Cloud Infrastructure (OCI) Autonomous Database. What started as a simple script evolved into a deep dive into the nuances of multi-cloud security. Here are the five most surprising lessons I learned along the way.
 
-### 1. True Multi-Cloud Portability is a Container
+## 1. True Multi-Cloud Portability is a Container
 
 When we talk about "multi-cloud," we often picture complex abstraction layers or heavy tools like Terraform trying to bridge the gap. But the most effective bridge turned out to be the humble container image.
 
@@ -20,7 +20,7 @@ In this project, the exact same Docker image powers the rotation logic on both A
 
 > **Takeaway:** Don't build separate rotators for separate clouds. Build one logic engine, containerize it, and let the cloud providers just be the execution runtime.
 
-### 2. Split-Brain is the Enemy
+## 2. Split-Brain is the Enemy
 
 The scariest part of rotating credentials in two places is the "split-brain" scenario: what if the password update succeeds in AWS but fails in OCI? Your application, reading from the old secret, would suddenly be locked out of the database.
 
@@ -37,7 +37,7 @@ To combat this, the rotation worker implements a strict rollback mechanism. If t
 
 This isn't just error handling; it's a survival strategy for distributed consistency.
 
-### 3. Security is Ephemeral
+## 3. Security is Ephemeral
 
 Handling Oracle Wallets (the credential files needed to connect to an Autonomous Database) is notoriously tricky. You can't just check them into git, and baking them into the image is a security sin.
 
@@ -45,7 +45,7 @@ The solution? Treat them as ephemeral state. The worker dynamically retrieves th
 
 > **Takeaway:** The most secure file is the one that doesn't exist when you're done with it.
 
-### 4. Trust, but Verify (Cryptographically)
+## 4. Trust, but Verify (Cryptographically)
 
 Logging is essential, but how do you trust your logs in a compromised environment? If an attacker gains access, they could easily doctor the text files.
 
@@ -58,7 +58,7 @@ This project implements an HMAC-signed audit trail. Every rotation event is hash
 
 This ensures that the audit log is tamper-evident. If the hash doesn't match the message, you know something is wrong. It's a small touch that adds a massive layer of integrity.
 
-### 5. "Proof of Concept" Doesn't Mean "Insecure"
+## 5. "Proof of Concept" Doesn't Mean "Insecure"
 
 There's a temptation to cut corners in a PoC—"I'll add SSL later," or "I'll fix the IAM policies in production." But security debt is the hardest debt to pay down.
 
@@ -69,7 +69,7 @@ Even in this demo, we enforced:
 
 It proves that "secure by default" isn't just a slogan; it's a development habit.
 
-### Summary
+## Summary
 
 Building a cross-cloud credential rotator taught me that the challenges aren't just about APIs or SDKs—they're about consistency, atomicity, and trust. Whether you're managing a massive enterprise fleet or just a side project, these principles of ephemeral state, cryptographic verification, and containerized portability are your best defense against the chaos of the cloud.
 

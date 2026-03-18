@@ -16,7 +16,7 @@ Here are the five most surprising and impactful takeaways from this unique repos
 
 ---
 
-### 1. The "Righty Tighty, Lefty Loosey" Security Philosophy
+## 1. The "Righty Tighty, Lefty Loosey" Security Philosophy
 
 The project’s name isn’t just a cute pun; it’s a governing philosophy. In the mechanical world, "righty tighty" locks things down, and "lefty loosey" releases them.
 
@@ -25,13 +25,13 @@ The project’s name isn’t just a cute pun; it’s a governing philosophy. In 
 
 > **"Righty Tighty is a cross-cloud federation hub that strictly adheres to the laws of physics (and security best practices)."**
 
-### 2. True SSO for Infrastructure (Hardware-Rooted)
+## 2. True SSO for Infrastructure (Hardware-Rooted)
 
 Most Single Sign-On (SSO) solutions for infrastructure still rely on a chain of software trust—a browser cookie here, a session token there. This project roots that trust in hardware.
 
 The architecture allows a developer to tap their YubiKey once to authenticate with Vault via OIDC. Vault then acts as the broker, vending temporary, dynamic credentials for **both AWS and Oracle Cloud Infrastructure (OCI)**. Your physical key becomes the master skeleton key for your entire multi-cloud estate, but it never actually touches the cloud providers directly. It’s a clean, hardware-rooted chain of custody.
 
-### 3. The "Black Box" Audit Log
+## 3. The "Black Box" Audit Log
 
 One of the most innovative features is the implementation of an immutable audit trail that functions like a flight data recorder.
 
@@ -42,13 +42,13 @@ When a Terraform plan is executed, the system doesn't just log it to a text file
 
 This ensures that every infrastructure change is cryptographically bound to the physical device that authorized it. You can prove, mathematically, *exactly* who (or at least, which key) pushed the button.
 
-### 4. Cross-Cloud redundancy is a First-Class Citizen
+## 4. Cross-Cloud redundancy is a First-Class Citizen
 
 While many projects claim to be "multi-cloud," they often just mean "we run on AWS and Azure separately." This repository demonstrates active cross-cloud federation.
 
 The Terraform configuration (`main.tf`) seamlessly manages resources in AWS (S3 buckets, KMS keys) while simultaneously handling authentication and logging in OCI. It treats the clouds not as separate silos, but as different rooms in the same building, accessible via the same physical key. It’s a blueprint for true cloud agnosticism.
 
-### 5. Security-First by Default
+## 5. Security-First by Default
 
 The code doesn't just implement features; it aggressively enforces security hygiene. The Terraform files are peppered with reminders to run security scanners like **Checkov**, **KICS**, and **Semgrep**.
 
@@ -61,7 +61,7 @@ It serves as a reminder that "infrastructure as code" should really be "security
 
 ---
 
-### Final Thought
+## Final Thought
 
 **Righty Tighty** challenges us to rethink the ephemeral nature of cloud access. In a world where AI agents and automated scripts are increasingly running our infrastructure, there is something profoundly reassuring about anchoring the most critical actions to a physical object in the real world.
 

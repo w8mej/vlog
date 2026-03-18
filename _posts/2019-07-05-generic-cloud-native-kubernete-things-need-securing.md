@@ -52,30 +52,30 @@ The commonality to the above simple to diverse architectures leads one to see
 common building blocks or layers of abstractions inherent to any Kubernete’s
 based workload. The basic building blocks are as follows;
 
-###  
+##  
 Controller Manager
 
   * A single binary running as a single process emulating separate controller process that is responsible for observing and respond to node availability concerns, pod replication, endpoints, and handling service account and tokens.
 
   * Optionally may include a cloud controller manager to integrate deeper into a cloud providers’ infrastructure such as AWS security groups, application load balancers, API Gateways, S3 storage backends, etc…. Cloud controller features vary from each IaaS provider.
 
-### APIServer
+## APIServer
 
   * The public facing API service. This is how one interacts with Kubernete’s backend. One may operate multiple APIServers within a single cluster. Interactions involve simple curl commands to kube-ctl to 3rd party tools / services.
 
-### Scheduler
+## Scheduler
 
   * This component is the algorithmic part that provides Kubernete’s magic. The service handles policy constraints, locality and affinity, deadlines, interference, resource requirements, and similar “what should happen when on what object?"
 
-### ETCD
+## ETCD
 
   * A datastore used by Kubernete’s backend to ensure highly available consistent access to a key value datastore. Logically represented as a flat binary space. Physically, as a B+ Tree with nodes as key value pairs. Each “state” contains only the difference from the previous state. Each difference may link to multiple nodes in the tree. This is extremely important to know when we talk about managing ETCD’s risk in a MTA.
 
-### Pods
+## Pods
 
   * At its’ simplest use case, Pods are dynamically created, destroyed, and migrated among the nodes in the cluster. Kubernetes approached this ephemeral state by using Services as an abstraction of backend Pods. These pods operate within a given Node at any one time. Similar to the Heisenberg uncertainty principle but at a much, much slower speed and known possible locations / states. Pods are the simplest compute workload. They may consist of one or many containers with storage / network resources and a spec (PodSpecs) for how to run the container(s.). For most kubernetes architectures, the context of the pod is a set of *nix namespaces, croups, and other isolation techniques - similar to a Docker container. Within each pod context, additional isolations may be applied. An advanced use case has a pod with multiple containers. One container servers data stored in a shared volume while a separate sidecar refreshes those files. Another container runs a Node.JS app to interact with the two other containers. The pod wraps those storage, network, compute, and containers into a single object.
 
-### Nodes
+## Nodes
 
   * This is where things may get a bit weird due to the service mesh, cloud controller manager, and similar add ons. A node may consist of many different building blocks. A typical node has the following blocks;
 

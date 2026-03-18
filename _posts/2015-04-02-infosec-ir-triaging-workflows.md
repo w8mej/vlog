@@ -32,7 +32,7 @@ response procedures:
 
   
 
-### Technical Details
+## Technical Details
 
 The incident response process requires a variety of technical approaches to
 uncover malicious activity. Incident responders should consider the following
@@ -48,7 +48,7 @@ activities.
 
   
 
-### Recommended Artifact and Information Collection
+## Recommended Artifact and Information Collection
 
 When hunting and/or investigating a network, it is important to review a broad
 variety of artifacts to identify any suspicious activity that may be related
@@ -159,7 +159,7 @@ throughout the investigation.
 
   
 
-### Common Mistakes in Incident Handling
+## Common Mistakes in Incident Handling
 
 After determining that a system or multiple systems may be compromised, system
 administrators and/or system owners are often tempted to take immediate
@@ -205,7 +205,7 @@ the consequence of taking such actions.
 
 <img src="/images/Figure+1+8.31.20+%281%29.png.avif" alt="" width="1455" height="1124">
 
-### Mitigations
+## Mitigations
 
 The following recommendations and best practices may be helpful during the
 investigation and remediation process. **Note:**  Although this guidance
@@ -640,7 +640,7 @@ Recommendations:
 
     * An up-to-date incident response plan.
 
-### Resources
+## Resources
 
   * [CISA Insights](https://www.cisa.gov/insights)
 
@@ -668,7 +668,7 @@ Recommendations:
 
   * [Network Security Zoning - Design Considerations for Placement of Services within Zones (CCCS)](https://www.cyber.gc.ca/en/guidance/network-security-zoning-design-considerations-placement-services-within-zones-itsg-38)
 
-### References
+## References
 
 [[1] Australian Cyber Security Centre (ACSC)](https://www.cyber.gov.au/)
 

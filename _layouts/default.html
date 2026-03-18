@@ -2,12 +2,13 @@
 <html lang="en">
   <head>
     <title>{% if page.title %}{{ page.title }} – {{ site.name }}{% else %}{{ site.name }}{% endif %}</title>
-    {% seo title=false jsonld=false canonical=false %} {% include meta.html %}
+    {% include meta.html %}
     {% if paginator and paginator.page > 1 %}
     <link rel="canonical" href="{{ site.url }}{{ paginator.page_path | replace: 'index.html', '' }}" />
     {% else %}
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'index.html', '' }}" />
-    {% endif %}    <link
+    {% endif %}
+    <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
       media="print"
@@ -70,7 +71,7 @@
               <a href="{{ site.baseurl }}/about">About</a>
               <a href="{{ site.baseurl }}/series">Series</a>
               <a href="{{ site.baseurl }}/research">Research</a>
-              <a href="{{ site.baseurl }}/endorsements">Kudos</a>
+              <a href="{{ site.baseurl }}/kudos">Kudos</a>
               <a href="{{ site.baseurl }}/speaking">Speaking</a>
               <a href="{{ site.baseurl }}/blog">Blog</a>
               <a href="{{ site.baseurl }}/casting">Casting</a>
@@ -89,7 +90,10 @@
           <footer class="footer">
             <div style="margin-bottom: 15px;">{% include svg-icons.html %}</div>
             <div style="font-size: 0.9em;">
-              <a href="{{ site.baseurl }}/privacy/">Privacy Policy</a> | <a href="{{ site.baseurl }}/search">Search</a>
+              <a href="{{ site.baseurl }}/privacy/">Privacy Policy</a> | 
+              <a href="{{ site.baseurl }}/terms/">Terms</a> | 
+              <a href="{{ site.baseurl }}/disclosures/">Disclosures</a> | 
+              <a href="{{ site.baseurl }}/search">Search</a>
             </div>
           </footer>
         </div>

@@ -17,19 +17,19 @@ In Episode 4 of "The Morphogenetic SOC," we explore the mathematical proofs behi
 
 Here are the most critical takeaways on the necessity of world models in modern defense.
 
-### 1. The Good Regulator Theorem: You Can't Secure What You Can't Model
+## 1. The Good Regulator Theorem: You Can't Secure What You Can't Model
 In 1970, cyberneticians Roger Conant and W. Ross Ashby formulated a theorem that is as fundamental to systems engineering as thermodynamics is to physics: **"Every good regulator of a system must be a model of that system."**
 
 **Why it matters:** Most current security tools violate this theorem. A firewall or an IDS typically responds to events in a vacuum—it sees a packet and blocks it. It does not possess an internal representation of the network’s purpose, topology, or user behavior. The theorem proves that a regulator (the security agent) that does *not* model the system it protects is mathematically destined to be suboptimal. To achieve true control, a security orchestrator cannot just react; it must possess a "world model" that allows it to predict how the system behaves under stress.
 
-### 2. General Agency Requires Hallucination (Simulation)
+## 2. General Agency Requires Hallucination (Simulation)
 We often view "hallucination" in AI as a defect, but in the context of agentic control, a form of controlled hallucination—or counterfactual reasoning—is a requirement. Recent research by Richens et al. (2025) mathematically proves that **"General agents contain world models."** 
 
 **Why it matters:** This finding bridges the gap between simple automation and true agency. For an AI agent to solve multi-step security problems (like expelling an APT that moves laterally), it cannot simply follow a script. It must be able to "imagine" future states: "If I block this port, does the database fail?" "If I reset this credential, does the attacker pivot to the backup?" The research demonstrates that agents capable of generalizing tasks inherently encode predictive models of their environment. If your security bots can't simulate the future, they can't secure the present.
 
 > "Every good regulator of a system must be a model of that system... This implies that an effective security orchestrator cannot simply respond to events in a vacuum; it must possess an internal representation—a 'world model'—of the network it protects and the behavioral patterns of the attackers it resists."
 
-### 3. The Transition from Reactive Tools to Cognitive Agents
+## 3. The Transition from Reactive Tools to Cognitive Agents
 The shift from "Automated" to "Agentic" isn't just marketing hype; it is a structural evolution defined by **Cognitive Autonomy**. While automated systems execute pre-defined sequences (playbooks), agentic systems leverage cognitive architectures to plan, adapt, and execute workflows in dynamic environments.
 
 **Why it matters:** The modern threat landscape—characterized by polymorphic malware and human-operated ransomware—moves faster than human analysts can create static rules. Agentic AI addresses this by moving defense into a "proactive" stance. These agents don't just wait for an alert; they actively plan defense strategies based on their internal model of the threat landscape, allowing for real-time anomaly detection and predictive threat response that static tools simply cannot achieve.

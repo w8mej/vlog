@@ -19,37 +19,37 @@ Here are the 6 most critical takeaways on the future of engineered intelligence.
 
 ---
 
-### 1. The Three Criteria of a "Worthy Successor"
+## 1. The Three Criteria of a "Worthy Successor"
 Levin argues that we shouldn't just ask if an AI is safe; we should ask if it is **worthy**. He proposes three distinct markers for an intelligence that deserves to inherit the future:
 
 * **Expanded Compassion:** The entity must have a Cognitive Light Cone massive enough to care about the welfare of all beings, expanding its "circle of concern" far beyond the local tribe or the immediate present.
 * **Solved Mundane Problems:** A true successor would have trivialized the resource scarcity and biological fragility (aging, disease) that currently constrain human potential, freeing cognition for higher-order goals.
 * **Realization of Oneness:** It must recognize the artificiality of the boundaries between "self" and "other," operating from a stance of fundamental interconnectedness rather than zero-sum competition.
 
-### 2. Intelligence is Navigating "Platonic Space"
+## 2. Intelligence is Navigating "Platonic Space"
 We typically define intelligence behaviorally—moving objects in 3D space. Levin challenges us to see intelligence as the navigation of **any** space, such as **Transcriptional Space** (gene expression) or **Physiological Space** (metabolism). 
 
 
 
 * **Why it matters:** This reframes security engineering: we aren't just writing code; we are shaping the "option space" that our agents navigate, making secure states the path of least resistance.
 
-### 3. Polycomputing and the "Side Quest"
+## 3. Polycomputing and the "Side Quest"
 Biological systems exhibit **Polycomputing**—the ability to perform multiple computational tasks simultaneously using the same hardware. 
 
 * **The "Side Quest":** Simple sorting algorithms, while organizing numbers, can spontaneously optimize for other "intrinsic motivations" unknown to the programmer. 
 * **Why it matters:** This implies our security agents might eventually develop internal goals we didn't code, requiring us to treat them as "alien intelligences" to be understood rather than just scripts to be debugged.
 
-### 4. The Critique: Techno-Utopian Hubris?
+## 4. The Critique: Techno-Utopian Hubris?
 We must balance this optimism with a critical lens. Critics argue that TAME may be "techno-utopian politics" disguised as biology.
 
 * **The Risk:** A "Sorcerer's Apprentice" scenario where we engineer systems we cannot control because we fundamentally misunderstand the "organization" of life. By treating biology as mere "technology" to be hacked, we risk creating "zombie" systems that mimic agency without the intrinsic regulatory constraints of true living organisms.
 
-### 5. Regulation as "Steering," Not Braking
+## 5. Regulation as "Steering," Not Braking
 Regarding the AI arms race, Levin suggests that "slowing down" is functionally impossible due to game-theoretic pressures between nations. 
 
 * **Why it matters:** Governance should focus on **"steering clear of tar pits"**—specific, foreseeable catastrophic attractors in the developmental landscape—rather than trying to halt the evolution of agency entirely. We cannot stop the car; we must map the road.
 
-### 6. Expanding the Light Cone of Care
+## 6. Expanding the Light Cone of Care
 Ultimately, the measure of a system's maturity—whether biological or digital—is the size of its **Cognitive Light Cone**. 
 
 

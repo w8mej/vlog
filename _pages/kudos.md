@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Endorsements
-permalink: /endorsements/
+title: Kudos
+permalink: /kudos/
 ---
 
 [Curriculum Vitae](https://cv.securesql.info/)

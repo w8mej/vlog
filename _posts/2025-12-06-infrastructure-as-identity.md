@@ -12,7 +12,7 @@ I recently explored a fascinating proof-of-concept that flips the traditional on
 
 Here are the three most surprising takeaways from this experiment in extreme automation.
 
-### 1. Hardware is the New Identity Provider
+## 1. Hardware is the New Identity Provider
 
 In most organizations, "identity" is a row in a database managed by HR. This project challenges that assumption by making the **YubiKey itself** the primary trigger for existence within the system.
 
@@ -20,13 +20,13 @@ In most organizations, "identity" is a row in a database managed by HR. This pro
 
 This is counter-intuitive because we’re used to thinking of hardware tokens as *second* factors—something you use *after* you’ve established who you are. By elevating the physical token to the primary identifier, we eliminate the gap between "having the key" and "having access." If you hold the key, the infrastructure knows you, and more importantly, it builds itself for you. It’s a tangible, physical anchor in an increasingly ephemeral cloud world.
 
-### 2. The "Null Resource" Power Move
+## 2. The "Null Resource" Power Move
 
 Terraform is famous for managing cloud resources like VMs and load balancers. But this project uses a humble `null_resource` to orchestrate a complex dance between physical hardware and digital identity.
 
 By using a local script to read the YubiKey's serial number and fire it off to the Vault API, the system bridges the air-gapped world of USB ports with the cloud-native world of HashiCorp Vault. It’s a reminder that sometimes the most powerful automation tools aren't the ones with the flashiest features, but the ones that allow us to glue disparate worlds together. This "glue code" isn't just a script; it's the translator that turns a physical connection into a digital identity.
 
-### 3. Zero-Touch Namespace Provisioning
+## 3. Zero-Touch Namespace Provisioning
 
 The "magic trick" of this setup is what happens after the key is registered. There is no ticket to IT. There is no manual creation of a Kubernetes namespace.
 
@@ -36,7 +36,7 @@ Once the YubiKey serial is mapped to a Vault entity, Terraform Cloud wakes up. I
 
 This is the definition of "Zero Touch." The infrastructure reacts to the presence of the user (represented by the key) rather than the user asking for the infrastructure. It shifts the paradigm from "request and wait" to "arrive and receive." It suggests a future where our environments are as fluid and responsive as the devices we carry.
 
-### Summary
+## Summary
 
 This project is a glimpse into a future where security and convenience aren't enemies, but partners. By treating a physical token as the root of trust for infrastructure provisioning, we can eliminate friction and increase security simultaneously. It forces us to ask: **If our infrastructure can react to a physical key, what else can it react to?**
 

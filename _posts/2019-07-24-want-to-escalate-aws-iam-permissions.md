@@ -5,7 +5,7 @@ date: 2019-07-24
 categories: ["Kubernetes", "Networking", "CNI", "Network Policies", "Service Mesh", "Routing", "Storage Interface", "Security Best Practices", "Kubernetes Security"]
 excerpt: Within Kubernetes, networks are an interesting beast. They become extremely muddled
 ---
-# Overview
+## Overview
 
 Within Kubernetes, networks are an interesting beast. They become extremely
 muddled when one (CNI) utilizes OSI Layer 2-7 service mesh to handle not only
@@ -29,7 +29,7 @@ accordingly.
 
   
 
-# CIS Benchmark
+## CIS Benchmark
 
 5.3 Network Policies and CNI
 

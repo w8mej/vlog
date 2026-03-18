@@ -55,15 +55,21 @@
               ><img
                 src="{{ site.baseurl }}{{ site.avatar }}"
                 srcset="{{ site.baseurl }}/images/reverie-140.png.avif 1x, {{ site.baseurl }}/images/reverie-280.png.avif 2x"
-                alt="{{ site.title }}"
+                alt="{{ site.name }}"
                 width="70"
                 height="70"
             /></a>
 
             <div class="site-info">
-              <h1 class="site-name">
-                <a href="{{ site.baseurl }}/">{{ site.name }}</a>
-              </h1>
+              {% if page.url == "/" or page.url == "/index.html" %}
+                <h1 class="site-name">
+                  <a href="{{ site.baseurl }}/">{{ site.name }}</a>
+                </h1>
+              {% else %}
+                <div class="site-name">
+                  <a href="{{ site.baseurl }}/">{{ site.name }}</a>
+                </div>
+              {% endif %}
               <p class="site-description">{{ site.description }}</p>
             </div>
 
@@ -71,7 +77,7 @@
               <a href="{{ site.baseurl }}/about">About</a>
               <a href="{{ site.baseurl }}/series">Series</a>
               <a href="{{ site.baseurl }}/research">Research</a>
-              <a href="{{ site.baseurl }}/kudos">Kudos</a>
+              <a href="{{ site.baseurl }}/kudos/">Kudos</a>
               <a href="{{ site.baseurl }}/speaking">Speaking</a>
               <a href="{{ site.baseurl }}/blog">Blog</a>
               <a href="{{ site.baseurl }}/casting">Casting</a>
@@ -94,6 +100,9 @@
               <a href="{{ site.baseurl }}/terms/">Terms</a> | 
               <a href="{{ site.baseurl }}/disclosures/">Disclosures</a> | 
               <a href="{{ site.baseurl }}/search">Search</a>
+            </div>
+            <div style="font-size: 0.7em; color: #777; margin-top: 10px;">
+              EDITORIAL NOTE: This site contains security research and professional consulting insights. Opinions are my own and do not represent any employer. For full details, see <a href="{{ site.baseurl }}/disclosures/">disclosures</a>.
             </div>
           </footer>
         </div>

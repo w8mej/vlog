@@ -16,20 +16,20 @@ how they feed into each other like a dragon eating its’ tail.
   
   
 
-<img src="/images/E942BA98-5AA5-4EB1-BCDF-6D3CBCB47C6A.jpg" alt="" width="541" height="289">
+<img src="/images/E942BA98-5AA5-4EB1-BCDF-6D3CBCB47C6A.jpg" alt="VPN bypass vulnerability code analysis" width="541" height="289">
 
   
 
 There are many different iterations of this dragon eating tail as there exist
 IT frameworks for provisioning a new employee asset, be it ITIL, COBIT, etc….
 
-<img src="/images/041E2BAE-5A91-4F21-A62D-59206602FA36.jpg" alt="" width="388" height="388">
+<img src="/images/041E2BAE-5A91-4F21-A62D-59206602FA36.jpg" alt="Network traffic intercept illustration" width="388" height="388">
 
-<img src="/images/35AA2911-6867-4CD8-9B14-0709EE877C04.png.avif" alt="" width="900" height="596">
+<img src="/images/35AA2911-6867-4CD8-9B14-0709EE877C04.png.avif" alt="Bypassing VPN gateway flow" width="900" height="596">
 
-<img src="/images/AAA0739A-87FA-489E-A878-4864C3C0AD45.png.avif" alt="" width="1166" height="631">
+<img src="/images/AAA0739A-87FA-489E-A878-4864C3C0AD45.png.avif" alt="Secure handshake failure diagram" width="1166" height="631">
 
-<img src="/images/814E0187-C7DA-469E-88E5-D2A24378B909.png.avif" alt="" width="1240" height="670">
+<img src="/images/814E0187-C7DA-469E-88E5-D2A24378B909.png.avif" alt="VPN cryptographic weakness visualization" width="1240" height="670">
 
   
 Irregardless of the pipelines and technologies, one may prefer to work

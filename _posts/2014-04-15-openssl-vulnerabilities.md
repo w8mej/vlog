@@ -13,7 +13,7 @@ security-related defects in OpenSSL’s intellectual property.   Trust me,
 OpenSSL needs it!!!!!!!!  See the below picture for a simple, secure code
 review on [OpenSSL’s latest release](http://www.openssl.org/source/), 1.0.1g.
 
-<img src="/images/OpenSSL101gInSecurity" alt="" width="461" height="575">
+<img src="/images/OpenSSL101gInSecurity" alt="Code review analysis showing vulnerabilities in OpenSSL 1.0.1g" width="461" height="575">
 
 What we see is typical of an older, open source C / C++ based application.
 Overall, there are code quality issues in addition to common C / C++ software

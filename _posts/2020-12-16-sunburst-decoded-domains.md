@@ -9,10 +9,10 @@ I pulled some metrics from my threat intelligence sharing service to generate
 cute charts and graphs. If you want to keep up to date, keep an eye on
 <https://intelmetrics.haxx.ninja> .
 
-<img src="/images/usageandbehaviors.png.avif" alt="" width="940" height="526">
+<img src="/images/usageandbehaviors.png.avif" alt="Sunburst malware usage and behavior chart" width="940" height="526">
 
-<img src="/images/attributeschart.png.avif" alt="" width="1813" height="905">
+<img src="/images/attributeschart.png.avif" alt="Sunburst domain attributes breakdown" width="1813" height="905">
 
-<img src="/images/tagtreechart.png.avif" alt="" width="966" height="510">
+<img src="/images/tagtreechart.png.avif" alt="Sunburst domain tag tree hierarchy" width="966" height="510">
 
 

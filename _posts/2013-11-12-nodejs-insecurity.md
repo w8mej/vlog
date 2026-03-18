@@ -41,7 +41,7 @@ vulnerability class pie.
 
 
 
-<img src="/images/NodeJSVulns.png.avif" alt="" width="1354" height="860">
+<img src="/images/NodeJSVulns.png.avif" alt="Node.js Vulnerabilities and Insecurity Analysis" width="1354" height="860">
 
 Vulnerability pie
 

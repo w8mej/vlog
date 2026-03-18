@@ -10,7 +10,7 @@ permalink: /series/autonomous-ai-soc/
 
   <header class="series-page__header">
     <div class="series-page__season-label">Season 1</div>
-    <h1>Autonomous AI SOC</h1>
+    <h2>Autonomous AI SOC</h2>
     <p class="series-page__subtitle">Energy-Based Models Meet SecOps</p>
     <p class="series-page__desc">Can a security operations center learn from every alert, adapt to every attacker, and respond faster than a human can blink? This eight-part series answers that question by tracing the full arc from the scalability crisis facing modern SOCs all the way through autonomous detection loops, AI-driven ETL, self-improving playbooks, governance frameworks, and the infrastructure required to run it at enterprise scale.</p>
   </header>

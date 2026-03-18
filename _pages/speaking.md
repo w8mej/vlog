@@ -118,7 +118,7 @@ permalink: /speaking/
   <div class="speaking-page__hero">
     <div class="speaking-page__season-label">Available for Engagements</div>
     <img src="/images/circular_headshot.png" alt="John Menerick" width="120" height="120" style="border-radius:50%;margin-bottom:1rem;display:block;margin-left:auto;margin-right:auto;" />
-    <h1>John Menerick — Speaker</h1>
+    <h2>John Menerick — Speaker</h2>
     <p class="tagline">Two decades on stage at DEF CON, ISC2, Stanford, CCC, JavaOne, ROOTCON, and dozens more — covering adversarial AI, autonomous SOC architecture, offensive security research, zero knowledge computing, multi-party computation, bio-inspired defense, Kubernetes hardening, hardware-rooted identity, complex systems science, and financial systems security. Every talk is backed by published research, working exploits, and production deployments. If your audience needs to be challenged, not just informed, this is the speaker.</p>
     <a href="mailto:stefan@haxx.ninja" class="cta-button">📩 Book a Speaking Engagement</a>
   </div>

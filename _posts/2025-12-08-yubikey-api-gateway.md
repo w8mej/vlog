@@ -6,7 +6,7 @@ categories: ["Hardware Security", "API Gateway", "Zero-Trust Architecture", "Yub
 excerpt: We've been thinking about API keys all wrong. What if the secret to unbreakable authentication isn't stored anywhere at all?
 ---
 
-# 5 Mind-Bending Ways Hardware Security Keys Are Revolutionizing API Authentication
+## 5 Mind-Bending Ways Hardware Security Keys Are Revolutionizing API Authentication
 
 ## The Problem We've Been Ignoring
 

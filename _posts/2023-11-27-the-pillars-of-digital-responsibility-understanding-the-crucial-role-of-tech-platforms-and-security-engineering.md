@@ -5,7 +5,7 @@ date: 2023-11-27
 categories: ["Cybersecurity", "Tech Literacy", "Security Awareness", "Digital Security", "Security Engineering", "User Education", "Media Literacy", "Cyber Threats", "Digital Ecosystem", "Digital Citizenship", "Continuous Education", "Tech Awareness"]
 excerpt: In the rapidly evolving digital landscape, where technology deeply permeates every facet of our lives, the importance of tech literacy and security awareness cannot be overstressed.
 ---
-<img src="/images/DALL%C2%B7E+2023-11-15+15.48.42+-+A+conceptual+artwork+representing+the+theme+%27Securing+the+Digital+Frontier_+The+Essential+Role+of+Education+in+Tech+Literacy+and+Security+Awareness%27.+.png.avif" alt="" width="1024" height="1024">
+<img src="/images/DALL%C2%B7E+2023-11-15+15.48.42+-+A+conceptual+artwork+representing+the+theme+%27Securing+the+Digital+Frontier_+The+Essential+Role+of+Education+in+Tech+Literacy+and+Security+Awareness%27.+.png.avif" alt="Conceptual artwork: Securing the Digital Frontier - Education in Tech Literacy and Security Awareness" width="1024" height="1024">
 
 ## **Introduction: Why Your Digital Savvy Matters More Than Ever**
 

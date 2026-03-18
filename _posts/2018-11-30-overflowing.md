@@ -28,19 +28,19 @@ by MITRE with the top 3 being included in the [MITRE Sans Top
 They all lead to arbitrary access of memory outside the intended boundaries.
 This is also known as Overflow.
 
-# Memory Overflow Explained
+## Memory Overflow Explained
 
 Imagine the program uses two variables `a` and `b`. The contents and length of
 variable `b` are controlled by the user. The variable memory locations are
 represented in the simplistic example below. Each variable is intended to
 store 3 characters. At first variable `a` contains the string “**Hi!”**.
 
-<img src="/images/1.png.avif" alt="" width="709" height="371">
+<img src="/images/1.png.avif" alt="Stack overflow memory layout" width="709" height="371">
 
 If the user enters the string `AAAAA` (5 As) for variable `b` the following
 will happen.
 
-<img src="/images/2.png.avif" alt="" width="399" height="189">
+<img src="/images/2.png.avif" alt="Buffer overflow exploit payload" width="399" height="189">
 
 Variable `b` only had 3 locations reserved for its value plus one for the
 string terminator `\0` . By entering 5 characters the user is now writing into
@@ -69,13 +69,13 @@ In the example below we have two different code snippets that both read a
 password from the standard input. Can you spot the one that allows Buffer
 Overflow because it does not check the size of the input?
 
-<img src="/images/3.png.avif" alt="" width="2302" height="1108">
+<img src="/images/3.png.avif" alt="Memory corruption visualization" width="2302" height="1108">
 
 If you identified `bottom.cpp` as the vulnerable code you were correct. The
 top example, is making use of `fgets` and it restricts the number of
 characters to **9**.
 
-# Incorrect Calculation of Buffer Size
+## Incorrect Calculation of Buffer Size
 
 Some of our keen readers may have noticed that if the size of `userPass` is
 less than 9, then overflow will still occur.
@@ -86,7 +86,7 @@ attention during code review to the code checking boundaries, can prevent this
 type of flaw. Let’s take a look at the example below and see if we can spot
 the vulnerable code.
 
-<img src="/images/4.png.avif" alt="" width="482" height="345">
+<img src="/images/4.png.avif" alt="Return address overwrite diagram" width="482" height="345">
 
 If you identified `bottom.cpp` as the vulnerable code you were correct. The
 top example, is making use of the constant `BUFFER_SIZE` to ensure
@@ -94,18 +94,18 @@ consistency. Besides being a safer option the code is also easier to maintain
 if the constant value must be modified in the future. Many secure coding
 practices have other benefits besides security.
 
-# Off-by-one
+## Off-by-one
 
 Off-by-one is another variation of buffer size flaw. This type of programming
 mistake is introduced when employing comparison operators. A simple extra
 equal sign, for example using`<=` instead of`<` can lead to the program
 crashing. Let’s take a look at an example. Can you spot the vulnerable code?
 
-<img src="/images/5.png.avif" alt="" width="2176" height="1094">
+<img src="/images/5.png.avif" alt="Shellcode injection point" width="2176" height="1094">
 
 If you spotted the error in `top.cpp` you are correct.
 
-# Memory Injection?
+## Memory Injection?
 
 **Format String Injection  **is a type of vulnerability caused by
 concatenating or using user input in a format parameter. Code that logs user
@@ -115,7 +115,7 @@ type of vulnerability.
 Take for example the snippets below. Can you spot which of the two snippets
 allows the user to control the format string?
 
-<img src="/images/6.png.avif" alt="" width="2258" height="1214">
+<img src="/images/6.png.avif" alt="Stack canary protection bypass" width="2258" height="1214">
 
 If you identified `top.cpp` as the code that allows **Format String
 Injection**  you were correct. If the user includes `%d` or `%p` in the
@@ -128,7 +128,7 @@ snippets :) . Did you spot them? One is the use of `printf`, a dangerous
 function as mentioned earlier in the article. It’s also a bad practice to
 display the user password.
 
-# Compiler Flags
+## Compiler Flags
 
 This is not really a code review item but is worth mentioning because is a
 countermeasure that can be applied at build time to prevent the exploitation
@@ -144,7 +144,7 @@ main effect of compiler flags is reducing the impact of the attack. The best
 defence is to prevent the flaws in the code, from the start, by employing the
 best practices discussed in this article.
 
-# To sum it all up…
+## To sum it all up…
 
   * **Safer functions** allow limiting the number of bytes read into the buffer
 

@@ -5,8 +5,7 @@ date: 2012-05-15
 categories: ["PHP programming", "learning PHP", "PHP security", "PHP tools", "community support", "PHP Hammer of Justice", "safe mode", "suhosin", "web development humor", "security best practices"]
 excerpt: I love programming in PHP.  Fairly simple to learn, easy to code, plenty of tools available, and great community.  However, due to the language's inherent behaviour, PHP has many security pitfalls.
 ---
-![](/images/image-
-asset.jpeg)
+![A humorous illustration of a hammer labeled 'PHP Hammer of Justice' for fixing bugs in production](/images/image-asset.jpeg)
 
 I love programming in PHP.  Fairly simple to learn, easy to code, plenty of
 tools available, and great community.  However, due to the language's inherent

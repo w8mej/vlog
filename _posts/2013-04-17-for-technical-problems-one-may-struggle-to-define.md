@@ -17,7 +17,7 @@ pattern recognition.
 
 View fullsize
 
-<img src="/images/1-s2.0-S0031320312002439-gr9.jpg" alt="" width="318" height="244">
+<img src="/images/1-s2.0-S0031320312002439-gr9.jpg" alt="Technical problem definition flowchart" width="318" height="244">
 
 Evolvable hardware techniques have important advantages over neural networks.
 Hardware is really fast and are more easily understood / implemented than

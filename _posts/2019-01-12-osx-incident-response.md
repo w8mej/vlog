@@ -5,7 +5,7 @@ date: 2019-01-12
 categories: ["MacOS", "Threat Hunting", "Malware Detection", "EDR", "Persistence Mechanisms", "Open Ports", "Processes", "File System", "Network Configuration", "Forensics", "Incident Response"]
 excerpt: How you go about hunting down malware on a macOS endpoint depends a great deal on what access you have to the device and
 ---
-# Gathering Information about the Mac
+## Gathering Information about the Mac
 
 How you go about hunting down malware on a macOS endpoint depends a great deal
 on what access you have to the device and what kind of software is currently

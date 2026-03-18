@@ -36,11 +36,11 @@
 {% endif %}
 
 {% if page.image %}
-<meta property="og:image" content="{{ site.url }}{{ page.image }}"/>
-<meta name="twitter:image" content="{{ site.url }}{{ page.image }}"/>
+<meta property="og:image" content="{{ site.url }}{{ page.image | replace: '.avif', '' }}"/>
+<meta name="twitter:image" content="{{ site.url }}{{ page.image | replace: '.avif', '' }}"/>
 {% else %}
-<meta property="og:image" content="{{ site.url }}{{ site.avatar }}"/>
-<meta name="twitter:image" content="{{ site.url }}{{ site.avatar }}"/>
+<meta property="og:image" content="{{ site.url }}/images/JohnMenerick.webp"/>
+<meta name="twitter:image" content="{{ site.url }}/images/JohnMenerick.webp"/>
 {% endif %}
 <meta property="og:image:width" content="1200"/>
 <meta property="og:image:height" content="630"/>
@@ -579,7 +579,7 @@
 {% elsif page.url == '/casting/' %}
             ,{ "@type": "ListItem", "position": {{ b_pos }}, "name": "Casting", "item": "{{ site.url }}/casting" }
 {% elsif page.url == '/kudos/' %}
-            ,{ "@type": "ListItem", "position": {{ b_pos }}, "name": "Kudos", "item": "{{ site.url }}/kudos" }
+            ,{ "@type": "ListItem", "position": {{ b_pos }}, "name": "Kudos", "item": "{{ site.url }}/kudos/" }
 {% elsif page.url == '/tech_posts/' %}
             ,{ "@type": "ListItem", "position": {{ b_pos }}, "name": "Vault", "item": "{{ site.url }}/tech_posts" }
 {% elsif page.layout == 'post' or page.layout == 'tech_post' %}
@@ -600,7 +600,7 @@
             ,{
               "@type": "ListItem",
               "position": {{ b_pos }},
-              "name": {{ page.title | default: 'Page' | jsonify }},
+              "name": {{ page.title | remove: 'sts:' | jsonify }},
               "item": "{{ site.url }}{{ page.url }}"
             }
 {% endif %}

@@ -66,10 +66,10 @@ Every detection, score, and action is:
 
 Example high level global architecture
 
-<img src="/images/20.png" alt="" width="1536" height="1024">
+<img src="/images/20.png" alt="Infrastructure cost comparison chart" width="1536" height="1024">
 
 A different sandbox architecture
-<img src="/images/21.png" alt="" width="1024" height="1536">
+<img src="/images/21.png" alt="Cloud spend optimization roadmap" width="1024" height="1536">
 
 ---
 

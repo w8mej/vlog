@@ -8,6 +8,6 @@ published: false
 ---
 Because it wasn't giving him enough space!
 
-<img src="/images/_1700977389.3802948.txt.png.avif" alt="" width="1024" height="1792">
+<img src="/images/_1700977389.3802948.txt.png.avif" alt="Conceptual artwork: Hacker choosing coffee over tea" width="1024" height="1792">
 
 

@@ -13,7 +13,7 @@ For example imagine someone’s name is **O’Brien**. The single quote in**
 O’Brien**happens to also be part of SQL command syntax. For example a website
 may perform a database record search like this:
 
-<img src="/images/simple.png.avif" alt="" width="1880" height="320">
+<img src="/images/simple.png.avif" alt="SQL query vulnerable to injection due to unescaped single quote" width="1880" height="320">
 
 Notice that the single quote in the name O’Brien is causing a syntax error.
 The SQL command processor considers the string ends with **O**  and the rest,
@@ -22,7 +22,7 @@ The SQL command processor considers the string ends with **O**  and the rest,
 In order to work around this problem one must escape the single quote with a
 another single quote like in the image below.
 
-<img src="/images/simple2.png.avif" alt="" width="1876" height="282">
+<img src="/images/simple2.png.avif" alt="SQL query with manually escaped single quote" width="1876" height="282">
 
 However when this query is executed by a program, things look different. The
 name would be read from a variable and the database query would be constructed
@@ -30,7 +30,7 @@ dynamically.
 
 Let’s take a look at the following code snippet.
 
-<img src="/images/simple3.png.avif" alt="" width="2000" height="403">
+<img src="/images/simple3.png.avif" alt="Vulnerable code snippet concatenating user input into an SQL query" width="2000" height="403">
 
 The variable **lastName  **contains input coming from the user. It is
 concatenated to a constant SQL query string and the resulting command is
@@ -41,18 +41,18 @@ a user entering **O’Brien**  would cause an SQL syntax error, which is a bug.
 However a malicious user would take advantage of this behaviour. What would
 happen if the user entered something like the string below?
 
-<img src="/images/simple4.png.avif" alt="" width="600" height="73">
+<img src="/images/simple4.png.avif" alt="Malicious input string designed for SQL injection" width="600" height="73">
 
 The SQL query being passed to the database would end up being two different
 commands. One selects all users in the database, while the other deletes the
 users table.
 
-<img src="/images/simple5.png.avif" alt="" width="800" height="38">
+<img src="/images/simple5.png.avif" alt="Resulting injected SQL query showing multiple commands" width="800" height="38">
 
 If these concepts are new to you, now you can finally enjoy this old hacker
 joke about little Bobby Tables.
 
-<img src="/images/simple6.png.avif" alt="" width="666" height="205">
+<img src="/images/simple6.png.avif" alt="Little Bobby Tables XKCD comic about SQL injection" width="666" height="205">
 
 Preventing Injection
 
@@ -64,7 +64,7 @@ Injection is done with single quotes.
 In the example below Injection takes advantage of an un-sanitized **ORDER BY**
 parameter:
 
-<img src="/images/simple7.png.avif" alt="" width="1642" height="110">
+<img src="/images/simple7.png.avif" alt="SQL injection vulnerability in ORDER BY clause" width="1642" height="110">
 
 In this case **Input Validation**  could be employed because column names
 should be alphanumeric however this leads to a more complex defence strategy
@@ -75,7 +75,7 @@ the **ORDER BY  **section and **Escaping**  for values going into the
 There is however a simpler way. **Do not use concatenation at all**. This
 approach also holds true for other Injection scenarios like Command Injection.
 
-<img src="/images/simple8.png.avif" alt="" width="2000" height="1057">
+<img src="/images/simple8.png.avif" alt="Diagram showing various injection scenarios" width="2000" height="1057">
 
 This is a scenario where we can employ [Occam’s
 Razor](https://simple.wikipedia.org/wiki/Occam%27s_razor) to identify the
@@ -86,13 +86,13 @@ using **Parameterized Statements.**
 the variables from the SQL query, thus effectively neutralizing characters
 that may influence the query.
 
-<img src="/images/simple9.png.avif" alt="" width="1556" height="532">
+<img src="/images/simple9.png.avif" alt="Separation of variables from SQL query using parameterized statements" width="1556" height="532">
 
 In Java this can be achieved by using a **Prepared Statement  **as per the
 example below**.  **The question mark in the query string at line 3 is a
 placeholder for the parameter value.
 
-<img src="/images/simple10.png.avif" alt="" width="2000" height="521">
+<img src="/images/simple10.png.avif" alt="Java Prepared Statement example using placeholders" width="2000" height="521">
 
 When dealing with OS Commands, is best to avoid them completely and write the
 equivalent functionality in your programming language of choice. For example
@@ -102,7 +102,7 @@ cases there’s no choice and the code must **“Shell Out”**. For those
 situations the equivalent of a **Prepared Statement  **is passing command line
 arguments as a separate array, thus avoiding concatenation.
 
-<img src="/images/simple11.png.avif" alt="" width="2000" height="185">
+<img src="/images/simple11.png.avif" alt="Secure command execution using array-based arguments in Java" width="2000" height="185">
 
 # Object-Relational Mapping (ORM)
 
@@ -112,12 +112,12 @@ Instead of working with the **users**  table developers would work with a
 users collection and execute a method on that collection to return the
 corresponding record.
 
-<img src="/images/simple12.png.avif" alt="" width="1820" height="348">
+<img src="/images/simple12.png.avif" alt="ORM framework abstraction of SQL queries into objects" width="1820" height="348">
 
 Under the covers the framework would perform a transformation similar to the
 diagram below.
 
-<img src="/images/simple13.png.avif" alt="" width="2000" height="443">
+<img src="/images/simple13.png.avif" alt="Diagram of ORM transforming object methods into parameterized SQL" width="2000" height="443">
 
 # Caution
 

@@ -5,7 +5,7 @@ date: 2018-09-08
 categories: ["CIA Triad", "Confidentiality", "Data Protection", "Data Security", "Cryptography", "Secure Coding", "Code Review", "Injection Flaws", "Encryption", "Hashing", "Tokenization"]
 excerpt: The number of user records exposed in the United States has been in the billions in 2016 and 2017. 2018 will likely be the same, once the final tally is calculated.
 ---
-# CIA Triad
+## CIA Triad
 
 Users entrust developers with their data. To earn and maintain their trust, we
 must employ security controls that protect data from unauthorized access.
@@ -34,7 +34,7 @@ Injection flaws in one of the [previous
 articles](https://medium.com/@paul_io/security-code-review-101-parameterized-
 statements-df95c264364a) in this series.
 
-# Spotting Data Breaches During Code Review
+## Spotting Data Breaches During Code Review
 
 Besides vulnerabilities in 3rd party components, there are programming flaws
 that specifically involve storage and transmission of data and they may be
@@ -51,7 +51,7 @@ prevented during code review. They are as follows:
 We will review a few examples of these flaws and how they can be prevented
 through software security best practices.
 
-# Uniquely Identifying Data Without Knowing the Data
+## Uniquely Identifying Data Without Knowing the Data
 
 One of the strongest countermeasures that can be employed to prevent data
 breaches is not storing the data at all.
@@ -90,7 +90,7 @@ largely adopted adaptive hashing algorithm is
 Let’s take a look at the following code snippets. Can you spot the security
 flaw?
 
-<img src="/images/1.png.avif" alt="" width="709" height="371">
+<img src="/images/1.png.avif" alt="PII detection logic code snippet" width="709" height="371">
 
 If you identified the top example as being flawed you were correct. The top
 example requires the user password stored as is. The bottom application is
@@ -109,7 +109,7 @@ reverse. However if the database contains user names and IPs and if the user
 names are actual e-mails (a practice employed by many sites), then e-mails
 will be sold on the dark web to be used for phishing and spam campaigns.
 
-# Securing the Transmission of Data
+## Securing the Transmission of Data
 
 Hashing can be an effective way to secure the data, but what if the attacker
 is able to intercept the data before it is transformed? What if they can
@@ -140,7 +140,7 @@ up during a code review. This is using `http**s** ://` URLs.
 Let’s take a look at a code example. Can you spot the code that transmits data
 insecurely?
 
-<img src="/images/2.png.avif" alt="" width="399" height="189">
+<img src="/images/2.png.avif" alt="PII extraction regex example" width="399" height="189">
 
 If you identified the bottom example as insecure you were correct. Notice that
 the URL is prefixed with `http://` meaning that the data is transmitted in
@@ -159,7 +159,7 @@ they are the target website. It is recommended to configure the development
 environment to trust the test certificate instead of altering the program
 behaviour.
 
-# Reversible Encryption
+## Reversible Encryption
 
 What if you must be able to work with the user data in clear text? For
 example, you operate an online shopping or other financial site and must store
@@ -191,7 +191,7 @@ data is trivial. This scenario is similar to _hiding a key under the mat._
 Let’s take a look at some code examples written in Node.js. Can you identify
 the vulnerable snippet?
 
-<img src="/images/3.png.avif" alt="" width="2302" height="1108">
+<img src="/images/3.png.avif" alt="PII data masking result" width="2302" height="1108">
 
 If you identified the top example you are correct. The top example is storing
 the customer personal financial information in a AWS S3 bucket. S3 buckets
@@ -199,7 +199,7 @@ have notoriously been exposed to data breaches in the past years. While S3
 offers data encryption capabilities, this configuration may not be enabled and
 it does not protect from all types of attacks.
 
-# To sum it all up
+## To sum it all up
 
 Some key takeaways from this article:
 

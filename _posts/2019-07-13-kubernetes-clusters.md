@@ -11,7 +11,7 @@ billion.  Below is a rough ecosystem image.
 
 View fullsize
 
-<img src="/images/CloudNativeRoadmap.png.avif" alt="" width="2500" height="1371">
+<img src="/images/CloudNativeRoadmap.png.avif" alt="Cloud Native Computing Foundation (CNCF) ecosystem roadmap diagram" width="2500" height="1371">
 
 
 

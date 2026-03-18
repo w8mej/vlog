@@ -7,7 +7,7 @@ permalink: /series/
 
 <article class="series-hub">
   <header class="series-hub__header">
-    <h1>Series</h1>
+    <h2>Series</h2>
     <p class="series-hub__lead">Deep-dive collections on the ideas reshaping how we think about and build security. Each series pairs original research, long-form posts, and companion materials—podcasts, whitepapers, infographics—into a coherent arc you can follow start to finish.</p>
   </header>
 

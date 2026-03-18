@@ -18,25 +18,25 @@ building blocks. The typical architecture is akin to;
 
   
 
-<img src="/images/kubes.png.avif" alt="" width="730" height="480">
+<img src="/images/kubes.png.avif" alt="Kubernetes cluster security boundaries" width="730" height="480">
 
-<img src="/images/k8s.png.avif" alt="" width="804" height="571">
+<img src="/images/k8s.png.avif" alt="K8s API server threat model" width="804" height="571">
 
   
 
 Which could run on assets like a Raspberry PI (ARM) cluster
 
-<img src="/images/432.jpg" alt="" width="900" height="600">
+<img src="/images/432.jpg" alt="Cloud native security stack diagram" width="900" height="600">
 
 or transform workloads into pods that evaporate in the cloud when terminated
 
   
 
-<img src="/images/4321.png.avif" alt="" width="1500" height="844">
+<img src="/images/4321.png.avif" alt="Kubernetes network policy visualization" width="1500" height="844">
 
   
 
-<img src="/images/543.png.avif" alt="" width="1604" height="1280">
+<img src="/images/543.png.avif" alt="Container breakout exploit flow" width="1604" height="1280">
 
   
   
@@ -44,7 +44,7 @@ or transform workloads into pods that evaporate in the cloud when terminated
   
   
 
-<img src="/images/123.png.avif" alt="" width="1000" height="643">
+<img src="/images/123.png.avif" alt="Kubernetes RBAC configuration example" width="1000" height="643">
 
   
   

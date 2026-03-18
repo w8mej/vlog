@@ -82,30 +82,6 @@ Second, there is a massive velocity gap caused by an underinvestment in the "eng
 
 Finally, we fail to treat technical security as a high-concurrency distributed systems problem. To survive the acceleration, security can't be a gate; it has to be a set of algorithmic guarantees. You need systems that provide consistency and graceful degradation under fire, effectively creating a defensive "OODA loop" that can programmatically outpace the adversary's evolution.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do you apply complex systems theory to security engineering?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Threat landscapes are nonlinear. I use Ashby's Law of Requisite Variety to ensure defensive systems match the adaptive capacity of threats. This means detection pipelines with self-tuning feedback loops, architectures where failure doesn't cascade, and security operations treated as a living system."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What's missing from how most organizations approach security engineering today?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Three things. First, optimizing for compliance rather than resilience while threat actors compress the attack lifecycle with AI. Second, underinvestment in the engineering of security engineering — static tools against a fluid landscape. Third, failing to treat security as a distributed systems problem requiring consistency guarantees, fault tolerance, and graceful degradation."
-      }
-    }
-  ]
-}
-</script>
 
 ---
 

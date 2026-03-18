@@ -87,14 +87,9 @@
           "@type": "WebSite",
           "@id": "{{ site.url }}#website",
           "url": "{{ site.url }}",
-          "name": "{{ site.name }}",
-          "description": "{{ site.description }}",
-          "about": {
-            "@id": "{{ site.url }}#john-menerick"
-          },
-          "publisher": {
-            "@id": "{{ site.url }}#securesql"
-          },
+          "name": {{ site.name | jsonify }},
+          "description": {{ site.description | jsonify }},
+          "publisher": { "@id": "{{ site.url }}#securesql" },
           "inLanguage": "en",
           "potentialAction": {
             "@type": "SearchAction",
@@ -103,25 +98,25 @@
           }
         },
         {
-          "@type": "{% if page.url == '/about/' %}ProfilePage{% elsif page.layout == 'page' and page.url != '/services/' and page.url != '/' and page.url != '/search/' and page.url != '/casting/' %}CollectionPage{% else %}WebPage{% endif %}",
+          "@type": "{% if page.url == '/about/' %}ProfilePage{% elsif page.layout == 'page' and page.url != '/' and page.url != '/search/' and page.url != '/casting/' %}CollectionPage{% else %}WebPage{% endif %}",
           "@id": "{{ site.url }}{{ page.url }}",
           "url": "{{ site.url }}{{ page.url }}",
-          "name": "{% if page.title %}{{ page.title }} – {{ site.name }}{% else %}{{ site.name }}{% endif %}",
-          "description": "{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}",
-          "isPartOf": {
-            "@id": "{{ site.url }}#website"
-          },
-          "about": {
-            "@id": "{{ site.url }}#john-menerick"
-          },
-          "publisher": {
-            "@id": "{{ site.url }}#securesql"
-          },
+          "name": {% if page.title %}{{ page.title | append: ' – ' | append: site.name | jsonify }}{% else %}{{ site.name | jsonify }}{% endif %},
+          "description": {% if page.description %}{{ page.description | jsonify }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 | jsonify }}{% else %}{{ site.description | jsonify }}{% endif %},
+          "isPartOf": { "@id": "{{ site.url }}#website" },
+          "about": { "@id": "{{ site.url }}#john-menerick" },
+          "publisher": { "@id": "{{ site.url }}#securesql" },
           "inLanguage": "en",
           "primaryImageOfPage": {
             "@type": "ImageObject",
             "url": "{{ site.url }}{% if page.image %}{{ page.image }}{% else %}{{ site.avatar }}{% endif %}"
           }
+          {% if page.url == '/' or page.url == '/about/' %}
+          ,"speakable": {
+            "@type": "SpeakableSpecification",
+            "cssSelector": ["h1", ".entry", ".site-description"]
+          }
+          {% endif %}
         },
         {
           "@type": "Person",
@@ -132,67 +127,16 @@
           "jobTitle": "Security Engineer",
           "url": "{{ site.url }}",
           "image": "{{ site.url }}/images/JohnMenerickfunsized.gif",
-          "description": "John Menerick is a Security Engineer specializing in detection and response, zero trust architecture, and trusted AI compute. With over a decade of experience, he helps organizations manage threats through scalable defenses. He holds an Amateur Extra Class License (W8MEJ) from the FCC.",
-          "identifier": [
-            {
-              "@type": "PropertyValue",
-              "name": "FCC Call Sign",
-              "value": "W8MEJ"
-            }
-          ],
-          "worksFor": {
-            "@id": "{{ site.url }}#securesql"
-          },
-          "hasOccupation": {
-            "@type": "Occupation",
-            "name": "Security Engineer",
-            "occupationalCategory": "15-1212",
-            "description": "Performs applied security engineering in cloud infrastructures, AI systems, and distributed systems, with a focus on detection engineering and zero knowledge."
-          },
-          "skills": [
-            "Detection Engineering",
-            "Incident Response",
-            "Threat Hunting",
-            "Zero Trust Architecture",
-            "Cloud Security (AWS, GCP, OCI)",
-            "Confidential Computing",
-            "Trusted Execution Environments",
-            "Multi-Party Computation (MPC)",
-            "Zero-Knowledge Proof Systems",
-            "Machine Learning Security",
-            "DevSecOps",
-            "Vulnerability Management"
-          ],
+          "description": "John Menerick is a Security Engineer specializing in detection and response, zero trust architecture, and trusted AI compute. He applies complex systems science to engineer resilient security architectures.",
           "knowsAbout": [
-            "Information Security",
-            "Security Engineering",
-            "Threat Detection",
-            "AI and ML Security",
-            "Distributed Systems",
-            "PKI and Hardware Security Keys",
-            "SIEM and Telemetry Pipelines",
-            "Zero Trust Networking",
-            "Offensive Security Research",
-            "Ham Radio and RF Systems"
-          ],
-          "hasCredential": [
-            {
-              "@type": "EducationalOccupationalCredential",
-              "name": "Amateur Extra Class License",
-              "credentialCategory": "Professional",
-              "identifier": "W8MEJ",
-              "recognizedBy": {
-                "@type": "Organization",
-                "name": "Federal Communications Commission",
-                "url": "https://www.fcc.gov"
-              }
-            }
-          ],
-          "award": [
-            "Recognized for applied research in trusted AI compute and large-scale detection engineering",
-            "Known for hands-on leadership in zero trust and incident response programs"
+            "Detection Engineering", "Incident Response", "Threat Hunting", "Zero Trust Architecture",
+            "Cloud Security (AWS, GCP, OCI)", "Confidential Computing", "Trusted Execution Environments",
+            "Multi-Party Computation (MPC)", "Zero-Knowledge Proof Systems", "Machine Learning Security",
+            "DevSecOps", "Vulnerability Management", "Information Security", "Security Engineering",
+            "Threat Detection", "AI and ML Security", "Distributed Systems", "RF Systems"
           ],
           "sameAs": [
+            "https://www.wikidata.org/wiki/Q138710768",
             "https://linkedin.com/in/w8mej",
             "https://github.com/w8mej",
             "https://haxx.ninja",
@@ -203,14 +147,7 @@
             "https://mastodon.social/@w8mej",
             "https://twitter.com/w8mej"
           ],
-          "contactPoint": [
-            {
-              "@type": "ContactPoint",
-              "contactType": "Business",
-              "email": "jobs@securesql.info"
-            }
-          ],
-          "email": "jobs@securesql.info",
+          "worksFor": { "@id": "{{ site.url }}#securesql" },
           "address": {
             "@type": "PostalAddress",
             "addressLocality": "Castro Valley",
@@ -219,108 +156,6 @@
           }
         },
         {
-          "@type": "Blog",
-          "@id": "{{ site.url }}/blog/",
-          "url": "{{ site.url }}/blog/",
-          "name": "John Menerick's Security Insights",
-          "description": "{{ site.description }}",
-          "author": { "@id": "{{ site.url }}#john-menerick" }
-        },
-{% if page.layout == 'post' or page.layout == 'tech_post' %}
-        {
-          "@type": "BlogPosting",
-          "headline": "{{ page.title }}",
-          "image": "{{ site.url }}{{ page.image | default: site.avatar }}",
-          "author": { "@id": "https://www.securesql.info#john-menerick" },
-          "publisher": {
-            "@type": "Organization",
-            "name": "John Menerick's Security Blog",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "{{ site.url }}{{ site.avatar }}"
-            }
-          },
-          "datePublished": "{{ page.date | date_to_xmlschema }}",
-          "dateModified": "{{ page.modified_date | default: page.date | date_to_xmlschema }}",
-          "mainEntityOfPage": "{{ site.url }}{{ page.url }}",
-          "description": "{{ page.description | default: page.excerpt | strip_html }}",
-          "speakable": {
-            "@type": "SpeakableSpecification",
-            "cssSelector": ["h1", ".entry"]
-          },
-          "articleSection": "{{ page.categories.first | default: page.category | escape }}",
-          "wordCount": "{{ page.content | number_of_words }}"
-{% assign meta_keywords = page.tags | join: ', ' | default: page.keywords | escape %}
-{% if meta_keywords and meta_keywords != "" and meta_keywords != empty %}
-          ,"keywords": "{{ meta_keywords }}"
-{% endif %}
-        },
-{% endif %}
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "{{ site.url }}"
-            }
-{% assign b_pos = 2 %}
-{% if page.category %}
-            ,{
-              "@type": "ListItem",
-              "position": {{ b_pos }},
-              "name": "{{ page.category | capitalize | escape }}",
-              "item": "{{ site.url }}/{{ page.category }}"
-            }
-{% assign b_pos = b_pos | plus: 1 %}
-{% elsif page.categories and page.categories.size > 0 %}
-            ,{
-              "@type": "ListItem",
-              "position": {{ b_pos }},
-              "name": "{{ page.categories.first | capitalize | escape }}",
-              "item": "{{ site.url }}/{{ page.categories.first | slugify }}"
-            }
-{% assign b_pos = b_pos | plus: 1 %}
-{% endif %}
-{% if page.url != '/' and page.url != '/index.html' %}
-            ,{
-              "@type": "ListItem",
-              "position": {{ b_pos }},
-              "name": "{% if page.title %}{{ page.title | escape }}{% else %}Page{% endif %}",
-              "item": "{{ site.url }}{{ page.url }}"
-            }
-{% endif %}
-          ]
-        },
-        {
-          "@type": "ProfessionalService",
-          "@id": "{{ site.url }}/services#consulting",
-          "name": "John Menerick – Information Security Consulting",
-          "url": "{{ site.url }}/services",
-          "description": "Expert consulting in cybersecurity, security engineering, threat detection, vulnerability management, and incident response.",
-          "provider": { "@id": "https://www.securesql.info#john-menerick" },
-          "areaServed": "Global",
-          "additionalType": [
-            "Information Security Consulting",
-            "Cybersecurity",
-            "Incident Response",
-            "Security Engineering"
-          ]
-        }
-{% if page.youtube_id %}
-        ,{
-          "@type": "VideoObject",
-          "name": "{{ page.title | escape }}",
-          "description": "{{ page.description | default: page.excerpt | strip_html | escape }}",
-          "thumbnailUrl": "https://img.youtube.com/vi/{{ page.youtube_id }}/maxresdefault.jpg",
-          "uploadDate": "{{ page.date | date_to_xmlschema }}",
-          "embedUrl": "https://www.youtube.com/embed/{{ page.youtube_id }}",
-          "contentUrl": "https://www.youtube.com/watch?v={{ page.youtube_id }}",
-          "duration": "{{ page.youtube_duration | default: 'PT12M30S' }}"
-        }
-{% endif %}
-        ,{
           "@type": "Organization",
           "@id": "{{ site.url }}#securesql",
           "name": "SecureSQL",
@@ -330,20 +165,124 @@
             "url": "{{ site.url }}{{ site.avatar }}"
           },
           "description": "Expert consulting in cybersecurity, threat detection, and zero trust architectures led by John Menerick.",
-          "founder": {
-            "@id": "{{ site.url }}#john-menerick"
-          },
+          "founder": { "@id": "{{ site.url }}#john-menerick" },
+          "foundingDate": "2005-04",
           "sameAs": [
             "https://linkedin.com/in/w8mej",
             "https://github.com/w8mej",
-            "https://haxx.ninja",
-            "https://dev.to/w8mej",
-            "https://gitlab.com/w8mej",
-            "https://twitch.tv/w8mej",
-            "https://www.youtube.com/channel/UCUfaf6mQgh_cX6V-SaAww1w",
-            "https://mastodon.social/@w8mej",
             "https://twitter.com/w8mej",
             "https://securesql.info"
+          ]
+        }
+{% if page.layout == 'post' or page.layout == 'tech_post' %}
+        ,{
+          "@type": "BlogPosting",
+          "headline": {{ page.title | jsonify }},
+          "image": "{{ site.url }}{{ page.image | default: site.avatar }}",
+          "author": { "@id": "{{ site.url }}#john-menerick" },
+          "publisher": { "@id": "{{ site.url }}#securesql" },
+          "datePublished": "{{ page.date | date_to_xmlschema }}",
+          "dateModified": "{{ page.modified_date | default: page.date | date_to_xmlschema }}",
+          "mainEntityOfPage": "{{ site.url }}{{ page.url }}",
+          "description": {{ page.description | default: page.excerpt | strip_html | truncate: 160 | jsonify }},
+          "speakable": {
+            "@type": "SpeakableSpecification",
+            "cssSelector": ["h1", ".entry"]
+          }
+        }
+{% endif %}
+{% if page.url == '/research/' %}
+        ,{
+          "@type": "SoftwareApplication",
+          "name": "Gyoithon",
+          "applicationCategory": "SecurityApplication",
+          "operatingSystem": "Linux, macOS, Windows",
+          "description": "Gyoithon uses machine learning and deep networking for intelligent penetration testing automation."
+        }
+        ,{
+          "@type": "SoftwareApplication",
+          "name": "IntelMetrics",
+          "applicationCategory": "SecurityApplication",
+          "url": "https://intelmetrics.haxx.ninja",
+          "description": "Global threat intelligence metrics and attribution insights."
+        }
+        ,{
+          "@type": "SoftwareApplication",
+          "name": "VulnMetrics",
+          "applicationCategory": "SecurityApplication",
+          "url": "https://vulnmetrics.haxx.ninja/",
+          "description": "NVD parsing and remediation efficiency metrics."
+        }
+{% endif %}
+{% if page.url == '/about/' %}
+        ,{
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "How do you apply complex systems theory to security engineering?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Threat landscapes are nonlinear. I use Ashby's Law of Requisite Variety to ensure defensive systems match the adaptive capacity of threats."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What's missing from how most organizations approach security engineering today?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Organizations optimize for compliance over resilience, fail to adapt to machine-speed threats, and neglect the distributed systems nature of security."
+              }
+            }
+          ]
+        }
+{% endif %}
+        ,{
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "{{ site.url }}"
+            }
+{% assign b_pos = 2 %}
+{% if page.url == '/about/' %}
+            ,{ "@type": "ListItem", "position": {{ b_pos }}, "name": "About", "item": "{{ site.url }}/about" }
+{% elsif page.url == '/series/' %}
+            ,{ "@type": "ListItem", "position": {{ b_pos }}, "name": "Series", "item": "{{ site.url }}/series" }
+{% elsif page.url == '/research/' %}
+            ,{ "@type": "ListItem", "position": {{ b_pos }}, "name": "Research", "item": "{{ site.url }}/research" }
+{% elsif page.url == '/speaking/' %}
+            ,{ "@type": "ListItem", "position": {{ b_pos }}, "name": "Speaking", "item": "{{ site.url }}/speaking" }
+{% elsif page.url == '/blog/' %}
+            ,{ "@type": "ListItem", "position": {{ b_pos }}, "name": "Blog", "item": "{{ site.url }}/blog" }
+{% elsif page.url == '/casting/' %}
+            ,{ "@type": "ListItem", "position": {{ b_pos }}, "name": "Casting", "item": "{{ site.url }}/casting" }
+{% elsif page.url == '/tech_posts/' %}
+            ,{ "@type": "ListItem", "position": {{ b_pos }}, "name": "Vault", "item": "{{ site.url }}/tech_posts" }
+{% elsif page.layout == 'post' or page.layout == 'tech_post' %}
+            ,{
+              "@type": "ListItem",
+              "position": {{ b_pos }},
+              "name": "{% if page.layout == 'post' %}Blog{% else %}Vault{% endif %}",
+              "item": "{{ site.url }}{% if page.layout == 'post' %}/blog{% else %}/tech_posts{% endif %}"
+            }
+            {% assign b_pos = b_pos | plus: 1 %}
+            ,{
+              "@type": "ListItem",
+              "position": {{ b_pos }},
+              "name": {{ page.title | jsonify }},
+              "item": "{{ site.url }}{{ page.url }}"
+            }
+{% elsif page.url != '/' and page.url != '/index.html' %}
+            ,{
+              "@type": "ListItem",
+              "position": {{ b_pos }},
+              "name": {{ page.title | default: 'Page' | jsonify }},
+              "item": "{{ site.url }}{{ page.url }}"
+            }
+{% endif %}
           ]
         }
       ]

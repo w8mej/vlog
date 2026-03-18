@@ -139,6 +139,7 @@ description: "Explore John Menerick's public security research, including threat
 
 </div>
 
+<!--
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -167,3 +168,4 @@ description: "Explore John Menerick's public security research, including threat
   ]
 }
 </script>
+-->

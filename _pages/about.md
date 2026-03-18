@@ -1,6 +1,6 @@
 ---
 layout: page
-title: sts:GetCallerIdentity
+title: "About John Menerick"
 permalink: /about/
 description: "John Menerick is a Security Engineer and complex systems practitioner with 11+ years in information security. Specializing in application security, secure architecture, detection engineering, zero trust, cryptographic engineering, and trusted AI compute."
 ---

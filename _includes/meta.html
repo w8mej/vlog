@@ -132,7 +132,7 @@
         },
         {
           "@type": "Person",
-          "@id": "{{ site.url }}#john-menerick",
+          "@id": "https://www.securesql.info#john-menerick",
           "name": "John Menerick",
           "alternateName": "W8MEJ",
           "headline": "Security Engineer | Detection & Response | Zero Trust & Trusted AI Compute",
@@ -159,7 +159,7 @@
             "https://mastodon.social/@w8mej",
             "https://twitter.com/w8mej"
           ],
-          "worksFor": { "@id": "{{ site.url }}#securesql" },
+          "worksFor": { "@id": "https://www.securesql.info#securesql" },
           "address": {
             "@type": "PostalAddress",
             "addressLocality": "Castro Valley",
@@ -201,7 +201,7 @@
         },
         {
           "@type": "Organization",
-          "@id": "{{ site.url }}#securesql",
+          "@id": "https://www.securesql.info#securesql",
           "name": "SecureSQL",
           "url": "{{ site.url }}",
           "logo": {
@@ -215,24 +215,48 @@
             "https://linkedin.com/in/w8mej",
             "https://github.com/w8mej",
             "https://twitter.com/w8mej",
-            "https://securesql.info"
+            "https://www.securesql.info",
+            "https://www.wikidata.org/wiki/Q138710768",
+            "https://haxx.ninja",
+            "https://dev.to/w8mej",
+            "https://gitlab.com/w8mej",
+            "https://twitch.tv/w8mej",
+            "https://www.youtube.com/channel/UCUfaf6mQgh_cX6V-SaAww1w",
+            "https://mastodon.social/@w8mej"
           ]
         }
-{% if page.layout == 'post' or page.layout == 'tech_post' %}
+{% if page.layout == 'post' or page.layout == 'tech_post' or page.layout == 'page' and page.url contains '/posts/' %}
         ,{
           "@type": "BlogPosting",
+          "@id": "{{ site.url }}{{ page.url }}#article",
           "headline": {{ page.title | jsonify }},
           "image": "{{ site.url }}{{ page.image | default: site.avatar }}",
           "author": { "@id": "{{ site.url }}#john-menerick" },
           "publisher": { "@id": "{{ site.url }}#securesql" },
           "datePublished": "{{ page.date | date_to_xmlschema }}",
           "dateModified": "{{ page.modified_date | default: page.date | date_to_xmlschema }}",
-          "mainEntityOfPage": "{{ site.url }}{{ page.url }}",
+          "mainEntityOfPage": { "@id": "{{ site.url }}{{ page.url }}" },
+          "about": { "@id": "https://www.securesql.info#john-menerick" },
+          "articleSection": {{ page.categories[0] | jsonify }},
+          "keywords": {{ page.categories | join: ', ' | jsonify }},
+          "wordCount": "{{ page.content | number_of_words }}",
           "description": {{ page.description | default: page.excerpt | strip_html | truncate: 160 | jsonify }},
           "speakable": {
             "@type": "SpeakableSpecification",
             "cssSelector": ["h1", ".entry"]
           }
+        }
+{% endif %}
+{% if page.video_url %}
+        ,{
+          "@type": "VideoObject",
+          "name": {{ page.title | jsonify }},
+          "description": {{ page.description | default: page.excerpt | strip_html | truncate: 160 | jsonify }},
+          "thumbnailUrl": "{{ site.url }}{{ site.avatar }}",
+          "contentUrl": "{{ page.video_url }}",
+          "embedUrl": "{{ page.video_url | replace: 'watch?v=', 'embed/' }}",
+          "uploadDate": "{{ page.date | date_to_xmlschema }}",
+          "author": { "@id": "{{ site.url }}#john-menerick" }
         }
 {% endif %}
 {% if page.url == '/research/' %}
@@ -259,6 +283,74 @@
         }
 {% endif %}
 {% if page.url == '/speaking/' %}
+        ,{
+          "@type": "Event",
+          "name": "JavaOne: Java Security",
+          "startDate": "2003-06-10",
+          "location": {
+            "@type": "Place",
+            "name": "Moscone Center",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "San Francisco",
+              "addressRegion": "CA",
+              "addressCountry": "US"
+            }
+          },
+          "performer": { "@id": "{{ site.url }}#john-menerick" },
+          "description": "A deep dive into Java-based security architectures and vulnerabilities."
+        }
+        ,{
+          "@type": "Event",
+          "name": "Stanford University: Complex Systems Engineering Limitations",
+          "startDate": "2003-11-15",
+          "location": {
+            "@type": "Place",
+            "name": "Stanford University",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Stanford",
+              "addressRegion": "CA",
+              "addressCountry": "US"
+            }
+          },
+          "performer": { "@id": "{{ site.url }}#john-menerick" },
+          "description": "Lecture on the mathematical and practical limitations of engineering complex adaptive systems."
+        }
+        ,{
+          "@type": "Event",
+          "name": "GrrCON: Backdooring Git",
+          "startDate": "2015-10-08",
+          "location": {
+            "@type": "Place",
+            "name": "DeVos Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Grand Rapids",
+              "addressRegion": "MI",
+              "addressCountry": "US"
+            }
+          },
+          "performer": { "@id": "{{ site.url }}#john-menerick" },
+          "description": "Supply chain security hazards in Git internals presented at GrrCON."
+        }
+        ,{
+          "@type": "Event",
+          "name": "DerbyCon: Backdooring Git",
+          "startDate": "2015-09-23",
+          "location": {
+            "@type": "Place",
+            "name": "Hyatt Regency Louisville",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Louisville",
+              "addressRegion": "KY",
+              "addressCountry": "US"
+            }
+          },
+          "performer": { "@id": "{{ site.url }}#john-menerick" },
+          "description": "Offensive security research on the Git supply chain."
+        }
         ,{
           "@type": "Event",
           "name": "DEF CON 22: Open Source Fairy Dust",
@@ -392,6 +484,38 @@
               "acceptedAnswer": {
                 "@type": "Answer",
                 "text": "ZK architecture allows for verifiable security guarantees without exposing sensitive data, moving beyond traditional perimeter-based trust models."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How does your work at DEF CON influence your approach to enterprise security?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The adversarial mindset from the research community (like backdooring Git) reveals the fragility of enterprise tools, forcing me to build defense that assumes compromise."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What role does Physical Layer Network Coding play in secure systems?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Physical Layer Network Coding pushes security and optimization to the edge, allowing for reliable, decentralized communication in high-interference or adversarial environments."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do bio-inspired models like morphogenetic fields apply to network defense?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "By treating network nodes like cells in a developing organism, we can engineer systems that maintain functional homeostasis and regenerate after a breach."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the 'straggler solution' in decentralized MPC?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It leverages Coded-MPC to achieve reliability without redundancy, ensuring that the slowest node (the straggler) doesn't bottleneck the entire decentralized network."
               }
             },
             {

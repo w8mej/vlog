@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Speaking | John Menerick — Security Engineer"
+title: "Speaking"
 description: "John Menerick (Lord_SQL & W8MEJ) speaks at DEF CON, ISC2, Stanford, CCC, ROOTCON, JavaOne, and more — covering adversarial AI, autonomous SOC, offensive security, zero knowledge computing, MPC, systems-inspired defense, cloud-native hardening, and complex systems science."
 permalink: /speaking/
 ---

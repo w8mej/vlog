@@ -111,9 +111,12 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-  - "page*/"
 
 defaults:
+  - scope:
+      path: "page"
+    values:
+      sitemap: false
   - scope:
       path: ""
       type: "pages"

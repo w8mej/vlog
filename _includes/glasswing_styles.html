@@ -223,8 +223,72 @@
 .glasswing-wrapper .tag { font-size: 10px; padding: 2px 8px; border-radius: 10px; background: var(--color-bg-secondary); color: var(--color-text-secondary); border: 0.5px solid var(--color-border); }
 .glasswing-wrapper .byline { font-size: 11px; color: var(--color-text-tertiary); padding-top: 1.25rem; border-top: 0.5px solid var(--color-border); }
 
+/* ── Series intro block ── */
+.glasswing-wrapper .s3-intro-block { margin-bottom: 2rem; }
+.glasswing-wrapper .s3-series-eyebrow { font-size: 11px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--color-text-tertiary); margin-bottom: .5rem; }
+.glasswing-wrapper .s3-series-title { font-size: 32px; font-weight: 600; line-height: 1.2; color: var(--color-text-primary); margin: 0 0 .25rem; }
+.glasswing-wrapper .s3-series-subtitle { font-size: 15px; color: var(--color-text-secondary); margin: 0 0 1rem; }
+.glasswing-wrapper .s3-series-meta { display: flex; flex-wrap: wrap; gap: .75rem; font-size: 12px; color: var(--color-text-tertiary); margin-bottom: 1.25rem; }
+.glasswing-wrapper .s3-lede { font-family: Georgia, "Times New Roman", serif; font-style: italic; line-height: 1.75; font-size: 16px; margin-bottom: 1.25rem; color: var(--color-text-primary); }
+.glasswing-wrapper .s3-season-stats { display: grid; grid-template-columns: repeat(4,1fr); gap: .5rem; margin: 1.5rem 0; }
+.glasswing-wrapper .s3-ss { background: var(--color-bg-secondary); border-radius: 8px; padding: .875rem 1rem; text-align: center; }
+.glasswing-wrapper .s3-ss-num { font-size: 22px; font-weight: 600; color: var(--color-text-primary); line-height: 1; }
+.glasswing-wrapper .s3-ss-sub { font-size: 11px; color: var(--color-text-secondary); margin-top: .3rem; line-height: 1.4; }
+.glasswing-wrapper .s3-hr { border: none; border-top: 0.5px solid var(--color-border); margin: 1.5rem 0; }
+.glasswing-wrapper .s3-section-label { font-size: 10px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--color-text-tertiary); display: block; margin-bottom: .75rem; margin-top: 1.75rem; }
+.glasswing-wrapper .s3-pullquote { border-left: 3px solid var(--purple); padding: .75rem 1.1rem; margin: 1.5rem 0; background: var(--color-bg-secondary); border-radius: 0 8px 8px 0; }
+.glasswing-wrapper .s3-pullquote p { font-family: Georgia, serif; font-style: italic; font-size: 15px; line-height: 1.65; color: var(--color-text-primary); margin: 0; }
+.glasswing-wrapper .s3-pullquote .attr { font-size: 11px; color: var(--color-text-tertiary); margin-top: .4rem; display: block; font-style: normal; }
+.glasswing-wrapper .s3-infobox { background: var(--color-bg-secondary); border-left: 3px solid var(--purple); border-radius: 0 8px 8px 0; padding: .75rem 1rem; margin: 1rem 0; }
+.glasswing-wrapper .s3-infobox p { font-size: 13px; line-height: 1.65; margin: 0; color: var(--color-text-secondary); }
+
+/* ── Episode list ── */
+.glasswing-wrapper .ep-list { display: flex; flex-direction: column; gap: .4rem; }
+.glasswing-wrapper .ep-row { display: grid; grid-template-columns: 52px 1fr auto; border: 0.5px solid var(--color-border); border-radius: 10px; overflow: hidden; background: var(--color-bg); }
+.glasswing-wrapper .ep-row.ep-featured { border-color: var(--purple-mid); border-width: 1px; }
+.glasswing-wrapper .ep-num-cell { background: var(--color-bg-secondary); display: flex; flex-direction: column; align-items: center; justify-content: center; padding: .6rem .4rem; border-right: 0.5px solid var(--color-border-light); }
+.glasswing-wrapper .ep-row.ep-featured .ep-num-cell { background: var(--purple-light); }
+.glasswing-wrapper .ep-num-label { font-size: 10px; text-transform: uppercase; letter-spacing: .06em; color: var(--color-text-tertiary); line-height: 1; margin-bottom: .15rem; font-weight: 600; }
+.glasswing-wrapper .ep-num-val { font-size: 18px; font-weight: 600; color: var(--color-text-secondary); line-height: 1; }
+.glasswing-wrapper .ep-row.ep-featured .ep-num-val { color: var(--purple); }
+.glasswing-wrapper .ep-body-cell { padding: .7rem .9rem; }
+.glasswing-wrapper .ep-title { font-size: 13px; font-weight: 600; color: var(--color-text-primary); margin-bottom: .2rem; line-height: 1.3; }
+.glasswing-wrapper .ep-desc { font-size: 12px; color: var(--color-text-secondary); line-height: 1.5; margin-bottom: .4rem; }
+.glasswing-wrapper .ep-tags-row { display: flex; flex-wrap: wrap; gap: .25rem; }
+.glasswing-wrapper .ep-tag { font-size: 10px; padding: 2px 6px; border-radius: 6px; background: var(--color-bg-secondary); color: var(--color-text-secondary); border: 0.5px solid var(--color-border-light); }
+.glasswing-wrapper .ep-status-cell { display: flex; flex-direction: column; align-items: flex-end; justify-content: center; padding: .6rem .9rem; gap: .3rem; white-space: nowrap; }
+.glasswing-wrapper .ep-badge { font-size: 10px; font-weight: 600; padding: 2px 7px; border-radius: 8px; }
+.glasswing-wrapper .b-live     { background: var(--teal-light);  color: var(--teal-dark); }
+.glasswing-wrapper .b-soon     { background: var(--purple-light); color: var(--purple); }
+.glasswing-wrapper .b-upcoming { background: var(--color-bg-secondary); color: var(--color-text-tertiary); }
+.glasswing-wrapper .ep-runtime { font-size: 10px; color: var(--color-text-tertiary); }
+
+/* ── Arc + theme grids ── */
+.glasswing-wrapper .arc-grid  { display: grid; grid-template-columns: repeat(3,1fr); gap: .6rem; margin: 1rem 0; }
+.glasswing-wrapper .theme-grid{ display: grid; grid-template-columns: repeat(3,1fr); gap: .5rem; margin: 1rem 0; }
+.glasswing-wrapper .arc-card, .glasswing-wrapper .theme-card { background: var(--color-bg); border: 0.5px solid var(--color-border); border-radius: 10px; padding: .875rem 1rem; }
+.glasswing-wrapper .arc-card h4, .glasswing-wrapper .theme-card h4 { font-size: 12px; font-weight: 600; color: var(--color-text-primary); margin-bottom: .3rem; }
+.glasswing-wrapper .arc-card p,  .glasswing-wrapper .theme-card p  { font-size: 11px; color: var(--color-text-secondary); line-height: 1.5; margin-bottom: .4rem; }
+.glasswing-wrapper .arc-list { list-style: none; padding: 0; margin: 0; }
+.glasswing-wrapper .arc-list li { font-size: 11px; color: var(--color-text-secondary); padding: .2rem 0; padding-left: .85rem; position: relative; border-bottom: 0.5px solid var(--color-border-light); margin: 0; }
+.glasswing-wrapper .arc-list li:last-child { border-bottom: none; }
+.glasswing-wrapper .arc-list li::before { content: ""; position: absolute; left: 0; top: .45rem; width: 4px; height: 4px; border-radius: 50%; background: var(--color-text-tertiary); }
+.glasswing-wrapper .arc-purple { border-top: 2px solid var(--purple); }
+.glasswing-wrapper .arc-red    { border-top: 2px solid var(--red-dark); }
+.glasswing-wrapper .arc-teal   { border-top: 2px solid var(--teal-dark); }
+.glasswing-wrapper .theme-label { font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: .07em; display: block; margin-bottom: .3rem; }
+.glasswing-wrapper .theme-purple { color: var(--purple); }
+.glasswing-wrapper .theme-red    { color: var(--red-dark); }
+.glasswing-wrapper .theme-teal   { color: var(--teal-dark); }
+.glasswing-wrapper .theme-amber  { color: var(--amber-dark); }
+.glasswing-wrapper .theme-blue   { color: var(--blue-dark); }
+.glasswing-wrapper .theme-coral  { color: var(--coral-dark); }
+
 @media (max-width: 600px) {
   .glasswing-wrapper .hero-stats, 
+  .glasswing-wrapper .s3-season-stats,
+  .glasswing-wrapper .arc-grid,
+  .glasswing-wrapper .theme-grid,
   .glasswing-wrapper .sc-grid, 
   .glasswing-wrapper .two-col, 
   .glasswing-wrapper .tension-grid, 
@@ -235,6 +299,8 @@
   .glasswing-wrapper .ai-row-head, .glasswing-wrapper .ai-row { grid-template-columns: 120px 1fr; }
   .glasswing-wrapper .ai-cell:nth-child(3), .glasswing-wrapper .ai-cell:nth-child(4),
   .glasswing-wrapper .ai-hcell:nth-child(3), .glasswing-wrapper .ai-hcell:nth-child(4) { display: none; }
+  .glasswing-wrapper .ep-row { grid-template-columns: 44px 1fr; }
+  .glasswing-wrapper .ep-status-cell { display: none; }
   .glasswing-wrapper .ml-name { width: 90px; }
   .glasswing-wrapper .ml-stat { min-width: 100px; font-size: 10px; }
   .glasswing-wrapper h1 { font-size: 24px; }

@@ -252,7 +252,7 @@ excerpt: "In 2014 I stood at DEF CON and showed the internet's foundational soft
   </div>
 
   <hr class="gw-hr">
-  <span class="section-label">Part I &mdash; What I found in 2014</span>
+  <span class="section-label"> ASDFMEN Part I &mdash; What I found in 2014</span>
   <h2>The original quantitative case: internet infrastructure is not OK</h2>
   <p>The &ldquo;Open Source Fairy Dust&rdquo; talk wasn&rsquo;t a rhetorical exercise. It was a data exercise &mdash; 2,000+ open source projects, static and dynamic analysis, NVD correlation, vulnerability density plotted on a log scale against total critical count. Up and to the right is terrifying. Down and to the left is survivable. Almost nothing critical lived in the safe quadrant, and the outliers told a story about institutional failure, not individual negligence.</p>
 
@@ -633,6 +633,7 @@ excerpt: "In 2014 I stood at DEF CON and showed the internet's foundational soft
   <div class="tag-row">
     <span class="tag">Project Glasswing</span><span class="tag">Claude Mythos</span><span class="tag">Glasswing Doctrine</span><span class="tag">Trivy</span><span class="tag">LiteLLM</span><span class="tag">Axios</span><span class="tag">TeamPCP</span><span class="tag">UNC1069</span><span class="tag">Sapphire Sleet</span><span class="tag">CanisterWorm</span><span class="tag">CVE-2026-33634</span><span class="tag">DEF CON 22</span><span class="tag">OSS social contract</span><span class="tag">supply chain</span><span class="tag">AARM</span><span class="tag">ML stack</span><span class="tag">XZ Utils</span><span class="tag">compliance cliff</span><span class="tag">SLSA provenance</span><span class="tag">maintainer economics</span><span class="tag">Morphogenetic SOC</span>
   </div>
+  MENERICKASDF
 
   <div class="gw-byline">John Menerick is a senior information security architect and consultant (CISSP, NSA, CKS/CKA). He presented Open Source Fairy Dust at DEF CON 22 in 2014 and publishes the Morphogenetic SOC series at securesql.info. The views expressed are his own and do not represent the views of Anthropic, Project Glasswing, or any Glasswing launch partner.</div>
 

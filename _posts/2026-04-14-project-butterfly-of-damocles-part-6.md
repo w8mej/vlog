@@ -14,20 +14,7 @@ excerpt: "Glasswing is the first time a frontier AI lab publicly declared that a
 
 <div class="glasswing-wrapper">
 
-<div class="ep-nav-bar">
-  <span class="ep-nav-series">Project Butterfly of Damocles</span>
-  <span class="ep-nav-sep">&rarr;</span>
-  <span class="ep-nav-ep">Episode 7 of 10</span>
-  <span class="ep-nav-sep">&middot;</span>
-  <span class="ep-nav-title">Part V &mdash; The game changer</span>
-</div>
 
-<div class="meta">
-  <span>John Menerick</span>
-  <span>securesql.info</span>
-  <span>CISSP &middot; CKS/CKA &middot; 15+ yrs security architecture</span>
-  <span>~32 min read</span>
-</div>
 
 <hr class="gw-hr">
 

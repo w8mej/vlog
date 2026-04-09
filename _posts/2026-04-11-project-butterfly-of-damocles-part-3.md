@@ -14,21 +14,7 @@ excerpt: "Two distinct nation-state actors struck the developer toolchain within
 
 <div class="glasswing-wrapper">
 
-<div class="ep-nav-bar">
-  <span class="ep-nav-series">Project Butterfly of Damocles</span>
-  <span class="ep-nav-sep">&rarr;</span>
-  <span class="ep-nav-ep">Episode 4 of 10</span>
-  <span class="ep-nav-sep">&middot;</span>
-  <span class="ep-nav-title">Part III &mdash; The March 2026 cascade</span>
-</div>
 
-<div class="meta">
-  <span>John Menerick</span>
-  <span>securesql.info</span>
-  <span>CISSP &middot; CKS/CKA &middot; 15+ yrs security architecture</span>
-  <span>~32 min read</span>
-  <span>Events covered: March 19&ndash;April 3, 2026</span>
-</div>
 
 <hr class="gw-hr">
 

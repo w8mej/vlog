@@ -14,20 +14,7 @@ excerpt: "When your Node.js service pulls 847 npm packages to serve a login form
 
 <div class="glasswing-wrapper">
 
-<div class="ep-nav-bar">
-  <span class="ep-nav-series">Project Butterfly of Damocles</span>
-  <span class="ep-nav-sep">&rarr;</span>
-  <span class="ep-nav-ep">Episode 3 of 10</span>
-  <span class="ep-nav-sep">&middot;</span>
-  <span class="ep-nav-ep-title">Part II &mdash; The dependency graph</span>
-</div>
 
-<div class="meta">
-  <span>John Menerick</span>
-  <span>securesql.info</span>
-  <span>CISSP &middot; CKS/CKA &middot; 15+ yrs security architecture</span>
-  <span>~30 min read</span>
-</div>
 
 <hr class="gw-hr">
 

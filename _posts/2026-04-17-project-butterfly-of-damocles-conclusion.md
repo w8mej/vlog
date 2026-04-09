@@ -14,21 +14,7 @@ excerpt: "The fairy dust didn't disappear. It moved one abstraction layer higher
 
 <div class="glasswing-wrapper">
 
-<div class="ep-nav-bar">
-  <span class="ep-nav-series">Project Butterfly of Damocles</span>
-  <span class="ep-nav-sep">&rarr;</span>
-  <span class="ep-nav-ep">Episode 10 of 10</span>
-  <span class="ep-nav-sep">&middot;</span>
-  <span class="ep-nav-title">Series Finale &mdash; Part VIII &amp; Conclusion</span>
-</div>
 
-<div class="meta">
-  <span>John Menerick</span>
-  <span>securesql.info</span>
-  <span>CISSP &middot; CKS/CKA &middot; 15+ yrs security architecture</span>
-  <span>~32 min read</span>
-  <span>Series finale &mdash; all ten episodes</span>
-</div>
 
 <div class="series-complete-badge">
   <div class="scb-inner">

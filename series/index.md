@@ -44,13 +44,13 @@ permalink: /series/
     </a>
 
     <!-- Season 3 -->
-    <a class="series-card" href="/series/project-butterfly-of-damocles/">
+    <a class="series-card" href="{% post_url 2026-04-08-project-butterfly-of-damocles-intro %}">
       <div class="series-card__season">Season 3</div>
       <h2 class="series-card__title">Project Butterfly of Damocles</h2>
       <p class="series-card__subtitle">A decade of being right about the wrong thing</p>
-      <p class="series-card__desc">Ten episodes exploring Project Glasswing, AI capability withholding, and the new attack surface of the ML dependency graph. A deep dive into the most consequential AI security policy decisions of the decade.</p>
+      <p class="series-card__desc">Nine episodes exploring Project Glasswing, AI capability withholding, and the new attack surface of the ML dependency graph. A deep dive into the most consequential AI security policy decisions of the decade.</p>
       <ul class="series-card__meta">
-        <li>📺 10 Episodes</li>
+        <li>📺 9 Episodes</li>
         <li>📄 Whitepaper</li>
         <li>📊 Infographics</li>
       </ul>

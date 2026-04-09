@@ -501,14 +501,14 @@ excerpt: "The Open Source Fairy Dust talk wasn't a rhetorical exercise. It was a
 </div>
 
 <div class="ep-nav-footer">
-  <div class="ep-nav-prev">
+  <a href="{% post_url 2026-04-08-project-butterfly-of-damocles-intro %}" class="ep-nav-prev" style="text-decoration:none; color:inherit;">
     <span class="ep-nav-dir">&#8592; Previous</span>
     <span class="ep-nav-ep-title">Episode 1 &mdash; Introduction: From Fairy Dust to Glasswing</span>
-  </div>
-  <div class="ep-nav-next">
+  </a>
+  <a href="{% post_url 2026-04-10-project-butterfly-of-damocles-part-2 %}" class="ep-nav-next" style="text-decoration:none; color:inherit;">
     <span class="ep-nav-dir">Next &#8594;</span>
     <span class="ep-nav-ep-title">Episode 3 &mdash; The dependency graph: 847 applications in a login form</span>
-  </div>
+  </a>
 </div>
 
 <div class="tag-row">

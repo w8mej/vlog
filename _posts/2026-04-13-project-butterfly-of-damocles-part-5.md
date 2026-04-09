@@ -486,14 +486,14 @@ excerpt: "The twelve-year arc from a DEF CON talk about vulnerability density to
 </div>
 
 <div class="ep-nav-footer">
-  <div class="ep-nav-prev">
+  <a href="{% post_url 2026-04-12-project-butterfly-of-damocles-part-4 %}" class="ep-nav-prev" style="text-decoration:none; color:inherit;">
     <span class="ep-nav-dir">&#8592; Previous</span>
     <span class="ep-nav-ep-title">Episode 5 &mdash; Part III: The ML stack attack surface</span>
-  </div>
-  <div class="ep-nav-next">
+  </a>
+  <a href="{% post_url 2026-04-14-project-butterfly-of-damocles-part-6 %}" class="ep-nav-next" style="text-decoration:none; color:inherit;">
     <span class="ep-nav-dir">Next &#8594;</span>
     <span class="ep-nav-ep-title">Episode 7 &mdash; Part V: What Project Glasswing actually changes</span>
-  </div>
+  </a>
 </div>
 
 <div class="tag-row">

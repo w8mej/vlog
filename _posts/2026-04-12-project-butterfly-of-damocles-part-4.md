@@ -451,14 +451,14 @@ excerpt: "In 2014 the scariest projects were Exim, Bind, and OpenSSL. In 2026 th
 </div>
 
 <div class="ep-nav-footer">
-  <div class="ep-nav-prev">
+  <a href="{% post_url 2026-04-11-project-butterfly-of-damocles-part-3 %}" class="ep-nav-prev" style="text-decoration:none; color:inherit;">
     <span class="ep-nav-dir">&#8592; Previous</span>
     <span class="ep-nav-ep-title">Episode 4 &mdash; Part IIa: When the security scanner became the weapon</span>
-  </div>
-  <div class="ep-nav-next">
+  </a>
+  <a href="{% post_url 2026-04-13-project-butterfly-of-damocles-part-5 %}" class="ep-nav-next" style="text-decoration:none; color:inherit;">
     <span class="ep-nav-dir">Next &#8594;</span>
     <span class="ep-nav-ep-title">Episode 6 &mdash; The XZ playbook: two years to own a dependency of sshd</span>
-  </div>
+  </a>
 </div>
 
 <div class="tag-row">

@@ -436,14 +436,14 @@ excerpt: "Two distinct nation-state actors struck the developer toolchain within
 </div>
 
 <div class="ep-nav-footer">
-  <div class="ep-nav-prev">
+  <a href="{% post_url 2026-04-10-project-butterfly-of-damocles-part-2 %}" class="ep-nav-prev" style="text-decoration:none; color:inherit;">
     <span class="ep-nav-dir">&#8592; Previous</span>
     <span class="ep-nav-ep-title">Episode 3 &mdash; Part II: The dependency graph</span>
-  </div>
-  <div class="ep-nav-next">
+  </a>
+  <a href="{% post_url 2026-04-12-project-butterfly-of-damocles-part-4 %}" class="ep-nav-next" style="text-decoration:none; color:inherit;">
     <span class="ep-nav-dir">Next &#8594;</span>
     <span class="ep-nav-ep-title">Episode 5 &mdash; The XZ playbook: two years to own a dependency of sshd</span>
-  </div>
+  </a>
 </div>
 
 <div class="tag-row">

@@ -333,14 +333,14 @@ excerpt: "The scarcity of finding capability is over. The crisis of fixing it is
 </div>
 
 <div class="ep-nav-footer">
-  <div class="ep-nav-prev">
+  <a href="{% post_url 2026-04-15-project-butterfly-of-damocles-part-7 %}" class="ep-nav-prev" style="text-decoration:none; color:inherit;">
     <span class="ep-nav-dir">&#8592; Previous</span>
     <span class="ep-nav-ep-title">Episode 8 &mdash; Part VI: The honest accounting</span>
-  </div>
-  <div class="ep-nav-next">
+  </a>
+  <a href="{% post_url 2026-04-17-project-butterfly-of-damocles-conclusion %}" class="ep-nav-next" style="text-decoration:none; color:inherit;">
     <span class="ep-nav-dir">Next &#8594;</span>
     <span class="ep-nav-ep-title">Episode 10 &mdash; The pattern: only the substrate changes (series finale)</span>
-  </div>
+  </a>
 </div>
 
 <div class="tag-row">

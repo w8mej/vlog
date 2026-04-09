@@ -504,14 +504,14 @@ excerpt: "When your Node.js service pulls 847 npm packages to serve a login form
 </div>
 
 <div class="ep-nav-footer">
-  <div class="ep-nav-prev">
+  <a href="{% post_url 2026-04-09-project-butterfly-of-damocles-part-1 %}" class="ep-nav-prev" style="text-decoration:none; color:inherit;">
     <span class="ep-nav-dir">&#8592; Previous</span>
     <span class="ep-nav-ep-title">Episode 2 &mdash; Part I: The original quantitative case</span>
-  </div>
-  <div class="ep-nav-next">
+  </a>
+  <a href="{% post_url 2026-04-11-project-butterfly-of-damocles-part-3 %}" class="ep-nav-next" style="text-decoration:none; color:inherit;">
     <span class="ep-nav-dir">Next &#8594;</span>
     <span class="ep-nav-ep-title">Episode 4 &mdash; The XZ playbook: two years to own a dependency of sshd</span>
-  </div>
+  </a>
 </div>
 
 <div class="tag-row">

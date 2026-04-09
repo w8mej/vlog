@@ -428,14 +428,14 @@ excerpt: "Glasswing is the first time a frontier AI lab publicly declared that a
 </div>
 
 <div class="ep-nav-footer">
-  <div class="ep-nav-prev">
+  <a href="{% post_url 2026-04-13-project-butterfly-of-damocles-part-5 %}" class="ep-nav-prev" style="text-decoration:none; color:inherit;">
     <span class="ep-nav-dir">&#8592; Previous</span>
     <span class="ep-nav-ep-title">Episode 6 &mdash; Part IV: The timeline</span>
-  </div>
-  <div class="ep-nav-next">
+  </a>
+  <a href="{% post_url 2026-04-15-project-butterfly-of-damocles-part-7 %}" class="ep-nav-next" style="text-decoration:none; color:inherit;">
     <span class="ep-nav-dir">Next &#8594;</span>
     <span class="ep-nav-ep-title">Episode 8 &mdash; Part VI: The honest accounting</span>
-  </div>
+  </a>
 </div>
 
 <div class="tag-row">

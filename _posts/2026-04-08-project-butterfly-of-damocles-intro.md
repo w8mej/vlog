@@ -20,9 +20,14 @@ excerpt: "In 2014 I stood at DEF CON and showed the internet's foundational soft
 
 <div class="s3-intro-block">
 
-
-
-
+  <div class="s3-series-header">
+    <div class="s3-series-badge">
+      <span class="s3-badge-dot" aria-hidden="true"></span>
+      Season 3 &middot; Threat Intelligence Series
+    </div>
+    <h2 class="s3-series-title-display">Project Butterfly<br>of Damocles</h2>
+    <p class="s3-series-subtitle-display">A twelve-year retrospective on the supply chain attack surface &mdash; DEF&nbsp;CON&nbsp;22 to the Glasswing Doctrine</p>
+  </div>
 
   <p class="s3-lede">In 2014 I stood at DEF CON and showed the internet&rsquo;s foundational software was held together by wishful thinking, volunteer labor, and collective myth. Last week Anthropic&rsquo;s unreleased frontier model validated that at industrial scale. This month two nation-state actors proved the security tooling itself is now the attack surface. And Project Glasswing &mdash; the response &mdash; may be the most consequential single policy decision to date in the history of open source software security. Whether that consequence is good or catastrophic depends entirely on decisions no one has made yet.</p>
 

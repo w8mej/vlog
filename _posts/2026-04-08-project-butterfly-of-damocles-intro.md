@@ -45,7 +45,7 @@ excerpt: "In 2014 I stood at DEF CON and showed the internet's foundational soft
         <div class="ep-desc">DEF CON 22, 2014. Quantitative analysis of 2,000+ open source projects reveals that foundational internet infrastructure &mdash; Exim, Bind, OpenSSL &mdash; is riddled with critical vulnerabilities nobody is fixing. The Everybody/Somebody/Nobody parable. The incentive structure that produces 13,000 critical bugs in a mail server nobody audits.</div>
         <div class="ep-tags-row"><span class="ep-tag">DEF CON 22</span><span class="ep-tag">Exim</span><span class="ep-tag">OpenSSL</span><span class="ep-tag">vulnerability density</span><span class="ep-tag">maintainer economics</span></div>
       </div>
-      <div class="ep-status-cell"><span class="ep-badge b-soon">Coming soon</span><span class="ep-runtime">~22 min</span></div>
+      <div class="ep-status-cell"><span class="ep-badge b-live">Available now</span><span class="ep-runtime">~22 min</span></div>
     </div>
 
     <div class="ep-row">
@@ -55,7 +55,7 @@ excerpt: "In 2014 I stood at DEF CON and showed the internet's foundational soft
         <div class="ep-desc">Transitive dependency risk, package maintenance economics, and why the thing that destroys you won&rsquo;t be your code. Quantitative CVE density analysis across npm, PyPI, and C/C++ ecosystems from event-stream to Log4Shell.</div>
         <div class="ep-tags-row"><span class="ep-tag">supply chain</span><span class="ep-tag">npm</span><span class="ep-tag">PyPI</span><span class="ep-tag">Log4Shell</span></div>
       </div>
-      <div class="ep-status-cell"><span class="ep-badge b-soon">Coming soon</span><span class="ep-runtime">~18 min</span></div>
+      <div class="ep-status-cell"><span class="ep-badge b-live">Available now</span><span class="ep-runtime">~18 min</span></div>
     </div>
 
     <div class="ep-row">
@@ -65,7 +65,7 @@ excerpt: "In 2014 I stood at DEF CON and showed the internet's foundational soft
         <div class="ep-desc">CVE-2024-3094 is not a vulnerability story &mdash; it&rsquo;s a governance story. A nation-state actor spent two years becoming a trusted contributor, then inserted a backdoor into a transitive dependency of sshd on almost every Linux distribution. Caught by an anomalous CPU benchmark, not security review. The template for everything that followed in 2026.</div>
         <div class="ep-tags-row"><span class="ep-tag">XZ Utils</span><span class="ep-tag">CVE-2024-3094</span><span class="ep-tag">social engineering</span><span class="ep-tag">maintainer targeting</span></div>
       </div>
-      <div class="ep-status-cell"><span class="ep-badge b-soon">Coming soon</span><span class="ep-runtime">~20 min</span></div>
+      <div class="ep-status-cell"><span class="ep-badge b-live">Available now</span><span class="ep-runtime">~20 min</span></div>
     </div>
 
     <div class="ep-row">
@@ -75,7 +75,7 @@ excerpt: "In 2014 I stood at DEF CON and showed the internet's foundational soft
         <div class="ep-desc">March 19, 2026. TeamPCP force-pushes malicious commits to 76/77 trivy-action version tags simultaneously. The most diligent organizations had the greatest exposure. Full cascade reconstruction: CanisterWorm with blockchain C2, Checkmarx KICS, LiteLLM AI key vault breach, Telnyx WAV steganography, European Commission&rsquo;s 92&nbsp;GB.</div>
         <div class="ep-tags-row"><span class="ep-tag">Trivy</span><span class="ep-tag">TeamPCP</span><span class="ep-tag">CVE-2026-33634</span><span class="ep-tag">CanisterWorm</span><span class="ep-tag">LiteLLM</span></div>
       </div>
-      <div class="ep-status-cell"><span class="ep-badge b-soon">Coming soon</span><span class="ep-runtime">~24 min</span></div>
+      <div class="ep-status-cell"><span class="ep-badge b-live">Available now</span><span class="ep-runtime">~24 min</span></div>
     </div>
 
     <div class="ep-row">
@@ -85,7 +85,7 @@ excerpt: "In 2014 I stood at DEF CON and showed the internet's foundational soft
         <div class="ep-desc">March 31, 2026. North Korean UNC1069 runs a two-week individualized social engineering campaign against Axios lead maintainer Jason Saayman. Three hours. 174,000 downstream packages. The ROI calculation that makes high-impact OSS maintainers the most valuable social engineering targets in software &mdash; and what SLSA provenance absence means as a detection signal.</div>
         <div class="ep-tags-row"><span class="ep-tag">Axios</span><span class="ep-tag">UNC1069</span><span class="ep-tag">DPRK</span><span class="ep-tag">Sapphire Sleet</span><span class="ep-tag">SLSA</span></div>
       </div>
-      <div class="ep-status-cell"><span class="ep-badge b-soon">Coming soon</span><span class="ep-runtime">~22 min</span></div>
+      <div class="ep-status-cell"><span class="ep-badge b-live">Available now</span><span class="ep-runtime">~22 min</span></div>
     </div>
 
     <div class="ep-row">
@@ -95,7 +95,7 @@ excerpt: "In 2014 I stood at DEF CON and showed the internet's foundational soft
         <div class="ep-desc">TensorFlow: 700+ critical CVEs. HuggingFace&rsquo;s dominant model serialization format: arbitrary code execution by design. LiteLLM stores all your LLM provider API keys, present in 36% of monitored cloud environments. The DEF CON 22 vulnerability density methodology applied to the modern ML infrastructure stack &mdash; same conclusions, one decade later, new substrate.</div>
         <div class="ep-tags-row"><span class="ep-tag">ML stack</span><span class="ep-tag">TensorFlow</span><span class="ep-tag">LiteLLM</span><span class="ep-tag">ShadowRay</span><span class="ep-tag">HuggingFace</span></div>
       </div>
-      <div class="ep-status-cell"><span class="ep-badge b-soon">Coming soon</span><span class="ep-runtime">~20 min</span></div>
+      <div class="ep-status-cell"><span class="ep-badge b-live">Available now</span><span class="ep-runtime">~20 min</span></div>
     </div>
 
     <div class="ep-row ep-featured">
@@ -105,7 +105,7 @@ excerpt: "In 2014 I stood at DEF CON and showed the internet's foundational soft
         <div class="ep-desc">April 8, 2026. Anthropic announces Project Glasswing: Claude Mythos Preview withheld from general release, deployed to 52 partner organizations for defensive use. A 27-year-old OpenBSD bug. A sandbox escape followed by an unprompted email to a researcher eating a sandwich. The Glasswing Doctrine, the Everybody/Somebody/Nobody loop, and why voluntary restraint at the AI governance layer is structurally identical to voluntary restraint in OSS security.</div>
         <div class="ep-tags-row"><span class="ep-tag">Project Glasswing</span><span class="ep-tag">Claude Mythos</span><span class="ep-tag">Glasswing Doctrine</span><span class="ep-tag">capability withholding</span><span class="ep-tag">AARM</span></div>
       </div>
-      <div class="ep-status-cell"><span class="ep-badge b-soon">Coming soon</span><span class="ep-runtime">~22 min</span></div>
+      <div class="ep-status-cell"><span class="ep-badge b-live">Available now</span><span class="ep-runtime">~22 min</span></div>
     </div>
 
     <div class="ep-row">
@@ -115,7 +115,7 @@ excerpt: "In 2014 I stood at DEF CON and showed the internet's foundational soft
         <div class="ep-desc">Every regulatory vulnerability management framework assumes discovery is scarce and disclosure is sequential. Glasswing produces thousands of simultaneous zero-day advisories. This episode models what happens when federal agencies receive 1,000 simultaneous zero-day advisories &mdash; and maps the 18-month window before the disclosure flood hits a compliance stack nobody has started redesigning.</div>
         <div class="ep-tags-row"><span class="ep-tag">CISA KEV</span><span class="ep-tag">NVD</span><span class="ep-tag">FedRAMP</span><span class="ep-tag">CMMC</span><span class="ep-tag">compliance cliff</span></div>
       </div>
-      <div class="ep-status-cell"><span class="ep-badge b-soon">Coming soon</span><span class="ep-runtime">~18 min</span></div>
+      <div class="ep-status-cell"><span class="ep-badge b-live">Available now</span><span class="ep-runtime">~18 min</span></div>
     </div>
 
     <div class="ep-row">
@@ -125,7 +125,7 @@ excerpt: "In 2014 I stood at DEF CON and showed the internet's foundational soft
         <div class="ep-desc">Season finale. The fairy dust didn&rsquo;t disappear &mdash; it moved one abstraction layer higher with each generation. What the Glasswing Doctrine needs to become to be durable. What the open source social contract looks like after a private AI lab unilaterally rewrote it. And the question nobody is asking loudly enough: who patches the patcher&rsquo;s patcher, through what supply chain, while the patcher is fielding a Teams meeting request from a very convincing stranger.</div>
         <div class="ep-tags-row"><span class="ep-tag">synthesis</span><span class="ep-tag">OSS social contract</span><span class="ep-tag">governance</span><span class="ep-tag">Glasswing Doctrine</span><span class="ep-tag">season finale</span></div>
       </div>
-      <div class="ep-status-cell"><span class="ep-badge b-soon">Coming soon</span><span class="ep-runtime">~25 min</span></div>
+      <div class="ep-status-cell"><span class="ep-badge b-live">Available now</span><span class="ep-runtime">~25 min</span></div>
     </div>
 
   </div><!-- /ep-list -->
@@ -198,6 +198,50 @@ excerpt: "In 2014 I stood at DEF CON and showed the internet's foundational soft
       <span class="theme-label theme-coral">The velocity mismatch</span>
       <h4>Machine discovery, human remediation</h4>
       <p>Mythos finds bugs at machine speed. Patches ship at human speed. Season 3 maps what changes when discovery becomes free and the bottleneck shifts entirely to everything that comes after.</p>
+    </div>
+  </div>
+
+  <hr class="s3-hr">
+  <span class="s3-section-label">Supplementary Resources &amp; Artifacts</span>
+  <p class="s3-lede" style="margin-bottom: 2rem;">For different ways to digest this information and explore the underlying thoughts, I compiled the original briefing documents, infographics, and multimedia discussions accompanying the series.</p>
+
+  <div class="arc-grid">
+    <div class="arc-card arc-purple">
+      <h4>Multimedia &amp; Discussions</h4>
+      <p>Listen to or watch deep-dive discussions breaking down the key concepts from the series.</p>
+      <ul class="arc-list">
+        <li><a href="https://youtu.be/SQ53F-VmgoE" target="_blank">Project Butterfly Video Overview (YouTube)</a></li>
+        <li><a href="https://open.spotify.com/episode/3hMKtfWFE204HUTVbtbp3K?si=yHaRfpMvSLucP19P2IVw9A" target="_blank">Podcast Episode 1 (Spotify)</a></li>
+        <li><a href="https://open.spotify.com/episode/3hMKtfWFE204HUTVbtbp3K?si=yHaRfpMvSLucP19P2IVw9A" target="_blank">Podcast Episode 2 (Spotify)</a></li>
+      </ul>
+    </div>
+
+    <div class="arc-card arc-red">
+      <h4>Executive Briefings &amp; Decks</h4>
+      <p>The original documents framing the strategic implications of Project Glasswing.</p>
+      <ul class="arc-list">
+        <li><a href="/artifacts/ExecutiveOverview.pdf" target="_blank">Executive Overview (PDF)</a></li>
+        <li><a href="/artifacts/The_GlassFairyWings_Briefing.pdf" target="_blank">The GlassFairyWings Briefing (Slide Deck)</a></li>
+      </ul>
+    </div>
+
+    <div class="arc-card arc-teal">
+      <h4>Infographics &amp; Visuals</h4>
+      <p>Visual aids and cover art summarizing the twelve-year timeline and attack models.</p>
+      <ul class="arc-list">
+        <li><strong>Infographics:</strong> <a href="/artifacts/1infographic.png" target="_blank">01</a> &middot; <a href="/artifacts/2infographic.png" target="_blank">02</a> &middot; <a href="/artifacts/3infographic.png" target="_blank">03</a></li>
+        <li><strong>Episode Art:</strong> 
+          <a href="/artifacts/Episode1.png" target="_blank">01</a> &middot; 
+          <a href="/artifacts/Episode2.png" target="_blank">02</a> &middot; 
+          <a href="/artifacts/Episode3.png" target="_blank">03</a> &middot; 
+          <a href="/artifacts/Episode4.png" target="_blank">04</a> &middot; 
+          <a href="/artifacts/Episode5.png" target="_blank">05</a><br>
+          <a href="/artifacts/Episode6.png" target="_blank">06</a> &middot; 
+          <a href="/artifacts/Episode7.png" target="_blank">07</a> &middot; 
+          <a href="/artifacts/Episode8.png" target="_blank">08</a> &middot; 
+          <a href="/artifacts/Episode9.png" target="_blank">09</a>
+        </li>
+      </ul>
     </div>
   </div>
 

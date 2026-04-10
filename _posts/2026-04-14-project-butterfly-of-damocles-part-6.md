@@ -12,9 +12,16 @@ excerpt: "Glasswing is the first time a frontier AI lab publicly declared that a
 
 {% include glasswing_styles.html %}
 
-<div class="glasswing-wrapper">
+<div class="glasswing-wrapper gw-dark">
 
-
+<div class="ep-series-header">
+  <div class="ep-num-row">
+    <span class="ep-badge-dot"></span>
+    <span class="ep-series-name">Season 3 &middot; Project Butterfly of Damocles &middot; Episode 7 of 10</span>
+  </div>
+  <h2 class="ep-title-display">Part VI</h2>
+  <p class="ep-header-tagline">What Project Glasswing actually changes for every open source actor on earth</p>
+</div>
 
 <hr class="gw-hr">
 
@@ -446,73 +453,73 @@ excerpt: "Glasswing is the first time a frontier AI lab publicly declared that a
 {% capture extra_styles %}
 <style>
 /* ── Episode 7 additional styles ── */
-.ep-nav-bar{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem;font-size:.75rem;opacity:.55;margin-bottom:1.5rem;padding:.6rem .875rem;background:rgba(0,0,0,.04);border-radius:8px}
+.ep-nav-bar{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem;font-size:.75rem;opacity:.55;margin-bottom:1.5rem;padding:.6rem .875rem;background:rgba(255,255,255,0.04);border-radius:8px}
 .ep-nav-sep{opacity:.4}
 .ep-nav-series{font-weight:700}
 .ep-lede{font-style:italic;font-size:1rem;line-height:1.75;margin-bottom:.75rem}
 .ep-lede-block{margin-bottom:1.5rem}
 .options-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:.6rem;margin:1.25rem 0}
-.option-card{background:#fff;border:1px solid rgba(0,0,0,.1);border-radius:10px;padding:.9rem 1rem}
+.option-card{background:#111827;border:1px solid rgba(255,255,255,0.12);border-radius:10px;padding:.9rem 1rem}
 .opt-release  {border-top:2px solid #888}
-.opt-withhold {border-top:2px solid #1565c0}
-.opt-controlled{border-top:2px solid #2e7d32}
-.opt-selected {box-shadow:inset 0 0 0 1px rgba(46,125,50,.3)}
+.opt-withhold {border-top:2px solid #60A5FA}
+.opt-controlled{border-top:2px solid #34D399}
+.opt-selected {box-shadow:inset 0 0 0 1px rgba(52,211,153,.3)}
 .opt-label{font-size:.78rem;font-weight:700;margin-bottom:.35rem}
-.opt-release   .opt-label{color:#555}
-.opt-withhold  .opt-label{color:#0d47a1}
-.opt-controlled.opt-label,.opt-selected .opt-label{color:#1b5e20}
+.opt-release   .opt-label{color:#94A3B8}
+.opt-withhold  .opt-label{color:#60A5FA}
+.opt-controlled.opt-label,.opt-selected .opt-label{color:#34D399}
 .opt-desc{font-size:.77rem;opacity:.75;line-height:1.6;margin-bottom:.5rem}
-.opt-precedent{font-size:.72rem;font-style:italic;opacity:.6;padding:.3rem .5rem;background:rgba(0,0,0,.04);border-radius:4px}
+.opt-precedent{font-size:.72rem;font-style:italic;opacity:.6;padding:.3rem .5rem;background:rgba(255,255,255,0.04);border-radius:4px}
 .history-grid{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin:1.25rem 0}
-.hist-card{background:#fff;border:1px solid rgba(0,0,0,.1);border-radius:10px;padding:.9rem 1rem}
+.hist-card{background:#111827;border:1px solid rgba(255,255,255,0.12);border-radius:10px;padding:.9rem 1rem}
 .hist-period{font-size:.68rem;font-weight:700;opacity:.5;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.3rem}
 .hist-card h4{font-size:.82rem;font-weight:700;margin-bottom:.35rem}
 .hist-card p{font-size:.77rem;opacity:.75;line-height:1.6;margin-bottom:.4rem}
-.hist-lesson{font-size:.73rem;font-style:italic;opacity:.65;padding:.35rem .5rem;background:rgba(0,0,0,.04);border-left:2px solid rgba(0,0,0,.15);border-radius:0 4px 4px 0}
-.doctrine-open{margin:1.5rem 0;border:1px solid rgba(0,0,0,.1);border-radius:12px;overflow:hidden}
-.do-title{font-size:.78rem;font-weight:700;opacity:.6;padding:.6rem 1rem;background:rgba(0,0,0,.04);border-bottom:1px solid rgba(0,0,0,.08)}
+.hist-lesson{font-size:.73rem;font-style:italic;opacity:.65;padding:.35rem .5rem;background:rgba(255,255,255,0.04);border-left:2px solid rgba(255,255,255,0.15);border-radius:0 4px 4px 0}
+.doctrine-open{margin:1.5rem 0;border:1px solid rgba(255,255,255,0.12);border-radius:12px;overflow:hidden}
+.do-title{font-size:.78rem;font-weight:700;opacity:.6;padding:.6rem 1rem;background:rgba(255,255,255,0.04);border-bottom:1px solid rgba(255,255,255,0.10)}
 .do-grid{display:grid;grid-template-columns:repeat(3,1fr)}
-.do-card{padding:.875rem 1rem;border-right:1px solid rgba(0,0,0,.07)}
+.do-card{padding:.875rem 1rem;border-right:1px solid rgba(255,255,255,0.08)}
 .do-card:last-child{border-right:none}
 .do-num{font-size:1.4rem;font-weight:700;opacity:.18;line-height:1;margin-bottom:.3rem}
 .do-card h4{font-size:.78rem;font-weight:700;margin-bottom:.3rem}
 .do-card p{font-size:.74rem;opacity:.72;line-height:1.55}
 .maintainer-analysis{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:1.25rem 0}
-.ma-before,.ma-after{background:#fff;border:1px solid rgba(0,0,0,.1);border-radius:10px;padding:.9rem 1rem}
-.ma-before{border-top:2px solid #2e7d32}
-.ma-after {border-top:2px solid #c62828}
+.ma-before,.ma-after{background:#111827;border:1px solid rgba(255,255,255,0.12);border-radius:10px;padding:.9rem 1rem}
+.ma-before{border-top:2px solid #34D399}
+.ma-after {border-top:2px solid #F87171}
 .ma-label{font-size:.72rem;font-weight:700;opacity:.6;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.5rem}
-.ma-before .ma-label{color:#2e7d32}
-.ma-after  .ma-label{color:#c62828}
+.ma-before .ma-label{color:#34D399}
+.ma-after  .ma-label{color:#F87171}
 .compliance-anatomy{margin:1.25rem 0;overflow-x:auto}
 .ca-title{font-size:.75rem;font-weight:700;opacity:.5;margin-bottom:.5rem}
 .compare-table{width:100%;border-collapse:collapse;font-size:.75rem}
-.compare-table th{font-size:.7rem;font-weight:700;text-align:left;padding:.45rem .65rem;background:rgba(0,0,0,.05);border-bottom:1px solid rgba(0,0,0,.1);opacity:.7}
-.compare-table td{padding:.4rem .65rem;border-bottom:1px solid rgba(0,0,0,.07);vertical-align:top;line-height:1.45;opacity:.8}
+.compare-table th{font-size:.7rem;font-weight:700;text-align:left;padding:.45rem .65rem;background:rgba(255,255,255,0.04);border-bottom:1px solid rgba(255,255,255,0.12);opacity:.7}
+.compare-table td{padding:.4rem .65rem;border-bottom:1px solid rgba(255,255,255,0.08);vertical-align:top;line-height:1.45;opacity:.8}
 .compare-table tr:last-child td{border-bottom:none}
-.compare-table tr:nth-child(even) td{background:rgba(0,0,0,.02)}
-.aarm-framework{margin:1.25rem 0;border:1px solid rgba(0,0,0,.1);border-radius:12px;overflow:hidden}
-.aarm-title{font-size:.78rem;font-weight:700;opacity:.6;padding:.6rem 1rem;background:rgba(0,0,0,.04);border-bottom:1px solid rgba(0,0,0,.08)}
+.compare-table tr:nth-child(even) td{background:rgba(255,255,255,0.04)}
+.aarm-framework{margin:1.25rem 0;border:1px solid rgba(255,255,255,0.12);border-radius:12px;overflow:hidden}
+.aarm-title{font-size:.78rem;font-weight:700;opacity:.6;padding:.6rem 1rem;background:rgba(255,255,255,0.04);border-bottom:1px solid rgba(255,255,255,0.10)}
 .aarm-grid{display:grid;grid-template-columns:repeat(3,1fr);padding:.5rem}
-.aarm-card{padding:.75rem .6rem;border-right:1px solid rgba(0,0,0,.06);border-bottom:1px solid rgba(0,0,0,.06)}
+.aarm-card{padding:.75rem .6rem;border-right:1px solid rgba(255,255,255,0.07);border-bottom:1px solid rgba(255,255,255,0.07)}
 .aarm-card:nth-child(3),.aarm-card:nth-child(6){border-right:none}
 .aarm-card:nth-child(4),.aarm-card:nth-child(5),.aarm-card:nth-child(6){border-bottom:none}
 .aarm-icon{font-size:.85rem;margin-bottom:.3rem;opacity:.5}
 .aarm-card h4{font-size:.78rem;font-weight:700;margin-bottom:.25rem}
 .aarm-card p{font-size:.73rem;opacity:.72;line-height:1.5;margin-bottom:.4rem}
 .aarm-status{font-size:.68rem;padding:2px 6px;border-radius:4px;font-weight:700}
-.aarm-missing {background:rgba(198,40,40,.1);color:#c62828}
-.aarm-partial {background:rgba(230,81,0,.1);color:#e65100}
+.aarm-missing {background:rgba(248,113,113,.1);color:#F87171}
+.aarm-partial {background:rgba(251,191,36,.1);color:#FBBF24}
 .scenario-deep-grid{display:flex;flex-direction:column;gap:.75rem;margin:1.25rem 0}
-.sdg-card{border:1px solid rgba(0,0,0,.1);border-radius:12px;overflow:hidden}
-.sdg-optimist{border-top:3px solid #2e7d32}
-.sdg-realist {border-top:3px solid #e65100}
-.sdg-pessimist{border-top:3px solid #c62828}
-.sdg-header{display:flex;align-items:center;gap:.75rem;padding:.75rem 1.1rem;background:rgba(0,0,0,.03);border-bottom:1px solid rgba(0,0,0,.07)}
+.sdg-card{border:1px solid rgba(255,255,255,0.12);border-radius:12px;overflow:hidden}
+.sdg-optimist{border-top:3px solid #34D399}
+.sdg-realist {border-top:3px solid #FBBF24}
+.sdg-pessimist{border-top:3px solid #F87171}
+.sdg-header{display:flex;align-items:center;gap:.75rem;padding:.75rem 1.1rem;background:rgba(255,255,255,0.04);border-bottom:1px solid rgba(255,255,255,0.08)}
 .sdg-icon{font-size:.9rem}
-.sdg-optimist  .sdg-icon{color:#2e7d32}
-.sdg-realist   .sdg-icon{color:#e65100}
-.sdg-pessimist .sdg-icon{color:#c62828}
+.sdg-optimist  .sdg-icon{color:#34D399}
+.sdg-realist   .sdg-icon{color:#FBBF24}
+.sdg-pessimist .sdg-icon{color:#F87171}
 .sdg-title{font-size:.9rem;font-weight:700}
 .sdg-subtitle{font-size:.75rem;opacity:.6;flex:1}
 .sdg-body{padding:.875rem 1.1rem}
@@ -520,41 +527,32 @@ excerpt: "Glasswing is the first time a frontier AI lab publicly declared that a
 .sdg-conditions{margin-top:.75rem}
 .sdg-cond-label{font-size:.7rem;font-weight:700;opacity:.5;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.35rem}
 .durability-analysis{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin:1.25rem 0}
-.da-what-exists,.da-what-needed{background:#fff;border:1px solid rgba(0,0,0,.1);border-radius:10px;padding:.9rem 1rem}
+.da-what-exists,.da-what-needed{background:#111827;border:1px solid rgba(255,255,255,0.12);border-radius:10px;padding:.9rem 1rem}
 .da-what-exists h4,.da-what-needed h4{font-size:.82rem;font-weight:700;margin-bottom:.5rem}
-.callout-box{background:rgba(0,0,0,.04);border:1px solid rgba(0,0,0,.1);border-radius:8px;padding:.875rem 1rem;margin:1rem 0}
-.cb-red  {background:rgba(198,40,40,.05);border-color:rgba(198,40,40,.2)}
-.cb-amber{background:rgba(230,81,0,.05);border-color:rgba(230,81,0,.2)}
+.callout-box{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.12);border-radius:8px;padding:.875rem 1rem;margin:1rem 0}
+.cb-red  {background:rgba(248,113,113,.05);border-color:rgba(248,113,113,.2)}
+.cb-amber{background:rgba(251,191,36,.05);border-color:rgba(251,191,36,.2)}
 .callout-label{font-size:.72rem;font-weight:700;opacity:.6;margin-bottom:.4rem;text-transform:uppercase;letter-spacing:.05em}
 .callout-box p{font-size:.8rem;opacity:.8;line-height:1.65;margin:0}
-.ep-nav-footer{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:2rem;padding-top:1.25rem;border-top:1px solid rgba(0,0,0,.1)}
+.ep-nav-footer{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:2rem;padding-top:1.25rem;border-top:1px solid rgba(255,255,255,0.12)}
 .ep-nav-prev,.ep-nav-next{display:flex;flex-direction:column;gap:.2rem}
 .ep-nav-next{text-align:right}
 .ep-nav-dir{font-size:.72rem;font-weight:700;opacity:.5}
 .ep-nav-ep-title{font-size:.8rem;opacity:.75;line-height:1.4}
 /* Dark mode */
-[data-theme="dark"] .option-card,
-[data-theme="dark"] .hist-card,
-[data-theme="dark"] .do-card,
-[data-theme="dark"] .aarm-card,
-[data-theme="dark"] .sdg-card,
-[data-theme="dark"] .ma-before,
-[data-theme="dark"] .ma-after,
-[data-theme="dark"] .da-what-exists,
-[data-theme="dark"] .da-what-needed,
-[data-theme="dark"] .callout-box{background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.1)}
-[data-theme="dark"] .doctrine-open,[data-theme="dark"] .aarm-framework{border-color:rgba(255,255,255,.1)}
-[data-theme="dark"] .do-title,[data-theme="dark"] .aarm-title,[data-theme="dark"] .sdg-header{background:rgba(255,255,255,.04)}
-[data-theme="dark"] .do-card{border-color:rgba(255,255,255,.06)}
-[data-theme="dark"] .aarm-card{border-color:rgba(255,255,255,.06)}
-[data-theme="dark"] .hist-lesson{background:rgba(255,255,255,.05)}
-[data-theme="dark"] .opt-precedent{background:rgba(255,255,255,.05)}
-[data-theme="dark"] .cb-red  {background:rgba(255,80,80,.07)}
-[data-theme="dark"] .cb-amber{background:rgba(255,130,50,.07)}
+
+
+
+
+
+
+
+
+
 @media(max-width:600px){
   .options-grid,.history-grid,.do-grid,.aarm-grid,
   .maintainer-analysis,.durability-analysis{grid-template-columns:1fr}
-  .do-card,.aarm-card{border-right:none;border-bottom:1px solid rgba(0,0,0,.07)}
+  .do-card,.aarm-card{border-right:none;border-bottom:1px solid rgba(255,255,255,0.08)}
   .sdg-header{flex-wrap:wrap}
   .ep-nav-footer{grid-template-columns:1fr}
   .ep-nav-next{text-align:left}

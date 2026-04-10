@@ -12,9 +12,16 @@ excerpt: "The honest accounting of Project Glasswing: what it genuinely changes,
 
 {% include glasswing_styles.html %}
 
-<div class="glasswing-wrapper">
+<div class="glasswing-wrapper gw-dark">
 
-
+<div class="ep-series-header">
+  <div class="ep-num-row">
+    <span class="ep-badge-dot"></span>
+    <span class="ep-series-name">Season 3 &middot; Project Butterfly of Damocles &middot; Episode 8 of 10</span>
+  </div>
+  <h2 class="ep-title-display">Part VII</h2>
+  <p class="ep-header-tagline">Pros, cons, and tensions that don't resolve</p>
+</div>
 
 <hr class="gw-hr">
 
@@ -445,60 +452,60 @@ excerpt: "The honest accounting of Project Glasswing: what it genuinely changes,
 {% capture extra_styles %}
 <style>
 /* ── Episode 8 additional styles ── */
-.ep-nav-bar{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem;font-size:.75rem;opacity:.55;margin-bottom:1.5rem;padding:.6rem .875rem;background:rgba(0,0,0,.04);border-radius:8px}
+.ep-nav-bar{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem;font-size:.75rem;opacity:.55;margin-bottom:1.5rem;padding:.6rem .875rem;background:rgba(255,255,255,0.04);border-radius:8px}
 .ep-nav-sep{opacity:.4}.ep-nav-series{font-weight:700}
 .ep-lede{font-style:italic;font-size:1rem;line-height:1.75;margin-bottom:.75rem}
 .ep-lede-block{margin-bottom:1.5rem}
 .accounting-section{display:flex;flex-direction:column;gap:.6rem;margin:1.25rem 0}
-.acct-item{border:1px solid rgba(0,0,0,.1);border-radius:12px;overflow:hidden}
-.acct-pro{border-top:3px solid #2e7d32}
-.acct-con{border-top:3px solid #c62828}
-.acct-header{display:flex;flex-wrap:wrap;align-items:center;gap:.75rem;padding:.75rem 1.1rem;background:rgba(0,0,0,.03);border-bottom:1px solid rgba(0,0,0,.07)}
+.acct-item{border:1px solid rgba(255,255,255,0.12);border-radius:12px;overflow:hidden}
+.acct-pro{border-top:3px solid #34D399}
+.acct-con{border-top:3px solid #F87171}
+.acct-header{display:flex;flex-wrap:wrap;align-items:center;gap:.75rem;padding:.75rem 1.1rem;background:rgba(255,255,255,0.04);border-bottom:1px solid rgba(255,255,255,0.08)}
 .acct-num{font-size:1.5rem;font-weight:700;opacity:.18;line-height:1;min-width:28px}
 .acct-title{font-size:.88rem;font-weight:700;flex:1;line-height:1.35}
 .acct-verdict{font-size:.68rem;font-weight:700;padding:2px 8px;border-radius:8px;white-space:nowrap}
-.verdict-pro    {background:rgba(46,125,50,.12); color:#1b5e20}
-.verdict-con    {background:rgba(198,40,40,.12); color:#b71c1c}
-.verdict-partial{background:rgba(230,81,0,.12);  color:#bf360c}
+.verdict-pro    {background:rgba(52,211,153,.12); color:#34D399}
+.verdict-con    {background:rgba(248,113,113,.12); color:#FCA5A5}
+.verdict-partial{background:rgba(251,191,36,.12);  color:#bf360c}
 .acct-body{padding:.875rem 1.1rem}
 .acct-body>p{font-size:.83rem;opacity:.82;line-height:1.72;margin-bottom:.6rem}
-.acct-evidence,.acct-caveat{background:rgba(0,0,0,.04);border-radius:7px;padding:.75rem .875rem;margin:.5rem 0}
-.acct-caveat{background:rgba(198,40,40,.04);border-left:2px solid rgba(198,40,40,.3)}
+.acct-evidence,.acct-caveat{background:rgba(255,255,255,0.04);border-radius:7px;padding:.75rem .875rem;margin:.5rem 0}
+.acct-caveat{background:rgba(248,113,113,.04);border-left:2px solid rgba(248,113,113,.3)}
 .ae-label{font-size:.7rem;font-weight:700;opacity:.55;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.35rem}
 .acct-evidence p,.acct-caveat p{font-size:.78rem;opacity:.78;line-height:1.6;margin:0}
 .oss_fuzz_comparison{margin:.75rem 0}
 .ofc-title{font-size:.72rem;font-weight:700;opacity:.5;margin-bottom:.5rem}
 .compare-table{width:100%;border-collapse:collapse;font-size:.75rem}
-.compare-table th{font-size:.7rem;font-weight:700;text-align:left;padding:.4rem .65rem;background:rgba(0,0,0,.05);border-bottom:1px solid rgba(0,0,0,.1);opacity:.7}
-.compare-table td{padding:.38rem .65rem;border-bottom:1px solid rgba(0,0,0,.07);vertical-align:top;line-height:1.45;opacity:.78}
+.compare-table th{font-size:.7rem;font-weight:700;text-align:left;padding:.4rem .65rem;background:rgba(255,255,255,0.04);border-bottom:1px solid rgba(255,255,255,0.12);opacity:.7}
+.compare-table td{padding:.38rem .65rem;border-bottom:1px solid rgba(255,255,255,0.08);vertical-align:top;line-height:1.45;opacity:.78}
 .compare-table tr:last-child td{border-bottom:none}
-.compare-table tr:nth-child(even) td{background:rgba(0,0,0,.02)}
+.compare-table tr:nth-child(even) td{background:rgba(255,255,255,0.04)}
 .tension-deep-grid{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin:1.25rem 0}
-.tdg-card{background:#fff;border:1px solid rgba(0,0,0,.1);border-radius:12px;padding:.9rem 1rem}
+.tdg-card{background:#111827;border:1px solid rgba(255,255,255,0.12);border-radius:12px;padding:.9rem 1rem}
 .tdg-title{display:flex;align-items:flex-start;gap:.5rem;margin-bottom:.5rem}
 .tdg-icon{font-size:.75rem;margin-top:1px;flex-shrink:0}
-.tdg-red  {color:#c62828}
-.tdg-amber{color:#e65100}
+.tdg-red  {color:#F87171}
+.tdg-amber{color:#FBBF24}
 .tdg-title h4{font-size:.84rem;font-weight:700;margin:0;line-height:1.3}
 .tdg-body>p{font-size:.78rem;opacity:.78;line-height:1.65;margin-bottom:.5rem}
-.tdg-implication{background:rgba(0,0,0,.04);border-radius:6px;padding:.6rem .75rem;margin-top:.5rem}
+.tdg-implication{background:rgba(255,255,255,0.04);border-radius:6px;padding:.6rem .75rem;margin-top:.5rem}
 .tdg-impl-label{font-size:.68rem;font-weight:700;opacity:.5;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.3rem}
 .tdg-implication p{font-size:.76rem;opacity:.75;line-height:1.6;margin:0}
-.callout-box{background:rgba(0,0,0,.04);border:1px solid rgba(0,0,0,.1);border-radius:8px;padding:.875rem 1rem;margin:1rem 0}
+.callout-box{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.12);border-radius:8px;padding:.875rem 1rem;margin:1rem 0}
 .callout-box p{font-size:.8rem;opacity:.8;line-height:1.65;margin:0}
-.ep-nav-footer{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:2rem;padding-top:1.25rem;border-top:1px solid rgba(0,0,0,.1)}
+.ep-nav-footer{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:2rem;padding-top:1.25rem;border-top:1px solid rgba(255,255,255,0.12)}
 .ep-nav-prev,.ep-nav-next{display:flex;flex-direction:column;gap:.2rem}
 .ep-nav-next{text-align:right}
 .ep-nav-dir{font-size:.72rem;font-weight:700;opacity:.5}
 .ep-nav-ep-title{font-size:.8rem;opacity:.75;line-height:1.4}
 /* Dark mode */
-[data-theme="dark"] .acct-item,.tdg-card,[data-theme="dark"] .callout-box{background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.1)}
-[data-theme="dark"] .acct-header{background:rgba(255,255,255,.04);border-color:rgba(255,255,255,.07)}
-[data-theme="dark"] .acct-evidence,[data-theme="dark"] .acct-caveat,[data-theme="dark"] .tdg-implication{background:rgba(255,255,255,.05)}
-[data-theme="dark"] .acct-caveat{background:rgba(255,80,80,.07)}
-[data-theme="dark"] .verdict-pro    {background:rgba(80,200,80,.12); color:#88cc88}
-[data-theme="dark"] .verdict-con    {background:rgba(255,80,80,.12); color:#ff9999}
-[data-theme="dark"] .verdict-partial{background:rgba(255,130,50,.12);color:#ffbb77}
+
+
+
+
+
+
+
 @media(max-width:600px){
   .tension-deep-grid{grid-template-columns:1fr}
   .acct-header{flex-direction:column;align-items:flex-start}

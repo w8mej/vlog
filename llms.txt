@@ -24,14 +24,14 @@ layout: null
 {% assign all_posts = site.posts | concat: site.tech_posts %}
 {% assign categories = all_posts | map: 'categories' | flatten | uniq | sort %}
 
-{% for cat in categories %}
+{%- for cat in categories %}
 ### {{ cat }}
-{% for post in all_posts %}
-{% if post.categories contains cat %}
+{%- for post in all_posts %}
+{%- if post.categories contains cat %}
 - [{{ post.title }}]({{ site.url }}{{ post.url }}) ({{ post.date | date: "%Y" }})
-{% endif %}
-{% endfor %}
-{% endfor %}
+{%- endif %}
+{%- endfor %}
+{% endfor -%}
 
 
 ## Authoritative Documentation & Audits

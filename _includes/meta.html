@@ -13,13 +13,13 @@
 <meta name="twitter:description" content="{{ page.description }}" />
 <meta name="description" content="{{ page.description }}" />
 {% elsif page.excerpt %}
-<meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}" />
-<meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}" />
-<meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}" />
+<meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | truncatewords: 25 }}" />
+<meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines | truncatewords: 25 }}" />
+<meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | truncatewords: 25 }}" />
 {% elsif page.content %}
-<meta property="og:description" content="{{ page.content | strip_html | strip_newlines | truncate: 160 }}" />
-<meta name="twitter:description" content="{{ page.content | strip_html | strip_newlines | truncate: 160 }}" />
-<meta name="description" content="{{ page.content | strip_html | strip_newlines | truncate: 160 }}" />
+<meta property="og:description" content="{{ page.content | strip_html | strip_newlines | truncatewords: 25 }}" />
+<meta name="twitter:description" content="{{ page.content | strip_html | strip_newlines | truncatewords: 25 }}" />
+<meta name="description" content="{{ page.content | strip_html | strip_newlines | truncatewords: 25 }}" />
 {% else %}
 <meta property="og:description" content="{{ site.description }}" />
 <meta name="twitter:description" content="{{ site.description }}" />
@@ -117,7 +117,7 @@
           "@id": "{{ site.url }}{{ page.url }}",
           "url": "{{ site.url }}{{ page.url }}",
           "name": {% if page.title %}{{ page.title | append: ' – ' | append: site.name | jsonify }}{% else %}{{ site.name | jsonify }}{% endif %},
-          "description": {% if page.description %}{{ page.description | jsonify }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 | jsonify }}{% else %}{{ site.description | jsonify }}{% endif %},
+          "description": {% if page.description %}{{ page.description | jsonify }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncatewords: 25 | jsonify }}{% else %}{{ site.description | jsonify }}{% endif %},
           "isPartOf": { "@id": "{{ site.url }}#website" },
           "about": { "@id": "{{ site.url }}#john-menerick" },
           "publisher": { "@id": "{{ site.url }}#securesql" },
@@ -250,18 +250,36 @@
           "articleSection": {{ page.categories[0] | jsonify }},
           "keywords": {{ page.categories | join: ', ' | jsonify }},
           "wordCount": "{{ page.content | number_of_words }}",
-          "description": {{ page.description | default: page.excerpt | strip_html | truncate: 160 | jsonify }},
+          "description": {{ page.description | default: page.excerpt | strip_html | truncatewords: 25 | jsonify }},
           "speakable": {
             "@type": "SpeakableSpecification",
             "cssSelector": ["h1", ".entry"]
-          }
+          }{% if page.series %},
+          "isPartOf": {
+            "@type": "CollectionPage",
+            "@id": "{{ site.url }}/series/{{ page.series }}/"
+          },
+          "position": {{ page.episode }}{% endif %}
+        }
+{% endif %}
+{% if page.series %}
+{% assign series_posts_schema = site.posts | where: "series", page.series | sort: "episode" %}
+        ,{
+          "@type": "CollectionPage",
+          "@id": "{{ site.url }}/series/{{ page.series }}/",
+          "name": {{ page.series_name | jsonify }},
+          "url": "{{ site.url }}/series/{{ page.series }}/",
+          "isPartOf": { "@id": "{{ site.url }}#website" },
+          "hasPart": [{% for sp in series_posts_schema %}
+            { "@type": "BlogPosting", "@id": "{{ site.url }}{{ sp.url }}#article", "name": {{ sp.title | jsonify }}, "position": {{ sp.episode }} }{% unless forloop.last %},{% endunless %}{% endfor %}
+          ]
         }
 {% endif %}
 {% if page.video_url %}
         ,{
           "@type": "VideoObject",
           "name": {{ page.title | jsonify }},
-          "description": {{ page.description | default: page.excerpt | strip_html | truncate: 160 | jsonify }},
+          "description": {{ page.description | default: page.excerpt | strip_html | truncatewords: 25 | jsonify }},
           "thumbnailUrl": "{{ site.url }}{{ site.avatar }}",
           "contentUrl": "{{ page.video_url }}",
           "embedUrl": "{{ page.video_url | replace: 'watch?v=', 'embed/' }}",
@@ -617,5 +635,14 @@
     }
     </script>
 
+{% if page.series %}
+{% assign series_posts = site.posts | where: "series", page.series | sort: "episode" %}
+{% assign ep_prev = page.episode | minus: 1 %}
+{% assign ep_next = page.episode | plus: 1 %}
+{% assign prev_series_post = series_posts | where: "episode", ep_prev | first %}
+{% assign next_series_post = series_posts | where: "episode", ep_next | first %}
+{% if prev_series_post %}<link rel="prev" href="{{ site.url }}{{ prev_series_post.url }}" />{% endif %}
+{% if next_series_post %}<link rel="next" href="{{ site.url }}{{ next_series_post.url }}" />{% endif %}
+{% endif %}
 <a rel="me" href="https://mastodon.social/@w8mej" style="display:none;">Mastodon</a>
 <meta name="fediverse:creator" content="@w8mej@mastodon.social">

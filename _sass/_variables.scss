@@ -13,47 +13,90 @@
   --white: #fff;
 
   --bg-color: var(--white);
-  --text-color: #333333;
-  --heading-color: var(--darkerGray);
-  --border-color: var(--lightGray);
-  --link-color: var(--blue);
-  --blockquote-bg: #ede1ff;
-  --you-may-like-bg: #ddffb5;
-  --code-bg: #f8f8f8;
-  --table-header-bg: #f8f8f8;
-  --search-input-bg: #fff3ff;
-  
-  --tech-blue: #007acc;
-  --tag-bg: #e6f2ff;
-  --timeline-line: #d7e4ed;
-  --chip-bg: #e4e4e4;
-  --highlight-bg: #efd3f9;
+  --bg-secondary: rgba(0,0,0,0.03);
+  --text-color: #334155;
+  --heading-color: #0F172A;
+  --border-color: #E2E8F0;
+  --link-color: #7C3AED;
+  --blockquote-bg: rgba(124,58,237,0.07);
+  --you-may-like-bg: rgba(6,182,212,0.07);
+  --code-bg: #F8FAFC;
+  --table-header-bg: #F1F5F9;
+  --search-input-bg: #F8FAFC;
+
+  --tech-blue: #0891B2;
+  --tag-bg: rgba(124,58,237,0.1);
+  --timeline-line: #CBD5E1;
+  --chip-bg: #E2E8F0;
+  --highlight-bg: rgba(124,58,237,0.1);
+
+  /* Atmospheric accent system */
+  --accent-primary: #7C3AED;
+  --accent-secondary: #0891B2;
+  --accent-red: #DC2626;
+  --accent-amber: #D97706;
+  --accent-green: #059669;
+  --glow-purple: rgba(124,58,237,0.08);
+  --glow-teal: rgba(8,145,178,0.06);
+
+  /* Masthead */
+  --masthead-bg: #ffffff;
+  --masthead-border: rgba(0,0,0,0.08);
+  --masthead-shadow: 0 1px 24px rgba(0,0,0,0.06);
+  --nav-link-color: #475569;
+  --nav-link-hover: #7C3AED;
+
+  /* Post */
+  --post-body-font: Georgia, 'Times New Roman', serif;
+  --post-meta-color: #64748B;
 }
 
 [data-theme="dark"] {
-  --bg-color: #121212;
-  --text-color: #e0e0e0;
-  --heading-color: #f0f0f0;
-  --border-color: #333;
-  --link-color: #64b5f6;
-  --blockquote-bg: #2a2a40;
-  --you-may-like-bg: #2a402a;
-  --code-bg: #1e1e1e;
-  --table-header-bg: #1e1e1e;
-  --search-input-bg: #2a2a2a;
-  
-  --tech-blue: #64b5f6;
-  --tag-bg: #1e2a3a;
-  --timeline-line: #444;
-  --chip-bg: #333;
-  --highlight-bg: #4a2a4a;
-  --gray: #ababab;
-  
-  --white: #121212; // Inverting meaning for some existing usages if needed, but better to use semantic vars
-  --lightGray: #333;
-  --darkGray: #ccc;
-  --darkerGray: #eee;
-  --black: #fff;
+  /* Base palette — deep navy, matching butterfly series */
+  --bg-color: #0c0c16;
+  --bg-secondary: rgba(255,255,255,0.04);
+  --text-color: #CBD5E1;
+  --heading-color: #F1F5F9;
+  --border-color: rgba(255,255,255,0.09);
+  --link-color: #A78BFA;
+  --blockquote-bg: rgba(139,92,246,0.08);
+  --you-may-like-bg: rgba(6,182,212,0.08);
+  --code-bg: #111827;
+  --table-header-bg: rgba(255,255,255,0.04);
+  --search-input-bg: rgba(255,255,255,0.06);
+
+  --tech-blue: #60A5FA;
+  --tag-bg: rgba(139,92,246,0.18);
+  --timeline-line: rgba(255,255,255,0.12);
+  --chip-bg: rgba(255,255,255,0.08);
+  --highlight-bg: rgba(139,92,246,0.15);
+  --gray: #64748B;
+
+  /* Atmospheric accent system — vivid on dark */
+  --accent-primary: #8B5CF6;
+  --accent-secondary: #06B6D4;
+  --accent-red: #F87171;
+  --accent-amber: #FBBF24;
+  --accent-green: #34D399;
+  --glow-purple: rgba(139,92,246,0.18);
+  --glow-teal: rgba(6,182,212,0.12);
+
+  /* Masthead — atmospheric dark stage */
+  --masthead-bg: rgba(12,12,22,0.95);
+  --masthead-border: rgba(139,92,246,0.18);
+  --masthead-shadow: 0 1px 32px rgba(0,0,0,0.4), 0 0 80px rgba(139,92,246,0.06);
+  --nav-link-color: #94A3B8;
+  --nav-link-hover: #C4B5FD;
+
+  /* Inverted primitives for legacy usages */
+  --white: #0c0c16;
+  --lightGray: rgba(255,255,255,0.08);
+  --darkGray: #CBD5E1;
+  --darkerGray: #F1F5F9;
+  --black: #F1F5F9;
+
+  /* Post */
+  --post-meta-color: #475569;
 }
 
 $blue: var(--blue);

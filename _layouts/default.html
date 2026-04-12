@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>{% if page.title %}{{ page.title }} – {{ site.name }}{% else %}{{ site.name }}{% endif %}</title>
+    <title>{% if page.title %}{% if page.layout == 'post' or page.layout == 'tech_post' %}{{ page.title }} | SecureSQL{% else %}{{ page.title }} – {{ site.name }}{% endif %}{% else %}{{ site.name }}{% endif %}</title>
     {% include meta.html %}
     {% if paginator and paginator.page > 1 %}
     <link rel="canonical" href="{{ site.url }}{{ paginator.page_path | replace: 'index.html', '' }}" />

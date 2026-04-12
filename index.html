@@ -9,41 +9,37 @@ redirect_from:
   - /s/selfgzMassExplosionUnpacked.gz
   - /categories/ai governance/
 ---
-<h2>Security Engineer | Signal Over Noise</h2>
 
-<img src="https://securesql.info/images/JohnMenerick.webp" alt="John Menerick working" width="160" height="284" style="float: right; margin: 0 0 15px 15px; border-radius:8px;" fetchpriority="high">
+<div class="home-hero">
+  <div class="home-hero-eyebrow">
+    <span class="home-badge-dot"></span>
+    <span>Security Engineer &middot; Threat Intelligence &middot; Open Source</span>
+  </div>
 
-<p><strong>John Menerick</strong> helps organizations manage threats before they become disasters. With deep experience in detection engineering, incident response, and systems engineering, he builds smarter, faster defenses that globally scale. John doesn’t just respond to alerts—he rewires how systems think about risk.</p>
-
-<p>Equal parts builder and breaker, John brings clarity to chaos, distilling complex security problems into actionable strategies. His work has improved the resilience of Fortune 500 companies, startups, and public-sector systems alike.</p>
-
-<p>He’s trusted not only for his technical depth, but for his ability to lead calmly through the storm—and to build the systems that prevent one.</p>
-<hr>
-<h2>Why Work With John?</h2>
-
-<ul>
-  <li><strong>Engineer First, Firefighter Second</strong><br>
-  John’s strength lies in building systems that detect and prevent threats, not just react to them.</li>
-
-  <li><strong>No Buzzwords, Just Results</strong><br>
-  John communicates clearly—with engineers, with executives, and with everyone in between.</li>
-
-  <li><strong>Open Source Contributor & Educator</strong><br>
-  From writing tools to mentoring future defenders, John shares his work with the community and lifts others as he climbs. See Casting for additional details.</li>
-
-  <li><strong>Proven Under Pressure</strong><br>
-  Whether in high-tempo incident response or designing secure-by-default zero knowledge & trust infrastructure, John operates with clarity, composure, and results.</li>
-</ul>
-<div style="clear: both;"></div>
+  <div class="home-hero-layout">
+    <div class="home-hero-text">
+      <h1 class="home-hero-title">John Menerick</h1>
+      <p class="home-hero-tagline">Signal over noise. Systems that think about risk before someone breaks them.</p>
+      <p class="home-hero-body"><strong>John Menerick</strong> helps organizations manage threats before they become disasters. With deep experience in detection engineering, incident response, and systems engineering, he builds smarter, faster defenses that globally scale. Equal parts builder and breaker — distilling complex security problems into actionable strategies for Fortune 500s, startups, and public-sector systems alike.</p>
+      <div class="home-hero-cta">
+        <a href="/about" class="home-cta-primary">About John</a>
+        <a href="https://calendly.com/w8mej/30min" class="home-cta-secondary" target="_blank" rel="noopener">Book a coffee chat &rarr;</a>
+      </div>
+    </div>
+    <div class="home-hero-avatar">
+      <img src="https://securesql.info/images/JohnMenerick.webp" alt="John Menerick" width="160" height="284" fetchpriority="high">
+    </div>
+  </div>
+</div>
 
 <div class="metrics-container">
   <div class="metric-item">
     <span class="metric-number">116+</span>
-    <span class="metric-label">Blog posts published</span>
+    <span class="metric-label">Posts published</span>
   </div>
   <div class="metric-item">
     <span class="metric-number">236</span>
-    <span class="metric-label">GitHub stars across repositories</span>
+    <span class="metric-label">GitHub stars</span>
   </div>
   <div class="metric-item">
     <span class="metric-number">11</span>
@@ -51,18 +47,188 @@ redirect_from:
   </div>
   <div class="metric-item">
     <span class="metric-number">83</span>
-    <span class="metric-label">CVEs analyzed daily</span>
+    <span class="metric-label">CVEs daily</span>
   </div>
   <div class="metric-item">
     <span class="metric-number">78+</span>
-    <span class="metric-label">Junior engineers mentored</span>
+    <span class="metric-label">Engineers mentored</span>
   </div>
 </div>
 
-<h2>💬 Book a Coffee Chat</h2>
-<p>Interested in security engineering? <a href="https://calendly.com/w8mej/30min">Schedule 15 minutes</a></p>
+<div class="home-strengths">
+  <div class="strength-card">
+    <div class="strength-icon">&#9881;</div>
+    <h3>Engineer First</h3>
+    <p>Builds systems that detect and prevent threats, not just react to them.</p>
+  </div>
+  <div class="strength-card">
+    <div class="strength-icon">&#9685;</div>
+    <h3>No Buzzwords</h3>
+    <p>Communicates clearly — with engineers, executives, and everyone in between.</p>
+  </div>
+  <div class="strength-card">
+    <div class="strength-icon">&#9903;</div>
+    <h3>Open Source</h3>
+    <p>Writes tools, mentors defenders, and shares work with the community.</p>
+  </div>
+  <div class="strength-card">
+    <div class="strength-icon">&#10070;</div>
+    <h3>Proven Under Pressure</h3>
+    <p>High-tempo incident response and secure-by-default zero trust architecture.</p>
+  </div>
+</div>
 
-<hr>
+<hr class="home-divider">
 
+<style>
+/* ── Homepage hero ── */
+.home-hero {
+  padding: 2.5rem 0 2rem;
+}
+.home-hero-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--post-meta-color);
+  margin-bottom: 1.5rem;
+}
+.home-badge-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--accent-primary);
+  box-shadow: 0 0 8px var(--glow-purple);
+  animation: homeDotPulse 2.4s ease-in-out infinite;
+}
+@keyframes homeDotPulse {
+  0%, 100% { box-shadow: 0 0 8px var(--glow-purple); transform: scale(1); }
+  50% { box-shadow: 0 0 16px rgba(139,92,246,0.6); transform: scale(1.25); }
+}
+.home-hero-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.home-hero-text { flex: 1; }
+.home-hero-avatar {
+  flex-shrink: 0;
+}
+.home-hero-avatar img {
+  border-radius: 12px;
+  display: block;
+  max-width: 140px;
+  height: auto;
+  border: 2px solid var(--border-color);
+}
+.home-hero-title {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  margin: 0 0 0.5rem;
+  text-align: left;
+  color: var(--heading-color);
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.home-hero-tagline {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(14px, 2vw, 16px);
+  font-style: italic;
+  color: var(--post-meta-color);
+  margin: 0 0 1rem;
+  line-height: 1.6;
+}
+.home-hero-body {
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--text-color);
+  margin: 0 0 1.5rem;
+}
+.home-hero-cta {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.home-cta-primary {
+  display: inline-block;
+  padding: 9px 22px;
+  background: var(--accent-primary);
+  color: #fff !important;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: opacity 150ms ease, transform 150ms ease;
+  &:hover { opacity: 0.88; transform: translateY(-1px); }
+}
+.home-cta-secondary {
+  display: inline-block;
+  padding: 9px 20px;
+  background: var(--bg-secondary);
+  color: var(--accent-primary) !important;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: border-color 150ms ease, background 150ms ease;
+  &:hover { border-color: var(--accent-primary); background: var(--tag-bg); }
+}
 
-<p><strong>Let’s build something secure—before someone else breaks it.</strong></p>
+/* ── Strength cards ── */
+.home-strengths {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.strength-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 1.25rem 1rem;
+  transition: transform 250ms ease, border-color 250ms ease;
+  &:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent-primary);
+  }
+}
+.strength-icon {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  opacity: 0.75;
+}
+.strength-card h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--heading-color);
+  text-align: left;
+  margin: 0 0 0.4rem;
+  line-height: 1.3;
+}
+.strength-card p {
+  font-size: 13px;
+  color: var(--post-meta-color);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.home-divider {
+  border: none;
+  border-top: 1px solid var(--border-color);
+  margin: 2rem 0 1.5rem;
+}
+
+@media screen and (max-width: 640px) {
+  .home-hero-layout { flex-direction: column-reverse; gap: 1rem; }
+  .home-hero-avatar img { max-width: 100px; }
+  .home-hero-title { font-size: 2rem; }
+  .home-strengths { grid-template-columns: repeat(2, 1fr); }
+}
+</style>

@@ -1292,3 +1292,390 @@ Modules - reusable parts of our design
 //@import "highlights";
 @import "darcula";
 // @import "svg-icons";
+
+/* ============================================================
+   SITE-WIDE ATMOSPHERIC DESIGN SYSTEM
+   Matches the Project Butterfly of Damocles series aesthetic
+   ============================================================ */
+
+/* ── Global body upgrade ── */
+body {
+  font-size: 17px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* ── Masthead / Header ── */
+.wrapper-masthead {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  background: var(--masthead-bg);
+  border-bottom: 1px solid var(--masthead-border);
+  box-shadow: var(--masthead-shadow);
+  margin-bottom: 0;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.masthead {
+  padding: 14px 0;
+  border-bottom: none;
+}
+
+.site-name a {
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.site-description {
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  opacity: 0.7;
+}
+
+nav a {
+  color: var(--nav-link-color) !important;
+  font-size: 14px !important;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  padding: 4px 0;
+  border-bottom: 1px solid transparent;
+  transition: color 150ms ease, border-color 150ms ease;
+
+  &:hover {
+    color: var(--nav-link-hover) !important;
+    border-bottom-color: var(--accent-primary);
+  }
+}
+
+/* ── Wrapper main — breathing room ── */
+.wrapper-main {
+  padding-top: 2.5rem;
+  padding-bottom: 160px;
+}
+
+/* ── Post article header ── */
+article.post h1,
+article.detailed h1 {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+  text-align: left;
+  margin-bottom: 0.5rem;
+  color: var(--heading-color);
+}
+
+.author_title {
+  font-size: 13px;
+  letter-spacing: 0.03em;
+  color: var(--post-meta-color);
+  text-align: left;
+}
+
+/* ── Post body typography ── */
+article.post .entry,
+article.detailed .entry {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(15px, 2vw, 17px);
+  line-height: 1.8;
+  color: var(--text-color);
+
+  p { margin: 1.2em 0; }
+
+  h2, h3, h4 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    color: var(--heading-color);
+    text-align: left;
+  }
+
+  h2::before, h2::after { display: none !important; }
+
+  blockquote {
+    border-left: 3px solid var(--accent-primary);
+    background: var(--blockquote-bg);
+    border-radius: 0 10px 10px 0;
+    padding: 1rem 1.25rem;
+    margin: 1.5rem 0;
+    font-size: 1rem;
+  }
+
+  a {
+    color: var(--link-color);
+    text-decoration: underline;
+    text-decoration-color: rgba(139,92,246,0.35);
+    text-underline-offset: 3px;
+    transition: text-decoration-color 150ms ease;
+    &:hover { text-decoration-color: var(--accent-primary); }
+  }
+
+  code {
+    background: var(--code-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 1px 5px;
+    font-size: 0.88em;
+  }
+}
+
+/* ── Post tags — upgrade ── */
+.post-tags a {
+  background: var(--tag-bg) !important;
+  color: var(--accent-primary) !important;
+  font-size: 12px !important;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  border-radius: 6px !important;
+  padding: 3px 10px !important;
+  border: 1px solid transparent;
+  transition: border-color 150ms ease, background 150ms ease;
+
+  &:hover {
+    border-color: var(--accent-primary);
+    background: rgba(139,92,246,0.15) !important;
+  }
+}
+
+/* ── Post list on blog/homepage ── */
+.posts > .post {
+  padding: 1.5rem 0 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+
+  h1 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1.25rem;
+    text-align: left;
+    line-height: 1.35;
+    letter-spacing: -0.01em;
+    margin-bottom: 0.4rem;
+  }
+
+  .entry p {
+    font-size: 0.9rem;
+    color: var(--post-meta-color);
+    line-height: 1.65;
+    margin: 0.3rem 0 0.6rem;
+  }
+
+  .read-more {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    color: var(--accent-primary);
+    border-bottom: 1px solid rgba(139,92,246,0.3);
+    padding-bottom: 1px;
+    text-decoration: none !important;
+
+    &:hover { border-bottom-color: var(--accent-primary); }
+  }
+}
+
+/* ── Homepage hero metrics ── */
+.metrics-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  margin: 2.5rem 0;
+  padding: 0;
+}
+
+.metric-item {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 14px;
+  padding: 1.25rem 1rem;
+  text-align: center;
+  transition: transform 250ms ease, box-shadow 250ms ease;
+  min-width: auto;
+  margin: 0;
+  flex: none;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 32px var(--glow-purple);
+    border-color: var(--accent-primary);
+  }
+}
+
+.metric-number {
+  display: block;
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  margin-bottom: 0.4rem;
+}
+
+.metric-item:nth-child(1) .metric-number { color: #A78BFA; }
+.metric-item:nth-child(2) .metric-number { color: #94A3B8; }
+.metric-item:nth-child(3) .metric-number { color: #F87171; }
+.metric-item:nth-child(4) .metric-number { color: #FBBF24; }
+.metric-item:nth-child(5) .metric-number { color: #34D399; }
+[data-theme="dark"] .metric-item:nth-child(1) .metric-number { color: #A78BFA; }
+[data-theme="dark"] .metric-item:nth-child(2) .metric-number { color: #94A3B8; }
+[data-theme="dark"] .metric-item:nth-child(3) .metric-number { color: #F87171; }
+[data-theme="dark"] .metric-item:nth-child(4) .metric-number { color: #FBBF24; }
+[data-theme="dark"] .metric-item:nth-child(5) .metric-number { color: #34D399; }
+
+.metric-label {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--post-meta-color);
+  line-height: 1.4;
+}
+
+/* ── Tables ── */
+table {
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+  width: 100%;
+}
+
+table tr th {
+  background: var(--table-header-bg);
+  color: var(--heading-color);
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* ── Dark mode atmospheric body glow ── */
+[data-theme="dark"] body {
+  background: var(--bg-color);
+}
+
+[data-theme="dark"] body::before {
+  content: '';
+  position: fixed;
+  top: 0; right: 0;
+  width: 600px; height: 600px;
+  background: radial-gradient(circle, rgba(139,92,246,0.04) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+[data-theme="dark"] body::after {
+  content: '';
+  position: fixed;
+  bottom: 0; left: 0;
+  width: 500px; height: 500px;
+  background: radial-gradient(circle, rgba(6,182,212,0.03) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+[data-theme="dark"] .wrapper-container { position: relative; z-index: 1; }
+
+/* ── Footer ── */
+.wrapper-footer {
+  background: var(--bg-secondary) !important;
+  border-top: 1px solid var(--border-color);
+  height: auto;
+  padding: 0;
+}
+
+footer {
+  padding: 1.5rem 0;
+  font-size: 13px;
+  color: var(--post-meta-color);
+
+  a {
+    color: var(--post-meta-color);
+    transition: color 150ms ease;
+    &:hover { color: var(--accent-primary); }
+  }
+}
+
+/* ── Dark mode toggle — upgrade position ── */
+.theme-switch-wrapper {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 30px;
+  padding: 6px 14px 6px 10px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  z-index: 200;
+  transition: box-shadow 200ms ease;
+
+  em {
+    font-style: normal;
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    color: var(--post-meta-color);
+  }
+
+  &:hover { box-shadow: 0 6px 24px var(--glow-purple); }
+}
+
+/* ── Search input ── */
+#search-input {
+  background: var(--search-input-bg);
+  border-color: var(--border-color);
+  color: var(--text-color);
+  border-radius: 10px;
+  font-size: 16px;
+  transition: border-color 200ms ease, box-shadow 200ms ease;
+
+  &:focus {
+    outline: none;
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 0 3px rgba(139,92,246,0.15);
+  }
+}
+
+/* ── Chip / tag pills ── */
+.chip {
+  background: var(--chip-bg) !important;
+  color: var(--text-color) !important;
+  border-radius: 8px !important;
+  font-size: 12px !important;
+}
+
+/* ── Read-more progress bar (top of page) ── */
+#bar {
+  background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary)) !important;
+  height: 3px !important;
+}
+
+/* ── Pagination ── */
+.pagination a, .pagination span {
+  border-radius: 8px;
+  border-color: var(--border-color);
+  background: var(--bg-secondary);
+  color: var(--text-color);
+  font-size: 14px;
+  margin: 0 2px;
+}
+
+.pagination a:hover {
+  background: var(--tag-bg) !important;
+  color: var(--accent-primary) !important;
+}
+
+/* ── Share buttons ── */
+#share-buttons > div > svg { fill: var(--border-color) !important; }
+
+/* ── Mobile responsive ── */
+@media screen and (max-width: 640px) {
+  .wrapper-masthead { position: relative; }
+  .metrics-container { grid-template-columns: repeat(2, 1fr); }
+  .theme-switch-wrapper { bottom: 1rem; right: 1rem; padding: 5px 10px 5px 8px; }
+  article.post h1, article.detailed h1 { font-size: 1.5rem; }
+}

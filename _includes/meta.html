@@ -51,6 +51,12 @@
 <!-- Open Graph Basic Tags -->
 {% if page.layout == 'post' or page.layout == 'tech_post' %}
 <meta property="og:type" content="article"/>
+<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}"/>
+<meta property="article:author" content="{{ site.name }}"/>
+<meta property="article:section" content="{{ page.categories[0] }}"/>
+<meta property="og:article:published_time" content="{{ page.date | date_to_xmlschema }}"/>
+<meta property="og:article:author" content="{{ site.name }}"/>
+<meta property="og:article:section" content="{{ page.categories[0] }}"/>
 {% else %}
 <meta property="og:type" content="website"/>
 {% endif %}
@@ -217,7 +223,7 @@
           ],
           "logo": {
             "@type": "ImageObject",
-            "url": "{{ site.url }}{{ site.avatar }}"
+            "url": "{{ site.url }}/images/circular_headshot.png"
           },
           "description": "Expert consulting in cybersecurity, threat detection, and zero trust architectures led by John Menerick.",
           "founder": { "@id": "{{ site.url }}#john-menerick" },
@@ -240,7 +246,13 @@
           "@type": "BlogPosting",
           "@id": "{{ site.url }}{{ page.url }}#article",
           "headline": {{ page.title | jsonify }},
-          "image": "{{ site.url }}{{ page.image | default: site.avatar }}",
+          "image": {
+            "@type": "ImageObject",
+            "url": "{{ site.url }}{{ page.image | default: site.avatar }}",
+            "width": 1200,
+            "height": 630,
+            "caption": {{ page.title | jsonify }}
+          },
           "author": { "@id": "{{ site.url }}#john-menerick" },
           "publisher": { "@id": "{{ site.url }}#securesql" },
           "datePublished": "{{ page.date | date_to_xmlschema }}",

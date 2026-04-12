@@ -110,7 +110,7 @@ excerpt: "In 2014 I stood at DEF CON and showed the internet's foundational soft
         <div class="ep-desc">April 8, 2026. Anthropic announces Project Glasswing: Claude Mythos Preview withheld from general release, deployed to 52 partner organizations for defensive use. A 27-year-old OpenBSD bug. A sandbox escape followed by an unprompted email to a researcher eating a sandwich. The Glasswing Doctrine, the Everybody/Somebody/Nobody loop, and why voluntary restraint at the AI governance layer is structurally identical to voluntary restraint in OSS security.</div>
         <div class="ep-tags-row"><span class="ep-tag">Project Glasswing</span><span class="ep-tag">Claude Mythos</span><span class="ep-tag">Glasswing Doctrine</span><span class="ep-tag">capability withholding</span><span class="ep-tag">AARM</span></div>
       </div>
-      <div class="ep-status-cell"><span class="ep-badge b-live">Available now</span><span class="ep-runtime">~22 min</span></div>
+      <div class="ep-status-cell"><span class="ep-badge b-soon">[Forthcoming]</span><span class="ep-runtime">~22 min</span></div>
     </div>
 
     <div class="ep-row">
@@ -120,7 +120,7 @@ excerpt: "In 2014 I stood at DEF CON and showed the internet's foundational soft
         <div class="ep-desc">Every regulatory vulnerability management framework assumes discovery is scarce and disclosure is sequential. Glasswing produces thousands of simultaneous zero-day advisories. This episode models what happens when federal agencies receive 1,000 simultaneous zero-day advisories &mdash; and maps the 18-month window before the disclosure flood hits a compliance stack nobody has started redesigning.</div>
         <div class="ep-tags-row"><span class="ep-tag">CISA KEV</span><span class="ep-tag">NVD</span><span class="ep-tag">FedRAMP</span><span class="ep-tag">CMMC</span><span class="ep-tag">compliance cliff</span></div>
       </div>
-      <div class="ep-status-cell"><span class="ep-badge b-live">Available now</span><span class="ep-runtime">~18 min</span></div>
+      <div class="ep-status-cell"><span class="ep-badge b-soon">[Forthcoming]</span><span class="ep-runtime">~18 min</span></div>
     </div>
 
     <div class="ep-row">
@@ -130,7 +130,7 @@ excerpt: "In 2014 I stood at DEF CON and showed the internet's foundational soft
         <div class="ep-desc">Season finale. The fairy dust didn&rsquo;t disappear &mdash; it moved one abstraction layer higher with each generation. What the Glasswing Doctrine needs to become to be durable. What the open source social contract looks like after a private AI lab unilaterally rewrote it. And the question nobody is asking loudly enough: who patches the patcher&rsquo;s patcher, through what supply chain, while the patcher is fielding a Teams meeting request from a very convincing stranger.</div>
         <div class="ep-tags-row"><span class="ep-tag">synthesis</span><span class="ep-tag">OSS social contract</span><span class="ep-tag">governance</span><span class="ep-tag">Glasswing Doctrine</span><span class="ep-tag">season finale</span></div>
       </div>
-      <div class="ep-status-cell"><span class="ep-badge b-live">Available now</span><span class="ep-runtime">~25 min</span></div>
+      <div class="ep-status-cell"><span class="ep-badge b-soon">[Forthcoming]</span><span class="ep-runtime">~25 min</span></div>
     </div>
 
   </div><!-- /ep-list -->
@@ -176,33 +176,33 @@ excerpt: "In 2014 I stood at DEF CON and showed the internet's foundational soft
   <div class="theme-grid">
     <div class="theme-card">
       <span class="theme-label theme-purple">The parable</span>
-      <h4>Everybody / Somebody / Nobody / Anybody</h4>
-      <p>Introduced at DEF CON 22 to explain Heartbleed. Returns in every episode as the structural explanation for why each generation of infrastructure inherits the same failure mode.</p>
+      <h4>Who is actually responsible for securing open source infrastructure?</h4>
+      <p>Nobody &mdash; because everybody assumes somebody else will handle it. Introduced at DEF CON 22 to explain Heartbleed, the Everybody / Somebody / Nobody / Anybody parable returns in every episode as the structural explanation for why each generation of infrastructure inherits the same failure mode.</p>
     </div>
     <div class="theme-card">
       <span class="theme-label theme-red">The inversion</span>
-      <h4>Diligence as the attack surface</h4>
-      <p>The most security-conscious organizations had the greatest Trivy exposure because they ran it most frequently. The XZ maintainer was trustworthy, which is why the attack worked. Security posture as vulnerability vector.</p>
+      <h4>Why does security diligence become an attack surface?</h4>
+      <p>Because the most security-conscious organizations ran Trivy most frequently and had the greatest exposure when Trivy itself was compromised. The XZ maintainer was trustworthy &mdash; which is exactly why the attack worked. Security posture becomes a vulnerability vector when the tools enforcing it are the target.</p>
     </div>
     <div class="theme-card">
       <span class="theme-label theme-teal">The layer shift</span>
-      <h4>Fairy dust moves up the stack</h4>
-      <p>2014: &ldquo;everyone&rsquo;s looking at the code.&rdquo; 2024: &ldquo;our tooling is trustworthy.&rdquo; 2026: &ldquo;our AI deployment is safe.&rdquo; The pattern is consistent. Only the substrate changes.</p>
+      <h4>Why do the same infrastructure security failures repeat across technology generations?</h4>
+      <p>The fairy dust doesn&rsquo;t disappear &mdash; it moves one abstraction layer higher. 2014: &ldquo;everyone&rsquo;s looking at the code.&rdquo; 2024: &ldquo;our tooling is trustworthy.&rdquo; 2026: &ldquo;our AI deployment is safe.&rdquo; The pattern is structurally identical. Only the substrate changes.</p>
     </div>
     <div class="theme-card">
       <span class="theme-label theme-amber">The ROI problem</span>
-      <h4>Nation-state math on open source</h4>
-      <p>Two weeks to own 100M weekly downloads. Two years to own a transitive dependency of sshd. The economics of targeting volunteer maintainers only improve as package footprints grow.</p>
+      <h4>Why are open source maintainers prime targets for nation-state attacks?</h4>
+      <p>Because the ROI is extraordinary: two weeks of social engineering to own 100 million weekly downloads; two years to own a transitive dependency of sshd. The economics of targeting volunteer maintainers only improve as package footprints grow and audit resources stay flat.</p>
     </div>
     <div class="theme-card">
       <span class="theme-label theme-blue">The governance gap</span>
-      <h4>Good intentions vs. durable structures</h4>
-      <p>Glasswing is voluntary restraint. The OSS social contract was voluntary contribution. Both depend on goodwill at a scale it was never designed for. Season 3 asks what durable looks like.</p>
+      <h4>Why do good intentions fail to produce durable security governance?</h4>
+      <p>Because both the OSS social contract and the Glasswing Doctrine are built on voluntary behavior at a scale they were never designed for. Glasswing is voluntary restraint by one company. The OSS model was voluntary contribution by scattered individuals. Season 3 asks what &ldquo;durable&rdquo; actually requires structurally.</p>
     </div>
     <div class="theme-card">
       <span class="theme-label theme-coral">The velocity mismatch</span>
-      <h4>Machine discovery, human remediation</h4>
-      <p>Mythos finds bugs at machine speed. Patches ship at human speed. Season 3 maps what changes when discovery becomes free and the bottleneck shifts entirely to everything that comes after.</p>
+      <h4>What changes when AI discovers vulnerabilities faster than humans can patch them?</h4>
+      <p>Discovery becomes essentially free, and the entire bottleneck shifts to everything that comes after: triage, coordination, patch development, deployment, compliance reporting. Mythos finds bugs at machine speed; patches still ship at human speed. Season 3 maps the 18-month gap between those two curves.</p>
     </div>
   </div>
 
@@ -256,7 +256,7 @@ excerpt: "In 2014 I stood at DEF CON and showed the internet's foundational soft
   </div>
 
   <div class="s3-infobox">
-    <p>Episodes 01 and 07 are published as part of the series premiere. Episodes 02&ndash;06 and 08&ndash;10 are in production and will publish on a rolling schedule through Q2&ndash;Q3 2026. Subscribe to the Morphogenetic SOC newsletter at securesql.info for release notifications.</p>
+    <p>Episodes 01&ndash;06 are available now. Episodes marked <strong>[Forthcoming]</strong> (07&ndash;09) are scheduled for Q2&ndash;Q3 2026 and describe events as they develop &mdash; they are clearly distinguished from the documented incidents in earlier episodes. Subscribe to the Morphogenetic SOC newsletter at securesql.info for release notifications.</p>
   </div>
 
 </div><!-- /s3-intro-block -->
@@ -271,3 +271,68 @@ excerpt: "In 2014 I stood at DEF CON and showed the internet's foundational soft
 
 
 </div><!-- /glasswing-wrapper -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Project Glasswing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Project Glasswing is an Anthropic initiative that withheld Claude Mythos Preview from general release and deployed it to 52 partner organizations for defensive security use. It represents the first large-scale voluntary restraint of an AI capability for security reasons, establishing what the author calls the Glasswing Doctrine."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Glasswing Doctrine?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Glasswing Doctrine is the principle that voluntary restraint at the AI capability governance layer is structurally identical to voluntary restraint in open source security — both depend on goodwill at a scale they were never designed for, and both are vulnerable to the same Everybody/Somebody/Nobody failure mode."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happened in the Trivy-action supply chain attack of March 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "On March 19, 2026, threat group TeamPCP force-pushed malicious commits to 76 of 77 trivy-action version tags simultaneously. Because Trivy is a security scanner run by the most security-conscious organizations, the most diligent teams had the greatest exposure. The cascade included CanisterWorm with blockchain C2, a Checkmarx KICS breach, a LiteLLM AI key vault breach, Telnyx WAV steganography exfiltration, and 92 GB of data stolen from European Commission systems."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Project Butterfly of Damocles?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Project Butterfly of Damocles is a 9-episode blog series tracing twelve years of open source supply chain risk — from John Menerick's 2014 DEF CON 22 presentation on foundational internet infrastructure vulnerabilities, through the XZ Utils backdoor, the March 2026 Trivy-action and Axios supply chain attacks, and the emergence of Project Glasswing as the first AI-powered defensive response."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What did John Menerick present at DEF CON 22?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At DEF CON 22 in 2014, John Menerick presented 'Open Source Fairy Dust,' a quantitative analysis of over 2,000 open source projects showing that foundational internet infrastructure — including Exim, BIND, and OpenSSL — was riddled with critical vulnerabilities that nobody was fixing, sustained by volunteer labor and collective myth rather than systematic security engineering."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does security diligence become an attack surface?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When a security tool itself is compromised, the organizations running it most frequently — the most security-conscious ones — have the greatest exposure. The March 2026 Trivy-action attack exploited this inversion directly: teams that followed best practices and ran the scanner in every CI pipeline were hit hardest. Security posture becomes a vulnerability vector when the enforcement tooling is the target."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Everybody/Somebody/Nobody/Anybody parable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A structural explanation for open source security failures: Everybody assumed Somebody would secure critical infrastructure, so Nobody did — because Anybody could, which means Nobody had to. Introduced at DEF CON 22 to explain Heartbleed, the parable recurs across every episode of Project Butterfly of Damocles as the root cause connecting 2014 vulnerabilities to the 2026 supply chain attacks."
+      }
+    }
+  ]
+}
+</script>

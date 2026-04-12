@@ -1,0 +1,14 @@
+{
+  "name": "SecureSQL",
+  "short_name": "SecureSQL",
+  "icons": [
+    {
+      "src": "/apple-touch-icon.png.avif",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#111111",
+  "background_color": "#111111",
+  "display": "standalone"
+}

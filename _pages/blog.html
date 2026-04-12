@@ -2,7 +2,245 @@
 layout: page
 permalink: /blog/
 title: Security Blog
-description: "Explore John Menerick's security blog — deep dives into detection engineering, zero trust, and autonomous security operations."
+description: "Explore John Menerick's security blog — deep dives into detection engineering, zero trust, supply chain security, and autonomous security operations."
 ---
 
-{% include list.html  %}
+{% include glasswing_styles.html %}
+<style>
+.page > h1:first-of-type { display: none; }
+
+.blog-post-row {
+  display: grid;
+  grid-template-columns: 56px 1fr auto;
+  gap: 0 1rem;
+  padding: .75rem 0;
+  border-bottom: 0.5px solid var(--color-border, rgba(255,255,255,0.06));
+  align-items: start;
+}
+.blog-post-row:last-child { border-bottom: none; }
+.blog-post-row:hover { background: rgba(255,255,255,0.02); margin: 0 -.5rem; padding-left: .5rem; padding-right: .5rem; border-radius: 6px; }
+
+.blog-date-col {
+  font-size: 11px;
+  color: var(--color-text-tertiary, #475569);
+  font-variant-numeric: tabular-nums;
+  padding-top: .15rem;
+  line-height: 1.4;
+}
+.blog-date-day  { font-weight: 600; font-size: 14px; color: var(--color-text-secondary, #94A3B8); line-height: 1; }
+.blog-date-mon  { font-size: 10px; text-transform: uppercase; letter-spacing: .06em; }
+
+.blog-post-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-text-primary, #F1F5F9);
+  text-decoration: none;
+  line-height: 1.4;
+  display: block;
+  margin-bottom: .2rem;
+}
+.blog-post-title:hover { color: #A78BFA; }
+.blog-post-excerpt {
+  font-size: 12px;
+  color: var(--color-text-secondary, #94A3B8);
+  line-height: 1.5;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.blog-post-cats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .25rem;
+  margin-top: .3rem;
+}
+.blog-cat-tag {
+  font-size: 10px;
+  padding: 1px 6px;
+  border-radius: 8px;
+  background: rgba(139,92,246,0.08);
+  color: #A78BFA;
+  border: 0.5px solid rgba(139,92,246,0.15);
+}
+
+.blog-year-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--color-text-tertiary, #475569);
+  display: block;
+  margin: 1.75rem 0 .5rem;
+  padding-bottom: .35rem;
+  border-bottom: 0.5px solid var(--color-border, rgba(255,255,255,0.06));
+}
+
+.archive-row {
+  display: flex;
+  align-items: baseline;
+  gap: .75rem;
+  padding: .3rem 0;
+  border-bottom: 0.5px solid rgba(255,255,255,0.03);
+}
+.archive-date {
+  font-size: 11px;
+  color: var(--color-text-tertiary, #475569);
+  white-space: nowrap;
+  min-width: 64px;
+  font-variant-numeric: tabular-nums;
+}
+.archive-link {
+  font-size: 12px;
+  color: var(--color-text-secondary, #94A3B8);
+  text-decoration: none;
+  line-height: 1.4;
+}
+.archive-link:hover { color: #A78BFA; }
+.archive-series-dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #A78BFA;
+  margin-right: .3rem;
+  flex-shrink: 0;
+  position: relative;
+  top: -1px;
+}
+
+@media (max-width: 600px) {
+  .blog-post-row { grid-template-columns: 44px 1fr; }
+}
+</style>
+
+{% assign all_posts = site.posts %}
+{% assign series_posts_all = site.posts | where_exp: "post", "post.series != nil" %}
+{% assign standalone_posts = site.posts | where_exp: "post", "post.series == nil" %}
+{% assign recent_standalone = standalone_posts | limit: 8 %}
+
+<div class="glasswing-wrapper">
+<div class="s3-intro-block">
+
+  <div class="s3-series-header">
+    <div class="s3-series-badge">
+      <span class="s3-badge-dot" aria-hidden="true"></span>
+      Detection Engineering &middot; Zero Trust &middot; Supply Chain &middot; AI Security
+    </div>
+    <h2 class="s3-series-title-display">Security Intelligence Archive</h2>
+    <p class="s3-series-subtitle-display">Deep technical analysis, threat research, and applied security engineering &mdash; from DEF CON 22 to the frontier of autonomous defense.</p>
+  </div>
+
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:.5rem;margin:1.5rem 0;">
+    <div class="s3-ss"><div class="s3-ss-num">{{ all_posts | size }}</div><div class="s3-ss-sub">Posts published</div></div>
+    <div class="s3-ss"><div class="s3-ss-num">3</div><div class="s3-ss-sub">Deep-dive series</div></div>
+    <div class="s3-ss"><div class="s3-ss-num">{{ series_posts_all | size }}</div><div class="s3-ss-sub">Series episodes</div></div>
+    <div class="s3-ss"><div class="s3-ss-num">14+</div><div class="s3-ss-sub">Years publishing</div></div>
+  </div>
+
+</div><!-- /s3-intro-block -->
+
+<hr class="s3-hr">
+<span class="s3-section-label">Featured Series</span>
+
+{% assign butterfly_posts = site.posts | where: "series", "project-butterfly-of-damocles" | sort: "episode" %}
+{% assign morpho_posts    = site.posts | where: "series", "morphogenetic-soc"             | sort: "episode" %}
+{% assign autosoc_posts   = site.posts | where: "series", "autonomous-ai-soc"             | sort: "episode" %}
+{% assign butterfly_first = butterfly_posts | first %}
+{% assign morpho_first    = morpho_posts    | first %}
+{% assign autosoc_first   = autosoc_posts   | first %}
+
+<div class="arc-grid">
+  <div class="arc-card arc-purple">
+    <h4>Project Butterfly of Damocles</h4>
+    <p style="font-size:12px;color:var(--color-text-secondary);margin:.4rem 0 .75rem;line-height:1.6;">A twelve-year retrospective on the open source supply chain attack surface &mdash; from DEF CON 22&rsquo;s fairy dust to the Glasswing Doctrine. {{ butterfly_posts | size }} episodes.</p>
+    <ul class="arc-list">
+      {% for ep in butterfly_posts limit:4 %}
+      <li><a href="{{ ep.url }}">Ep {{ ep.episode }} &mdash; {{ ep.title | truncatewords: 8 }}</a></li>
+      {% endfor %}
+      {% if butterfly_posts.size > 4 %}
+      <li><a href="{{ butterfly_first.url }}">Start from Episode 1 →</a></li>
+      {% endif %}
+    </ul>
+  </div>
+
+  <div class="arc-card arc-teal">
+    <h4>Morphogenetic SOC</h4>
+    <p style="font-size:12px;color:var(--color-text-secondary);margin:.4rem 0 .75rem;line-height:1.6;">Season 2 &mdash; bio-inspired autonomous security operations, zero-noise collective intelligence, and self-healing defense architectures. {{ morpho_posts | size }} episodes.</p>
+    <ul class="arc-list">
+      {% for ep in morpho_posts limit:4 %}
+      <li><a href="{{ ep.url }}">Ep {{ ep.episode }} &mdash; {{ ep.title | truncatewords: 8 }}</a></li>
+      {% endfor %}
+      {% if morpho_posts.size > 4 %}
+      <li><a href="{{ morpho_first.url }}">Start from Episode 1 →</a></li>
+      {% endif %}
+    </ul>
+  </div>
+
+  <div class="arc-card arc-red">
+    <h4>Autonomous AI SOC</h4>
+    <p style="font-size:12px;color:var(--color-text-secondary);margin:.4rem 0 .75rem;line-height:1.6;">Season 1 &mdash; energy-based anomaly detection, OODA loop automation, and the path to machine-speed security operations. {{ autosoc_posts | size }} episodes.</p>
+    <ul class="arc-list">
+      {% for ep in autosoc_posts limit:4 %}
+      <li><a href="{{ ep.url }}">Ep {{ ep.episode }} &mdash; {{ ep.title | truncatewords: 8 }}</a></li>
+      {% endfor %}
+      {% if autosoc_posts.size > 4 %}
+      <li><a href="{{ autosoc_first.url }}">Start from Episode 1 →</a></li>
+      {% endif %}
+    </ul>
+  </div>
+</div>
+
+<hr class="s3-hr">
+<span class="s3-section-label">Recent Posts</span>
+
+<div style="margin:1rem 0;">
+  {% for post in recent_standalone %}
+  <div class="blog-post-row">
+    <div class="blog-date-col">
+      <div class="blog-date-day">{{ post.date | date: "%-d" }}</div>
+      <div class="blog-date-mon">{{ post.date | date: "%b %Y" }}</div>
+    </div>
+    <div>
+      <a href="{{ post.url }}" class="blog-post-title">{{ post.title }}</a>
+      {% if post.excerpt %}
+      <p class="blog-post-excerpt">{{ post.excerpt | strip_html | strip_newlines | truncatewords: 22 }}</p>
+      {% endif %}
+      {% if post.categories.size > 0 %}
+      <div class="blog-post-cats">
+        {% for cat in post.categories limit:3 %}
+        <span class="blog-cat-tag">{{ cat }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+    <div style="padding-top:.1rem;">
+      <a href="{{ post.url }}" style="font-size:11px;font-weight:600;color:#60A5FA;text-decoration:none;white-space:nowrap;">Read →</a>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<hr class="s3-hr">
+<span class="s3-section-label">Full Archive</span>
+
+{% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+{% for year in postsByYear %}
+<span class="blog-year-label">{{ year.name }}</span>
+<div>
+  {% for post in year.items %}
+  <div class="archive-row">
+    <span class="archive-date">{{ post.date | date: "%b %-d" }}</span>
+    {% if post.series %}<span class="archive-series-dot" title="{{ post.series_name }}"></span>{% endif %}
+    <a href="{{ post.url }}" class="archive-link">{{ post.title }}</a>
+  </div>
+  {% endfor %}
+</div>
+{% endfor %}
+
+<div class="s3-infobox" style="margin-top:1.75rem;">
+  <p><span style="color:#A78BFA;font-weight:600;">&#9679;</span> Purple dot indicates a post that is part of a named series. Start at Episode 1 for the full arc.</p>
+</div>
+
+</div><!-- /glasswing-wrapper -->

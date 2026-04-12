@@ -5,9 +5,7 @@ date: 2013-06-05
 categories: ["USB security vulnerabilities", "smartphone security", "malicious USB attacks", "Stavrou's research", "cybersecurity threats", "social engineering"]
 excerpt: A bit back, I looked over Stavrou USB smartphone paper evil power station
 ---
-A bit back, I looked over [Stavrou's USB smartphone
-paper](https://media.blackhat.com/bh-dc-11/Stavrou-
-Wang/BlackHat_DC_2011_Stavrou_Zhaohui_USB_exploits-wp.pdf).  Interesting
+A bit back, I looked over [Stavrou's USB smartphone paper](https://web.archive.org/web/20210815042851/https://media.blackhat.com/bh-dc-11/Stavrou-Wang/BlackHat_DC_2011_Stavrou_Zhaohui_USB_exploits-wp.pdf).  Interesting
 research.  Well done.   All one needs to do is take a tacticle jacket,
 malicious usb-enabled laptop, spraypaint a large, trustworthy brand name, then
 head to your local concert venue.  If one is paranoid about victims stealing

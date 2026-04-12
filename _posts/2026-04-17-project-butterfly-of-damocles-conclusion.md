@@ -328,47 +328,47 @@ excerpt: "The fairy dust didn't disappear. It moved one abstraction layer higher
 <h2>What ten episodes of research produced: a guide for future reference</h2>
 
 <div class="retrospective-grid">
-  <a class="retro-card" href="/2026/04/08/fairy-dust-to-glasswing-introduction/">
+  <a class="retro-card" href="/2026/04/08/project-butterfly-of-damocles-intro/">
     <div class="retro-ep">Ep. 01 &amp; 07</div>
     <div class="retro-title">Introduction &amp; Glasswing announcement</div>
     <div class="retro-summary">DEF CON 22 origins, series overview, Glasswing Doctrine introduction. The beginning and the event that made the series necessary.</div>
   </a>
-  <a class="retro-card" href="/2026/04/09/part-i-original-quantitative-case/">
+  <a class="retro-card" href="/2026/04/09/project-butterfly-of-damocles-part-1/">
     <div class="retro-ep">Ep. 02</div>
     <div class="retro-title">The original quantitative case</div>
     <div class="retro-summary">2,000+ projects. Exim at 13,000 criticals. The scatter chart. The incentive structure that produces vulnerability density. The diagnosis that held for twelve years.</div>
   </a>
-  <a class="retro-card" href="/2026/04/10/part-ii-dependency-graph/">
+  <a class="retro-card" href="/2026/04/10/project-butterfly-of-damocles-part-2/">
     <div class="retro-ep">Ep. 03</div>
     <div class="retro-title">847 applications in a login form</div>
     <div class="retro-summary">Three eras of supply chain risk. The Axios anatomy. PyPI malicious package economics. C/C++ bundled library inheritance. How the attack surface evolved from accidental to adversarial to strategic.</div>
   </a>
-  <a class="retro-card" href="/2026/04/11/part-iia-march-2026-cascade/">
+  <a class="retro-card" href="/2026/04/11/project-butterfly-of-damocles-part-3/">
     <div class="retro-ep">Ep. 04</div>
     <div class="retro-title">When the scanner became the weapon</div>
     <div class="retro-summary">Full Trivy cascade reconstruction. CanisterWorm ICP blockchain C2. LiteLLM AI key vault breach. UNC1069 two-week social engineering of Axios. Detection signals and remediation.</div>
   </a>
-  <a class="retro-card" href="/2026/04/12/part-iii-ml-stack-attack-surface/">
+  <a class="retro-card" href="/2026/04/12/project-butterfly-of-damocles-part-4/">
     <div class="retro-ep">Ep. 05</div>
     <div class="retro-title">The ML stack attack surface</div>
     <div class="retro-summary">TensorFlow 700+ CVEs. HuggingFace pickle deserialization RCE. ShadowRay unauthenticated RCE. LangChain prompt injection SSRF. The 2014 scatter chart redrawn on a new substrate.</div>
   </a>
-  <a class="retro-card" href="/2026/04/13/part-iv-timeline/">
+  <a class="retro-card" href="/2026/04/13/project-butterfly-of-damocles-part-5/">
     <div class="retro-ep">Ep. 06</div>
     <div class="retro-title">The twelve-year timeline</div>
     <div class="retro-summary">Heartbleed to Glasswing. Seven capability threshold crossings. The two parallel threads: attack capability evolution and defense capability evolution converging in April 2026.</div>
   </a>
-  <a class="retro-card" href="/2026/04/14/part-v-glasswing-game-changer/">
+  <a class="retro-card" href="/2026/04/14/project-butterfly-of-damocles-part-6/">
     <div class="retro-ep">Ep. 07</div>
     <div class="retro-title">What Glasswing actually changes</div>
     <div class="retro-summary">The three-option framework. Historical dual-use governance precedents. The Glasswing Doctrine: three things it establishes, three things it leaves open. Actor-by-actor impact.</div>
   </a>
-  <a class="retro-card" href="/2026/04/15/part-vi-honest-accounting/">
+  <a class="retro-card" href="/2026/04/15/project-butterfly-of-damocles-part-7/">
     <div class="retro-ep">Ep. 08</div>
     <div class="retro-title">The honest accounting</div>
     <div class="retro-summary">Eight things Glasswing genuinely changes. Eight things it structurally cannot change. Six tensions that don&rsquo;t resolve. The OSS-Fuzz comparison. The uncomfortable arithmetic on $4M.</div>
   </a>
-  <a class="retro-card" href="/2026/04/16/part-vii-key-takeaways/">
+  <a class="retro-card" href="/2026/04/16/project-butterfly-of-damocles-part-8/">
     <div class="retro-ep">Ep. 09</div>
     <div class="retro-title">Takeaways by audience</div>
     <div class="retro-summary">Six audiences, six action frameworks. The thing each is most likely to get wrong. Specific actions, honest timelines, and the non-obvious implication for each category.</div>

@@ -30,7 +30,7 @@ information](http://www.google.com/search?q=mysql_escape_string+sql+injection+fa
 It isn’t safe to use due to the false sense of security provided by the
 function.
 
-[Source](https://github.com/aeonsf/Application_Security/commit/bc19594341abb2ad9fc48f30e4035818da9f22a4)
+[Source](https://web.archive.org/web/20150915120000/https://github.com/aeonsf/Application_Security/commit/bc19594341abb2ad9fc48f30e4035818da9f22a4)
 
 [Google hack to find
 instances](http://www.google.com/search?q=inurl%3Aindex.php+Gesch%26uuml%3Btzter+Bereich+-+Login)

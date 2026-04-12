@@ -29,8 +29,7 @@ To wet your appetite, let’s look at the project’s encryption implementations
 
 The secret sauce for zombies and C&C encryption algorithm is PHP’s
 [openssl_seal](http://php.net/manual/en/function.openssl-seal.php) and
-[openssl_private_encrypt](http://php.net/manual/en/function.openssl-private-
-encrypt.php) .  PHP’s openssl_seal utilizes RC4.  While specific RC4
+[openssl_private_encrypt](http://php.net/manual/en/function.openssl-private-encrypt.php) .  PHP’s openssl_seal utilizes RC4.  While specific RC4
 implementations are considered by some to be “good enough,” I will point out
 this observation: NIST SP 800-52 doesn’t allow RC4 nor MD5 because they are
 not FIPS-approved algorithms.  Auditing Carberp’s implementation doesn’t lead

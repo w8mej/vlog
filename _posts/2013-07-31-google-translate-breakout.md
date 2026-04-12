@@ -19,7 +19,7 @@ provided by [Google Inc.](http://en.wikipedia.org/wiki/Google) to translate
 written text from one language into another. .."  \- Wikipedia .
 
 Think of Translate like Douglas Adam's
-[babelfish](http://en.wikipedia.org/wiki/Babel_fish_\(The_Hitchhiker%27s_Guide_to_the_Galaxy\)#Babel_fish),
+[babelfish](http://en.wikipedia.org/wiki/Babel_fish_%28The_Hitchhiker%27s_Guide_to_the_Galaxy%29#Babel_fish),
 but in an online, text form.
 
 

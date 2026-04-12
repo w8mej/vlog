@@ -15,10 +15,9 @@ of all TLS traffic.
 
 Last week, a group of researchers (Nadhem AlFardan, Dan Bernstein, Kenny
 Paterson, Bertram Poettering and Jacob Schuldt) [announced significant
-advancements in the attacks against RC4](http://www.isg.rhul.ac.uk/tls/),
+advancements in the attacks against RC4](https://web.archive.org/web/20230606135805/http://www.isg.rhul.ac.uk/tls/),
 unveiling new weaknesses as well as new methods to exploit them. Matthew Green
-has a [great overview](http://blog.cryptographyengineering.com/2013/03/attack-
-of-week-rc4-is-kind-of-broken-in.html) on his blog, and here are the
+has a [great overview](http://blog.cryptographyengineering.com/2013/03/attack-of-week-rc4-is-kind-of-broken-in.html) on his blog, and here are the
 [slides](http://cr.yp.to/talks/2013.03.12/slides.pdf) from the talk where the
 new issues were announced.
 

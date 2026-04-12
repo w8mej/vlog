@@ -22,17 +22,13 @@ programming flaws. Some were caused by negligence, many were caused by
 phishing and malware attacks.
 
 However at least one of the breaches of 2017 was caused by a [programming
-flaw](https://arstechnica.com/information-technology/2017/09/massive-equifax-
-breach-caused-by-failure-to-patch-two-month-old-bug/). The breach at the
+flaw](https://arstechnica.com/information-technology/2017/09/massive-equifax-breach-caused-by-failure-to-patch-two-month-old-bug/). The breach at the
 credit rating company Equifax was responsible for almost 10% of the damage:
-[146 million](https://www.zdnet.com/article/how-the-equifax-breach-breaks-
-down-by-the-numbers/) records. The attack leveraged a [OGNL
-Injection](https://blog.shiftleft.io/discovering-code-vulnerabilities-using-
-shiftleft-technology-2b5edc4175b9) vulnerability in the Apache Struts library
+[146 million](https://www.zdnet.com/article/how-the-equifax-breach-breaks-down-by-the-numbers/) records. The attack leveraged a [OGNL
+Injection](https://blog.shiftleft.io/discovering-code-vulnerabilities-using-shiftleft-technology-2b5edc4175b9) vulnerability in the Apache Struts library
 and the subsequent failure to patch the affected systems. You can read about
 Injection flaws in one of the [previous
-articles](https://medium.com/@paul_io/security-code-review-101-parameterized-
-statements-df95c264364a) in this series.
+articles](https://medium.com/@paul_io/security-code-review-101-parameterized-statements-df95c264364a) in this series.
 
 ## Spotting Data Breaches During Code Review
 
@@ -101,7 +97,7 @@ Secure hashing may be employed for various other types of data. For example if
 an application needs to uniquely identify users for analytics purposes, it
 could construct a unique, non-reversible hash from the user name and their IP
 address. This process is known as
-[Tokenization](https://en.wikipedia.org/wiki/Tokenization_\(data_security\)).
+[Tokenization](https://en.wikipedia.org/wiki/Tokenization_%28data_security%29).
 
 If the website analytics database is breached and the only thing obtained by
 the attackers are these hashes, the data is useless to them or too costly to

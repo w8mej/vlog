@@ -203,7 +203,7 @@ the consequence of taking such actions.
 
     * Playing “whack-a-mole” by blocking an IP address—without taking steps to determine what the binary is and how it got there—leaves the adversary an opportunity to change tactics and retain access to the network.
 
-<img src="/images/Figure+1+8.31.20+%281%29.png.avif" alt="Incident Response triaging workflow diagram" width="1455" height="1124">
+<img src="/images/figure-1-ir-workflow.avif" alt="Incident Response triaging workflow diagram" width="1455" height="1124">
 
 ## Mitigations
 
@@ -650,21 +650,21 @@ Recommendations:
 
   * [CISA Incident Handling Overview for Election Officials](https://www.cisa.gov/sites/default/files/publications/incident_handling_elections_final_508_0.pdf)
 
-  * [Preparing for and Responding to Cyber Security Incidents (ACSC)](https://www.cyber.gov.au/acsc/view-all-content/publications/preparing-and-responding-cyber-security-incidents)
+  * [Preparing for and Responding to Cyber Security Incidents (ACSC)](https://web.archive.org/web/20211020084042/https://www.cyber.gov.au/acsc/view-all-content/publications/preparing-and-responding-cyber-security-incidents)
 
-  * [Strategies to Mitigate Cyber Security Incidents (ACSC)](https://www.cyber.gov.au/acsc/view-all-content/publications/strategies-mitigate-cyber-security-incidents)
+  * [Strategies to Mitigate Cyber Security Incidents (ACSC)](https://web.archive.org/web/20211020084042/https://www.cyber.gov.au/acsc/view-all-content/publications/strategies-mitigate-cyber-security-incidents)
 
-  * [Managing Cyber Security Incidents (ACSC)](https://www.cyber.gov.au/acsc/view-all-content/guidance/managing-cyber-security-incidents)
+  * [Managing Cyber Security Incidents (ACSC)](https://web.archive.org/web/20210815143329/https://www.cyber.gov.au/acsc/view-all-content/guidance/managing-cyber-security-incidents)
 
   * [Incident Management (UK NCSC)](https://www.ncsc.gov.uk/collection/incident-management)
 
-  * [Incident Management: Be Resilient, Be Prepared (NZ NCSC)](https://www.ncsc.govt.nz/guidance/incident-management/)
+  * [Incident Management: Be Resilient, Be Prepared (NZ NCSC)](https://web.archive.org/web/20230206124555/https://www.ncsc.govt.nz/guidance/incident-management/)
 
   * [Canadian Centre for Cyber Security Publications](https://cyber.gc.ca/en/publications)
 
   * [Baseline Cyber Security Controls for Small and Medium Organizations (CCCS)](https://cyber.gc.ca/en/guidance/baseline-cyber-security-controls-small-and-medium-organizations)
 
-  * [Guideline on Network Security Zones (CCCS)](https://cyber.gc.ca/en/guidance/1-introduction-itsg-22)
+  * [Guideline on Network Security Zones (CCCS)](https://web.archive.org/web/20230606080345/https://cyber.gc.ca/en/guidance/1-introduction-itsg-22)
 
   * [Network Security Zoning - Design Considerations for Placement of Services within Zones (CCCS)](https://www.cyber.gc.ca/en/guidance/network-security-zoning-design-considerations-placement-services-within-zones-itsg-38)
 

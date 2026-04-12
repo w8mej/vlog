@@ -173,7 +173,7 @@ description: "Explore John Menerick's public security research, including threat
       </div>
       <h3>Rugged SecDevOps Testing</h3>
       <p>Hardening the software lifecycle through automated attack simulation. A curated library of adapters and testing plans designed to "be mean to your code" before production deployment.</p>
-      <a href="https://gauntltattacks.haxx.ninja" class="project-card__link" target="_blank">View Test Plans</a>
+      <a href="https://web.archive.org/web/20211020084042/https://gauntltattacks.haxx.ninja" class="project-card__link" target="_blank">View Test Plans</a>
     </div>
 
     <!-- Gyoithon -->

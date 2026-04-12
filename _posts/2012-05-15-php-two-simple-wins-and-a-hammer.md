@@ -14,7 +14,7 @@ bullet to proactively manage unexpected behavior.  That is why I propose the
 new PHP hammer.  One needs to push one's code to Production.  Then smash
 Production's machine with the PHP Hammer of Justice to work out any bugs.  
 
-Seriously though; [safe mode](http://php.net/manual/en/ini.sect.safe-mode.php)
+Seriously though; [safe mode](https://web.archive.org/web/20120515120000/http://php.net/manual/en/ini.sect.safe-mode.php)
 and [suhosin](http://www.hardened-php.net/suhosin/) will put you leagues above
 your competition.  Remember, you do not need to run faster than the bear.  You
 just need to run faster than your competition.  Well, until you become a

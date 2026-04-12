@@ -16,12 +16,12 @@ Programs are written on the server side in
 [JavaScript](http://en.wikipedia.org/wiki/JavaScript), using [event-
 driven](http://en.wikipedia.org/wiki/Event-driven_architecture), [asynchronous
 I/O](http://en.wikipedia.org/wiki/Asynchronous_I/O) to minimize
-[overhead](http://en.wikipedia.org/wiki/Overhead_\(computing\)) and maximize
+[overhead](http://en.wikipedia.org/wiki/Overhead_%28computing%29) and maximize
 [scalability](http://en.wikipedia.org/wiki/Scalability).[[2]](http://en.wikipedia.org/wiki/Nodejs#cite_note-2)
 
 Node.js contains a built-in HTTP server library, making it possible to run a
 web server without the use of external software, such as
-[Apache](http://en.wikipedia.org/wiki/Apache_\(web_server\))
+[Apache](http://en.wikipedia.org/wiki/Apache_%28web_server%29)
 or[Lighttpd](http://en.wikipedia.org/wiki/Lighttpd), and allowing more control
 of how the web server works...." - Wikipedia .   Essentially Node.js is a
 wrapper around Chrome's V8 javascript engine.   This wrapper allows a

@@ -11,8 +11,7 @@ How you go about hunting down malware on a macOS endpoint depends a great deal
 on what access you have to the device and what kind of software is currently
 running on it. Of course, if you have a EDR protected Mac, for example, you
 can do a lot of your hunting right there in the management console or by using
-the [remote shell capability](https://www.sentinelone.com/blog/full-remote-
-shell/), but for the purposes of this post, we're going to take an unprotected
+the [remote shell capability](https://www.sentinelone.com/blog/full-remote-shell/), but for the purposes of this post, we're going to take an unprotected
 device and see how we can detect any hidden malware on it. The principles
 remain the same if you have a protected device, and understanding what and
 where to look will help you use any threat hunting software you may already
@@ -210,11 +209,7 @@ the event that I don't find any other IOCs (Indicators of Compromise).
 
 For similar reasons, I'll tend to focus first on open files that don't belong
 to regular apps. Again, keep in mind the caveat that malware authors can
-sometimes use regular apps to [live off the
-land](https://www.sentinelone.com/blog/malware-living-off-land-with-
-certutil/), exploit [browser zero days](https://www.sentinelone.com/blog/how-
-two-firefox-zero-days-led-to-two-macos-backdoors/) or sneak in via [supply
-chain attacks](https://www.sentinelone.com/blog/supply-chain-attacks/), so be
+sometimes use regular apps to [live off the land](https://www.sentinelone.com/blog/malware-living-off-land-with-certutil/), exploit [browser zero days](https://www.sentinelone.com/blog/how-two-firefox-zero-days-led-to-two-macos-backdoors/) or sneak in via [supply chain attacks](https://www.sentinelone.com/blog/supply-chain-attacks/), so be
 judicious in what you filter out and remember to go back over anything you
 skimmed or ignored later on if necessary.
 
@@ -230,9 +225,7 @@ for evidence of malicious behaviour.
 
 A word of warning, though, before we start. If you're dealing with a macOS
 system from 10.14 Mojave onwards, you may find command line investigations
-hampered by macOS's[ recent user
-protections](https://www.sentinelone.com/blog/mojaves-security-hardening-user-
-protections-bypassed/). In order to avoid those, ensure that Terminal has been
+hampered by macOS's[ recent user protections](https://www.sentinelone.com/blog/mojaves-security-hardening-user-protections-bypassed/). In order to avoid those, ensure that Terminal has been
 added to the Full Disk Access panel in the Privacy pane.
 
 I tend to start by making an initial audit of files in certain locations that
@@ -299,9 +292,7 @@ query on the quarantine bit:
 $ mdfind com.apple.quarantine
 
 That should find documents – which are also tagged with the quarantine bit –
-that have been downloaded, including [malicious
-pdf,](https://www.sentinelone.com/blog/malicious-pdfs-revealing-techniques-
-behind-attacks/) Word .docx and others. Again, there'll be a lot of innocent
+that have been downloaded, including [malicious pdf,](https://www.sentinelone.com/blog/malicious-pdfs-revealing-techniques-behind-attacks/) Word .docx and others. Again, there'll be a lot of innocent
 stuff in the results, so careful filtering will be required.
 
 **Step 7: Examine the Mac's Network Configuration**
@@ -316,8 +307,7 @@ $ ifconfig
 That will output information regarding the wireless, ethernet, bluetooth and
 other interfaces. You'll also want to gather the SystemConfiguration property
 list to look out for malware that tries to hijack the Mac's DNS server
-settings, as [OSX.MaMi](https://www.sentinelone.com/blog/macos-malware-review-
-in-2018/) was seen to do in 2018.
+settings, as [OSX.MaMi](https://www.sentinelone.com/blog/macos-malware-review-in-2018/) was seen to do in 2018.
 
 $ plutil -p /Library/Preferences/SystemConfiguration/preferences.plist
 
@@ -326,9 +316,7 @@ Use this command
 $ scutil --proxy
 
 to inspect the Mac's auto proxy settings. Spyware like
-[OnionSpy](https://www.intego.com/mac-security-blog/intego-security-alert-
-osxopinionspy-spyware-installed-by-freely-distributed-mac-
-applications/?sr=1&sr=1) has been seen to configure these settings to redirect
+[OnionSpy](https://www.intego.com/mac-security-blog/intego-security-alert-osxopinionspy-spyware-installed-by-freely-distributed-mac-applications/?sr=1&sr=1) has been seen to configure these settings to redirect
 user traffic to a server of the attacker's choosing.
 
 **Dive Into macOS's Hidden Databases**

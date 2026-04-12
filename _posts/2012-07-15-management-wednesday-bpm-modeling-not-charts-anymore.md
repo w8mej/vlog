@@ -48,9 +48,6 @@ clean state phase is the use of mature information services. Technology allows
 entities to crunch numbers and crunch them fast. No longer does one have
 buildings full of accountants to take over your competition with their
 sailboat building.  Beware though: just because your models are sound does not
-mean they will happen in real life.  [http://www.verisk.com/Verisk-
-Review/Articles/The-U.S.-Mortgage-Crisis-What-
-th...](http://www.verisk.com/Verisk-Review/Articles/The-U.S.-Mortgage-Crisis-
-What-the-Models-Missed.html)
+mean they will happen in real life.  [http://www.verisk.com/Verisk-Review/Articles/The-U.S.-Mortgage-Crisis-What-the-Models-Missed.html](http://www.verisk.com/Verisk-Review/Articles/The-U.S.-Mortgage-Crisis-What-the-Models-Missed.html)
 
 

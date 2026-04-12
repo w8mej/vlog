@@ -230,14 +230,14 @@ description: "Explore John Menerick's public security research, including threat
       <div style="font-size: 0.65rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent-primary); margin-bottom: 0.5rem;">Scalr</div>
       <h3>Scalr Infrastructure SQLi</h3>
       <p>Discovered SQL injection and input validation vulnerabilities within the Scalr cloud management platform.</p>
-      <a href="https://securesql.info/vulnerabilitiesexploits/2013/5/26/scalr-sqli-and-poor-validation" class="project-card__link" target="_blank">Read Research</a>
+      <a href="https://web.archive.org/web/20150915120000/https://securesql.info/vulnerabilitiesexploits/2013/5/26/scalr-sqli-and-poor-validation" class="project-card__link" target="_blank">Read Research</a>
     </div>
 
     <div class="project-card">
       <div style="font-size: 0.65rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent-primary); margin-bottom: 0.5rem;">Threat Research</div>
       <h3>Pandora DDoS Botnet Nullification</h3>
       <p>Investigated the command-and-control infrastructure of the Pandora botnet, revealing vulnerabilities to dismantle its operations.</p>
-      <a href="https://securesql.info/vulnerabilitiesexploits/2013/5/2/pandora-ddos-botnet-0days" class="project-card__link" target="_blank">Read Research</a>
+      <a href="https://web.archive.org/web/20150915120000/https://securesql.info/vulnerabilitiesexploits/2013/5/2/pandora-ddos-botnet-0days" class="project-card__link" target="_blank">Read Research</a>
     </div>
 
     <div class="project-card">
@@ -251,7 +251,7 @@ description: "Explore John Menerick's public security research, including threat
       <div style="font-size: 0.65rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent-primary); margin-bottom: 0.5rem;">LDAP Toolbox</div>
       <h3>LDAP Tool Box XSS</h3>
       <p>Identified Cross-Site Scripting vulnerabilities within the LDAP Tool Box self-service password application.</p>
-      <a href="https://securesql.info/vulnerabilitiesexploits/2014/3/6/ldap-tool-box-vulnerabilities" class="project-card__link" target="_blank">View Advisory</a>
+      <a href="{% post_url 2014-12-01-ldap-vulnerabilities-exploits %}" class="project-card__link">View Advisory</a>
     </div>
 
     <div class="project-card">
@@ -279,14 +279,14 @@ description: "Explore John Menerick's public security research, including threat
       <div style="font-size: 0.65rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent-primary); margin-bottom: 0.5rem;">RFC Research</div>
       <h3>HTTP Cookie DoS Vulnerabilities</h3>
       <p>Analyzed anomalies in HTTP and Cookie RFC implementations to uncover novel Denial-of-Service attack vectors.</p>
-      <a href="https://securesql.info/vulnerabilitiesexploits/2013/4/11/nifty-cookie-dos-hacks" class="project-card__link" target="_blank">Read Research</a>
+      <a href="https://web.archive.org/web/20150915120000/https://securesql.info/vulnerabilitiesexploits/2013/4/11/nifty-cookie-dos-hacks" class="project-card__link" target="_blank">Read Research</a>
     </div>
 
     <div class="project-card">
       <div style="font-size: 0.65rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent-primary); margin-bottom: 0.5rem;">Google</div>
       <h3>Google Translate Sandbox Breakout</h3>
       <p>Identified critical vulnerabilities allowing a sandbox breakout within Google Translate’s infrastructure.</p>
-      <a href="https://securesql.info/vulnerabilitiesexploits/2013/7/30/google-translate-vulnerability-and-exploit" class="project-card__link" target="_blank">Read Research</a>
+      <a href="{% post_url 2013-07-31-google-translate-breakout %}" class="project-card__link">Read Research</a>
     </div>
 
     <div class="project-card">
@@ -294,7 +294,7 @@ description: "Explore John Menerick's public security research, including threat
       <h3>Google Glass & AR/VR 0-days</h3>
       <p>Explored deep attack surfaces in Google Glass and early AR/VR hardware, disclosing DoS and XSS vulnerabilities to the Glass team.</p>
       <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
-        <a href="https://securesql.info/vulnerabilitiesexploits/2013/5/2/google-glass-developer-program-dos-and-xss" class="project-card__link" target="_blank">View Demo</a>
+        <a href="{% post_url 2013-04-19-google-glass-vulns %}" class="project-card__link">View Demo</a>
         <a href="https://github.com/googleglass/mirror-quickstart-java/commit/738352eb5b5b73aa7bb911d0aeee3386f40dbf26" class="project-card__link" target="_blank">View Source Patch</a>
       </div>
     </div>
@@ -303,28 +303,28 @@ description: "Explore John Menerick's public security research, including threat
       <div style="font-size: 0.65rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent-primary); margin-bottom: 0.5rem;">Threat Research</div>
       <h3>Malicious Mobile Power Stations</h3>
       <p>Demonstrated novel attack vectors exploiting public USB charging stations to compromise smartphones via hidden hardware.</p>
-      <a href="https://securesql.info/vulnerabilitiesexploits/2013/5/7/2q35is1o62y86fqqo84es5efzygur4" class="project-card__link" target="_blank">Read Research</a>
+      <a href="{% post_url 2013-06-05-mobile-power-station %}" class="project-card__link">Read Research</a>
     </div>
 
     <div class="project-card">
       <div style="font-size: 0.65rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent-primary); margin-bottom: 0.5rem;">Threat Research</div>
       <h3>Firesale Botnet Analysis</h3>
       <p>Conducted a comprehensive evaluation of the Firesale botnet panel to uncover exploitable flaws in the threat actor's infrastructure.</p>
-      <a href="https://securesql.info/vulnerabilitiesexploits/2013/5/2/firesale-webpanel-botnet-0days" class="project-card__link" target="_blank">Read Research</a>
+      <a href="{% post_url 2012-10-10-firesale-0days %}" class="project-card__link">Read Research</a>
     </div>
 
     <div class="project-card">
       <div style="font-size: 0.65rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent-primary); margin-bottom: 0.5rem;">Cloud9</div>
       <h3>Cloud9 IDE Remote Code Execution</h3>
       <p>Discovered unpatched XSS and potential Remote Code Execution vulnerabilities within the Cloud9 online development environment.</p>
-      <a href="https://securesql.info/vulnerabilitiesexploits/2013/6/4/unpatched-cloud9-xss-and-potential-remote-code-execution-vulnerability" class="project-card__link" target="_blank">Read Research</a>
+      <a href="https://web.archive.org/web/20150915120000/https://securesql.info/vulnerabilitiesexploits/2013/6/4/unpatched-cloud9-xss-and-potential-remote-code-execution-vulnerability" class="project-card__link" target="_blank">Read Research</a>
     </div>
 
     <div class="project-card">
       <div style="font-size: 0.65rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent-primary); margin-bottom: 0.5rem;">Threat Research</div>
       <h3>Carberp Botnet Cryptography</h3>
       <p>Reverse-engineered the Carberp banking trojan, discovering critical vulnerabilities and broken cryptographic implementations in the C2.</p>
-      <a href="https://securesql.info/vulnerabilitiesexploits/2013/6/25/carberp-vulnerabilities-overview-and-poor-cryptography" class="project-card__link" target="_blank">Read Research</a>
+      <a href="{% post_url 2013-06-27-carberp-vulnerabilities-cc-pie %}" class="project-card__link">Read Research</a>
     </div>
 
     <div class="project-card">
@@ -338,7 +338,7 @@ description: "Explore John Menerick's public security research, including threat
       <div style="font-size: 0.65rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent-primary); margin-bottom: 0.5rem;">CNN</div>
       <h3>CNN Digital Infrastructure XSS</h3>
       <p>Brought critical Cross-Site Scripting vulnerabilities in CNN's digital infrastructure to light for prompt resolution.</p>
-      <a href="https://securesql.info/vulnerabilitiesexploits/2013/5/3/cnncom-xss-vulnerabilities" class="project-card__link" target="_blank">Read Research</a>
+      <a href="{% post_url 2013-05-06-cnn-xss %}" class="project-card__link">Read Research</a>
     </div>
 
     <div class="project-card">
@@ -359,7 +359,7 @@ description: "Explore John Menerick's public security research, including threat
       <div style="font-size: 0.65rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent-primary); margin-bottom: 0.5rem;">Threat Research</div>
       <h3>Black Energy Botnet Neutralization</h3>
       <p>Analyzed the Black Energy botnet C2 infrastructure to identify exploitable vulnerabilities and safely neutralize the threat.</p>
-      <a href="https://securesql.info/vulnerabilitiesexploits/2013/5/2/blackenergy-botnet-0days" class="project-card__link" target="_blank">Read Research</a>
+      <a href="https://web.archive.org/web/20150915120000/https://securesql.info/vulnerabilitiesexploits/2013/5/2/blackenergy-botnet-0days" class="project-card__link" target="_blank">Read Research</a>
     </div>
 
     <div class="project-card">

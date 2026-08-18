@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Kubernetes Pods (PodSec policies)
+image: /images/2019/kubernetes-controller-manager-and-control-plane.jpg   # full-bleed hero, 16:7
+image_alt: "Kubernetes control plane architecture showing Controller Manager, etcd encryption, and PodSec admission gates"
+takeaways:
+  - "Hardening the Kubernetes control plane is the foundation of cluster multi-tenancy."
+  - "Encrypt etcd at rest to prevent raw token and secret extraction from disk."
+  - "Pod Security Standards must be enforced at admission time to stop privileged container escapes."
 date: 2019-07-26
 categories: ["Kubernetes", "Pod Security", "Security Policies", "Pod Security Policies", "Workload Security", "Container Security", "CIS Benchmark", "Kubernetes Best Practices", "Pod Hardening"]
 excerpt: Pods hardening is strongly configured and enforced with Pod Security policies (PodSec.). The security context enables not to restrict privileges, volume mounts, network privileges, cgroups / selinux / app armor / kernel capabilities, access control, read only file-system, etc…. This is where much of the workload insecurity comes from.

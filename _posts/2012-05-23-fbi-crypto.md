@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Bitcoins are hard to track
+image: /images/2012/fbi-crypto.jpg   # full-bleed hero, 16:7
+image_alt: "Visual representation of cryptocurrency ledger analysis, pseudonymity, and cryptographic tracing"
+takeaways:
+  - "Pseudonymity is not anonymity: blockchains remember every digital breadcrumb forever."
+  - "The blockchain never forgets, but regulatory understanding always lags."
+  - "Cryptographic ledgers shift surveillance from endpoints to network graph topology."
 date: 2012-05-23
 categories: ["FBI and Bitcoin", "currency exchangers", "Bitcoin to WebMoney", "government surveillance", "cryptocurrency transactions", "peer to peer architecture", "digital currencies", "law enforcement challenges"]
 excerpt: Either FBI

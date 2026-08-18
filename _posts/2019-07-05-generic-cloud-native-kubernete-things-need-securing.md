@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Kubernetes Basics
+image: /images/2019/generic-cloud-native-kubernete-things-need-securing.jpg   # full-bleed hero, 16:7
+image_alt: "Comprehensive Kubernetes cluster topology highlighting container runtime, API server, and node hardening"
+takeaways:
+  - "Securing Kubernetes requires holistic defense across node OS, container runtime, and API control plane."
+  - "Default Kubernetes configurations prioritize ease of onboarding over secure multi-tenant isolation."
+  - "Establish baseline hardening for kubelet, etcd, and core network plugins before deploying workloads."
 date: 2019-07-05
 categories: ["Kubernetes", "Cloud Security", "Containerization", "Container Orchestration", "Scaling", "Deployment", "Security", "Cloud-Native", "DevOps"]
 excerpt: Let’s take a look at the simplest part of the previously documented multi-tenancy architecture 

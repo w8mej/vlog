@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Gribodemon on SpyEye 2.x - I expected better
+image: /images/2012/flame-src-code-courtesy-of-anton-and-cmyu.jpg   # full-bleed hero, 16:7
+image_alt: "Disassembly and reverse engineering view of Flame malware and SpyEye banking trojan source code"
+takeaways:
+  - "Complex malware architectures reveal the state-sponsored division of labor."
+  - "Source code dissections expose the sloppy modularity behind sophisticated cyber weapons."
+  - "Reverse engineering is the only way to strip away attacker mystique."
 date: 2012-05-29
 categories: ["application honeypot", "SpyEye malware", "sandbox evasion", "virtualized sandbox security", "insecure coding practices", "buffer overflows", "cryptographic flaws", "command and control systems", "web application vulnerabilities", "XSS vulnerabilities", "SQL injection", "secure coding"]
 excerpt: Saturday, I noticed my application honeypot collected an interesting sample. The cracker took my bait and attempt to hack the planet via a SpyEye 2.x variant. Apparently, the limit of

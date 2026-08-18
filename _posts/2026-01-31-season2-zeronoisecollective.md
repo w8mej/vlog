@@ -4,6 +4,12 @@ title: "From Biology to Bot: A Strategic Framework for Governed Agency in Securi
 date: 2026-01-31
 series: morphogenetic-soc
 series_name: "Morphogenetic SOC"
+image: /images/2026/season2-zeronoisecollective.jpg   # full-bleed hero, 16:7
+image_alt: "Futuristic bio-digital command center illustrating governed agency and zero-noise collective security"
+takeaways:
+  - "Governed agency bridges the gap between chaotic autonomy and paralyzing central control."
+  - "Biological systems teach us that distributed cells achieve coherent organism-level defense without micro-management."
+  - "The Zero Noise paradigm replaces thousands of raw alerts with actionable collective immune responses."
 episode: 1
 categories: ["Governed Agency", "Biological Control Theory", "TAME Framework", "Scale-Free Cognition", "Security Engineering", "Agentic Workflows", "Risk Management", "Systemic Metastasis", "Bioelectric Code", "Cognitive Light Cones"]
 excerpt: "We assume security is about static defense. We assume automation is always deterministic. We assume risk is managed by limiting access. Every single one of these assumptions is obsolete in the age of AI agents—and this biological framework proves why."

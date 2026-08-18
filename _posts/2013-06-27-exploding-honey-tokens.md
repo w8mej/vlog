@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Random thought for an exploding honey token
+image: /images/2013/exploding-honey-tokens.jpg   # full-bleed hero, 16:7
+image_alt: "Canary token detonation network diagram showing tripwires alerting on unauthorized database queries"
+takeaways:
+  - "Honey tokens turn passive data stores into active, self-reporting minefields."
+  - "Adversaries cannot avoid touching deceptive artifacts if they are woven into realistic workflows."
+  - "High-fidelity canary alerts eliminate alert fatigue and provide instant high-confidence breach detection."
 date: 2013-06-27
 categories: ["honey tokens", "compressed file attacks", "mail server vulnerabilities", "resource exhaustion", "insider threat detection", "security experimentation", "MTA inspection", "system logs monitoring"]
 excerpt: I remember when Nuxi and I would create computationally compact compressed files and see which mail servers would attempt to inspect the contents. Typically, the MTA would fail over due

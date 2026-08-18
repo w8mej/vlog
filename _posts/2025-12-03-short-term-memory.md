@@ -1,6 +1,12 @@
 ---
 layout: post
 title: "The Password Crisis Nobody Talks About: 5 Surprising Lessons from Hardware-Rooted Cloud Security"
+image: /images/2025/short-term-memory.jpg   # full-bleed hero, 16:7
+image_alt: "Hardware security token interfacing with cloud identity provider to eliminate human memory password burdens"
+takeaways:
+  - "Human short-term memory was never designed to store 64-character high-entropy cryptographic keys."
+  - "Hardware-rooted security anchors identity in silicon physics, eliminating phishing entirely."
+  - "The password crisis is solved by removing the human from the cryptographic key loop."
 date: 2025-12-03
 categories: ["Cloud Security", "Hardware Authentication", "YubiKey", "HashiCorp Vault", "Terraform", "Zero Trust", "AWS", "Short-lived Credentials", "DevSecOps"]
 excerpt: We've all been there - juggling AWS access keys, rotating credentials quarterly, and praying that developer laptop that went missing last month didn't have plaintext keys. The conventional wisdom says "use long, complex passwords" and "rotate regularly." But what if the real solution is to eliminate passwords entirely?

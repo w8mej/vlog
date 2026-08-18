@@ -1,6 +1,12 @@
 ---
 layout: post
 title: DARPA Cyber Grand Challenge era coming to a close
+image: /images/2016/darpa-cyber-challenge-ending.jpg   # full-bleed hero, 16:7
+image_alt: "Stage arena of the DARPA Cyber Grand Challenge final round showing autonomous supercomputers competing live at DEF CON"
+takeaways:
+  - "The CGC proved that automated vulnerability remediation is a solved engineering problem at prototype scale."
+  - "The gap between automated exploit generation and automated patching will define future cyber conflict."
+  - "Defenders must incorporate autonomous reasoning systems before adversaries fully operationalize them."
 date: 2016-08-15
 categories: ["Cyber Grand Challenge", "DARPA", "Red Teaming", "Automation", "Cybersecurity", "CTF", "AI in Security", "Game Theory", "Big Data Security", "Security Automation", "Cloud Security", "Adversarial Modeling", "CTF Strategy", "Security Research"]
 excerpt: This Thursday, seven research institutions will compete against each other. Unlike other typical hacker challenges, their automations will compete on their behalf. The winning team will take home

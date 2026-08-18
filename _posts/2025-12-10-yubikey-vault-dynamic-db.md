@@ -1,6 +1,12 @@
 ---
 layout: post
 title: "5 Mind-Blowing Secrets Behind Password-Less Database Provisioning (You Won't Believe #3)"
+image: /images/2025/yubikey-vault-dynamic-db.jpg   # full-bleed hero, 16:7
+image_alt: "Dynamic database user provisioning engine generating ephemeral single-use database credentials via hardware token"
+takeaways:
+  - "Root database passwords should never exist in human memory or configuration files."
+  - "Generate short-lived database roles dynamically upon hardware token attestation."
+  - "Automatic TTL expiration cleans up abandoned database sessions and eliminates orphan credentials."
 date: 2025-12-10
 categories: ["Hardware Security", "Zero-Trust Architecture", "Dynamic Secrets", "Infrastructure as Code", "HashiCorp Vault", "YubiKey", "Database Security", "DevSecOps", "MFA", "AppRole Authentication"]
 excerpt: In a world where database credentials are the crown jewels attackers covet most, what if I told you there's a way to provision databases without a single static password—and the secret expires in 5 minutes?

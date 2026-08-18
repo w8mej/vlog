@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Creating a Loki Splunk application
+image: /images/2017/loki-splunk-app.jpg   # full-bleed hero, 16:7
+image_alt: "Splunk dashboard architecture integrating Loki IOC scanner telemetry for enterprise threat detection"
+takeaways:
+  - "Integrating open-source IOC scanners into centralized SIEMs supercharges incident triage."
+  - "Fast YARA and file-hash scanning on endpoints provides rapid visibility during active investigations."
+  - "Custom SIEM apps turn distributed endpoint indicators into unified operational dashboards."
 date: 2017-10-10
 categories: ["Threat Hunting", "Incident Response", "APT Detection", "Open Source Security Tools", "Splunk", "IOC Scanning", "Automation", "YARA", "Threat Intelligence", "Windows Security"]
 excerpt: One tool that has caught my interest is the [Loki APT scanner

@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Google Glass 0days
+image: /images/2013/google-glass-vulns.jpg   # full-bleed hero, 16:7
+image_alt: "Heads-up display visual analyzing optical QR-code hijacking and wearable sensor attack vectors"
+takeaways:
+  - "Wearable computing introduces physical optical vectors that bypass traditional network boundaries."
+  - "Camera-driven interfaces make malicious visual input a direct code execution vector."
+  - "New device form factors always inherit old operating system vulnerabilities."
 date: 2013-04-19
 categories: ["Google Glass", "software development lifecycle", "vulnerabilities", "DOS attacks", "reflected XSS", "code security", "open source code", "responsible disclosure", "vr insecurity", "ar vulnerability", "augmented reality vulnerability"]
 excerpt: Jenny Murphy has some clean code. However, it isn't the most secure. The Google Glass team must be under an intense timeline. Without looking too hard into the libraries and

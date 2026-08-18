@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Please donate to a worthy crypto security cause
+image: /images/2014/openssl-vulnerabilities.jpg   # full-bleed hero, 16:7
+image_alt: "Memory buffer over-read illustration depicting Heartbleed reading private server keys from OpenSSL"
+takeaways:
+  - "Heartbleed proved that a single missing bounds check can compromise global internet encryption."
+  - "The internet's cryptographic foundation was maintained on a shoestring budget without safety nets."
+  - "Memory-safe languages and continuous auditing are mandatory for core internet primitives."
 date: 2014-04-15
 categories: ["OpenSSL", "Heartbleed", "cryptographic security", "secure code review", "donate to security", "open source funding", "C/C++ vulnerabilities", "software defects", "security research"]
 excerpt: If you have ever used OpenSSL, [please donate money to this worthy cause

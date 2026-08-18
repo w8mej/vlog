@@ -1,6 +1,12 @@
 ---
 layout: post
 title: ERM - How did WOPR decide the only winning move is not to play?
+image: /images/2012/a-strange-game-the-only-winning-move-is-not-to-play.jpg   # full-bleed hero, 16:7
+image_alt: "Retro-futuristic terminal displaying global risk simulation inspired by WOPR in WarGames"
+takeaways:
+  - "The only winning move against systemic existential risk is refusing zero-sum architecture."
+  - "Enterprise risk management without game-theoretic modeling is blind guessing."
+  - "Simulated catastrophe is the only ethical way to test organizational resilience."
 date: 2012-10-02
 categories: ["WOPR", "evolutionary algorithms", "hardware simulation", "intrinsic evolution", "extrinsic evolution", "risk modeling", "reconfigurable hardware", "fitness evaluation", "algorithmic variations", "systemic risk analysis"]
 excerpt: WOPR evolved and learned while playing against himself

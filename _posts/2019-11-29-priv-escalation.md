@@ -1,6 +1,12 @@
 ---
 layout: page
 title: Sometimes escalating privileges is that easy
+image: /images/2019/priv-escalation.jpg   # full-bleed hero, 16:7
+image_alt: "Linux kernel privilege escalation flow showing SUID binaries, misconfigured sudoers, and path hijacking"
+takeaways:
+  - "Privilege escalation is often a chain of seemingly trivial configuration oversights."
+  - "Audit SUID binaries, wildcards in cron jobs, and permissive sudo rules rigorously."
+  - "Least-privilege execution on the host neutralizes post-exploitation pivots."
 date: 2019-11-29
 categories: [TBD]
 excerpt: 

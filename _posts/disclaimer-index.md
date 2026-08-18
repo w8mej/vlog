@@ -1,5 +1,11 @@
 ---
 title: "Disclaimer"
+image: /images/2013/disclaimer-index.jpg   # full-bleed hero, 16:7
+image_alt: "Minimalist architectural seal representing personal professional transparency, ethics, and independent thought"
+takeaways:
+  - "Independent inquiry and open documentation drive collective industry security improvements."
+  - "Opinions evolve as technology frontiers expand; continuous learning demands an open mind."
+  - "Transparent sharing of engineering lessons benefits the global defender community."
 date: "2013-04-05"
 ---
 

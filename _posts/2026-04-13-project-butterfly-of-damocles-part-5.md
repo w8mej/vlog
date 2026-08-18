@@ -4,6 +4,12 @@ title: "Part IV — From 'I have a toolbox' to 'the scanner has a backdoor'"
 date: 2026-04-13
 series: project-butterfly-of-damocles
 series_name: "Project Butterfly of Damocles"
+image: /images/2026/project-butterfly-of-damocles-part-5.jpg   # full-bleed hero, 16:7
+image_alt: "Dissected malware payload hidden within an open source vulnerability scanner backdoor"
+takeaways:
+  - "Adversaries no longer attack endpoints; they backdoor the security scanners used to inspect them."
+  - "Trust in developer tooling has become the most abused vector in the modern software supply chain."
+  - "Cryptographic build provenance (SLSA) and reproducible builds are mandatory defense layers."
 episode: 6
 categories: ["Security", "Open Source", "Project Glasswing", "History"]
 tags: ["DEF CON 22", "Log4Shell", "XZ Utils", "Heartbleed", "Shellshock", "SolarWinds", "SUNBURST", "CodeCov", "3CX", "Trivy", "Axios", "Project Glasswing", "Claude Mythos", "supply chain history", "OSS security timeline", "capability threshold", "sandbox escape"]

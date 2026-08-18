@@ -4,6 +4,12 @@ title: "Part III — When the security scanner became the weapon: Trivy → Lite
 date: 2026-04-11
 series: project-butterfly-of-damocles
 series_name: "Project Butterfly of Damocles"
+image: /images/2026/project-butterfly-of-damocles-part-3.jpg   # full-bleed hero, 16:7
+image_alt: "Exploit chain schematic demonstrating how security scanning pipelines were weaponized from Trivy through LiteLLM to Axios"
+takeaways:
+  - "When security scanners process untrusted inputs, the scanner itself becomes the weapon."
+  - "The Trivy to LiteLLM to Axios attack chain proved that defender toolchains are prime targets."
+  - "Never grant unconfined execution privileges to automated diagnostic tools."
 episode: 4
 categories: ["Security", "Open Source", "Project Glasswing"]
 tags: ["Trivy", "LiteLLM", "Axios", "TeamPCP", "UNC1069", "Sapphire Sleet", "CanisterWorm", "CVE-2026-33634", "supply chain attack", "CI/CD security", "blockchain C2", "WAV steganography", "DPRK", "credential harvesting", "European Commission", "GitHub Actions", "mutable tags", "SLSA"]

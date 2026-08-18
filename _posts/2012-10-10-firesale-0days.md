@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Firesale WebPanel botnet 0days
+image: /images/2012/firesale-0days.jpg   # full-bleed hero, 16:7
+image_alt: "Dark conceptual graphic showing zero-day exploit markets, brokers, and cyber vulnerability economics"
+takeaways:
+  - "Zero-day exploits are economic commodities governed by supply, demand, and geopolitical stakes."
+  - "Stockpiling vulnerabilities guarantees systemic insecurity for everyone."
+  - "Defenders must build architectures that withstand unknown flaws, not just patched ones."
 date: 2012-10-10
 categories: ["Firesale WebPanel botnet", "reflected XSS", "DOM-based XSS", "SQL injection", "security vulnerabilities", "web security", "code sanitization", "mysql_escape_string", "application security"]
 excerpt: Oh, Firesale WebPanel botnet. How entertaining it is to see you continue to raise your head over the years.... XSS Reflected

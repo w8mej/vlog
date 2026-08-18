@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Why Your Next Security Architecture Should Be Ephemeral (and Why We Built It That Way)
+image: /images/2025/mpc-ephemeral-signing.jpg   # full-bleed hero, 16:7
+image_alt: "Multi-party threshold signing workflow generating single-use ephemeral cryptographic credentials"
+takeaways:
+  - "Ephemeral signing means credentials evaporate the instant their designated transaction completes."
+  - "Multi-party computation eliminates the single private key target from the attacker's crosshairs."
+  - "Architecture is destiny: build infrastructure that has no persistent secrets to steal."
 date: 2025-11-14
 categories: ["Confidential Computing", "MPC", "Zero Trust", "Infrastructure Security", "OCI", "Attestation"]
 excerpt: We built a signing service that doesn't trust its own keys. Here's why that's the future of security.

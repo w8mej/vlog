@@ -1,6 +1,12 @@
 ---
 layout: post
 title: "Righty Tighty: The \"Physics-Compliant\" Approach to Cross-Cloud Security"
+image: /images/2025/rightytighty.jpg   # full-bleed hero, 16:7
+image_alt: "Mechanical physics-inspired interlocking gears representing deterministic constraint enforcement across multi-cloud"
+takeaways:
+  - "Physics-compliant security treats permissions as immutable physical constraints, not optional settings."
+  - "Righty-tighty: tighten configuration defaults until only mathematically proven flows can execute."
+  - "Cross-cloud security fails when policies rely on cloud-specific semantics instead of universal invariants."
 date: 2025-12-02
 categories: ["Cloud Security", "Multi-Cloud", "OCI", "AWS", "YubiKey", "Terraform", "Infrastructure as Code", "Audit Logging", "Zero Trust"]
 excerpt: We’ve all been there - juggling long-lived AWS access keys, managing OCI config files, and praying that the "secret" API token committed to a private repo three years ago doesn't come back to haunt us. But what if we treated cloud identity less like a password and more like a physical law?

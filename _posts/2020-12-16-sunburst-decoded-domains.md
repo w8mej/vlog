@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Intel Sharing Metrics
+image: /images/2020/sunburst-decoded-domains.jpg   # full-bleed hero, 16:7
+image_alt: "SUNBURST SolarWinds DGA domain decoding script analysis and victim reconnaissance telemetry graph"
+takeaways:
+  - "SUNBURST demonstrated that attackers can turn trusted build pipelines into global cyber weapons."
+  - "Domain Generation Algorithms (DGA) in enterprise supply chain payloads encode internal victim identity."
+  - "Decoded telemetry sharing across the security community is the fastest way to map adversary blast radius."
 date: 2020-12-16
 categories: ["Threat Intelligence", "Metrics", "Cybersecurity", "Data Visualization", "Intel Sharing", "Incident Response"]
 excerpt: I pulled some metrics from my threat intelligence sharing service to generate cute charts and graphs. If you want to keep up to date, keep an eye on

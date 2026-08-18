@@ -1,6 +1,12 @@
 ---
 layout: post
 title: What is a modern, dynamic service and its' building blocks?
+image: /images/2019/kubernetes-clusters.jpg   # full-bleed hero, 16:7
+image_alt: "Dynamic cloud microservices infrastructure blueprint showing declarative state management in Kubernetes"
+takeaways:
+  - "Modern dynamic services demand declarative configuration and continuous reconciliation loops."
+  - "Cluster security requires understanding the lifecycle of pods, services, and ingress controllers."
+  - "Declarative infrastructure allows security teams to audit desired state before runtime deployment."
 date: 2019-07-13
 categories: ["Cloud Native", "Modern Services", "Containerization", "CI/CD", "Orchestration", "Kubernetes", "Microservices", "Networking", "Observability", "Service Discovery", "Databases", "Messaging"]
 excerpt: As I work through the ecosystem, there is no evident, leading best practice.

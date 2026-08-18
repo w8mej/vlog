@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Kubernetes Networks - CNI
+image: /images/2019/want-to-escalate-aws-iam-permissions.jpg   # full-bleed hero, 16:7
+image_alt: "Kubernetes CNI network interface architecture and AWS IAM instance metadata privilege escalation paths"
+takeaways:
+  - "Pods with access to the AWS Instance Metadata Service (IMDS) can steal node IAM credentials."
+  - "Enforce IMDSv2 and use IRSA (IAM Roles for Service Accounts) to scope pod credentials strictly."
+  - "Container Network Interfaces (CNI) must enforce network isolation to prevent metadata exfiltration."
 date: 2019-07-24
 categories: ["Kubernetes", "Networking", "CNI", "Network Policies", "Service Mesh", "Routing", "Storage Interface", "Security Best Practices", "Kubernetes Security"]
 excerpt: Within Kubernetes, networks are an interesting beast. They become extremely muddled

@@ -4,6 +4,12 @@ title: "Part VII — What this means if you work in security, build OSS, run AI 
 date: 2026-04-16
 series: project-butterfly-of-damocles
 series_name: "Project Butterfly of Damocles"
+image: /images/2026/project-butterfly-of-damocles-part-8.jpg   # full-bleed hero, 16:7
+image_alt: "Actionable policy blueprint matrix for CISOs, OSS maintainers, ML engineers, and regulatory bodies"
+takeaways:
+  - "Finding capability is democratized; fixing capability is the new strategic bottleneck."
+  - "CISOs and OSS maintainers must measure patch velocity rather than static vulnerability counts."
+  - "Regulators must reform NVD and CISA KEV frameworks for the era of autonomous AI discovery."
 episode: 9
 categories: ["Security", "Project Glasswing", "Takeaways"]
 tags: ["Project Glasswing", "Claude Mythos", "discovery velocity", "patch velocity", "CISOs", "incident response", "OSS maintainers", "SLSA", "OIDC provenance", "ML infrastructure", "AI gateway", "LiteLLM", "regulators", "CISA KEV", "FedRAMP", "NVD reform", "AI governance", "voluntary restraint", "practical guidance", "remediation"]

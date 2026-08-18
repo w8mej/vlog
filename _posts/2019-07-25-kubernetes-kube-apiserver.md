@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Kubernetes Containers
+image: /images/2019/kubernetes-kube-apiserver.jpg   # full-bleed hero, 16:7
+image_alt: "Kubernetes API Server request validation lifecycle showing authentication, authorization, and admission webhooks"
+takeaways:
+  - "The Kube-API Server is the primary gatekeeper: enforce strict RBAC and validating admission webhooks."
+  - "Never expose the Kubernetes API server directly to the public internet without bastion or VPN controls."
+  - "Audit logs from the API server provide the highest-fidelity telemetry for detecting cluster intrusions."
 date: 2019-07-25
 categories: ["Kubernetes", "Containers", "Container Security", "Container Technology", "Docker", "Container Vulnerability Scanning", "Image Signing", "Security Best Practices", "CI/CD", "Compliance"]
 excerpt: When we get into the specifics for containers, the challenge is that the detailed advice differs greatly between the different container technologies. As a result, I will STRONGLY recommend one doesn’t run Docker as it was never designed to be secure, requires Swarm to manage some aspects of its’ lacking security, and requires a near-infinite amount of hand holding

@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Yet another nail in SSL TLS 's coffin
+image: /images/2015/rc4-openssl-deathsdoor.jpg   # full-bleed hero, 16:7
+image_alt: "Cryptographic stream cipher bias diagram illustrating the final demise and deprecation of RC4"
+takeaways:
+  - "Statistical keystream biases transform legacy ciphers into plaintext recovery engines."
+  - "Backward compatibility is often the single biggest barrier to retiring broken cryptography."
+  - "Deprecate legacy cryptographic algorithms proactively before attacks become practical in real time."
 date: 2015-04-14
 categories: ["SSL", "TLS", "RC4 vulnerability", "cryptographic attacks", "BEAST attack", "cipher suite weaknesses", "man-in-the-middle", "encryption insecurity", "deprecated protocols", "security research"]
 excerpt: RC4 has long been considered problematic, but until very recently there was no known way to exploit the weaknesses

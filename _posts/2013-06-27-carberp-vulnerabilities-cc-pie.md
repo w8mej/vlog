@@ -1,6 +1,12 @@
 ---
 layout: post
 title: #Carberp vulnerabilities - Overview and poor cryptography
+image: /images/2013/carberp-vulnerabilities-cc-pie.jpg   # full-bleed hero, 16:7
+image_alt: "Dissected architecture of Carberp financial Trojan showing hook injection and botnet command channels"
+takeaways:
+  - "Carberp's leaked source code democratized enterprise banking fraud overnight."
+  - "Understanding malware internals is essential to crafting heuristic defenses that survive obfuscation."
+  - "Financial malware targets operational workflows, not just raw encryption algorithms."
 date: 2013-06-27
 categories: ["Carberp", "malware analysis", "cryptographic vulnerabilities", "RC4 encryption", "md5 weaknesses", "openssl misuse", "application security", "botnet source code", "secure coding", "PHP security"]
 excerpt: I logged into Reddit this morning and observed Carberp

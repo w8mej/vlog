@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Evolutionary hardware
+image: /images/2013/for-technical-problems-one-may-struggle-to-define.jpg   # full-bleed hero, 16:7
+image_alt: "Abstract multidimensional problem-solving labyrinth representing wicked engineering challenges and evolutionary hardware"
+takeaways:
+  - "If you cannot precisely define the problem, your solution will solve nothing."
+  - "Wicked technical problems resist linear solutions—they demand systems thinking."
+  - "Framing the question correctly is 90% of solving complex architectural bugs."
 date: 2013-04-17
 categories: ["evolutionary algorithms", "soft computing", "design automation", "neural networks", "ReCaptcha", "Amazon Turk", "pattern recognition", "evolvable hardware", "military applications", "industrial applications", "risk management"]
 excerpt: For technical problems, one may struggle to define the specifications. When this happens, look at the behavioral design. Then one may find solutions from the design automation. Thankfully, evolution algorithms

@@ -4,6 +4,12 @@ title: "Part VI — Pros, cons, and tensions that don't resolve"
 date: 2026-04-15
 series: project-butterfly-of-damocles
 series_name: "Project Butterfly of Damocles"
+image: /images/2026/project-butterfly-of-damocles-part-7.jpg   # full-bleed hero, 16:7
+image_alt: "Conceptual geometric tension matrix illustrating irresolvable dilemmas in automated cyber defense and offense"
+takeaways:
+  - "The tensions between rapid offensive discovery and lagging defensive remediation cannot be easily resolved."
+  - "Voluntary restraint in AI capability development dissolves under geopolitical pressure."
+  - "Security engineering must learn to operate in permanent, high-velocity disequilibrium."
 episode: 8
 categories: ["Security", "Project Glasswing", "Analysis"]
 tags: ["Project Glasswing", "Claude Mythos", "OSS-Fuzz", "AFL fuzzer", "capability proliferation", "maintainer burnout", "SLSA", "SBOM", "CISA KEV", "AARM", "legal dispute", "White House", "discovery velocity", "patch velocity", "human surface", "governance gap", "honest accounting"]

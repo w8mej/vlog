@@ -1,6 +1,12 @@
 ---
 layout: post
 title: South Park's perspective on Hacker culture
+image: /images/2023/the-two-types-of-security-engineers.jpg   # full-bleed hero, 16:7
+image_alt: "Satirical and insightful illustration comparing reactive gatekeepers against proactive builder security engineers"
+takeaways:
+  - "There are two types of security engineers: those who say 'No' and those who build secure ramps."
+  - "Hacker culture values curiosity and dismantling barriers; corporate security must embrace that energy."
+  - "The most impactful security engineers write software that makes doing the wrong thing impossible."
 date: 2023-11-20
 categories: [TBD]
 excerpt: Cartman, You know what's like hackers, dudes

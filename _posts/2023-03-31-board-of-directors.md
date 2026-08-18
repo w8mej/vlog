@@ -1,6 +1,12 @@
 ---
 layout: post
 title: 2023 update to 2021 White House Cybersecurity Executive Order
+image: /images/2023/board-of-directors.jpg   # full-bleed hero, 16:7
+image_alt: "Corporate boardroom visualization analyzing White House cybersecurity executive orders and governance liability"
+takeaways:
+  - "Cybersecurity is no longer an IT operational detail—it is an existential board-level fiduciary duty."
+  - "Executive orders are forcing cryptographic agility, SBOM mandates, and strict supply chain accountability."
+  - "Boards that treat cyber risk as compliance theater face unprecedented legal and reputational exposure."
 date: 2023-03-31
 categories: ["Cybersecurity", "Cyber Risk Management", "White House Cybersecurity Executive Order", "Security Automation", "Infosec Trends", "Risk Assessment", "Cloud Security", "Compliance", "M&A", "SecOps", "Tech Innovation", "AI/ML Security"]
 excerpt: I realized I needed to update the 2021 White House Executive Order …Improving the Nation’s Cybersecurity fundamentals outline. In order to scale with limited resources to achieve the basics, below are the fundamental hygienic basics one must achieve.

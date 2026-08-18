@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Management Wednesday- BPM Modeling - not charts anymore #bpm
+image: /images/2012/management-wednesday-bpm-modeling-not-charts-anymore.jpg   # full-bleed hero, 16:7
+image_alt: "Interactive system architecture showing dynamic process modeling transitioning away from static flowcharts"
+takeaways:
+  - "Static flowcharts are where engineering truth goes to die."
+  - "Dynamic process models must reflect real-time runtime state, not boardroom aspirations."
+  - "Operational excellence demands living architectures that evolve with telemetry."
 date: 2012-07-15
 categories: ["business process modeling", "scoping phase", "UML", "software engineering", "probabilistic graph modeling", "BlueWorks", "WebSphere", "multivariate analysis", "business process transparency", "mergers and acquisitions", "operational efficiency", "technology in business", "modeling versus reality"]
 excerpt: After one has accomplished the scoping phase, then the team should move on to modeling. Due to the large amount of time spent scoping, many scenarios will come to light

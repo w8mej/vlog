@@ -1,6 +1,12 @@
 ---
 layout: post
 title: How to sell a story - Ira Glass
+image: /images/2014/storytelling.jpg   # full-bleed hero, 16:7
+image_alt: "Narrative architecture diagram illustrating effective storytelling techniques for technical leaders"
+takeaways:
+  - "Technical accuracy without compelling storytelling will never get executive budget."
+  - "Security engineers must frame cyber risk in terms of mission impact, not technical jargon."
+  - "The best leaders translate complex threat models into intuitive business narratives."
 date: 2014-06-27
 categories: ["Ira Glass", "creative process", "storytelling", "artistic growth", "overcoming self doubt", "creative advice", "persistence in art", "closing the gap", "beginner struggles", "motivation for creators"]
 excerpt: If you are just starting this phase, still in this phase, getting out of this phase, you gotta know

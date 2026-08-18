@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Startup Comp Structure
+image: /images/2013/international-contract-negotation-tips.jpg   # full-bleed hero, 16:7
+image_alt: "Cross-border legal and technical negotiation map highlighting jurisdiction, IP escrow, and SLA terms"
+takeaways:
+  - "International software contracts require navigating jurisdictional sovereignty as carefully as code bugs."
+  - "Clear SLAs and liability boundaries protect engineering teams from catastrophic vendor failures."
+  - "Negotiate for observability and audit rights before signing long-term tech commitments."
 date: 2013-06-05
 categories: ["startup compensation", "equity compensation", "executive recruitment", "venture capital", "cash vs stock compensation", "benefits program", "stock options", "employee motivation", "startup challenges", "creative compensation strategies", "benefits customization"]
 excerpt: You

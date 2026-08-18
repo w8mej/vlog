@@ -46,3 +46,5 @@ User-agent: Applebot-Extended
 Allow: /
 
 Sitemap: https://www.securesql.info/sitemap.xml
+
+Content-Signal: ai-train=yes, search=yes, ai-retrieval=yes, ai-personalization=no

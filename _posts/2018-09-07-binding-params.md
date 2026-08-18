@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Binding Parameters
+image: /images/2018/binding-params.jpg   # full-bleed hero, 16:7
+image_alt: "SQL parameter binding memory structure demonstrating complete elimination of SQL injection vulnerabilities"
+takeaways:
+  - "Parameterized queries separate code from data, completely neutralizing SQL injection."
+  - "String concatenation in database queries is architectural malpractice."
+  - "Parameterized interfaces make SQL injection physically impossible by compiler design."
 date: 2018-09-07
 categories: ["Injection", "SQL Injection", "Input Validation", "Parameterized Statements", "ORM", "Secure Coding", "Code Review"]
 excerpt: Notice that the single quote in the name O’Brien is causing a syntax error. The SQL command processor considers the string ends

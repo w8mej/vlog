@@ -4,6 +4,12 @@ title: "Part V — What Project Glasswing actually changes for every open source
 date: 2026-04-14
 series: project-butterfly-of-damocles
 series_name: "Project Butterfly of Damocles"
+image: /images/2026/project-butterfly-of-damocles-part-6.jpg   # full-bleed hero, 16:7
+image_alt: "Global map of open source software ecosystems transformed by Project Glasswing automated vulnerability discovery"
+takeaways:
+  - "Project Glasswing changed the rules for every open source developer and maintainer on earth."
+  - "Automated vulnerability discovery at LLM speed forces an immediate overhaul of coordinated disclosure."
+  - "Open source sustainability is now a critical national security imperative."
 episode: 7
 categories: ["Security", "Open Source", "Project Glasswing", "Policy"]
 tags: ["Project Glasswing", "Claude Mythos", "Glasswing Doctrine", "AI governance", "capability withholding", "OSS social contract", "AARM", "CISA KEV", "NVD", "SLSA", "maintainer economics", "AI policy", "dual-use AI", "OSS-Fuzz", "sandbox escape", "vulnerability disclosure", "patch velocity", "compliance cliff"]

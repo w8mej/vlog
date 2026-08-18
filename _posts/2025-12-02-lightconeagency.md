@@ -1,6 +1,12 @@
 ---
 layout: post
 title: "Your Security Agent Isn’t Broken—It’s Just Optimizing the Wrong Universe"
+image: /images/2025/lightconeagency.jpg   # full-bleed hero, 16:7
+image_alt: "Cognitive light cone spacetime diagram illustrating goal-directed agency horizons in autonomous systems"
+takeaways:
+  - "Your security agent isn't broken—it's optimizing a cognitive light cone smaller than the attacker's horizon."
+  - "Scaling agency requires expanding the spatiotemporal boundaries an agent can perceive and manipulate."
+  - "Define the goal space, and let the agent navigate morphogenetic option spaces freely."
 date: 2025-12-02
 categories: ["AI Security", "Security Agents", "Cognitive Light Cone", "TAME Framework", "Goal Alignment", "Autonomous Systems", "Zero Trust"]
 excerpt: "We've spent decades perfecting code correctness—yet some of the costliest failures come from agents doing exactly what we told them to do."

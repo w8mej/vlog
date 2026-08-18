@@ -1,6 +1,12 @@
 ---
 layout: post
 title: "5 Mind-Bending Truths About API Security That Will Change How You Think About Trust"
+image: /images/2025/zero-trust-api-key-minting.jpg   # full-bleed hero, 16:7
+image_alt: "Zero Trust API key minting engine issuing bounded, cryptographically signed short-lived execution tokens"
+takeaways:
+  - "Never issue permanent API tokens: mint strictly scoped tokens tied to specific runtime operations."
+  - "Bind API tokens cryptographically to caller workload identity and network context."
+  - "Zero Trust key minting turns credential theft into an exercise in futility."
 date: 2025-12-12
 categories: ["Zero Trust", "API Security", "Cryptographic MPC", "Hardware Security", "Short-Lived Credentials", "FROST Threshold Signatures", "YubiKey", "DevSecOps", "Policy as Code", "Confidential Computing"]
 excerpt: We've been thinking about API keys completely wrong. What if the most secure credential is one that literally can't exist for more than fifteen minutes—and requires a committee of hardware tokens to even create?

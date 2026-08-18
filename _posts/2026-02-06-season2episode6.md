@@ -4,6 +4,12 @@ title: "The Bioelectric Blueprint: How to Reprogram Your Infrastructure's 'Mind'
 date: 2026-02-06
 series: morphogenetic-soc
 series_name: "Morphogenetic SOC"
+image: /images/2026/season2episode6.jpg   # full-bleed hero, 16:7
+image_alt: "Glowing bioelectric voltage map illustrating software-defined anatomical programming of digital systems"
+takeaways:
+  - "Reprogram the infrastructure's collective mind by altering bioelectric state patterns, not micro-hardware."
+  - "Voltage patterns in biological tissues show how high-level goals dictate low-level cellular behavior."
+  - "Software-defined security gradients guide agent swarms toward global equilibrium."
 episode: 6
 categories: ["Bioelectricity", "Pattern Memory", "Remediation", "Gap Junctions", "TAME Framework", "Top-Down Control", "Inverse Problem", "Anatomical Homeostasis", "Agentic Security", "Self-Healing"]
 excerpt: "We usually try to secure systems by fixing the 'hardware'—patching servers and blocking IPs. But biology proves that the true driver of resilience is the 'bioelectric software' that dictates the system's shape. By learning how to rewrite the 'pattern memory' of a network, we can engineer security architectures that don't just repair damage, but actively regenerate their own defense."

@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Technical Approaches to Determining if an Incident Occurred
+image: /images/2015/infosec-ir-triaging-workflows.jpg   # full-bleed hero, 16:7
+image_alt: "Incident response triaging flowchart highlighting alert enrichment, blast radius containment, and triage automation"
+takeaways:
+  - "Triage speed dictates whether an alert becomes a post-mortem or a non-event."
+  - "Automated alert enrichment frees analysts to focus on adversarial intent rather than log collation."
+  - "Repeatable playbooks prevent panic during high-stress incident response."
 date: 2015-04-02
 categories: ["incident response", "cybersecurity best practices", "IOC detection", "anomaly detection", "host-based artifacts", "network-based artifacts", "threat hunting", "digital forensics", "incident mitigation", "security monitoring", "incident handling mistakes", "remediation strategies", "network segmentation", "access control", "backup and recovery", "SIEM", "endpoint detection", "malware analysis", "user education", "secure configuration"]
 excerpt: When addressing potential incidents and applying best practice incident response procedures

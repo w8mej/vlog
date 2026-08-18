@@ -1,6 +1,12 @@
 ---
 layout: post
 title: "Episode 2: The Layer 2 Bridge Lab"
+image: /images/2026/zerotier-flexradio.jpg   # full-bleed hero, 16:7
+image_alt: "Network topology diagram of ZeroTier Layer 2 software-defined Ethernet bridge connecting FlexRadio transceivers"
+takeaways:
+  - "ZeroTier creates seamless Layer 2 broadcast domains across arbitrary physical internet connections."
+  - "Software-defined networking enables remote amateur radio operation with microsecond precision."
+  - "Virtual Layer 2 overlays eliminate brittle port forwarding and static IP dependencies."
 date: 2026-02-11
 categories: ["Homelab", "Networking", "Debian", "NetworkManager", "ZeroTier", "Bridging", "Ham Radio", "FlexRadio 8600", "Maestro", "Resilience"]
 excerpt: "Migrating from /etc/network/interfaces to NetworkManager on Debian Trixie is a rite of passage. This lab walks through building a persistent Layer 2 bridge between eth0 and a ZeroTier interface—plus the dispatcher automation that keeps MTU and bridge membership correct across reboots, restarts, and interface flaps."

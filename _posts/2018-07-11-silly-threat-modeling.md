@@ -1,6 +1,12 @@
 ---
 layout: post
 title: For those who wonder what a Digital authentication cyber arms race looks like
+image: /images/2018/silly-threat-modeling.jpg   # full-bleed hero, 16:7
+image_alt: "Satirical threat modeling diagram breaking down absurd real-world user authentication edge cases"
+takeaways:
+  - "If your threat model assumes perfect human behavior, it is an exercise in fantasy."
+  - "Users will always choose the path of least resistance over complex security rituals."
+  - "Design security controls around real human workflows rather than ideal compliance fantasies."
 date: 2018-07-11
 categories: ["Authentication", "Cybersecurity", "Browser Security", "Phishing", "Digital Identity", "Hardware Tokens", "Defense Strategies"]
 excerpt: It is heavy on the technical content but is entertaining if you spend the time understanding the language.

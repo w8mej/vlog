@@ -1,6 +1,12 @@
 ---
 layout: post
 title: "Security Theater and Cap Tables: Deconstructing Cal.com's Closed-Source Pivot"
+image: /images/2026/caldotcomcasestudy.jpg   # full-bleed hero, 16:7
+image_alt: "Financial cap table overlaid with open-source licensing code deconstructing Cal.com's closed-source pivot"
+takeaways:
+  - "Security justifications are frequently weaponized as cover for commercial cap table protection."
+  - "Closing source code under the guise of security theater rarely fixes the underlying software defects."
+  - "Open source business models must align economic incentives with long-term security maintenance."
 date: 2026-04-16
 categories: ["Security", "Open Source", "Business Analysis"]
 tags: ["Security through Obscurity", "Cal.com", "Venture Capital", "AppSec", "OSS", "Licensing"]

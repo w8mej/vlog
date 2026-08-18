@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Need help figuring out a Snapchat username? I have your back.
+image: /images/2015/popular-snapchat-names.jpg   # full-bleed hero, 16:7
+image_alt: "High-throughput API scraping and username enumeration analysis graph on mobile social platforms"
+takeaways:
+  - "Unrestricted API endpoints make bulk user enumeration trivial for scrapers."
+  - "Rate limiting and behavioral throttling are fundamental identity protections."
+  - "Public username harvesting is the precursor to credential stuffing and targeted phishing campaigns."
 date: 2015-04-15
 categories: ["Snapchat", "username tips", "social media trends", "username patterns", "data analysis", "popular names", "digital identity", "user behavior", "Jessica username help", "Snapchat analytics"]
 excerpt: I can’t tell you what makes a good Snapchat username.  But what I can tell you is what makes a popular Snapchat username.

@@ -1,6 +1,12 @@
 ---
 layout: post
 title: 5 Mind-Bending Truths About SSH Authentication That Will Change How You Think About Security
+image: /images/2025/yubikey-vault-ssh.jpg   # full-bleed hero, 16:7
+image_alt: "Short-lived SSH certificate signing workflow combining YubiKey touch attestation with HashiCorp Vault CA"
+takeaways:
+  - "Static SSH authorized_keys files on servers are architectural technical debt."
+  - "YubiKey-backed Vault certificate signing issues single-session SSH certificates with physical presence proof."
+  - "Physical touch requirements stop remote automated lateral movement in its tracks."
 date: 2025-12-07
 categories: ["Hardware Security", "Zero Trust Architecture", "Cryptographic Authentication", "SSH Security", "YubiKey", "HashiCorp Vault", "Passwordless Authentication", "JWT", "OTP", "Security Innovation"]
 excerpt: We've been doing SSH authentication wrong for decades. What if I told you that your SSH keys, password managers, and even your carefully rotated credentials are all solving yesterday's problem?

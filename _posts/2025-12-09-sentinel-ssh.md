@@ -1,6 +1,12 @@
 ---
 layout: post
 title: "5 Mind-Blowing Security Truths That Will Change How You Think About SSH Access Forever"
+image: /images/2025/sentinel-ssh.jpg   # full-bleed hero, 16:7
+image_alt: "Sentinel policy engine evaluating ambient context, hardware token posture, and peer approval before SSH access"
+takeaways:
+  - "SSH access should be a real-time policy decision, not an all-or-nothing persistent key pairing."
+  - "Sentinel policy rules ensure that production access requires quorum approval and active hardware touch."
+  - "Turn SSH bastion hosts from vulnerable gateways into audited, policy-enforced execution gates."
 date: 2025-12-09
 categories: ["Hardware Security", "Zero Trust Architecture", "SSH Certificate Authority", "YubiKey", "HashiCorp Vault", "Ephemeral Access", "Infrastructure as Code", "DevSecOps", "Cloud Security"]
 excerpt: Your SSH keys are sitting on your laptop right now. What happens when your device gets compromised? The answer is scarier than you think—and there's a revolutionary solution you've probably never heard of.

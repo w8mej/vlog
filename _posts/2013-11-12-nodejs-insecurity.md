@@ -1,6 +1,12 @@
 ---
 layout: post
 title: NodeJS vulnerabilities - it hurts to look
+image: /images/2013/nodejs-insecurity.jpg   # full-bleed hero, 16:7
+image_alt: "Event loop blocking attack visual showing asynchronous concurrency flaws and unhandled exceptions in Node.js"
+takeaways:
+  - "Single-threaded asynchronous runtimes turn unhandled CPU-heavy operations into total service outages."
+  - "The npm dependency ecosystem creates exponential supply-chain trust delegation."
+  - "Event loop starvation is the easiest denial-of-service vector against poorly bounded Node.js apps."
 date: 2013-11-12
 categories: ["NodeJS", "JavaScript security", "backend vulnerabilities", "vulnerability classes", "defensive coding", "third party package review", "Shodan", "open source security", "NodeJS hardening"]
 excerpt: Background

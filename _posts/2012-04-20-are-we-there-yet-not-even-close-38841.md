@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Management Wednesday- BPM isn’t beats per minute.
+image: /images/2012/are-we-there-yet-not-even-close-38841.jpg   # full-bleed hero, 16:7
+image_alt: "Abstract blueprint showing Business Process Modeling (BPM) workflows and organizational lifecycle gates"
+takeaways:
+  - "BPM is not beats per minute—it is the operational rhythm of organizational survival."
+  - "Process charts without feedback loops are bureaucratic theater."
+  - "If your security controls don't integrate into daily workflows, engineers will route around them."
 date: 2012-04-20
 categories: ["business process management", "management practices", "change initiatives", "process optimization", "human error", "stakeholder focus", "miscommunication", "process frameworks", "business efficiency", "agile processes", "information services"]
 excerpt: I was chatting with Alexander Peters and he mentioned an interesting statistic.

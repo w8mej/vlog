@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Memory Safety Code Review
+image: /images/2018/overflowing.jpg   # full-bleed hero, 16:7
+image_alt: "Memory stack frame layout showing buffer overflow overwrite of instruction pointer register"
+takeaways:
+  - "Memory safety bugs have plagued software engineering for 50 years; memory-safe languages are the only real cure."
+  - "Bounds checks in C/C++ are human-error prone; adopt Rust or hardened toolchains."
+  - "Address space layout randomization (ASLR) and stack canaries are mitigations, not fixes."
 date: 2018-11-30
 categories: ["Memory Safety", "Buffer Overflow", "CWE 120", "CWE 131", "CWE 134", "CWE 193", "Input Validation", "Format String Injection", "Off-by-One", "Compiler Flags", "Secure Coding Practices"]
 excerpt: Some of our keen readers may have noticed that if the size of userPass is less than 9, then overflow will still occur.

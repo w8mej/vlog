@@ -1,6 +1,12 @@
 ---
 layout: post
 title: DARPA Cyber Grand Challenge dropbox
+image: /images/2015/darpa-cyber-grand-challenge.jpg   # full-bleed hero, 16:7
+image_alt: "Autonomous cyber reasoning system analyzing binary vulnerabilities and patching software without human intervention"
+takeaways:
+  - "Autonomous cyber reasoning systems prove machines can find, exploit, and patch bugs at machine speed."
+  - "The DARPA Cyber Grand Challenge marked the dawn of automated binary defense."
+  - "Speed of automated analysis will soon render manual binary auditing obsolete."
 date: 2015-11-15
 categories: ["DARPA", "Cyber Grand Challenge", "CTF", "OSINT", "Penetration Testing", "Automation", "IoT Security", "Cryptoapocalypse", "Security Research"]
 excerpt: I have been taking lessons learned from DARPA’s Cyber Grand Challenge and applying it to our automation

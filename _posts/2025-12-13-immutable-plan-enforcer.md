@@ -1,6 +1,12 @@
 ---
 layout: post
 title: 5 Mind-Bending Security Paradigms That Will Redefine How You Think About Infrastructure Deployments
+image: /images/2025/immutable-plan-enforcer.jpg   # full-bleed hero, 16:7
+image_alt: "Cryptographic pipeline seal guaranteeing that only approved and signed Terraform execution plans can deploy"
+takeaways:
+  - "What you review in a plan must be cryptographically identical to what executes in production."
+  - "Immutable plan enforcement blocks supply chain tampering between review and deployment."
+  - "Sign the execution artifact, not just the commit hash."
 date: 2025-12-13
 categories: ["Zero Trust Architecture", "Hardware Security Modules", "Ephemeral Credentials", "Infrastructure as Code", "YubiKey Security", "HashiCorp Vault", "Cloud Security", "DevSecOps", "Immutable Infrastructure", "Certificate-Based Authentication"]
 excerpt: We assume signed code happens in CI/CD pipelines. We assume certificates live for days or weeks. We assume trust is verified once at build time. Every single one of these assumptions is obsolete—and this implementation proves why.

@@ -1,6 +1,12 @@
 ---
 layout: post
 title: The Security Pattern Most DevOps Teams Get Dangerously Wrong (And How Hardware Tokens Fix It)
+image: /images/2025/yubikey-terraform-state-guard.jpg   # full-bleed hero, 16:7
+image_alt: "Terraform state encryption guardrail requiring physical hardware token decryption to prevent secret leaks"
+takeaways:
+  - "Terraform state files are unencrypted treasure maps of your enterprise credentials."
+  - "Hardware token state encryption ensures that compromised CI/CD runners cannot dump raw state files."
+  - "Protecting state files is protecting the root keys to your entire cloud universe."
 date: 2025-12-11
 categories: ["Infrastructure Security", "Hardware Security", "DevOps", "Terraform", "HashiCorp Vault", "YubiKey", "Zero Trust", "Key Management", "Compliance", "Cloud Security"]
 excerpt: Your Terraform state files contain the keys to your kingdom—database passwords, API tokens, private keys—all in one convenient JSON file. Yet most teams protect them with the digital equivalent of a "do not enter" sign. Here's why that's terrifying, and how hardware-backed encryption changes everything.

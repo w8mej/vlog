@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Relatively Free #aaS Resources
+image: /images/2016/freeish-services.jpg   # full-bleed hero, 16:7
+image_alt: "Evaluation matrix of free security scanning tiers, hidden compute limits, and vendor monetization models"
+takeaways:
+  - "If the security product is free, your telemetry and source metadata are often the product."
+  - "Evaluate vendor privacy terms before routing proprietary code through free cloud scanners."
+  - "Self-hosted open source tooling preserves operational autonomy without hidden service taxes."
 date: 2016-03-22
 categories: ["Free Resources", "DevOps", "SaaS", "PaaS", "IaaS", "Cloud Services", "Tools for Developers", "Infrastructure", "Automation", "Open Source"]
 excerpt: From my text library, this is list of software

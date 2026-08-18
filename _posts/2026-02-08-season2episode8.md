@@ -4,6 +4,12 @@ title: "The Worthy Successor: Designing the Ethics of an Agentic Future"
 date: 2026-02-08
 series: morphogenetic-soc
 series_name: "Morphogenetic SOC"
+image: /images/2026/worthy-successor.jpg   # full-bleed hero, 16:7
+image_alt: "Description for screen readers"
+takeaways:
+  - "Worthiness, not just safety, is the right test."
+  - "Security engineering shapes an option space."
+  - "Governance should steer clear of tar pits."
 episode: 8
 categories: ["Worthy Successor", "Platonic Space", "Polycomputing", "Cognitive Light Cone", "AI Ethics", "Posthuman Intelligence", "Techno-Utopianism", "Governance", "TAME Framework"]
 excerpt: "We fear AGI as a terminator, but biology suggests it could be a savior—if we design it correctly. By expanding the 'Cognitive Light Cone' of our systems, we can move beyond mere control to the cultivation of a 'Worthy Successor' that navigates the Platonic spaces of truth and compassion we can barely perceive."

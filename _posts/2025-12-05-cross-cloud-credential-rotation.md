@@ -1,6 +1,12 @@
 ---
 layout: post
 title: 5 Surprising Lessons from Building a Cross-Cloud Credential Rotator
+image: /images/2025/cross-cloud-credential-rotation.jpg   # full-bleed hero, 16:7
+image_alt: "Automated zero-downtime key rotation pipeline synchronizing IAM secrets across AWS, GCP, and Azure"
+takeaways:
+  - "Automated credential rotation must be zero-downtime and completely transparent to running applications."
+  - "Cross-cloud rotation pipelines fail if they lack atomic state synchronization and instant rollback."
+  - "If credential rotation requires a calendar reminder, your credentials are fundamentally unmanaged."
 date: 2025-12-05
 categories: ["Cloud Security", "DevSecOps", "AWS", "OCI", "Serverless", "Automation"]
 excerpt: Managing secrets across one cloud is hard. Managing them across two, synchronously, is a masterclass in distributed systems engineering.

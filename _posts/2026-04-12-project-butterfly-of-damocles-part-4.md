@@ -4,6 +4,12 @@ title: "Part III — Silicon Valley's new attack surface: the machine learning A
 date: 2026-04-12
 series: project-butterfly-of-damocles
 series_name: "Project Butterfly of Damocles"
+image: /images/2026/project-butterfly-of-damocles-part-4.jpg   # full-bleed hero, 16:7
+image_alt: "Complex machine learning dependency graph mapping Silicon Valley AI stack attack surfaces and model weights"
+takeaways:
+  - "The machine learning infrastructure stack has created a massive, unvetted dependency graph."
+  - "Model serialization formats and tokenizer libraries are full of classic memory corruption flaws."
+  - "Silicon Valley is rushing to deploy AGI on top of a foundation of unpatched C and Python bindings."
 episode: 5
 categories: ["Security", "Open Source", "Project Glasswing", "Machine Learning"]
 tags: ["ML security", "TensorFlow", "PyTorch", "ONNX", "HuggingFace", "LiteLLM", "Ray", "LangChain", "pickle deserialization", "ShadowRay", "safetensors", "MLflow", "CUDA", "AI supply chain", "model security", "MLOps security", "vLLM", "TGI", "AI gateway security"]

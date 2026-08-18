@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Multiple vulnerabilities in SecurityOnion
+image: /images/2016/securityonion-vunlerabilities.jpg   # full-bleed hero, 16:7
+image_alt: "Security Onion network monitoring appliance architecture diagram showing web interface privilege boundaries"
+takeaways:
+  - "Security monitoring platforms are high-privilege targets that require rigorous internal hardening."
+  - "Vulnerabilities in defensive appliances turn your monitoring console into an adversary stronghold."
+  - "Segment security monitoring interfaces onto dedicated, isolated management subnets."
 date: 2016-03-22
 categories: ["SecurityOnion", "Vulnerabilities", "PHP Security", "Remote Code Execution", "Web Security", "Disclosure", "Exploit Development", "Open Source Security"]
 excerpt: Let this be a reminder of the joys in programming PHP

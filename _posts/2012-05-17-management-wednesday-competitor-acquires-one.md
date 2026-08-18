@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Management Wednesday- BPM scoping
+image: /images/2012/management-wednesday-competitor-acquires-one.jpg   # full-bleed hero, 16:7
+image_alt: "Strategic map illustrating enterprise scoping, merger integrations, and business process modeling"
+takeaways:
+  - "Acquisitions don't just merge companies; they stitch together incompatible threat models."
+  - "Scoping is the art of knowing what not to defend so you can protect what matters."
+  - "Clarity of process boundaries is the ultimate antidote to post-merger chaos."
 date: 2012-05-17
 categories: ["business-process-management", "project-scoping", "process-models", "real-time-auditing", "dynamic-execution", "human-capital", "workflow-integration", "project-management", "discovery-sessions", "process-modeling", "integration-complexity", "disruption-management"]
 excerpt: In business process management, there is no defined starting point. The solutions are transposable, adaptive, and can be set into motion regardless of the other solution's state. In project's scoping

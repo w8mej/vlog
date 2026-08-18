@@ -4,6 +4,12 @@ title: "From fairy dust to Glasswing: a decade of being right about the wrong th
 date: 2026-04-08
 series: project-butterfly-of-damocles
 series_name: "Project Butterfly of Damocles"
+image: /images/2026/project-butterfly-of-damocles-intro.jpg   # full-bleed hero, 16:7
+image_alt: "Dramatic conceptual visual of the Damocles sword suspended by a cryptographic butterfly thread over internet infrastructure"
+takeaways:
+  - "The scarcity of finding vulnerabilities is over; the crisis of fixing them has just begun."
+  - "Project Glasswing revealed a decade of being right about the wrong structural assumptions."
+  - "AI-driven automated exploitation changes the asymmetry of cyber warfare forever."
 episode: 1
 categories: ["Security", "Open Source", "Project Glasswing"]
 tags: ["Project Glasswing", "Claude Mythos", "Trivy", "LiteLLM", "Axios", "TeamPCP", "UNC1069", "supply chain", "DEF CON 22", "ML stack", "AARM", "XZ Utils", "Glasswing Doctrine", "Morphogenetic SOC"]

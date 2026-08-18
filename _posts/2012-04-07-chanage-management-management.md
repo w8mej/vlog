@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Management Wednesday - Negotation
+image: /images/2012/chanage-management-management.jpg   # full-bleed hero, 16:7
+image_alt: "Conceptual illustration of negotiation dynamics and change management workflows in enterprise IT"
+takeaways:
+  - "Change management fails when it behaves like a checkpoint instead of a contract."
+  - "Negotiation in engineering is about aligning incentives, not winning arguments."
+  - "Unmanaged change is just technical debt disguised as velocity."
 date: 2012-04-07
 categories: ["management wednesday", "negotiation techniques", "value creation", "cooperative behavior", "relationship building", "active listening", "problem solving", "negotiation strategies", "Pareto Efficiency", "Nash Equilibrium", "fair criteria", "negotiation preparation", "trust in negotiations", "emotional intelligence", "persuasion techniques"]
 excerpt: Management 101 - Negotiating Observe yourself negotiating The more time one spends preparing is directly related to win

@@ -4,6 +4,12 @@ title: GPU Budgets, Global Models, and Real-Time Risk Scoring Infra Deep Dive
 date: 2025-04-08
 series: autonomous-ai-soc
 series_name: "Autonomous AI SOC"
+image: /images/2025/infra-costs-meet-reality.jpg   # full-bleed hero, 16:7
+image_alt: "High-throughput GPU inference cluster architecture with cost optimization curves and real-time risk engines"
+takeaways:
+  - "Inference costs dictate security architecture: you cannot run heavy LLMs on every single packet."
+  - "Tiered intelligence models reserve expensive GPU compute for high-ambiguity triage."
+  - "Pragmatic AI defense optimizes token economics as aggressively as detection accuracy."
 episode: 7
 categories: ["Real-Time Detection", "Energy-Based Models", "Security Infrastructure", "GPU Orchestration", "Global Model Deployment", "CI/CD for ML", "Distributed Inference", "Model Versioning", "Cloud-Native Security", "Latency-Aware Threat Response"]
 excerpt: It’s one thing to train a model in a notebook. It’s another to scale that model across multiple clouds, regions, and time zones—scoring millions of events in near-real-time. Energy-Based Models give you power. But that power has a price - compute, latency, and orchestration at scale.

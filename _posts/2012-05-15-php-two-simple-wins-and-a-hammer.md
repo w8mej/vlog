@@ -1,6 +1,12 @@
 ---
 layout: post
 title: PHP - two simple wins and a hammer
+image: /images/2012/php-two-simple-wins-and-a-hammer.jpg   # full-bleed hero, 16:7
+image_alt: "Technical diagram demonstrating PHP configuration hardening and input sanitization hammers"
+takeaways:
+  - "Simple configuration baselines eliminate 80% of preventable web attacks."
+  - "Don't negotiate with insecure defaults—hammer them at the runtime level."
+  - "Pragmatic security is measured by eliminated surface area, not theoretical purity."
 date: 2012-05-15
 categories: ["PHP programming", "learning PHP", "PHP security", "PHP tools", "community support", "PHP Hammer of Justice", "safe mode", "suhosin", "web development humor", "security best practices"]
 excerpt: I love programming in PHP.  Fairly simple to learn, easy to code, plenty of tools available, and great community.  However, due to the language's inherent behaviour, PHP has many security pitfalls.

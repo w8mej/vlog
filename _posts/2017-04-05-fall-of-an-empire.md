@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Walking the Dark Deep Web
+image: /images/2017/fall-of-an-empire.jpg   # full-bleed hero, 16:7
+image_alt: "Dark web marketplace takedown visualization showing hidden service infrastructure de-anonymization"
+takeaways:
+  - "Operational security mistakes inevitably dismantle even the largest clandestine networks."
+  - "Technical superiority cannot compensate for human operational failure."
+  - "Every centralized empire on the dark web leaves forensic trails that investigators eventually untangle."
 date: 2017-04-05
 categories: ["Dark Web", "OSINT", "Cybersecurity", "Defcon", "BsidesLV", "Black Hat", "Metadata Analysis", "SSH Fingerprinting", "Threat Intelligence", "Adversary Modeling", "Diamond Model", "Network Forensics", "Tor Hidden Services"]
 excerpt: During Black Hat, BsidesLV, and Defcon, I ended up having a chat with Justin Seitz about his nifty OSINT automation. I decided to take his data sets and enrich

@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Malicious mobile power station
+image: /images/2013/mobile-power-station.jpg   # full-bleed hero, 16:7
+image_alt: "Field operational hardware kit showing portable power station and emergency mobile communications array"
+takeaways:
+  - "Hardware resilience in the field begins with clean, decoupled power infrastructure."
+  - "Off-grid computing requires ruthless power budgeting and modular component design."
+  - "Physical survivability is the prerequisite for all digital operations."
 date: 2013-06-05
 categories: ["USB security vulnerabilities", "smartphone security", "malicious USB attacks", "Stavrou's research", "cybersecurity threats", "social engineering"]
 excerpt: A bit back, I looked over Stavrou USB smartphone paper evil power station

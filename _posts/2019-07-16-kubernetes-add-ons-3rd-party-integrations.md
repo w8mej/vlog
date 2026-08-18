@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Kubernetes Information Security Practices
+image: /images/2019/kubernetes-add-ons-3rd-party-integrations.jpg   # full-bleed hero, 16:7
+image_alt: "Kubernetes cluster third-party add-on dependency graph showing Helm chart permissions and cluster-admin bindings"
+takeaways:
+  - "Third-party Helm charts and operators frequently demand excessive cluster-admin permissions."
+  - "Audit third-party Kubernetes add-ons for over-privileged service accounts and host mounts."
+  - "Supply chain risks in cluster extensions can compromise the entire underlying container fleet."
 date: 2019-07-16
 categories: ["Kubernetes", "Information Security", "Vulnerability Scanning", "CI/CD", "Monitoring", "Security Practices", "Compliance", "Cloud Infrastructure", "GKE", "EKS", "Remote Management"]
 excerpt: We sponsored a Kubernetes security review because of its’ popular adoption, glaring insecurities, default insecure states, wasn’t designed to be secure, and everyone wanted to use it and make it available to the Internet

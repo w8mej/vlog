@@ -4,6 +4,12 @@ title: "Part II — Third-party libraries: the vulnerability layer nobody counte
 date: 2026-04-10
 series: project-butterfly-of-damocles
 series_name: "Project Butterfly of Damocles"
+image: /images/2026/project-butterfly-of-damocles-part-2.jpg   # full-bleed hero, 16:7
+image_alt: "Deep recursive dependency tree highlighting uncounted third-party library vulnerabilities"
+takeaways:
+  - "Third-party libraries represent an uncounted iceberg of dormant, exploitable attack surface."
+  - "Transitive dependencies inherit vulnerabilities without inheriting security maintenance."
+  - "Software bills of materials without automated remediation pipelines are just autopsy reports."
 episode: 3
 categories: ["Security", "Open Source", "Project Glasswing"]
 tags: ["supply chain", "npm", "PyPI", "transitive dependencies", "XZ Utils", "Log4Shell", "event-stream", "Axios", "LiteLLM", "CI/CD security", "SBOM", "dependency graph", "left-pad", "typosquatting", "malicious packages"]

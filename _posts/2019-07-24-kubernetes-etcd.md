@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Kubernetes Master Node &amp;amp; Nodes
+image: /images/2019/kubernetes-etcd.jpg   # full-bleed hero, 16:7
+image_alt: "Kubernetes Master Node architecture highlighting etcd key-value store encryption and mutual TLS certificate authentication"
+takeaways:
+  - "etcd holds the state of your entire Kubernetes kingdom: protect it with mTLS and encryption at rest."
+  - "Direct access to etcd allows attackers to forge service tokens and elevate to cluster admin instantly."
+  - "Isolate master node communication onto a dedicated, private control plane network."
 date: 2019-07-24
 categories: ["Kubernetes", "Master Node", "Worker Nodes", "CIS Benchmark", "Security Best Practices", "Configuration Management", "Pod Scheduling", "Cluster Management", "Node Security", "Kubernetes Security"]
 excerpt: One will wish to replicate their Master node to minimize downtime events. These nodes will host the control plane building blocks

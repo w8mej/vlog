@@ -4,6 +4,12 @@ title: "The Simulation Imperative: Why Your Security Agents Must 'Hallucinate' t
 date: 2026-02-04
 series: morphogenetic-soc
 series_name: "Morphogenetic SOC"
+image: /images/2026/season2episode4.jpg   # full-bleed hero, 16:7
+image_alt: "Generative simulation bubble where autonomous security agents hallucinate adversarial attacks before they occur"
+takeaways:
+  - "Security agents must simulate alternative futures to anticipate adversarial moves before they happen."
+  - "Controlled generative simulation allows defense agents to explore the option space safely."
+  - "A defender who only reacts to real-time events is perpetually one step behind."
 episode: 4
 categories: ["Agentic AI", "World Models", "Good Regulator Theorem", "Predictive Modeling", "Cognitive Architectures", "Generalization", "Counterfactual Reasoning", "Model-Based RL", "Cyber Resilience", "Richens' Proof"]
 excerpt: "We treat AI 'hallucination' as a critical flaw, but control theory suggests it is a requirement for survival. New mathematical proofs demonstrate that no agent can be a general defender without an internal 'world model'—a way to simulate the future. Here is why the era of model-free security is over, and why your defense stack needs to learn how to imagine."

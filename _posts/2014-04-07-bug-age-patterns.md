@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Bug Age - Pattern series
+image: /images/2014/bug-age-patterns.jpg   # full-bleed hero, 16:7
+image_alt: "Statistical chart showing the multi-year survival curve of dormant critical bugs in open source software"
+takeaways:
+  - "Critical vulnerabilities often hibernate silently in popular codebases for over a decade."
+  - "Given enough eyeballs, all bugs are shallow—except the ones everyone assumes someone else checked."
+  - "Software age does not equal software maturity."
 date: 2014-04-07
 categories: ["bug patterns", "code insecurity", "secure coding", "software vulnerabilities", "formal proofs", "code correctness", "legacy code", "holistic security", "open source security", "security automation", "developer tools"]
 excerpt: I love standards. My blackhat persona says this makes it easy to break into systems

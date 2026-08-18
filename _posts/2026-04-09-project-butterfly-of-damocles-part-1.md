@@ -4,6 +4,12 @@ title: "Part I — The original quantitative case: internet infrastructure is no
 date: 2026-04-09
 series: project-butterfly-of-damocles
 series_name: "Project Butterfly of Damocles"
+image: /images/2026/project-butterfly-of-damocles-part-1.jpg   # full-bleed hero, 16:7
+image_alt: "Quantitative data visualization tracking vulnerability density, patch lag, and structural internet decay"
+takeaways:
+  - "The empirical data is unequivocal: critical internet infrastructure is structurally fragile."
+  - "Historical vulnerability backlogs dwarf the entire global capacity for human manual remediation."
+  - "Quantitative measurement exposes the dangerous gap between perceived safety and reality."
 episode: 2
 categories: ["Security", "Open Source", "Project Glasswing"]
 tags: ["DEF CON 22", "Exim", "OpenSSL", "Bind", "vulnerability density", "Heartbleed", "open source security", "NVD", "CVE", "maintainer economics", "C/C++", "static analysis", "dynamic analysis"]

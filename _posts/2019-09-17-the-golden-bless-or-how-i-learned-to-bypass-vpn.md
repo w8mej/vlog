@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Kubernetes CI / CD And Monitoring Pipelines
+image: /images/2019/the-golden-bless-or-how-i-learned-to-bypass-vpn.jpg   # full-bleed hero, 16:7
+image_alt: "CI/CD runner network architecture bypassing legacy VPN perimeters via cryptographic mesh tunnels"
+takeaways:
+  - "Legacy VPNs bottleneck modern automated CI/CD deployment pipelines."
+  - "Modern continuous integration requires cryptographic identity-based mesh networking."
+  - "Eliminate point-to-point tunnels in favor of authenticated, least-privilege service gateways."
 date: 2019-09-17
 categories: ["Kubernetes", "CI/CD", "Monitoring", "DevSecOps", "Security Automation", "Kubernetes Security", "Vulnerability Scanning", "Infrastructure as Code", "Network Policies", "Container Security", "Security Best Practices", "CIS Benchmark"]
 excerpt: When one takes a step back and looks at a typical agile build, test, and release pipeline with a security bent; one observes the following steps and how they feed into each other like a dragon eating its’ tail.

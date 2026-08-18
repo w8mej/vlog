@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Data Controls Code Review
+image: /images/2018/pii-code-review.jpg   # full-bleed hero, 16:7
+image_alt: "Data flow analysis diagram tracking Personally Identifiable Information (PII) handling and redaction gates"
+takeaways:
+  - "PII in log files is a silent regulatory ticking time bomb under GDPR and CCPA."
+  - "Implement automated data scrubbing at the logging framework layer to catch sensitive fields."
+  - "Data minimization is the only foolproof defense against catastrophic privacy leaks."
 date: 2018-09-08
 categories: ["CIA Triad", "Confidentiality", "Data Protection", "Data Security", "Cryptography", "Secure Coding", "Code Review", "Injection Flaws", "Encryption", "Hashing", "Tokenization"]
 excerpt: The number of user records exposed in the United States has been in the billions in 2016 and 2017. 2018 will likely be the same, once the final tally is calculated.

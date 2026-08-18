@@ -1,6 +1,12 @@
 ---
 layout: post
 title: "Forget HR Systems: Why Your Next Identity Provider Should Be a Piece of Plastic"
+image: /images/2025/infrastructure-as-identity.jpg   # full-bleed hero, 16:7
+image_alt: "Hardware security key plugged into server console projecting cryptographic identity across infrastructure layers"
+takeaways:
+  - "Forget vulnerable HR directories: tie root infrastructure authorization directly to physical security keys."
+  - "Hardware tokens provide cryptographic attestation that survives software layer compromises."
+  - "Treat physical keys as first-class identity primitives in your Infrastructure-as-Code definitions."
 date: 2025-12-06
 categories: ["Infrastructure as Identity", "Zero Trust", "YubiKey", "HashiCorp Vault", "Terraform", "Kubernetes", "Automation"]
 excerpt: We've spent decades building complex identity pipelines rooted in databases and HR software. What if the single source of truth for your entire infrastructure was something you could hold in your hand?

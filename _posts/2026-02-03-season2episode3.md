@@ -4,6 +4,12 @@ title: "Ashby’s Ultimatum: Why Your Security Stack Is Mathematically Doomed"
 date: 2026-02-03
 series: morphogenetic-soc
 series_name: "Morphogenetic SOC"
+image: /images/2026/season2episode3.jpg   # full-bleed hero, 16:7
+image_alt: "Cybernetic variety balance diagram demonstrating Ashby's Law of Requisite Variety in security defense"
+takeaways:
+  - "Ashby's Law: Only variety can destroy variety; static defenses are mathematically doomed against dynamic adversaries."
+  - "If your security system has fewer internal states than the attacker's action space, you lose by definition."
+  - "Build defense platforms with high adaptive dimensionality to match attacker flexibility."
 episode: 3
 categories: ["Complex Systems", "Control Theory", "Requisite Variety", "Good Regulator Theorem", "Ashby's Law", "Requisite Imagination", "Work-as-Imagined", "SOC Architecture", "Autonomous Defense", "Systemic Resilience"]
 excerpt: "We assume security is a resource problem—that more tools and rules will stop the breach. We assume we can regulate threats without modeling them. We assume static defenses can contain dynamic attackers. Complex Systems proves these aren't just bad strategies; they are violations of the fundamental physics of control."

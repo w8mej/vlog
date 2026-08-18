@@ -1,0 +1,126 @@
+{
+  "labels": {
+    "en": { "language": "en", "value": "John Menerick" }
+  },
+  "descriptions": {
+    "en": { "language": "en", "value": "American information security engineer and researcher" }
+  },
+  "aliases": {
+    "en": [
+      { "language": "en", "value": "John Menerick" },
+      { "language": "en", "value": "John W8MEJ Menerick" }
+    ]
+  },
+  "claims": {
+
+    "P31": [{
+      "mainsnak": {
+        "property": "P31",
+        "snaktype": "value",
+        "datavalue": { "value": { "entity-type": "item", "id": "Q5" }, "type": "wikibase-entityid" }
+      }
+    }],
+
+    "P27": [{
+      "mainsnak": {
+        "property": "P27",
+        "snaktype": "value",
+        "datavalue": { "value": { "entity-type": "item", "id": "Q30" }, "type": "wikibase-entityid" }
+      }
+    }],
+
+    "P106": [{
+      "mainsnak": {
+        "property": "P106",
+        "snaktype": "value",
+        "datavalue": { "value": { "entity-type": "item", "id": "Q1657482" }, "type": "wikibase-entityid" }
+      },
+      "references": [{
+        "snaks": {
+          "P854": [{
+            "snaktype": "value",
+            "property": "P854",
+            "datavalue": { "value": "https://www.securesql.info/", "type": "string" }
+          }]
+        }
+      }]
+    }],
+
+    "P101": [
+      {
+        "mainsnak": {
+          "property": "P101",
+          "snaktype": "value",
+          "datavalue": { "value": { "entity-type": "item", "id": "Q860761" }, "type": "wikibase-entityid" }
+        }
+      },
+      {
+        "mainsnak": {
+          "property": "P101",
+          "snaktype": "value",
+          "datavalue": { "value": { "entity-type": "item", "id": "Q478161" }, "type": "wikibase-entityid" }
+        }
+      }
+    ],
+
+    "P50": [{
+      "mainsnak": {
+        "property": "P50",
+        "snaktype": "value",
+        "datavalue": { "value": { "entity-type": "item", "id": "Q138710768" }, "type": "wikibase-entityid" }
+      }
+    }],
+
+
+    "P856": [{
+      "mainsnak": {
+        "property": "P856",
+        "snaktype": "value",
+        "datavalue": {
+          "value": "https://www.securesql.info/",
+          "type": "string"
+        }
+      }
+    }],
+
+    "P968": [{
+      "mainsnak": {
+        "property": "P968",
+        "snaktype": "value",
+        "datavalue": {
+          "value": "mailto:sephiroth@haxx.ninja",
+          "type": "string"
+        }
+      },
+      "references": [{
+        "snaks": {
+          "P854": [{
+            "snaktype": "value",
+            "property": "P854",
+            "datavalue": {
+              "value": "https://keyoxide.org/sephiroth@haxx.ninja",
+              "type": "string"
+            }
+          }]
+        }
+      }]
+    }],
+
+    "P1343": [{
+      "mainsnak": {
+        "property": "P1343",
+        "snaktype": "value",
+        "datavalue": { "value": { "entity-type": "item", "id": "Q11920" }, "type": "wikibase-entityid" }
+      }
+    }],
+
+    "P551": [{
+      "mainsnak": {
+        "property": "P551",
+        "snaktype": "value",
+        "datavalue": { "value": { "entity-type": "item", "id": "Q62" }, "type": "wikibase-entityid" }
+      }
+    }]
+
+  }
+}

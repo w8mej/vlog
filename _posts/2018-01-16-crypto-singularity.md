@@ -1,6 +1,12 @@
 ---
 layout: post
 title: The pending crypto singularity
+image: /images/2018/crypto-singularity.jpg   # full-bleed hero, 16:7
+image_alt: "Quantum computing qubit superposition threatening classical RSA and ECC cryptographic key exchanges"
+takeaways:
+  - "The cryptographic singularity approaches: quantum computing will obsolete classical public-key infrastructure."
+  - "Post-quantum cryptography (PQC) migration must begin years before Shor's algorithm is operational."
+  - "Store now, decrypt later attacks make current long-lived encrypted data immediately vulnerable."
 date: 2018-01-16
 categories: ["Cryptography", "Security Engineering", "Protocol Design", "Crypto Monoculture", "IETF", "Internet Security", "AEAD", "Curve25519", "Open Source"]
 excerpt: Recently penned by Peter, it is worth a read. Especially for those who are concerned about putting all of their eggs in one basket. On the Impending Crypto Monoculture

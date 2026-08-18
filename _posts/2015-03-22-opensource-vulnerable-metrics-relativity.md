@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Open Source Fairy Dust Datasets
+image: /images/2015/opensource-vulnerable-metrics-relativity.jpg   # full-bleed hero, 16:7
+image_alt: "Comparative metric visualization mapping vulnerability density across open source repositories"
+takeaways:
+  - "Vulnerability count is a metric of scrutiny, not inherent software defectiveness."
+  - "Zero reported CVEs usually means nobody is looking, not that the software is secure."
+  - "Evaluate maintainer response velocity rather than raw bug numbers."
 date: 2015-03-20
 categories: ["open source insecurity", "machine learning vulnerabilities", "vulnerability mountain", "critical infrastructure vulnerabilities"]
 excerpt: The current list of open source critical infrastructure services vulnerability metrics I have released and / or made public

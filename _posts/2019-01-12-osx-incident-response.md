@@ -1,6 +1,12 @@
 ---
 layout: post
 title: OSX First Responder - Threat Artifact Gathering
+image: /images/2019/osx-incident-response.jpg   # full-bleed hero, 16:7
+image_alt: "macOS forensic terminal gathering LaunchDaemons, unified logs, and memory artifacts during incident response"
+takeaways:
+  - "macOS incident response requires mastering Unified Logging, LaunchDaemons, and TCC permissions."
+  - "Mac endpoints in the enterprise are no longer immune to sophisticated nation-state malware."
+  - "Automate forensic triage collection using native macOS command-line instrumentation."
 date: 2019-01-12
 categories: ["MacOS", "Threat Hunting", "Malware Detection", "EDR", "Persistence Mechanisms", "Open Ports", "Processes", "File System", "Network Configuration", "Forensics", "Incident Response"]
 excerpt: How you go about hunting down malware on a macOS endpoint depends a great deal on what access you have to the device and

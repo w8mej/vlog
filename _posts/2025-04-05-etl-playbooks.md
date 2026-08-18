@@ -4,6 +4,12 @@ title: No Schema? No Problem. Let AI Handle Your Security Data Onboarding
 date: 2025-04-05
 series: autonomous-ai-soc
 series_name: "Autonomous AI SOC"
+image: /images/2025/etl-playbooks.jpg   # full-bleed hero, 16:7
+image_alt: "AI-driven schema inference pipeline transforming unstructured log streams into normalized threat telemetry"
+takeaways:
+  - "Static schemas are dead: AI-driven ingestion maps arbitrary log formats in real time."
+  - "Stop wasting engineering quarters writing bespoke ETL parsers for vendor logs."
+  - "Dynamic schema inference turns raw chaos into structured, actionable threat intelligence."
 episode: 4
 categories: ["Schema Inference", "AI Log Onboarding", "Autonomous Detection", "ETL for Security", "Energy-Based Models", "Security Automation", "Machine Learning in SOC", "SOAR Playbooks", "Unstructured Log Analysis", "Dynamic Threat Response"]
 excerpt: Data is messy. Engineers are busy. And yet, every new application or microservice adds more logs that need to be parsed, structured, and made useful. This used to be a blocker. Not anymore.  For years, one of the hidden pain points in detection engineering has been log ingestion and normalization. Most SOC teams rely on detection rules that assume data shows up in a clean, consistent format.

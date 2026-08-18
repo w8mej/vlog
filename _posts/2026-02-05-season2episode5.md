@@ -4,6 +4,12 @@ title: "Scaling Agency: Why Your SOC Needs a Cognitive Light Cone"
 date: 2026-02-05
 series: morphogenetic-soc
 series_name: "Morphogenetic SOC"
+image: /images/2026/season2episode5.jpg   # full-bleed hero, 16:7
+image_alt: "Expanding multidimensional light cone expanding the perceptual and decision horizon of a security operations center"
+takeaways:
+  - "The Cognitive Light Cone defines the maximum spatial and temporal horizon an agent can care about."
+  - "Scaling the SOC means widening the light cone from micro-packets to enterprise-wide systemic health."
+  - "Agents with larger cognitive light cones outmaneuver adversaries across long time horizons."
 episode: 5
 categories: ["TAME Framework", "Cognitive Light Cone", "Agentic AI", "Multiscale Competency", "Collective Intelligence", "Bio-Inspired Security", "Complex Systems", "Active Inference", "Digital Homeostasis", "The Self"]
 excerpt: "We usually define security tools by their code, but biology suggests we should define them by their goals. By mapping the 'Cognitive Light Cone' of our agents—the exact scope of space and time they care about—we can stop building brittle scripts and start engineering a collective intelligence that acts as a unified immune system."

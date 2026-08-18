@@ -4,6 +4,12 @@ title: "The Salamander Strategy: Why Your Cloud Infrastructure Needs to Learn Ho
 date: 2026-02-01
 series: morphogenetic-soc
 series_name: "Morphogenetic SOC"
+image: /images/2026/season2episode2.jpg   # full-bleed hero, 16:7
+image_alt: "Cybernetic salamander regenerating severed digital circuits representing self-healing morphogenetic infrastructure"
+takeaways:
+  - "Infrastructure should not just alert on damage—it must know how to regrow itself."
+  - "Morphogenetic defense restores system state from bioelectric target morphologies rather than backups."
+  - "Resilience is not preventing failure; it is possessing the developmental memory to regenerate."
 episode: 2
 categories: ["Target Morphology", "Policy-as-Code", "Anatomical Homeostasis", "TOTE Loop", "Self-Healing Infrastructure", "Disaster Recovery", "Resilience Engineering", "Multi-Objective Scoring", "Petrov Rule", "Regenerative Security"]
 excerpt: "We assume disaster recovery is a binder on a shelf. We assume infrastructure drift is a crash to be fixed. We assume resilience means building walls that never break. Every single one of these assumptions is obsolete—and this regenerative framework proves why."

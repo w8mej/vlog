@@ -1,6 +1,12 @@
 ---
 layout: post
 title: "7 Ways Mimir Makes LLMs Safe Enough for People Who Don’t Trust Each Other"
+image: /images/2025/multipartyconfidentialtraining.jpg   # full-bleed hero, 16:7
+image_alt: "Secure multi-party computation topology allowing mutually distrusting entities to train shared LLMs privately"
+takeaways:
+  - "Mimir allows competing organizations to pool threat intelligence without sharing raw data."
+  - "Confidential multi-party training eliminates the dilemma between collaboration and proprietary secrecy."
+  - "Cryptographic guarantees replace legal NDA theater in enterprise AI cooperation."
 date: 2025-04-09
 categories: ["Autonomous Security", "Zero-Trust AI", "Secure Multiparty Computation", "Trusted Execution Environments", "Confidential Computing", "LLM Security", "Federated Inference", "Cryptography", "Enterprise Defense", "Security at Scale"]
 excerpt: In most LLM systems, someone has to trust someone else with raw prompts or weights. Mimir shows what happens when nobody is willing to blink.

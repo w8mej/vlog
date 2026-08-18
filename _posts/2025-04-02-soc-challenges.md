@@ -4,6 +4,12 @@ title: 🧱 Why Security Operations Can’t Scale Without Automation
 date: 2025-04-02
 series: autonomous-ai-soc
 series_name: "Autonomous AI SOC"
+image: /images/2025/soc-challenges.jpg   # full-bleed hero, 16:7
+image_alt: "SOC operations room overwhelmed with telemetry alerts contrasted against automated agentic triage pipelines"
+takeaways:
+  - "Humans cannot scale linearly with exponential telemetry volume; automation is the only cure."
+  - "Alert fatigue is an architectural symptom of dumb threshold detectors."
+  - "The modern SOC must transition from human ticket routers to autonomous decision engines."
 episode: 1
 categories: ["Energy-Based Models", "AI-Driven Security", "Security Operations Centers", "Autonomous Threat Detection", "SOC Automation", "Cybersecurity AI", "Alert Triage", "False Positives Reduction", "Security Engineering", "Machine Learning in Security"]
 excerpt: Security operations centers were never meant to scale like this. What began as centralized log review has ballooned into an arms race of dashboards, SIEM queries, and tier-1 analysts buried in alert queues. Meanwhile, attackers have automated everything from lateral movement to domain privilege escalation.

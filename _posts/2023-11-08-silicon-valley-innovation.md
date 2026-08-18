@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Annabel's Cypherpunk Manifesto
+image: /images/2023/silicon-valley-innovation.jpg   # full-bleed hero, 16:7
+image_alt: "Artistic rendering of cypherpunk principles, cryptographic code terminals, and digital autonomy manifestos"
+takeaways:
+  - "Privacy in an open society requires cryptography, open source tools, and decentralized networks."
+  - "Silicon Valley's relentless product iteration must not sacrifice foundational digital civil liberties."
+  - "Code is the only law that enforces freedom by mathematical guarantee."
 date: 2023-11-08
 categories: ["Cybersecurity", "Cyber Risk Management", "White House Cybersecurity Executive Order", "Security Automation", "Infosec Trends", "Risk Assessment", "Cloud Security", "Compliance", "M&A", "SecOps", "Tech Innovation", "AI/ML Security"]
 excerpt: It was many and many a year ago, In a realm of digital glow, That the Cypherpunks came to know, A love for privacy, like a river's flow.

@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Lazy AWS devops
+image: /images/2013/want-a-simple-way-to-keep-your-cloudy-big-data-private-at-little-cost.jpg   # full-bleed hero, 16:7
+image_alt: "Cryptographic tokenization and client-side encryption flow for multi-tenant cloud data warehouses"
+takeaways:
+  - "Encrypt data before it ever touches cloud infrastructure, or accept that the provider holds the key."
+  - "Low-cost privacy architectures leverage client-side tokenization over complex compute enclaves."
+  - "Data privacy in big data pipelines is an engineering decision, not a regulatory checkbox."
 date: 2013-06-04
 categories: ["DevOps", "agile SA", "cloud security tools", "automation in IT", "AWS EC2", "orchestration tools", "configuration management", "Chef", "Puppet", "BCFG2", "Capistrano", "Mcollective", "data center management", "infrastructure as a service", "disaster recovery", "system monitoring"]
 excerpt: I am seeing too much echo chamber, saber rattling, foolish dogma about agile SA

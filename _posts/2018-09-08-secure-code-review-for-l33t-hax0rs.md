@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Solving 90% of application security defects with a proven technique
+image: /images/2018/secure-code-review-for-l33t-hax0rs.jpg   # full-bleed hero, 16:7
+image_alt: "Defensive secure code review blueprint eliminating 90% of web application vulnerabilities with basic hygiene"
+takeaways:
+  - "Solving 90% of application security defects comes down to three habits: validate, parameterize, and encode."
+  - "Secure code reviews must focus on systemic antipatterns rather than chasing individual bug instances."
+  - "Embed automated security linters directly into the developer's pull request workflow."
 date: 2018-09-08
 categories: ["Application Security", "Input Validation", "OS Command Injection", "Allow List", "Block List", "SQL Injection", "Cross-Site Scripting", "Path Traversal", "Security Best Practices"]
 excerpt: Even when validation is used, a common mistake is to use block lists. For example an application will prevent symbols that are known to cause trouble. The weakness of this countermeasure is that some symbols may be overlooked.

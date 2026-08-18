@@ -1,6 +1,12 @@
 ---
 layout: post
 title: "Autonomous Incident Response at Scale: How Energy-Based Models & TAME Replace LLM Guessing in Security"
+image: /images/2026/infosecblueprints.jpg   # full-bleed hero, 16:7
+image_alt: "Architectural blueprint showing Energy-Based Models and TAME framework powering autonomous incident response"
+takeaways:
+  - "Energy-Based Models replace fragile LLM guessing with physics-grounded energy minimization in security triage."
+  - "TAME framework provides the cognitive roadmap for managing multi-scale synthetic defense agents."
+  - "Autonomous incident response at scale requires deterministic constraints over generative predictions."
 date: 2026-05-01
 categories: ["Security Operations", "AI/ML", "Autonomous Systems", "Incident Response"]
 tags: ["TAME Governance", "Energy-Based Models", "Autonomous SOC", "Forensic Cryptography", "Threat Detection", "Multi-SIEM", "Incident Response", "Global Scale"]

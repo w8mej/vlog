@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Overly Simplistic Crypto Code review
+image: /images/2018/crypto-code-review.jpg   # full-bleed hero, 16:7
+image_alt: "Source code review analysis highlighting cryptographic implementation mistakes, IV reuse, and weak RNGs"
+takeaways:
+  - "Never roll your own crypto: subtle implementation flaws destroy proven mathematical algorithms."
+  - "Static initialization vectors and predictable random number generators break block ciphers."
+  - "Use high-level cryptographic libraries that offer misuse-resistant APIs."
 date: 2018-09-05
 categories: ["Cryptography", "Secure Coding", "Data Protection", "Code Review", "Encryption", "HTTPS", "Hashing", "Security Best Practices"]
 excerpt: Confidentiality is one of Information Security

@@ -19,7 +19,7 @@ permalink: /speaking/
       </div>
     </div>
     <div class="ed-hero-portrait">
-      <img src="{{ site.baseurl }}/images/circular_headshot.png" alt="John Menerick" width="300" height="375" />
+      <img src="{{ site.baseurl }}/images/circular_headshot.jpeg" alt="John Menerick" width="300" height="375" />
     </div>
   </section>
 

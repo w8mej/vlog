@@ -77,42 +77,6 @@ html {
 }
 
 // ----------------------------------------------------------
-//  Pagination
-//  Only rendered when a paginated index is in use.
-// ----------------------------------------------------------
-
-.pagination {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  flex-wrap: wrap;
-  padding: 40px 0;
-  border-top: 1px solid var(--rule);
-
-  a,
-  span {
-    font-family: var(--sans);
-    font-size: 14px;
-    color: var(--body);
-    border: 1px solid var(--rule);
-    padding: 9px 15px;
-    border-radius: 2px;
-    text-decoration: none;
-  }
-
-  a:hover {
-    border-color: var(--accent);
-    color: var(--accent);
-  }
-
-  .current {
-    background: var(--ink);
-    border-color: var(--ink);
-    color: #FFFFFF;
-  }
-}
-
-// ----------------------------------------------------------
 //  Legacy compatibility
 //
 //  These classes appear inside old post bodies rather than in

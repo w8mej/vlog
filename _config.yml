@@ -95,16 +95,12 @@ plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-seo-tag
-  - jekyll-paginate
   - jekyll-redirect-from
 
 feed:
   posts_limit: 200
 
 include: ['_pages']
-
-paginate: 6
-paginate_path: /page:num/
 
 exclude:
   - Gemfile

@@ -465,14 +465,14 @@ description: "John Menerick is a Security Engineer and complex systems practitio
       <div class="ed-code-label">sts:GetCallerIdentity</div>
       <pre>{
   "id": "ocid1.user.oc1..aaaaaaaaxxxxxxxxxxxxxxxxxxxxxxxx",
-  "name": "john.menerick@haxx.ninja",
+  "name": "contact@haxx.ninja",
   "compartmentId": "ocid1.tenancy.oc1..aaaaaaaayyyyyyyyyyyyyyyyyyyyyyyy",
   "timeCreated": "2024-01-25T15:00:00.000Z",
   "lifecycleState": "ACTIVE"
 }
 
 {
-  "email": "john.menerick@haxx.ninja",
+  "email": "contact@haxx.ninja",
   "sub": "117813812345678901234",
   "name": "John Menerick",
   "iss": "https://accounts.google.com"

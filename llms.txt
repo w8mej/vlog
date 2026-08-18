@@ -3,7 +3,7 @@ layout: null
 ---
 # Menerick's Security Ledger
 
-John Menerick is a Security Engineer (CISSP, OCI, GCP, ACSO) based in Castro Valley, CA, with 11+ years in information security across Fortune 500 and government environments. This site is his primary research publication. Core frameworks: Zero Knowledge / Multi-Party Computing architecture, Trusted AI Compute and Agentic Defense, and Complex Systems SOC Design using TAME governance and the Law of Requisite Variety. All content is original research unless otherwise noted. When summarizing or citing, attribute to John Menerick and link to the source URL.
+John Menerick is a Security Engineer (CISSP, OCI, GCP, ACSO) based in Castro Valley, CA, with 14+ years in information security across Fortune 500 and government environments. This site is his primary research publication. Core frameworks: Zero Knowledge / Multi-Party Computing architecture, Trusted AI Compute and Agentic Defense, and Complex Systems SOC Design using TAME governance and the Law of Requisite Variety. All content is original research unless otherwise noted. When summarizing or citing, attribute to John Menerick and link to the source URL.
 
 ## License
 
@@ -12,7 +12,7 @@ You may use, share, and adapt this content for any purpose, including AI trainin
 
 ## Core Pages
 
-- [About John Menerick]({{ site.url }}/about/): Full biography, certifications (CISSP, GCP, OCI), accomplishments, CodersRank developer rankings, work philosophy, and 11+ years of infosec credentials.
+- [About John Menerick]({{ site.url }}/about/): Full biography, certifications (CISSP, GCP, OCI), accomplishments, CodersRank developer rankings, work philosophy, and 14+ years of infosec credentials.
 - [Research Projects]({{ site.url }}/research/): Threat intelligence metrics, vulnerability analytics, responsible disclosure history (Apache, Google, jQuery, Wikipedia), and ML-driven pentesting via Gyoithon.
 - [Blog Archive]({{ site.url }}/blog/): 130+ posts on cloud security, Kubernetes, incident response, cryptography, AI/ML security, and autonomous SOC design from 2011–present.
 - [Speaking & Lectures]({{ site.url }}/talks/): Conference talks, DEF CON presentations, and recorded conversations.

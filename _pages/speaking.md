@@ -14,7 +14,7 @@ permalink: /speaking/
       <p class="ed-hero-standfirst">Two decades on stage at DEF CON, ISC2, Stanford, CCC, JavaOne, and ROOTCON.</p>
       <p class="ed-hero-body">Adversarial AI, autonomous SOC architecture, offensive security research, zero knowledge computing, multi-party computation, bio-inspired defense, Kubernetes hardening, hardware-rooted identity, complex systems science, and financial systems security. Every talk is backed by published research, working exploits, and production deployments &mdash; for audiences that want to be challenged, not just informed.</p>
       <div class="ed-hero-cta">
-        <a class="ed-btn" href="mailto:{{ site.email | default: 'picklejar@haxx.ninja' }}">Book an engagement</a>
+        <a class="ed-btn" href="mailto:{{ site.email | default: 'contact@haxx.ninja' }}">Book an engagement</a>
         <a class="ed-btn-ghost" href="https://www.linkedin.com/in/w8mej" target="_blank" rel="noopener">LinkedIn &rarr;</a>
       </div>
     </div>
@@ -213,7 +213,7 @@ permalink: /speaking/
       </div>
       <div class="ed-spec">
         <dt>Booking</dt>
-        <dd><a href="mailto:{{ site.email | default: 'picklejar@haxx.ninja' }}">{{ site.email | default: 'picklejar@haxx.ninja' }}</a> or via <a href="https://www.linkedin.com/in/w8mej" target="_blank" rel="noopener">LinkedIn</a></dd>
+        <dd><a href="mailto:{{ site.email | default: 'contact@haxx.ninja' }}">{{ site.email | default: 'contact@haxx.ninja' }}</a> or via <a href="https://www.linkedin.com/in/w8mej" target="_blank" rel="noopener">LinkedIn</a></dd>
       </div>
     </dl>
   </section>

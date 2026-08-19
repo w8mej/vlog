@@ -104,7 +104,7 @@ layout: default
       {% if item.url != page.url and shown < 3 %}
       <div class="ed-related-card">
         <a class="ed-related-thumb" href="{{ item.url }}" tabindex="-1" aria-hidden="true">
-          {% if item.image %}<img src="{{ item.image }}" alt="" width="420" height="236" loading="lazy" />{% endif %}
+          {% if item.image %}<img src="{{ item.image }}" alt="" width="420" height="236" loading="lazy" decoding="async" />{% endif %}
         </a>
         <div class="ed-related-kicker">{% if item.episode %}Episode {{ item.episode }}{% else %}{{ item.categories.first }}{% endif %}</div>
         <h3 class="ed-related-title"><a href="{{ item.url }}">{{ item.title }}</a></h3>

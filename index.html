@@ -49,7 +49,7 @@ redirect_from:
     <div class="ed-split">
       <div class="ed-split-main">
         <a class="ed-lede-thumb" href="{{ lede.url }}" tabindex="-1" aria-hidden="true">
-          {% if lede.image %}<img src="{{ lede.image }}" alt="" width="820" height="461" loading="lazy" />{% endif %}
+          {% if lede.image %}<img src="{{ lede.image }}" alt="" width="820" height="461" loading="lazy" decoding="async" />{% endif %}
         </a>
         <div class="ed-kicker">
           {% if lede.series_name %}{{ lede.series_name }}{% if lede.episode %} &middot; Episode {{ lede.episode }}{% endif %}

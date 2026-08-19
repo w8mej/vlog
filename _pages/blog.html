@@ -44,7 +44,7 @@ description: "Explore John Menerick's security blog — deep dives into detectio
   {% if featured %}
   <section class="ed-lede">
     <a class="ed-lede-thumb" href="{{ featured.url }}" tabindex="-1" aria-hidden="true">
-      {% if featured.image %}<img src="{{ featured.image }}" alt="" width="880" height="385" fetchpriority="high" />{% endif %}
+      {% if featured.image %}<img src="{{ featured.image }}" alt="" width="880" height="385" fetchpriority="high" decoding="async" />{% endif %}
     </a>
     <div class="ed-lede-body">
       <div class="ed-kicker">

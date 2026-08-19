@@ -24,16 +24,31 @@ description: "Search 145 posts on detection engineering, zero trust, supply chai
 <script src="{{ site.baseurl }}/assets/simple-jekyll-search.min.js" defer></script>
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    SimpleJekyllSearch({
-      searchInput: document.getElementById('search-input'),
-      resultsContainer: document.getElementById('results-container'),
-      searchResultTemplate:
-        '<li class="ed-search-hit">' +
-          '<a class="ed-search-hit-title" href="{url}">{title}</a>' +
-          '<span class="ed-search-hit-date">{date}</span>' +
-        '</li>',
-      noResultsText: '<li class="ed-search-empty">No posts match that query.</li>',
-      json: '{{ site.baseurl }}/search.json'
-    });
+    var searchInput = document.getElementById('search-input');
+    var initialized = false;
+
+    function initSearch() {
+      if (initialized) return;
+      initialized = true;
+      SimpleJekyllSearch({
+        searchInput: searchInput,
+        resultsContainer: document.getElementById('results-container'),
+        searchResultTemplate:
+          '<li class="ed-search-hit">' +
+            '<a class="ed-search-hit-title" href="{url}">{title}</a>' +
+            '<span class="ed-search-hit-date">{date}</span>' +
+          '</li>',
+        noResultsText: '<li class="ed-search-empty">No posts match that query.</li>',
+        json: '{{ site.baseurl }}/search.json'
+      });
+    }
+
+    if (searchInput) {
+      searchInput.addEventListener('focus', initSearch, { once: true });
+      searchInput.addEventListener('input', initSearch, { once: true });
+      if (document.activeElement === searchInput) {
+        initSearch();
+      }
+    }
   });
 </script>

@@ -24,27 +24,7 @@
       crossorigin
     />
 
-    <style>
-      :root{--ink:#0B1B2B;--body:#333F48;--muted:#4E5D68;--faint:#5A6872;--bg-color:#FFFFFF;--bg-secondary:#F4F7F9;--bg-placeholder:#F2F4F5;--rule:#E6E6E6;--rule-light:#F0F2F3;--accent:#06507A;--serif:'Source Serif 4',Georgia,serif;--sans:'Libre Franklin',Helvetica,Arial,sans-serif;--mono:'IBM Plex Mono',monospace;--shell:1320px;--shell-pad:32px;}
-      *,*::before,*::after{box-sizing:border-box;}
-      html{font-size:100%;-webkit-text-size-adjust:100%;}
-      body{margin:0;background:var(--bg-color);color:var(--body);font-family:var(--sans);font-size:18px;line-height:1.75;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}
-      a{color:var(--accent);text-decoration:none;}
-      a:hover{color:var(--ink);}
-      .container{max-width:var(--shell);margin:0 auto;padding:0 var(--shell-pad);width:100%;}
-      .wrapper-masthead{border-bottom:1px solid var(--rule);background:var(--bg-color);position:sticky;top:0;z-index:40;}
-      .masthead{display:flex;align-items:center;justify-content:space-between;padding:18px 0;gap:24px;}
-      .site-name a{font-family:var(--serif);font-size:21px;font-weight:600;color:var(--ink);text-decoration:none;}
-      .site-description{font-family:var(--sans);font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);margin:0;line-height:1.4;}
-      .masthead nav{display:flex;flex-wrap:wrap;gap:8px 22px;}
-      .masthead nav a{font-size:14px;color:var(--body);font-weight:400;}
-      .masthead-actions{display:flex;align-items:center;gap:14px;}
-      .masthead-cta{background:var(--ink);color:#FFFFFF !important;font-size:13px;font-weight:500;padding:6px 14px;border-radius:2px;}
-      #bar{position:fixed;top:0;left:0;height:3px;background:var(--accent);z-index:100;width:0%;transition:width 100ms linear;}
-    </style>
-
-    <link rel="preload" href="{{ site.baseurl }}/assets/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css"></noscript>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css" />
 
     <link
       rel="alternate"

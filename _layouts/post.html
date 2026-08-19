@@ -157,15 +157,34 @@ layout: default
   }
 
   var bar = document.getElementById('bar');
-  if (bar) {
-    var tick = function () {
-      var top = entry.getBoundingClientRect().top + window.scrollY;
-      var span = entry.offsetHeight - window.innerHeight;
-      var pct = span > 0 ? (window.scrollY - top) / span : 0;
-      bar.style.width = Math.min(100, Math.max(0, pct * 100)) + '%';
+  if (bar && entry) {
+    var entryTop = 0;
+    var entrySpan = 1;
+    var ticking = false;
+
+    var measure = function () {
+      var rect = entry.getBoundingClientRect();
+      entryTop = rect.top + window.scrollY;
+      entrySpan = Math.max(1, entry.offsetHeight - window.innerHeight);
     };
-    window.addEventListener('scroll', tick, { passive: true });
-    tick();
+
+    var update = function () {
+      var pct = (window.scrollY - entryTop) / entrySpan;
+      bar.style.width = Math.min(100, Math.max(0, pct * 100)) + '%';
+      ticking = false;
+    };
+
+    var onScroll = function () {
+      if (!ticking) {
+        requestAnimationFrame(update);
+        ticking = true;
+      }
+    };
+
+    measure();
+    window.addEventListener('resize', measure, { passive: true });
+    window.addEventListener('scroll', onScroll, { passive: true });
+    update();
   }
 })();
 </script>

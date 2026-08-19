@@ -95,6 +95,10 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--body);
   text-transform: none;
   letter-spacing: 0;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 4px 6px;
 }
 
 .masthead nav a:hover { color: var(--accent); }
@@ -163,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
   flex-wrap: wrap;
   justify-content: flex-start !important;
   align-items: center;
-  gap: 8px;
+  gap: 8px 12px;
   width: 100%;
   font-family: var(--sans);
   font-size: 12px;
@@ -175,7 +179,15 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 22px !important;
   padding: 0 !important;
 
-  a { color: var(--muted); text-decoration: none; }
+  a {
+    color: var(--muted);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 4px 6px;
+    margin: -4px -6px;
+  }
   a:hover { color: var(--ink); }
   span { color: var(--rule-strong); }
   .is-current { color: var(--ink); }
@@ -614,6 +626,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 64px auto 0;
   padding: 32px var(--shell-pad) 56px;
   border-top: 1px solid var(--rule);
+  content-visibility: auto;
+  contain-intrinsic-size: 0 450px;
 }
 
 .ed-related-heading {
@@ -717,6 +731,8 @@ body .wrapper-footer.wrapper-footer {
   position: relative;
   z-index: 1;
   clear: both;
+  content-visibility: auto;
+  contain-intrinsic-size: 0 350px;
 }
 
 body .wrapper-footer.wrapper-footer .container { background: transparent !important; }

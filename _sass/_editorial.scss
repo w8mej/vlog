@@ -1297,7 +1297,8 @@ body .wrapper-footer.wrapper-footer .footer a:hover svg { fill: #FFFFFF !importa
   background-color: var(--bg-placeholder);
 }
 
-.ed-hero-portrait img {
+.ed-hero-portrait img,
+.ed-hero-portrait video {
   display: block;
   width: 100%;
   height: auto;

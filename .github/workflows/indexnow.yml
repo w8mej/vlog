@@ -16,7 +16,7 @@ jobs:
       - name: Ping IndexNow with Sitemap
         run: |
           echo "Submitting sitemap to IndexNow..."
-          HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" "https://api.indexnow.org/indexnow?url=https://www.securesql.info/sitemap.xml&key=9e7e25fd010845448bf1527a5942e3e6")
+          HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" "https://api.indexnow.org/indexnow?url=https://www.securesql.info/sitemap.xml&key=1ce387df44a949eda3930b8089bff234")
           if [ "$HTTP_STATUS" -eq 200 ] || [ "$HTTP_STATUS" -eq 202 ]; then
             echo "Successfully submitted to IndexNow (Status: $HTTP_STATUS)"
           else

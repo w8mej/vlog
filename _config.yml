@@ -58,6 +58,11 @@ exclude:
   - CNAME
   - vendor/
   - .bundle/
+  - scratchpad/
+  - TODO
+  - "TODO_Understand Jekyll Portfolio Website.md"
+  - Prompts.txt
+  - linkedin-content-v2-ciso-audience.md
 
 defaults:
   - scope:

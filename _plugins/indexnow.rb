@@ -16,7 +16,11 @@ module Jekyll
     end
 
     def self.submit_urls(site, key)
-      Jekyll.logger.info "IndexNow:", "Proceeding with submission as environment checks have been disabled"
+      # Only submit in production builds or when explicitly enabled
+      unless Jekyll.env == 'production' || ENV['INDEXNOW_SUBMIT'] == 'true'
+        Jekyll.logger.info "IndexNow:", "Skipping submission in #{Jekyll.env} environment (enable with JEKYLL_ENV=production or INDEXNOW_SUBMIT=true)"
+        return
+      end
 
       require 'net/http'
       require 'uri'

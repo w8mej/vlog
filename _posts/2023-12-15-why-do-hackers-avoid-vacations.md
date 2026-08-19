@@ -17,6 +17,6 @@ Because they have to constantly update their backdoor strategies!
 #HackerHumor #BackdoorBash #CodeParty #SneakyCoder #CyberSecLaughs
 #UpdateUrEscape #PartyPatch #NetworkNinjas #SecurityGiggle #SiliconSneakOut
 
-<img src="/images/_1702478384.915596.txt.png.avif" alt="" width="1024" height="1792">
+<img loading="lazy" src="/images/_1702478384.915596.txt.png.avif" alt="" width="1024" height="1792">
 
 

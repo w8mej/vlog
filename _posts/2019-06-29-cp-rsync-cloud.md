@@ -13,6 +13,6 @@ excerpt: Sometimes, all it takes is cp and rsync. See the image below for an exa
 ---
 Sometimes, all it takes is cp and rsync. See the image below for an example.
 
-<img src="/images/exploit" alt="Exploit Code Snippet" width="1108" height="1478">
+<img loading="lazy" src="/images/exploit" alt="Exploit Code Snippet" width="1108" height="1478">
 
 

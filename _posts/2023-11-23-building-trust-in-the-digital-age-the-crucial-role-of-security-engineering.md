@@ -11,7 +11,7 @@ date: 2023-11-23
 categories: ["Cybersecurity", "Privacy Engineering", "Ethical Frameworks", "Security Engineering", "Digital Trust", "Transparency", "Data Privacy", "Security vs Privacy", "Policy and Regulation", "Public Trust", "Collaborative Efforts"]
 excerpt: In the rapidly evolving world of technology, a critical and often controversial issue stands at the forefront the balance between robust security measures and the protection of individual privacy rights.
 ---
-<img src="/images/tightrope-walk.avif" alt="Conceptual artwork: The Tightrope Walk - Balancing Security Engineering and Privacy" width="1024" height="1024">
+<img loading="lazy" src="/images/tightrope-walk.avif" alt="Conceptual artwork: The Tightrope Walk - Balancing Security Engineering and Privacy" width="1024" height="1024">
 
 ## **Introduction: The Ethical Dilemma at the Heart of Technology**
 

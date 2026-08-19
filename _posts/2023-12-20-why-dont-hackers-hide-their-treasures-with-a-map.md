@@ -18,6 +18,6 @@ Because he felt there was too much packet sniffing and not enough privacy!
 #CyberSecurityHumor #DigitalDistrust #SniffingOutLove #ConnectionIssues
 #OnlinePrivacy #TechBreakups
 
-<img src="/images/_1702478480.560214.txt.png.avif" alt="" width="1024" height="1792">
+<img loading="lazy" src="/images/_1702478480.560214.txt.png.avif" alt="" width="1024" height="1792">
 
 

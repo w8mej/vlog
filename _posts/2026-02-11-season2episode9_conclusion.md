@@ -32,12 +32,12 @@ Traditional network diagrams are graveyards of silos—boxes and lines that show
 
 We have created two core visual assets that contrast the "Old" mechanical view with the "New" biological view:
 
-<img src="/images/Season2Blueprint.png" alt="The Morphogenetic Architecture Infographic" width="2752" height="1536">
+<img loading="lazy" src="/images/Season2Blueprint.png" alt="The Morphogenetic Architecture Infographic" width="2752" height="1536">
 *Figure 1: The Season 2 Blueprint—Mapping biological organs to security functions.*
 
 * **From Tools to Organs:** We stop viewing EDR and Firewalls as isolated tools and start mapping them as "organs" that must cooperate to maintain the organism's health. 
 
-<img src="/images/MindMap.png" alt="The Concept Mind Map" width="4799" height="11737">
+<img loading="lazy" src="/images/MindMap.png" alt="The Concept Mind Map" width="4799" height="11737">
 *Figure 2: The Season 2 Mind Map—Connecting TAME, Complex Systems, and Security Engineering.*
 
 * **From APIs to Gap Junctions:** As discussed in Episode 6, standard APIs enforce separation. This asset visualizes how to implement "Digital Gap Junctions"—interfaces that verify identity but erase data "ownership," allowing threat intelligence to flow so freely that the network acts as a unified syncytium.

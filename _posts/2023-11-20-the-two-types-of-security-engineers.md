@@ -35,6 +35,6 @@ can do about it!'"
 They cook up all sorts of recipes with ones and zeroes. But watch out for the
 spicy malware!"
 
-<img src="/images/Capture5.png.avif" alt="South Park characters discussing hacker culture humorously" width="632" height="647">
+<img loading="lazy" src="/images/Capture5.png.avif" alt="South Park characters discussing hacker culture humorously" width="632" height="647">
 
 

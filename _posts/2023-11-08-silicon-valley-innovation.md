@@ -83,7 +83,7 @@ For in the name of privacy, their love gleams,
 
 Like the stars in the night, where the truth redeems.
 
-<img src="/images/lee.png.avif" alt="Thematic illustration for Cypherpunk Manifesto" width="665" height="665">
+<img loading="lazy" src="/images/lee.png.avif" alt="Thematic illustration for Cypherpunk Manifesto" width="665" height="665">
 
   
 

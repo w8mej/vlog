@@ -20,6 +20,6 @@ resume.
 #CyberDefense #AdversarialRelationship #JobSecurity #CareerChange
 #CatAndMouseGame
 
-<img src="/images/Untitled.png.avif" alt="Humorous illustration of the cat-and-mouse relationship between hackers and security engineers" width="1066" height="1064">
+<img loading="lazy" src="/images/Untitled.png.avif" alt="Humorous illustration of the cat-and-mouse relationship between hackers and security engineers" width="1066" height="1064">
 
 

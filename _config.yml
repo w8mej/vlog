@@ -38,6 +38,7 @@ kramdown:
 
 sass:
   style: "compressed"
+  sourcemap: never
 
 plugins:
   - jekyll-sitemap
@@ -64,6 +65,12 @@ exclude:
   - vendor/
   - .bundle/
   - scratchpad/
+  - artifacts/
+  - lighthouserc.json
+  - .lighthouseci/
+  - package.json
+  - package-lock.json
+  - node_modules/
   - TODO
   - "TODO_Understand Jekyll Portfolio Website.md"
   - Prompts.txt

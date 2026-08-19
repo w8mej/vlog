@@ -99,7 +99,7 @@ With them? It’s a force multiplier.
 
 For instance, here is an overly simplified stakeholder engagement and adoption playbook.  
 
-<img src="/images/16.png" alt="Stakeholder engagement and adoption playbook for AI security governance" width="1536" height="1024">
+<img loading="lazy" src="/images/16.png" alt="Stakeholder engagement and adoption playbook for AI security governance" width="1536" height="1024">
 
 ---
 

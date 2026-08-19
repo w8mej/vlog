@@ -209,7 +209,7 @@ the consequence of taking such actions.
 
     * Playing “whack-a-mole” by blocking an IP address—without taking steps to determine what the binary is and how it got there—leaves the adversary an opportunity to change tactics and retain access to the network.
 
-<img src="/images/figure-1-ir-workflow.avif" alt="Incident Response triaging workflow diagram" width="1455" height="1124">
+<img loading="lazy" src="/images/figure-1-ir-workflow.avif" alt="Incident Response triaging workflow diagram" width="1455" height="1124">
 
 ## Mitigations
 

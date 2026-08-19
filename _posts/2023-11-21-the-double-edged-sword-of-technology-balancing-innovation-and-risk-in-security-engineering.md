@@ -11,7 +11,7 @@ date: 2023-11-21
 categories: ["Cybersecurity", "Decentralized Security", "Blockchain", "Democratic Oversight", "Security Engineering", "Transparency", "Distributed Trust", "Cryptography", "AI/ML Security", "Ethical Technology"]
 excerpt: In an era where digital technology is not just a tool but a societal cornerstone, the concepts of democratic oversight in technology and decentralized security models in security engineering are more relevant than ever.
 ---
-<img src="/images/embracing-decentralization.avif" alt="Conceptual artwork: Embracing Decentralization - The Future of Democratic Oversight and Security" width="1024" height="1024">
+<img loading="lazy" src="/images/embracing-decentralization.avif" alt="Conceptual artwork: Embracing Decentralization - The Future of Democratic Oversight and Security" width="1024" height="1024">
 
 ## **Introduction: A Paradigm Shift in Digital Trust**
 

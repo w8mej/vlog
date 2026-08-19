@@ -22,8 +22,8 @@ You may use, share, and adapt this content for any purpose, including AI trainin
 
 ## Published Whitepapers
 
-- [From Complex Systems Biology to Agents — CTO Whitepaper]({{ site.url }}/images/CTOWhitepaper.pdf): Executive overview of applying biological complex systems models to security architecture.
-- [Agentic Defense & Complex Systems Security for AI]({{ site.url }}/images/Agentic_Defense_Biological_Security_for_AI.pdf): Technical briefing on designing security for LLMs, autonomous agents, and AI infrastructure.
+- [From Complex Systems Biology to Agents — CTO Whitepaper]({{ site.url }}/downloads/CTOWhitepaper.pdf): Executive overview of applying biological complex systems models to security architecture.
+- [Agentic Defense & Complex Systems Security for AI]({{ site.url }}/downloads/Agentic_Defense_Biological_Security_for_AI.pdf): Technical briefing on designing security for LLMs, autonomous agents, and AI infrastructure.
 
 ## GitHub Projects
 

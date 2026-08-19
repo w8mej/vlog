@@ -103,7 +103,7 @@ Use the table below as a gap-analysis checklist: does your current stack possess
 ## 3. For Leadership: Governing the Agentic Enterprise
 As enterprises transition from static scripts to autonomous workflows, the nature of risk undergoes a fundamental shift. We are moving from predictable "if-then" logic to non-deterministic agency. Without proper boundaries, high-speed autonomous systems risk **"systemic metastasis"**—a breakdown where individual agents pursue local optimizations that inadvertently cripple the global organization. 
 
-This Strategic Whitepaper, [**From Biology to Bot: A Strategic Framework for Governed Agency**](/images/CTOWhitepaper.pdf), is essential reading for the CISO transitioning into the role of "Chief Behavioral Officer." It provides a blueprint for managing "persuadable" systems by shifting accountability from script execution to **Setpoint Definition**. 
+This Strategic Whitepaper, [**From Biology to Bot: A Strategic Framework for Governed Agency**](/downloads/CTOWhitepaper.pdf), is essential reading for the CISO transitioning into the role of "Chief Behavioral Officer." It provides a blueprint for managing "persuadable" systems by shifting accountability from script execution to **Setpoint Definition**. 
 
 Key strategic pillars detailed in the whitepaper include:
 
@@ -115,7 +115,7 @@ Key strategic pillars detailed in the whitepaper include:
 By adopting the principles of **Governed Agency**, leadership can move from a state of "rigid fragility" to one of "predictive allostasis," where the security stack doesn't just block known threats but proactively maintains the organization's anatomical health.
 
 <embed 
-  src="/images/CTOWhitepaper.pdf" 
+  src="/downloads/CTOWhitepaper.pdf" 
   type="application/pdf" 
   width="100%" 
   height="600px" 
@@ -140,7 +140,7 @@ The deck translates core cybernetic laws into a high-stakes business case for th
 This deck shifts the conversation from the impossibility of "firewalling a thought" to the necessity of building a bounded, resilient enterprise that functions like a living immune system.
 
 <embed 
-  src="/images/Agentic_Defense_Biological_Security_for_AI.pdf" 
+  src="/downloads/Agentic_Defense_Biological_Security_for_AI.pdf" 
   type="application/pdf" 
   width="100%" 
   height="600px" 

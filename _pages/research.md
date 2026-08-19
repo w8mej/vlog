@@ -23,7 +23,7 @@ description: "Explore John Menerick's public security research, including threat
 
       <div class="ed-cred">
         <div class="ed-proj-logo">
-          <img src="{{ site.baseurl }}/images/threatintellogo.png.avif" alt="Threat Intelligence Metrics" loading="lazy" />
+          <img src="{{ site.baseurl }}/images/threatintellogo.png.avif" alt="Threat Intelligence Metrics" width="418" height="229" loading="lazy" />
         </div>
         <div class="ed-cred-name">Threat Intelligence Metrics</div>
         <p class="ed-cred-desc">Continuous ingestion and analysis of global threat feeds to generate high-fidelity metrics and attribution insights. Mapping the shift from raw signal to actionable defensive signal.</p>
@@ -32,7 +32,7 @@ description: "Explore John Menerick's public security research, including threat
 
       <div class="ed-cred">
         <div class="ed-proj-logo">
-          <img src="{{ site.baseurl }}/images/nvd.png.avif" alt="Vulnerability Metrics" loading="lazy" />
+          <img src="{{ site.baseurl }}/images/nvd.png.avif" alt="Vulnerability Metrics" width="259" height="194" loading="lazy" />
         </div>
         <div class="ed-cred-name">Vulnerability &amp; remediation</div>
         <p class="ed-cred-desc">Automated parsing and prioritization of the US DHS National Vulnerability Database. Focused on remediation efficiency and the delta between disclosure and patch saturation.</p>
@@ -41,7 +41,7 @@ description: "Explore John Menerick's public security research, including threat
 
       <div class="ed-cred">
         <div class="ed-proj-logo">
-          <img src="{{ site.baseurl }}/images/1580877.png.avif" alt="Gauntlt Attacks" loading="lazy" />
+          <img src="{{ site.baseurl }}/images/1580877.png.avif" alt="Gauntlt Attacks" width="182" height="182" loading="lazy" />
         </div>
         <div class="ed-cred-name">Rugged SecDevOps testing</div>
         <p class="ed-cred-desc">Hardening the software lifecycle through automated attack simulation &mdash; a curated library of adapters and testing plans designed to be mean to your code before production deployment.</p>
@@ -50,7 +50,7 @@ description: "Explore John Menerick's public security research, including threat
 
       <div class="ed-cred">
         <div class="ed-proj-logo">
-          <img src="{{ site.baseurl }}/images/gyoithon_logo.png.avif" alt="Gyoithon AI" loading="lazy" />
+          <img src="{{ site.baseurl }}/images/gyoithon_logo.png.avif" alt="Gyoithon AI" width="1065" height="212" loading="lazy" />
         </div>
         <div class="ed-cred-name">Gyoithon: AI-driven pentesting</div>
         <p class="ed-cred-desc">A machine-learning framework designed to pass the Hacker Turing Test. Genetic algorithms and deep neural networks automating complex offensive security workflows with human-like precision.</p>
@@ -258,7 +258,7 @@ description: "Explore John Menerick's public security research, including threat
       <div class="ed-feature-text">
         <p>Stealth-mode initiatives in systems-inspired defense, autonomous architectures, ZK/MPC, and cryptographic protocol resilience.</p>
       </div>
-      <img class="ed-proof ed-redacted" src="{{ site.baseurl }}/images/redacted.webp" alt="Redacted research" loading="lazy" />
+      <img class="ed-proof ed-redacted" src="{{ site.baseurl }}/images/redacted.webp" alt="Redacted research" width="1024" height="1024" loading="lazy" />
     </div>
   </section>
 

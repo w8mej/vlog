@@ -21,17 +21,19 @@ description: "Search 145 posts on detection engineering, zero trust, supply chai
 
 </div>
 
-<script src="{{ site.baseurl }}/assets/simple-jekyll-search.min.js" type="text/javascript"></script>
+<script src="{{ site.baseurl }}/assets/simple-jekyll-search.min.js" defer></script>
 <script>
-  SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('results-container'),
-    searchResultTemplate:
-      '<li class="ed-search-hit">' +
-        '<a class="ed-search-hit-title" href="{url}">{title}</a>' +
-        '<span class="ed-search-hit-date">{date}</span>' +
-      '</li>',
-    noResultsText: '<li class="ed-search-empty">No posts match that query.</li>',
-    json: '{{ site.baseurl }}/search.json'
+  document.addEventListener('DOMContentLoaded', function () {
+    SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      searchResultTemplate:
+        '<li class="ed-search-hit">' +
+          '<a class="ed-search-hit-title" href="{url}">{title}</a>' +
+          '<span class="ed-search-hit-date">{date}</span>' +
+        '</li>',
+      noResultsText: '<li class="ed-search-empty">No posts match that query.</li>',
+      json: '{{ site.baseurl }}/search.json'
+    });
   });
 </script>

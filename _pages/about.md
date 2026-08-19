@@ -75,8 +75,8 @@ description: "John Menerick is a Security Engineer and complex systems practitio
       <div class="ed-series-card">
         <h3 class="ed-series-name">Whitepapers</h3>
         <ul class="ed-ep-list">
-          <li><a href="{{ site.baseurl }}/images/CTOWhitepaper.pdf" target="_blank" rel="noopener"><span class="ed-ep-num">PDF</span>From Complex Systems Biology to Agents</a></li>
-          <li><a href="{{ site.baseurl }}/images/Agentic_Defense_Biological_Security_for_AI.pdf" target="_blank" rel="noopener"><span class="ed-ep-num">PDF</span>Agentic Defense &amp; Complex Systems Security for AI</a></li>
+          <li><a href="{{ site.baseurl }}/downloads/CTOWhitepaper.pdf" target="_blank" rel="noopener"><span class="ed-ep-num">PDF</span>From Complex Systems Biology to Agents</a></li>
+          <li><a href="{{ site.baseurl }}/downloads/Agentic_Defense_Biological_Security_for_AI.pdf" target="_blank" rel="noopener"><span class="ed-ep-num">PDF</span>Agentic Defense &amp; Complex Systems Security for AI</a></li>
           <li><a href="{{ site.baseurl }}/2026/01/31/season2-zeronoisecollective/"><span class="ed-ep-num">Series</span>Agentic SOC Framework &mdash; Season 2</a></li>
         </ul>
       </div>

@@ -52,25 +52,25 @@ excerpt: "Two distinct nation-state actors struck the developer toolchain within
 <div class="conditions-grid">
   <div class="condition-card">
     <div class="cond-num">01</div>
-    <h4>Security tooling had CI/CD pipeline secrets by design</h4>
+    <h3>Security tooling had CI/CD pipeline secrets by design</h3>
     <p>Trivy runs in CI/CD pipelines to scan container images and infrastructure code for vulnerabilities. To do this effectively, it requires elevated access: read access to the container registry, access to source code, and in many configurations, access to the cloud credentials used to deploy the scanned infrastructure. This access was legitimate and intentional. The attack did not require Trivy to be misconfigured. It required Trivy to be Trivy.</p>
     <div class="cond-impact">Attack leverage: any code executing as Trivy could read every secret configured for the pipeline</div>
   </div>
   <div class="condition-card">
     <div class="cond-num">02</div>
-    <h4>GitHub Actions tags were mutable by anyone with repository write access</h4>
+    <h3>GitHub Actions tags were mutable by anyone with repository write access</h3>
     <p>Git tags are labels that point to commits. They are <em>not</em> immutable. A repository owner can force-push a tag to point to a completely different commit at any time, and consumers of that tag receive no notification. Every CI/CD workflow that references <code>aquasecurity/trivy-action@v0.69.3</code> trusts that the tag will forever point to the same code. That trust is a convention, not a guarantee. It cannot be a guarantee by design.</p>
     <div class="cond-impact">Attack leverage: force-pushing 76 tags required no new access beyond what the prior breach had already established</div>
   </div>
   <div class="condition-card">
     <div class="cond-num">03</div>
-    <h4>Incomplete credential rotation left residual access from a prior breach</h4>
+    <h3>Incomplete credential rotation left residual access from a prior breach</h3>
     <p>TeamPCP&rsquo;s access to the Trivy repository infrastructure was not fresh. It derived from a prior Aqua Security security incident in late February 2026 in which the initial containment was incomplete. The aqua-bot service account, the GPG signing keys, and credentials for Docker Hub, Twitter, and Slack had all been at risk. The team believed they had completed rotation. They had not rotated everything. TeamPCP retained residual access and waited.</p>
     <div class="cond-impact">Attack leverage: the gap between &ldquo;we rotated credentials&rdquo; and &ldquo;we rotated every credential&rdquo; was the entry point</div>
   </div>
   <div class="condition-card">
     <div class="cond-num">04</div>
-    <h4>Security-conscious organizations ran Trivy on every build, every PR, every deployment</h4>
+    <h3>Security-conscious organizations ran Trivy on every build, every PR, every deployment</h3>
     <p>This is the inversion that makes the March 2026 cascade philosophically significant beyond its technical details. Organizations with mature security postures ran Trivy most. They scanned every pull request, every container push, every infrastructure change. Each of those scans was an execution of the malicious binary. The more security-conscious you were, the more times you executed the credential stealer. Diligence was the amplifier.</p>
     <div class="cond-impact">Attack leverage: the blast radius was directly proportional to the quality of the victim&rsquo;s security program</div>
   </div>

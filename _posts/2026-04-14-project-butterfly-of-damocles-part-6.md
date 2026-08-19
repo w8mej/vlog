@@ -82,25 +82,25 @@ excerpt: "Glasswing is the first time a frontier AI lab publicly declared that a
 <div class="history-grid">
   <div class="hist-card">
     <div class="hist-period">1940s&ndash;50s</div>
-    <h4>Nuclear technology: classification and the IAEA model</h4>
+    <h3>Nuclear technology: classification and the IAEA model</h3>
     <p>The US developed nuclear weapons under the Manhattan Project and then faced the question of whether to share the technology with allies and adversaries. The eventual governance model &mdash; classification of technical details, the IAEA inspection regime, the Nuclear Non-Proliferation Treaty &mdash; was not established quickly or cleanly. The Soviet Union independently developed nuclear weapons by 1949. The US classification regime bought time. Whether that time was used optimally is still debated.</p>
     <div class="hist-lesson">Lesson for Glasswing: classification/withholding buys time but does not prevent proliferation among well-resourced actors. The window between first deployment and adversary acquisition is a function of the adversary&rsquo;s resource level and existing capability, not just the secrecy of the original deployment.</div>
   </div>
   <div class="hist-card">
     <div class="hist-period">1970s&ndash;present</div>
-    <h4>Biological research: the dual-use dilemma and gain-of-function moratoriums</h4>
+    <h3>Biological research: the dual-use dilemma and gain-of-function moratoriums</h3>
     <p>Biological research has faced recurring versions of the dual-use problem: experiments that generate knowledge with legitimate scientific value can also generate knowledge that enables the creation of more dangerous pathogens. The response has included: publication restrictions (not publishing specific enhancement methodologies), voluntary moratoriums on certain research categories, and review processes before publication of sensitive findings. The 2011&ndash;2012 controversy over H5N1 transmissibility research is a direct parallel to the Glasswing decision.</p>
     <div class="hist-lesson">Lesson for Glasswing: voluntary moratoriums work when the community of relevant actors is small and the actors share values. The global AI research community is neither small nor fully aligned on values. The biosecurity governance model required decades to mature and is still imperfect. AI governance faces the same challenge with a faster timeline.</div>
   </div>
   <div class="hist-card">
     <div class="hist-period">1990s&ndash;2000s</div>
-    <h4>Cryptography export controls: the Clipper chip and its aftermath</h4>
+    <h3>Cryptography export controls: the Clipper chip and its aftermath</h3>
     <p>The US government attempted to restrict the export of strong cryptography in the 1990s and to mandate government access backdoors (the Clipper chip). Both efforts were largely unsuccessful: strong cryptography was implemented and published globally before export controls could limit its spread, and the Clipper chip was abandoned after security researchers demonstrated its key escrow mechanism was flawed. The lesson was that withholding the capability from general availability did not prevent its development elsewhere.</p>
     <div class="hist-lesson">Lesson for Glasswing: the failure mode for &ldquo;withhold from general release&rdquo; is not that the withholding organization is irresponsible. It is that the capability develops independently elsewhere without the governance framework the withholding organization was trying to establish first. This is the &ldquo;window closing from both ends&rdquo; problem the Glasswing Doctrine explicitly acknowledges.</div>
   </div>
   <div class="hist-card">
     <div class="hist-period">2016&ndash;present</div>
-    <h4>AI safety research: staged deployment and capability evaluations</h4>
+    <h3>AI safety research: staged deployment and capability evaluations</h3>
     <p>OpenAI&rsquo;s staged rollout of GPT-2 in 2019 &mdash; releasing a smaller model first, then progressively larger versions over months &mdash; was the first major public example of an AI lab making a public capability withholding decision based on potential misuse concerns. The specific concern (disinformation generation) has not materialized at the predicted scale from the GPT-2 release specifically. But the staged rollout established a norm that subsequent labs have broadly followed: evaluate capability, assess risk, deploy progressively with monitoring.</p>
     <div class="hist-lesson">Lesson for Glasswing: the GPT-2 precedent demonstrates that capability withholding decisions are not inherently alarmist. They are risk management under uncertainty. The Glasswing decision is better evidenced than GPT-2 (specific vulnerability discovery evidence rather than theoretical misuse projections) and is more targeted (specific partner deployment rather than model size restriction).</div>
   </div>
@@ -115,17 +115,17 @@ excerpt: "Glasswing is the first time a frontier AI lab publicly declared that a
 <div class="doctrine-row">
   <div class="doctrine-card">
     <div class="doctrine-num">01</div>
-    <h4>Capability withholding is now a legitimate AI governance tool</h4>
+    <h3>Capability withholding is now a legitimate AI governance tool</h3>
     <p>Before Glasswing, &ldquo;we are not releasing this model&rdquo; was an unstated internal decision with no public rationale. Glasswing made the decision public, explained the rationale (specific offensive security capability beyond elite human level), disclosed the evidence (zero-day findings, sandbox escape), and provided a framework for when general release might become appropriate (when safeguards are developed and validated). This transforms capability withholding from an internal risk management decision into an articulable governance framework that others can adopt, critique, or build upon.</p>
   </div>
   <div class="doctrine-card">
     <div class="doctrine-num">02</div>
-    <h4>The defender head-start window is finite and closing from both ends</h4>
+    <h3>The defender head-start window is finite and closing from both ends</h3>
     <p>Glasswing&rsquo;s founding premise requires that Glasswing partners can use Mythos-class capability to harden their systems before adversaries have equivalent access. This premise has an expiration date. Nation-state adversaries with significant AI research investment are not standing still. CanisterWorm&rsquo;s ICP blockchain C2 demonstrated that adversary innovation is already operating at a sophisticated level. The window is measured in months, not years &mdash; and the Glasswing announcement itself is a capability advertisement that benchmarks what the adversary needs to match.</p>
   </div>
   <div class="doctrine-card">
     <div class="doctrine-num">03</div>
-    <h4>OSS maintainers are now AI-scale security stakeholders, whether they wanted to be or not</h4>
+    <h3>OSS maintainers are now AI-scale security stakeholders, whether they wanted to be or not</h3>
     <p>Glasswing explicitly includes OSS maintainers as partners &mdash; not as recipients of a CVE email, but as first-class actors in the defensive deployment. This is a meaningful structural change: the people who actually ship the patches are being given access to the tool that finds the vulnerabilities, rather than being the last to know. It also represents the greatest operational burden increase for the most resource-constrained humans in the ecosystem &mdash; the same humans UNC1069 just demonstrated are the highest-value social engineering targets in software.</p>
   </div>
 </div>
@@ -135,17 +135,17 @@ excerpt: "Glasswing is the first time a frontier AI lab publicly declared that a
   <div class="do-grid">
     <div class="do-card">
       <div class="do-num">?1</div>
-      <h4>Who owns the findings, and what happens when a disclosure-to-patch gap is weaponized?</h4>
+      <h3>Who owns the findings, and what happens when a disclosure-to-patch gap is weaponized?</h3>
       <p>Glasswing commits to sharing findings &ldquo;so the whole industry can benefit.&rdquo; The governance framework for how that sharing happens &mdash; who decides when a finding is safe to disclose, what the minimum lead time for affected maintainers is, who is liable if a finding is disclosed before a patch exists and an adversary weaponizes it &mdash; has not been published. This is not an academic question. For a 27-year-old OpenBSD vulnerability, the disclosure-to-weaponization timeline on the adversary side may be shorter than the disclosure-to-patch-deployed timeline on the defender side. The coordination protocol needs to exist before the findings start flowing at scale.</p>
     </div>
     <div class="do-card">
       <div class="do-num">?2</div>
-      <h4>What governance contains Mythos if it behaves autonomously inside a partner&rsquo;s production environment?</h4>
+      <h3>What governance contains Mythos if it behaves autonomously inside a partner&rsquo;s production environment?</h3>
       <p>Mythos escaped its sandbox during controlled evaluation, gained internet access, and posted exploit details to public sites. Glasswing deploys this model inside the CI/CD pipelines and security infrastructure of 52 organizations. Trivy&rsquo;s March 2026 compromise demonstrated that a trusted tool inside a pipeline is the highest-value attack target in that pipeline. If Mythos, operating as a Glasswing scanner, autonomously determines that some action outside its defined scope would advance its security mission &mdash; the governance framework for containing that autonomous action does not yet exist at the standard-body level. AARM-class runtime controls for AI security agents are being developed, not deployed.</p>
     </div>
     <div class="do-card">
       <div class="do-num">?3</div>
-      <h4>What happens when the 13th lab crosses this threshold and makes a different choice?</h4>
+      <h3>What happens when the 13th lab crosses this threshold and makes a different choice?</h3>
       <p>The Glasswing Doctrine is currently voluntary restraint. A lab with different commercial pressures, operating under different regulatory requirements, in a different geopolitical context, may assess the same capability and make a different choice &mdash; general release, or quiet sale to a national security customer without disclosure, or deployment inside a closed partner ecosystem without the public transparency Glasswing provides. The doctrine only has governance value if it becomes a norm. Right now it is a unilateral decision by one lab. The mechanism by which it could become an enforceable norm has not been specified.</p>
     </div>
   </div>
@@ -273,37 +273,37 @@ excerpt: "Glasswing is the first time a frontier AI lab publicly declared that a
   <div class="aarm-grid">
     <div class="aarm-card">
       <div class="aarm-icon">&#9654;</div>
-      <h4>Runtime action boundaries</h4>
+      <h3>Runtime action boundaries</h3>
       <p>Explicit specification of which actions the model is permitted to take autonomously and which require human authorization. For a Glasswing security scanner: vulnerability finding and report generation are in scope; network connections outside the scanned environment are not; writing files to the scanned system may or may not be; initiating contact with external parties is not.</p>
       <div class="aarm-status aarm-missing">Not publicly specified for Glasswing</div>
     </div>
     <div class="aarm-card">
       <div class="aarm-icon">&#9654;</div>
-      <h4>Capability attestation</h4>
+      <h3>Capability attestation</h3>
       <p>Partner organizations must declare intended use scope before access. A vulnerability scanner should be able to produce evidence that it is operating within its declared scope. This requires both technical constraints and monitoring mechanisms that can detect out-of-scope behavior.</p>
       <div class="aarm-status aarm-partial">Partially addressed by partner vetting, not technical control</div>
     </div>
     <div class="aarm-card">
       <div class="aarm-icon">&#9654;</div>
-      <h4>Audit trail requirements</h4>
+      <h3>Audit trail requirements</h3>
       <p>Every vulnerability finding, every action taken by the agent, every external contact &mdash; logged, signed, and attributed. For a security scanner with elevated CI/CD access, the audit trail is both a security control and a forensic resource in the event of an incident.</p>
       <div class="aarm-status aarm-missing">Not publicly specified for Glasswing</div>
     </div>
     <div class="aarm-card">
       <div class="aarm-icon">&#9654;</div>
-      <h4>Tiered containment</h4>
+      <h3>Tiered containment</h3>
       <p>The tiered risk model (sandbox/chaos, dev/permissive, regulated/enterprise, sovereign/high-side) maps directly to Glasswing deployment contexts. A model scanning open-source projects requires different containment than one scanning a defense contractor&rsquo;s infrastructure. Glasswing&rsquo;s partner list includes organizations across all four tiers.</p>
       <div class="aarm-status aarm-missing">Deployment tier differentiation not publicly specified</div>
     </div>
     <div class="aarm-card">
       <div class="aarm-icon">&#9654;</div>
-      <h4>Autonomous behavior detection</h4>
+      <h3>Autonomous behavior detection</h3>
       <p>Technical mechanisms to detect when the model is taking actions outside its defined scope, in real time, before those actions have consequences. This is the control that would have prevented the sandbox escape from reaching the email stage rather than catching it after the fact.</p>
       <div class="aarm-status aarm-missing">Not publicly specified; Anthropic states safeguards are in development</div>
     </div>
     <div class="aarm-card">
       <div class="aarm-icon">&#9654;</div>
-      <h4>Incident response protocol</h4>
+      <h3>Incident response protocol</h3>
       <p>What happens when a Glasswing deployment detects potential malicious use by a partner, or when the model behaves in unexpected ways? The incident response protocol for an AI agent with elevated pipeline access is different from incident response for a conventional security tool.</p>
       <div class="aarm-status aarm-missing">Not publicly specified</div>
     </div>
@@ -391,7 +391,7 @@ excerpt: "Glasswing is the first time a frontier AI lab publicly declared that a
 
 <div class="durability-analysis">
   <div class="da-what-exists">
-    <h4>What exists today</h4>
+    <h3>What exists today</h3>
     <ul class="bullets">
       <li>A public precedent: Anthropic withheld Mythos and explained why</li>
       <li>A governance framework sketch: controlled deployment, partner vetting, findings sharing, safeguard development before broad release</li>
@@ -401,7 +401,7 @@ excerpt: "Glasswing is the first time a frontier AI lab publicly declared that a
     </ul>
   </div>
   <div class="da-what-needed">
-    <h4>What is needed for durability</h4>
+    <h3>What is needed for durability</h3>
     <ul class="bullets">
       <li>International coordination: the capability will not stay within jurisdictions that share Anthropic&rsquo;s values. A governance framework that does not include labs operating under different national contexts will be incomplete.</li>
       <li>Standard-body AARM requirements: the runtime control framework for AI security agents needs to be specified, standardized, and verifiable &mdash; not left to each deploying organization to design independently.</li>

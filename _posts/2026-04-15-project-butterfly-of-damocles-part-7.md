@@ -327,7 +327,7 @@ excerpt: "The honest accounting of Project Glasswing: what it genuinely changes,
   <div class="tdg-card">
     <div class="tdg-title">
       <div class="tdg-icon tdg-red">&#9650;</div>
-      <h4>Discovery velocity vs. remediation velocity</h4>
+      <h3>Discovery velocity vs. remediation velocity</h3>
     </div>
     <div class="tdg-body">
       <p>Mythos finds bugs at machine speed. Maintainers who patch them are humans working at human speed, with human constraints (jobs, families, limited hours, burnout susceptibility). The gap between these velocities was manageable when discovery was scarce &mdash; a human researcher finding one critical vulnerability in a project per year was a disclosure load maintainers could handle. Glasswing eliminates discovery scarcity. It does not create additional patching capacity.</p>
@@ -342,7 +342,7 @@ excerpt: "The honest accounting of Project Glasswing: what it genuinely changes,
   <div class="tdg-card">
     <div class="tdg-title">
       <div class="tdg-icon tdg-red">&#9650;</div>
-      <h4>Tooling trust vs. tooling risk</h4>
+      <h3>Tooling trust vs. tooling risk</h3>
     </div>
     <div class="tdg-body">
       <p>Trivy&rsquo;s March 2026 compromise established a principle that now must be applied to Glasswing itself: the more trusted a security tool, the more pipeline access it holds, the higher its attack value. Trivy was trusted enough to run on every CI/CD pipeline build. That trust, combined with its ambient credential access, made it the highest-value target in thousands of organizations&rsquo; CI/CD infrastructure.</p>
@@ -357,7 +357,7 @@ excerpt: "The honest accounting of Project Glasswing: what it genuinely changes,
   <div class="tdg-card">
     <div class="tdg-title">
       <div class="tdg-icon tdg-amber">&#9650;</div>
-      <h4>Controlled release vs. capability diffusion</h4>
+      <h3>Controlled release vs. capability diffusion</h3>
     </div>
     <div class="tdg-body">
       <p>Glasswing withholds Mythos from general release. The premise is that withholding buys the defender head-start window. The tension: CanisterWorm, the first documented malware with blockchain C2, was deployed by a criminal group in March 2026. The adversary innovation cycle has not paused while Glasswing runs its head-start window. The capability bar that would need to be met to &ldquo;catch up&rdquo; to Glasswing is not stationary.</p>
@@ -372,7 +372,7 @@ excerpt: "The honest accounting of Project Glasswing: what it genuinely changes,
   <div class="tdg-card">
     <div class="tdg-title">
       <div class="tdg-icon tdg-amber">&#9650;</div>
-      <h4>Technical controls vs. the irreducible human surface</h4>
+      <h3>Technical controls vs. the irreducible human surface</h3>
     </div>
     <div class="tdg-body">
       <p>No SLSA build provenance requirement, no SBOM mandate, no Glasswing vulnerability scan would have prevented the Axios attack. UNC1069 did not exploit a vulnerability in Axios&rsquo;s code. They exploited a vulnerability in the human being who maintains it. Two weeks of individualized relationship-building by a nation-state actor with expertise in social engineering targeted at OSS maintainers is not a problem class that any scanning tool addresses.</p>
@@ -387,7 +387,7 @@ excerpt: "The honest accounting of Project Glasswing: what it genuinely changes,
   <div class="tdg-card">
     <div class="tdg-title">
       <div class="tdg-icon tdg-red">&#9650;</div>
-      <h4>AI governance velocity vs. AI capability velocity</h4>
+      <h3>AI governance velocity vs. AI capability velocity</h3>
     </div>
     <div class="tdg-body">
       <p>AARM-class governance for agentic AI security tooling doesn&rsquo;t exist at the standard-body level. CISA issues KEV deadlines for last week&rsquo;s breach while this week&rsquo;s capability is announced. The governance infrastructure is structurally behind the capability it is trying to govern, and the gap is widening rather than narrowing.</p>
@@ -402,7 +402,7 @@ excerpt: "The honest accounting of Project Glasswing: what it genuinely changes,
   <div class="tdg-card">
     <div class="tdg-title">
       <div class="tdg-icon tdg-amber">&#9650;</div>
-      <h4>Incentive structure unchanged at the root</h4>
+      <h3>Incentive structure unchanged at the root</h3>
     </div>
     <div class="tdg-body">
       <p>Maintainer economics have not changed since DEF CON 22: stability and performance are rewarded; security is an afterthought because users cannot directly observe it. Every incident from Exim in 2014 to Axios in 2026 traces to this incentive structure. Glasswing finds the vulnerabilities that the incentive structure produces. It does not change the incentive structure that produces them.</p>

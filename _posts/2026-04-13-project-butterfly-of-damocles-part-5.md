@@ -421,7 +421,7 @@ excerpt: "The twelve-year arc from a DEF CON talk about vulnerability density to
 
 <div class="pattern-analysis">
   <div class="pa-consistent">
-    <h4>What has been consistent across every incident in this timeline</h4>
+    <h3>What has been consistent across every incident in this timeline</h3>
     <div class="pa-items">
       <div class="pa-item">
         <div class="pa-name">The resource constraint</div>
@@ -455,22 +455,22 @@ excerpt: "The twelve-year arc from a DEF CON talk about vulnerability density to
 <div class="decisions-grid">
   <div class="decision-card dc-urgent">
     <div class="dc-urgency">Urgent &mdash; decisions needed now</div>
-    <h4>Governance for Glasswing-class AI security tooling</h4>
+    <h3>Governance for Glasswing-class AI security tooling</h3>
     <p>AARM-class runtime controls for AI agents operating in CI/CD pipelines do not exist at the standard-body level. Anthropic&rsquo;s sandbox escape disclosure is a governance call-to-action. Before Glasswing-scale capability is deployed more broadly, the framework for containing autonomous boundary-crossing behavior needs to be published, reviewed, and adopted. This is the most urgent governance gap in the current security landscape.</p>
   </div>
   <div class="decision-card dc-structural">
     <div class="dc-urgency">Structural &mdash; requires ecosystem change</div>
-    <h4>Redesigning vulnerability management for machine-velocity disclosure</h4>
+    <h3>Redesigning vulnerability management for machine-velocity disclosure</h3>
     <p>CISA KEV, NVD, CVE assignment, FedRAMP continuous monitoring &mdash; all designed for human-paced sequential disclosure. Glasswing will produce thousands of simultaneous zero-day advisories. The compliance stack needs a redesign that starts before the disclosure flood arrives, not after. The window is approximately 18 months.</p>
   </div>
   <div class="decision-card dc-structural">
     <div class="dc-urgency">Structural &mdash; requires sustained investment</div>
-    <h4>Making maintainer funding a security control, not a charity</h4>
+    <h3>Making maintainer funding a security control, not a charity</h3>
     <p>Every attack in this timeline exploited the resource constraint. The XZ Utils attacker targeted a burned-out maintainer. The Axios attack targeted a single-person project with 100M weekly downloads. The Core Infrastructure Initiative, the Sovereign Tech Fund, the Tidelift model &mdash; all represent progress. None represents the level of investment commensurate with the economic value of the software being maintained. Until maintainer funding is treated as a security control with quantifiable ROI, not a charitable donation, the structural condition persists.</p>
   </div>
   <div class="decision-card dc-long">
     <div class="dc-urgency">Long-term &mdash; decade-scale change</div>
-    <h4>Memory-safe language adoption in new systems software</h4>
+    <h3>Memory-safe language adoption in new systems software</h3>
     <p>The C/C++ vulnerability class that dominated the 2014 dataset is still present in the 2026 dataset &mdash; and in every ML framework with C extension modules. The transition to memory-safe languages for new systems code is real: Rust in the Linux kernel, Go for new infrastructure components, Swift for Apple system software. The transition is too slow relative to the vulnerability production rate in existing codebases. Glasswing finding a 27-year-old OpenBSD bug and a 16-year-old FFmpeg bug in its first weeks suggests the existing C/C++ codebase contains a backlog of similar-vintage vulnerabilities that will take years to discover and patch even at Glasswing&rsquo;s velocity.</p>
   </div>
 </div>

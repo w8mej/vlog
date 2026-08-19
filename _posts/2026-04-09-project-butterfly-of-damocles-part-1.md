@@ -68,25 +68,25 @@ excerpt: "The Open Source Fairy Dust talk wasn't a rhetorical exercise. It was a
 <div class="methodology-grid">
   <div class="method-card">
     <div class="method-icon method-purple">&#9670;</div>
-    <h4>Static analysis</h4>
+    <h3>Static analysis</h3>
     <p>Clang static analyzer, Coverity, Fortify, Breakman (Ruby), FindBugs (Java). Identified potential memory safety issues, injection vectors, and logic errors without executing code. High false-positive rate, but useful for bounding the search space before dynamic analysis.</p>
     <div class="method-caveat">Limitation: Won&rsquo;t find everything. Best at memory management and type safety issues in C/C++.</div>
   </div>
   <div class="method-card">
     <div class="method-icon method-blue">&#9670;</div>
-    <h4>Dynamic analysis</h4>
+    <h3>Dynamic analysis</h3>
     <p>DTrace, GDB, afl-fuzz, custom fuzzing harnesses. Executed the software under instrumentation with genetically and evolutionary malformed inputs. Found runtime behaviors that static analysis missed. Provided code coverage metrics to bound confidence in the findings.</p>
     <div class="method-caveat">Limitation: Only as good as the test inputs and the related mutated genetic offspring from said test inputs. Hard to achieve full code coverage at scale.</div>
   </div>
   <div class="method-card">
     <div class="method-icon method-teal">&#9670;</div>
-    <h4>NVD cross-reference</h4>
+    <h3>NVD cross-reference</h3>
     <p>National Vulnerability Database historical data used to calibrate findings. Projects with high CVE density historically were expected to have high density in the automated analysis. Divergences were investigated manually.</p>
     <div class="method-caveat">Limitation: NVD only covers disclosed, assigned CVEs. Unknown unknowns are definitionally absent.</div>
   </div>
   <div class="method-card">
     <div class="method-icon method-amber">&#9670;</div>
-    <h4>Manual review</h4>
+    <h3>Manual review</h3>
     <p>Selected findings from automated tools were manually verified. This was the rate-limiting step &mdash; there are only so many hours in a day. The most interesting findings (high-confidence criticals in widely-deployed projects) were prioritized.</p>
     <div class="method-caveat">Limitation: Artisanal. Not scalable. This is the exact gap that Glasswing closes twelve years later.</div>
   </div>
@@ -357,25 +357,25 @@ excerpt: "The Open Source Fairy Dust talk wasn't a rhetorical exercise. It was a
 <div class="contributor-grid">
   <div class="contributor-card cc-purple">
     <div class="cc-icon">&#9632;</div>
-    <h4>The activist</h4>
+    <h3>The activist</h3>
     <p>Contributes to solve a specific ethical, political, or lifestyle problem. Deep motivation, often technically capable, but narrowly focused. A privacy-focused activist contributing to a VPN client is unlikely to spend cycles on input validation in the SMTP parsing path of a different project.</p>
     <div class="cc-security-impact">Security impact: <span class="cc-neutral">neutral to positive</span> &mdash; focused on their specific concern, unlikely to introduce new problems, unlikely to audit unrelated code</div>
   </div>
   <div class="contributor-card cc-blue">
     <div class="cc-icon">&#9632;</div>
-    <h4>The hobbyist</h4>
+    <h3>The hobbyist</h3>
     <p>Scratches an itch. Contributes a patch or two, maybe maintains a small project for a year or two, then moves on. The long tail of OSS contribution. For widely-deployed infrastructure projects, hobbyist contributions in C/C++ are among the highest-risk inputs: enthusiastic, well-intentioned, and statistically unlikely to have deep security engineering expertise.</p>
     <div class="cc-security-impact">Security impact: <span class="cc-negative">frequently negative</span> &mdash; introduces code without security review, may not respond to vulnerability disclosures, abandons projects leaving known vulnerabilities unpatched</div>
   </div>
   <div class="contributor-card cc-amber">
     <div class="cc-icon">&#9632;</div>
-    <h4>The artist</h4>
+    <h3>The artist</h3>
     <p>Contributes for the craft of it. Creates things like new programming languages, esoteric algorithms, visually interesting code. Deeply passionate, often highly skilled, not primarily security-focused. For infrastructure projects, artist contributions tend to be in the core logic rather than the attack surface, which reduces risk somewhat.</p>
     <div class="cc-security-impact">Security impact: <span class="cc-neutral">mixed</span> &mdash; high code quality but not security-oriented; less likely to introduce memory management bugs in C but also less likely to audit existing ones</div>
   </div>
   <div class="contributor-card cc-teal">
     <div class="cc-icon">&#9632;</div>
-    <h4>The professionally motivated</h4>
+    <h3>The professionally motivated</h3>
     <p>Works for a company that depends on the project, or is paid to contribute. This is the archetype that produces the most security-conscious contributions &mdash; but only when the company cares about security. A company contributing to a mail server for reliability reasons will contribute reliability-focused code. A company contributing for security reasons (rare) will contribute security-focused code.</p>
     <div class="cc-security-impact">Security impact: <span class="cc-positive">conditionally positive</span> &mdash; best-case scenario if company has security engineering culture; worst-case, introduces complex features that expand attack surface in exchange for business functionality</div>
   </div>
@@ -391,7 +391,7 @@ excerpt: "The Open Source Fairy Dust talk wasn't a rhetorical exercise. It was a
 
 <div class="two-col">
   <div class="lang-card">
-    <h4>What C gives you</h4>
+    <h3>What C gives you</h3>
     <ul class="bullets">
       <li>Direct memory management &mdash; you decide when to allocate and free</li>
       <li>No bounds checking by default &mdash; you can read and write past the end of arrays</li>
@@ -402,7 +402,7 @@ excerpt: "The Open Source Fairy Dust talk wasn't a rhetorical exercise. It was a
     </ul>
   </div>
   <div class="lang-card">
-    <h4>What C costs you</h4>
+    <h3>What C costs you</h3>
     <ul class="bullets">
       <li>Every memory allocation and deallocation must be manually correct across all code paths</li>
       <li>Every array access must be manually bounds-checked or the consequences are undefined</li>

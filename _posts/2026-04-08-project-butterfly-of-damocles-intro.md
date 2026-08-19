@@ -146,7 +146,7 @@ excerpt: "In 2014 I stood at DEF CON and showed the internet's foundational soft
 
   <div class="arc-grid">
     <div class="arc-card arc-purple">
-      <h4>Thread 1 &mdash; The vulnerability story (Ep. 01, 02, 06)</h4>
+      <h3>Thread 1 &mdash; The vulnerability story (Ep. 01, 02, 06)</h3>
       <p>The quantitative case that OSS infrastructure was never as secure as the collective myth suggested &mdash; from Exim&rsquo;s 13,000 criticals in 2014 to TensorFlow&rsquo;s 700+ in 2026. The data through two generations of infrastructure.</p>
       <ul class="arc-list">
         <li>Ep. 01 &mdash; Internet infrastructure: DEF CON 22 dataset</li>
@@ -155,7 +155,7 @@ excerpt: "In 2014 I stood at DEF CON and showed the internet's foundational soft
       </ul>
     </div>
     <div class="arc-card arc-red">
-      <h4>Thread 2 &mdash; The attack story (Ep. 03, 04, 05)</h4>
+      <h3>Thread 2 &mdash; The attack story (Ep. 03, 04, 05)</h3>
       <p>How nation-state actors operationalized the threat models security researchers had been publishing for years. XZ as the template, Trivy as the pivot, Axios as the broadside. The playbook was published. They read it.</p>
       <ul class="arc-list">
         <li>Ep. 03 &mdash; XZ Utils: the two-year playbook</li>
@@ -164,7 +164,7 @@ excerpt: "In 2014 I stood at DEF CON and showed the internet's foundational soft
       </ul>
     </div>
     <div class="arc-card arc-teal">
-      <h4>Thread 3 &mdash; The response story (Ep. 07, 08, 09)</h4>
+      <h3>Thread 3 &mdash; The response story (Ep. 07, 08, 09)</h3>
       <p>Glasswing as policy precedent. The compliance cliff. Whether the voluntary restraint that produced Glasswing is more durable than the restraint that left the bugs unfixed for 27 years. The substrate change at the governance layer.</p>
       <ul class="arc-list">
         <li>Ep. 07 &mdash; Glasswing: the doctrine</li>
@@ -181,32 +181,32 @@ excerpt: "In 2014 I stood at DEF CON and showed the internet's foundational soft
   <div class="theme-grid">
     <div class="theme-card">
       <span class="theme-label theme-purple">The parable</span>
-      <h4>Who is actually responsible for securing open source infrastructure?</h4>
+      <h3>Who is actually responsible for securing open source infrastructure?</h3>
       <p>Nobody &mdash; because everybody assumes somebody else will handle it. Introduced at DEF CON 22 to explain Heartbleed, the Everybody / Somebody / Nobody / Anybody parable returns in every episode as the structural explanation for why each generation of infrastructure inherits the same failure mode.</p>
     </div>
     <div class="theme-card">
       <span class="theme-label theme-red">The inversion</span>
-      <h4>Why does security diligence become an attack surface?</h4>
+      <h3>Why does security diligence become an attack surface?</h3>
       <p>Because the most security-conscious organizations ran Trivy most frequently and had the greatest exposure when Trivy itself was compromised. The XZ maintainer was trustworthy &mdash; which is exactly why the attack worked. Security posture becomes a vulnerability vector when the tools enforcing it are the target.</p>
     </div>
     <div class="theme-card">
       <span class="theme-label theme-teal">The layer shift</span>
-      <h4>Why do the same infrastructure security failures repeat across technology generations?</h4>
+      <h3>Why do the same infrastructure security failures repeat across technology generations?</h3>
       <p>The fairy dust doesn&rsquo;t disappear &mdash; it moves one abstraction layer higher. 2014: &ldquo;everyone&rsquo;s looking at the code.&rdquo; 2024: &ldquo;our tooling is trustworthy.&rdquo; 2026: &ldquo;our AI deployment is safe.&rdquo; The pattern is structurally identical. Only the substrate changes.</p>
     </div>
     <div class="theme-card">
       <span class="theme-label theme-amber">The ROI problem</span>
-      <h4>Why are open source maintainers prime targets for nation-state attacks?</h4>
+      <h3>Why are open source maintainers prime targets for nation-state attacks?</h3>
       <p>Because the ROI is extraordinary: two weeks of social engineering to own 100 million weekly downloads; two years to own a transitive dependency of sshd. The economics of targeting volunteer maintainers only improve as package footprints grow and audit resources stay flat.</p>
     </div>
     <div class="theme-card">
       <span class="theme-label theme-blue">The governance gap</span>
-      <h4>Why do good intentions fail to produce durable security governance?</h4>
+      <h3>Why do good intentions fail to produce durable security governance?</h3>
       <p>Because both the OSS social contract and the Glasswing Doctrine are built on voluntary behavior at a scale they were never designed for. Glasswing is voluntary restraint by one company. The OSS model was voluntary contribution by scattered individuals. Season 3 asks what &ldquo;durable&rdquo; actually requires structurally.</p>
     </div>
     <div class="theme-card">
       <span class="theme-label theme-coral">The velocity mismatch</span>
-      <h4>What changes when AI discovers vulnerabilities faster than humans can patch them?</h4>
+      <h3>What changes when AI discovers vulnerabilities faster than humans can patch them?</h3>
       <p>Discovery becomes essentially free, and the entire bottleneck shifts to everything that comes after: triage, coordination, patch development, deployment, compliance reporting. Mythos finds bugs at machine speed; patches still ship at human speed. Season 3 maps the 18-month gap between those two curves.</p>
     </div>
   </div>
@@ -217,7 +217,7 @@ excerpt: "In 2014 I stood at DEF CON and showed the internet's foundational soft
 
   <div class="arc-grid">
     <div class="arc-card arc-purple">
-      <h4>Multimedia &amp; Discussions</h4>
+      <h3>Multimedia &amp; Discussions</h3>
       <p>Listen to or watch deep-dive discussions breaking down the key concepts from the series.</p>
       <ul class="arc-list">
         <li><a href="https://youtu.be/SQ53F-VmgoE" target="_blank">Project Butterfly Video Overview (YouTube)</a></li>
@@ -227,7 +227,7 @@ excerpt: "In 2014 I stood at DEF CON and showed the internet's foundational soft
     </div>
 
     <div class="arc-card arc-red">
-      <h4>Executive Briefings &amp; Decks</h4>
+      <h3>Executive Briefings &amp; Decks</h3>
       <p>The original documents framing the strategic implications of Project Glasswing.</p>
       <ul class="arc-list">
         <li><a href="/artifacts/ExecutiveOverview.pdf" target="_blank">Executive Overview (PDF)</a></li>
@@ -236,7 +236,7 @@ excerpt: "In 2014 I stood at DEF CON and showed the internet's foundational soft
     </div>
 
     <div class="arc-card arc-teal">
-      <h4>Infographics &amp; Visuals</h4>
+      <h3>Infographics &amp; Visuals</h3>
       <p>Visual aids and cover art summarizing the twelve-year timeline and attack models.</p>
       <ul class="arc-list">
         <li><strong>Infographics:</strong> <a href="/artifacts/1infographic.png" target="_blank">01</a> &middot; <a href="/artifacts/2infographic.png" target="_blank">02</a> &middot; <a href="/artifacts/3infographic.png" target="_blank">03</a></li>

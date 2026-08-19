@@ -209,15 +209,15 @@ excerpt: "The scarcity of finding capability is over. The crisis of fixing it is
       <div class="pa-title">Urgent (start now, outcomes needed in 12 months)</div>
       <div class="pa-items">
         <div class="pa-item">
-          <h4>Redesign CVE/NVD for AI-velocity input</h4>
+          <h3>Redesign CVE/NVD for AI-velocity input</h3>
           <p>The CVE assignment and NVD enrichment process needs a high-throughput pathway for AI-generated vulnerability reports. The current sequential model &mdash; human submission, CNA review, NVD analyst scoring &mdash; cannot process thousands of simultaneous submissions. The redesign requirements: automated initial classification, AI-assisted CVSS scoring with human review for the highest-severity entries, streamlined CNA delegation to project-level maintainers for their own software, and a public queue with estimated completion times that consuming organizations can rely on for triage prioritization.</p>
         </div>
         <div class="pa-item">
-          <h4>CISA KEV process redesign for simultaneous bulk disclosure</h4>
+          <h3>CISA KEV process redesign for simultaneous bulk disclosure</h3>
           <p>The KEV catalog&rsquo;s 15-day and 60-day remediation mandates assume vulnerabilities are added to the catalog one at a time. The process for handling simultaneous bulk additions &mdash; including how agencies triage, prioritize, and communicate about patching when hundreds of critical findings arrive simultaneously &mdash; needs to be defined before that situation occurs. CISA should convene a working group on KEV reform in the context of AI-velocity disclosure within 90 days of this writing.</p>
         </div>
         <div class="pa-item">
-          <h4>Engage the Glasswing legal dispute as a security policy problem</h4>
+          <h3>Engage the Glasswing legal dispute as a security policy problem</h3>
           <p>The legal dispute between Anthropic and the White House creates friction in exactly the government-industry coordination that CISA, NSA, and NIST need for Glasswing policy engagement. This is a governance failure with direct security consequences: federal agencies&rsquo; access to Mythos for Glasswing-related work, CISA&rsquo;s ability to use Glasswing findings in KEV decisions, and NIST&rsquo;s ability to develop NVD reform in coordination with Glasswing all become harder when the legal context creates adversarial framing. This specific dispute has direct national security implications that should elevate it above normal civil litigation timelines.</p>
         </div>
       </div>
@@ -226,15 +226,15 @@ excerpt: "The scarcity of finding capability is over. The crisis of fixing it is
       <div class="pa-title">Structural (12&ndash;18 month horizon)</div>
       <div class="pa-items">
         <div class="pa-item">
-          <h4>FedRAMP and CMMC reform for AI-discovery era</h4>
+          <h3>FedRAMP and CMMC reform for AI-discovery era</h3>
           <p>FedRAMP continuous monitoring and CMMC patch requirements were calibrated for a world where the vulnerability discovery rate was human-paced. The specific reform needed: tiered patch SLAs based on exploitability evidence (not just CVSS score), a defined process for simultaneous multi-finding disclosure that allows agencies to triage rather than requiring sequential response, and recognition that &ldquo;awareness of vulnerability&rdquo; and &ldquo;ability to patch within SLA&rdquo; are different conditions with different implications for authorization to operate.</p>
         </div>
         <div class="pa-item">
-          <h4>SBOM mandate extension to AI/ML components</h4>
+          <h3>SBOM mandate extension to AI/ML components</h3>
           <p>The Executive Order 14028 SBOM requirements apply to software developed for or procured by the federal government. ML model files, LLM API integrations, and AI gateway configurations are increasingly part of that software. The SBOM mandate needs to extend to these components: a federal agency deploying an AI system should be able to enumerate its LLM provider dependencies and model file provenance with the same specificity as its software library dependencies. This creates the inventory visibility that would have made LiteLLM-type compromises detectable in federal environments.</p>
         </div>
         <div class="pa-item">
-          <h4>AARM standard development as a regulatory requirement</h4>
+          <h3>AARM standard development as a regulatory requirement</h3>
           <p>The governance gap in Glasswing&rsquo;s deployment &mdash; the absence of published AARM-class runtime controls for AI security agents &mdash; is a gap that regulatory mandate can help close. NIST should develop a standard for runtime controls for AI agents operating with elevated access to security-sensitive infrastructure. This standard should be incorporated into FedRAMP requirements for AI-powered security tools within 18 months, creating the regulatory signal that drives industry adoption of AARM-class controls.</p>
         </div>
       </div>
@@ -287,37 +287,37 @@ excerpt: "The scarcity of finding capability is over. The crisis of fixing it is
 <div class="thought-grid">
   <div class="thought-card t-purple">
     <span class="thought-label">For everyone</span>
-    <h4>Who patches the patcher&rsquo;s patcher?</h4>
+    <h3>Who patches the patcher&rsquo;s patcher?</h3>
     <p>Glasswing finds vulnerabilities in OSS. Maintainers patch them using build pipelines. Those pipelines run scanners. Those scanners were compromised in March 2026. The patch for the vulnerability that Glasswing found is being delivered through the same supply chain that TeamPCP just demonstrated is systemically compromisable. The trust problem doesn&rsquo;t end when the patch is written. It extends through every step of the path from &ldquo;Mythos found a bug&rdquo; to &ldquo;user is running patched software.&rdquo;</p>
   </div>
   <div class="thought-card t-red">
     <span class="thought-label">For security teams</span>
-    <h4>Is the compliance framework protecting you or providing the appearance of protection?</h4>
+    <h3>Is the compliance framework protecting you or providing the appearance of protection?</h3>
     <p>The European Commission ran Trivy on its CI/CD pipeline because it was required to by its security controls framework. Running Trivy was the compliant behavior. The compliant behavior was the attack vector. If your compliance framework required running Trivy, you were more likely to be compromised than if you had run nothing. A compliance check that increases your actual risk while decreasing your perceived risk is not a security control. It is a liability transfer mechanism.</p>
   </div>
   <div class="thought-card t-teal">
     <span class="thought-label">For OSS maintainers</span>
-    <h4>What is the security property of &ldquo;trusted contributor&rdquo; in a post-XZ world?</h4>
+    <h3>What is the security property of &ldquo;trusted contributor&rdquo; in a post-XZ world?</h3>
     <p>XZ Utils&rsquo; Jia Tan made legitimate, high-quality contributions for two years. By every available signal, Jia Tan was a trustworthy contributor. The trustworthiness of the contributions was the attack. In a world where nation-states will invest multi-year operations in establishing OSS contributor trust, the &ldquo;this person has a good contribution history&rdquo; signal needs to be evaluated against a threat model that includes manufactured contribution history. The security property of &ldquo;trusted contributor&rdquo; has been permanently downgraded.</p>
   </div>
   <div class="thought-card t-amber">
     <span class="thought-label">For AI/ML teams</span>
-    <h4>What does &ldquo;model provenance&rdquo; mean when a malicious model is technically correct?</h4>
+    <h3>What does &ldquo;model provenance&rdquo; mean when a malicious model is technically correct?</h3>
     <p>Pickle-based model files can contain malicious code alongside valid model weights. A model that produces correct outputs on standard benchmarks while also exfiltrating credentials on load is a correctly functioning model with a malicious secondary function. Standard model evaluation &mdash; accuracy, perplexity, benchmark scores &mdash; does not detect this. The security evaluation of a model file requires analysis of the serialized code, not just the weights. Most ML teams have the former capability and not the latter.</p>
   </div>
   <div class="thought-card t-blue">
     <span class="thought-label">For regulators</span>
-    <h4>What happens to national security when the compliance framework fails simultaneously for every agency?</h4>
+    <h3>What happens to national security when the compliance framework fails simultaneously for every agency?</h3>
     <p>The compliance cliff scenario is not just a budget and staffing problem for individual agencies. If the KEV produces hundreds of simultaneous mandates that no federal agency can fully comply with on the required timeline, the entire compliance framework loses credibility. Agencies that cannot comply with the mandate have two choices: request extensions (reasonable but resource-intensive) or silently prioritize (de facto non-compliance). If the second option becomes widespread, the KEV stops being a reliable signal of what federal systems actually prioritize patching. That is a national security consequence, not just an administrative one.</p>
   </div>
   <div class="thought-card t-coral">
     <span class="thought-label">For the AI industry</span>
-    <h4>What does the OSS social contract look like after a private AI lab unilaterally rewrote it?</h4>
+    <h3>What does the OSS social contract look like after a private AI lab unilaterally rewrote it?</h3>
     <p>The OSS social contract &mdash; take the code, contribute back, the community collectively maintains security &mdash; has operated since the 1980s as a voluntary, distributed governance system. Glasswing implicitly declared that contract insufficient for the current threat environment. Anthropic did not consult the OSS community before making this declaration. The new terms &mdash; a private AI lab scans your code, coordinates findings through its partner network, and releases patches on a timeline it controls &mdash; are better than the old terms in many ways. They were not negotiated. Whether the OSS community accepts or resists the new terms will determine whether Glasswing produces a collaborative governance structure or a contested one.</p>
   </div>
   <div class="thought-card t-purple">
     <span class="thought-label">For everyone</span>
-    <h4>If Glasswing finds a vulnerability that&rsquo;s already in a nation-state&rsquo;s exploit inventory, does disclosing it help or hurt?</h4>
+    <h3>If Glasswing finds a vulnerability that&rsquo;s already in a nation-state&rsquo;s exploit inventory, does disclosing it help or hurt?</h3>
     <p>The head-start window assumes Glasswing is ahead of adversaries. For old, stable vulnerabilities in well-analyzed software, that assumption is uncertain. If a nation-state has been holding a zero-day in OpenBSD for several years and Glasswing finds and discloses it, the disclosure may accelerate exploitation by other adversaries who didn&rsquo;t have the zero-day, while providing no additional intelligence to the adversary who did. The net effect of disclosure depends on the distribution of adversary access &mdash; information that Glasswing doesn&rsquo;t have. The disclosure protocol needs to account for this uncertainty.</p>
   </div>
 </div>

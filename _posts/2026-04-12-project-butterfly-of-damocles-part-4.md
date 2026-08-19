@@ -406,11 +406,11 @@ excerpt: "In 2014 the scariest projects were Exim, Bind, and OpenSSL. In 2026 th
 
 <div class="hardware-risks">
   <div class="hw-risk">
-    <h4>GPU memory persistence between tenant workloads (cloud inference)</h4>
+    <h3>GPU memory persistence between tenant workloads (cloud inference)</h3>
     <p>Cloud providers that offer GPU instances for inference workloads reuse GPU hardware across tenant workloads. If GPU memory is not reliably zeroed between workloads, a subsequent tenant&rsquo;s workload might be able to recover data from a previous tenant&rsquo;s inference run. This could include private model weights, training data, and inference inputs. The vulnerability depends on the specific GPU driver implementation and cloud provider isolation model; it is not universally exploitable but has been demonstrated in research contexts for some configurations.</p>
   </div>
   <div class="hw-risk">
-    <h4>Malicious model weights that exploit CUDA kernel execution</h4>
+    <h3>Malicious model weights that exploit CUDA kernel execution</h3>
     <p>When a neural network performs inference, the model weights are used to parameterize mathematical operations that execute on the GPU via CUDA kernels. A sufficiently adversarially crafted set of model weights could potentially trigger vulnerable code paths in the CUDA runtime or driver when those weights produce specific numerical conditions (NaN propagation, overflow, etc.) during computation. This attack class has been explored theoretically but not widely demonstrated in practice. It becomes more relevant as untrusted model files from public repositories are loaded into production inference environments.</p>
   </div>
 </div>
@@ -425,15 +425,15 @@ excerpt: "In 2014 the scariest projects were Exim, Bind, and OpenSSL. In 2026 th
 
 <div class="gap-analysis">
   <div class="gap-card gap-deployment">
-    <h4>The fastest-growing critical infrastructure</h4>
+    <h3>The fastest-growing critical infrastructure</h3>
     <p>The deployment footprint of ML infrastructure in production is growing faster than any other category of software infrastructure. Models are being deployed in healthcare, finance, critical infrastructure operations, government, and consumer applications at a pace that substantially outstrips the security review and hardening of the underlying frameworks.</p>
   </div>
   <div class="gap-card gap-audit">
-    <h4>The least audited relative to deployment criticality</h4>
+    <h3>The least audited relative to deployment criticality</h3>
     <p>TensorFlow at 700+ CVEs on a framework used in production AI systems for critical decision-making represents exactly the vulnerability density profile the DEF CON 22 analysis identified as dangerous: widely deployed, under-audited, handling untrusted input, built primarily for research velocity.</p>
   </div>
   <div class="gap-card gap-novel">
-    <h4>The home of novel, AI-native attack vectors</h4>
+    <h3>The home of novel, AI-native attack vectors</h3>
     <p>The prompt injection &rarr; SSRF chain enabled by LangChain is not a vulnerability class that Glasswing&rsquo;s current partner list has deep expertise in. The pickle deserialization problem in model loading is a variant of a known vulnerability class, but its manifestation in the model distribution ecosystem is novel. The ShadowRay zero-authentication pattern requires different analysis than traditional memory safety bugs.</p>
   </div>
 </div>

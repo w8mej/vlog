@@ -325,27 +325,27 @@ excerpt: "When your Node.js service pulls 847 npm packages to serve a login form
 
 <div class="bundling-grid">
   <div class="bundle-card">
-    <h4>OpenSSL bundling: 350,000+ projects</h4>
+    <h3>OpenSSL bundling: 350,000+ projects</h3>
     <p>OpenSSL is the world&rsquo;s most bundled C library. Applications that need TLS support have historically either linked against the system OpenSSL or embedded a private copy in their source tree. The private copy pattern means that every CVE in OpenSSL history potentially has a long tail of applications that remain vulnerable long after the OpenSSL project itself has patched the issue.</p>
     <p>Mythos&rsquo;s finding of a 27-year-old bug in OpenBSD is relevant here: OpenBSD is one of the more security-conscious projects in the ecosystem, yet even it carried a vulnerability for 27 years. Projects with less security focus and worse patching practices carry older bugs for longer.</p>
     <div class="bundle-stat"><span class="bs-num">350K+</span><span class="bs-label">Projects bundling or linking OpenSSL</span></div>
     <div class="bundle-stat"><span class="bs-num">~8 yrs</span><span class="bs-label">Average lag between OpenSSL CVE patch and downstream application patch</span></div>
   </div>
   <div class="bundle-card">
-    <h4>FFmpeg: 16 years of undetected history</h4>
+    <h3>FFmpeg: 16 years of undetected history</h3>
     <p>FFmpeg is the multimedia processing library that is used by every major browser, every video streaming service, every video editing tool, and hundreds of thousands of applications for encoding, decoding, and processing audio and video. Project Glasswing&rsquo;s Claude Mythos Preview found a 16-year-old vulnerability in FFmpeg in its first weeks of operation.</p>
     <p>This is not surprising in the context of the 2014 analysis. FFmpeg is a large C codebase that processes untrusted media files &mdash; an attack surface class that was identified as high-risk in 2014. The specific 16-year-old bug had been present since the era before systematic automated security analysis of the codebase. It survived 16 years of code review, security audits, and CVE disclosures about other parts of the codebase. Not because it was subtle. Because nobody looked in exactly the right place.</p>
     <div class="bundle-stat"><span class="bs-num">16 yrs</span><span class="bs-label">How long the Mythos-found FFmpeg bug existed before discovery</span></div>
     <div class="bundle-stat"><span class="bs-num">100s of millions</span><span class="bs-label">Devices that process video using FFmpeg or FFmpeg-derived code</span></div>
   </div>
   <div class="bundle-card">
-    <h4>Log4j: the nuclear option in bundled Java</h4>
+    <h3>Log4j: the nuclear option in bundled Java</h3>
     <p>Log4Shell (CVE-2021-44228) is the case study in how a bundled library vulnerability becomes a civilization-scale security incident. log4j-core was bundled in thousands of Java applications &mdash; often in <code>.jar</code> files inside <code>.war</code> files inside <code>.ear</code> files, nested three layers deep in application archives. Standard vulnerability scanning tools in 2021 could not look inside nested archives. The vulnerability existed for almost a decade before discovery. When it was disclosed, the patch deployment took years because most organizations couldn&rsquo;t reliably enumerate all the places where they had log4j running.</p>
     <div class="bundle-stat"><span class="bs-num">~10 yrs</span><span class="bs-label">How long Log4Shell existed before discovery</span></div>
     <div class="bundle-stat"><span class="bs-num">$2.4B+</span><span class="bs-label">Estimated global remediation cost (conservative)</span></div>
   </div>
   <div class="bundle-card">
-    <h4>XZ Utils: the sleeper</h4>
+    <h3>XZ Utils: the sleeper</h3>
     <p>XZ Utils provides lossless data compression. It is a transitive dependency of systemd on most Linux distributions, and systemd manages the SSH daemon on those distributions. In 2024, a patient attacker spent two years becoming a trusted XZ Utils contributor before inserting a carefully crafted backdoor that targeted the RSA key decryption path in affected sshd configurations. The backdoor was not in the source code in an obvious way &mdash; it was injected via a test file that the build system executed during compilation. It bypassed source code review. It was found by a Microsoft engineer noticing that SSH logins were slightly slower than expected on an unrelated benchmark.</p>
     <div class="bundle-stat"><span class="bs-num">2 yrs</span><span class="bs-label">Attacker preparation time before payload insertion</span></div>
     <div class="bundle-stat"><span class="bs-num">0</span><span class="bs-label">Security tools that would have caught this without the CPU benchmark anomaly</span></div>

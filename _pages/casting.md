@@ -130,7 +130,7 @@ description: "John Menerick streams live threat-hunting, security deep-dives, an
       <a class="ed-btn-ghost" href="https://www.twitch.tv/w8mej" target="_blank" rel="noopener">Twitch</a>
       <a class="ed-btn-ghost" href="https://youtube.com/channel/UCUfaf6mQgh_cX6V-SaAww1w" target="_blank" rel="noopener">YouTube</a>
       <a class="ed-btn-ghost" href="https://open.spotify.com/show/4BZNfTMlJ5iCD9bUW13sNq?si=301d39755a0f4c41" target="_blank" rel="noopener">Podcast</a>
-      <a class="ed-btn" href="mailto:contact@haxx.ninja">Contact</a>
+      <a class="ed-btn" href="mailto:picklejar@haxx.ninja">Contact</a>
     </div>
 
     <blockquote class="ed-quote">

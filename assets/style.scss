@@ -9,10 +9,9 @@
 //  (it targets .highlight, which editorial doesn't touch).
 // ==========================================================
 
-@use "reset" as *;
-@use "variables" as *;
-@use "highlights" as *;
-@use "editorial" as *;
+@import "reset";
+@import "variables";
+@import "highlights";
 
 // ----------------------------------------------------------
 //  Document
@@ -125,3 +124,9 @@ html {
 
   a:hover { border-color: var(--accent); color: var(--accent); }
 }
+
+// ----------------------------------------------------------
+//  Editorial system — LAST so it wins
+// ----------------------------------------------------------
+
+@import "editorial";

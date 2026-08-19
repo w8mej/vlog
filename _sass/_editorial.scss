@@ -808,7 +808,7 @@ body .wrapper-footer.wrapper-footer .footer a:hover svg { fill: #FFFFFF !importa
   z-index: 60;
 }
 
-@media screen and (max-width: 640px) {
+@include mobile {
   :root { --shell-pad: 20px; }
   .entry { font-size: 17px; }
   .post-takeaways { padding: 24px 22px; }

@@ -16,7 +16,6 @@ tags: ["DEF CON 22", "Exim", "OpenSSL", "Bind", "vulnerability density", "Heartb
 excerpt: "The Open Source Fairy Dust talk wasn't a rhetorical exercise. It was a data exercise across 2,000+ projects. Almost nothing critical lived in the safe quadrant — and the outliers told a story about institutional failure, not individual negligence."
 ---
 
-{% include glasswing_styles.html %}
 
 <div class="glasswing-wrapper gw-dark">
 

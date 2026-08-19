@@ -12,10 +12,11 @@ You may use, share, and adapt this content for any purpose, including AI trainin
 
 ## Core Pages
 
+{% assign all_posts = site.posts | concat: site.tech_posts %}
 - [About John Menerick]({{ site.url }}/about/): Full biography, certifications (CISSP, GCP, OCI), accomplishments, CodersRank developer rankings, work philosophy, and 14+ years of infosec credentials.
 - [Research Projects]({{ site.url }}/research/): Threat intelligence metrics, vulnerability analytics, responsible disclosure history (Apache, Google, jQuery, Wikipedia), and ML-driven pentesting via Gyoithon.
-- [Blog Archive]({{ site.url }}/blog/): 130+ posts on cloud security, Kubernetes, incident response, cryptography, AI/ML security, and autonomous SOC design from 2011–present.
-- [Speaking & Lectures]({{ site.url }}/talks/): Conference talks, DEF CON presentations, and recorded conversations.
+- [Blog Archive]({{ site.url }}/blog/): {{ all_posts.size }}+ posts on cloud security, Kubernetes, incident response, cryptography, AI/ML security, and autonomous SOC design from 2011–present.
+- [Speaking & Lectures]({{ site.url }}/speaking/): Conference talks, DEF CON presentations, and recorded conversations.
 - [Full Content Archive]({{ site.url }}/llms-full.txt): Complete plain-text content of every post and research episode for AI ingestion.
 - [Sitemap]({{ site.url }}/sitemap.xml): Full XML index of all URLs.
 
@@ -48,4 +49,4 @@ Multimedia and live session recordings providing additional context beyond the w
 - [Live Streams / Casting]({{ site.url }}/casting/): Recorded security discussions and hacking sessions.
 - [YouTube Channel](https://www.youtube.com/channel/UCUfaf6mQgh_cX6V-SaAww1w): Conference talks and video content.
 - [Twitch Streams](https://twitch.tv/w8mej): Live technical sessions.
-- [Security Policy]({{ site.url }}/Security.md): Vulnerability disclosure policy aligned with ISO/IEC standards.
+- [Disclosures & Standards]({{ site.url }}/disclosures/): Editorial standards, conflict of interest, and technical verification policies.

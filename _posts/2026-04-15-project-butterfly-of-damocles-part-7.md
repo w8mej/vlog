@@ -16,7 +16,6 @@ tags: ["Project Glasswing", "Claude Mythos", "OSS-Fuzz", "AFL fuzzer", "capabili
 excerpt: "The honest accounting of Project Glasswing: what it genuinely changes, what it genuinely cannot change, and the six tensions at the center of the initiative that do not resolve — regardless of how good the intentions are."
 ---
 
-{% include glasswing_styles.html %}
 
 <div class="glasswing-wrapper gw-dark">
 

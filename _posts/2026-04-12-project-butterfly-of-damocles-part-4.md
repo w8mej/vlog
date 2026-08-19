@@ -16,7 +16,6 @@ tags: ["ML security", "TensorFlow", "PyTorch", "ONNX", "HuggingFace", "LiteLLM",
 excerpt: "In 2014 the scariest projects were Exim, Bind, and OpenSSL. In 2026 the load-bearing walls include PyTorch, TensorFlow, and LiteLLM — and they were designed by researchers who were not thinking about nation-state supply chain attacks."
 ---
 
-{% include glasswing_styles.html %}
 
 <div class="glasswing-wrapper gw-dark">
 

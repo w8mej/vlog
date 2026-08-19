@@ -16,7 +16,6 @@ tags: ["Project Glasswing", "Claude Mythos", "series finale", "OSS social contra
 excerpt: "The fairy dust didn't disappear. It moved one abstraction layer higher with each generation. In 2014 it was 'everyone's looking at the code.' In 2026 it is 'our AI security deployment is safe and our governance frameworks are adequate.' The pattern is consistent. Only the substrate changes."
 ---
 
-{% include glasswing_styles.html %}
 
 <div class="glasswing-wrapper gw-dark">
 

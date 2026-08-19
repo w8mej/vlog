@@ -16,7 +16,6 @@ tags: ["Project Glasswing", "Claude Mythos", "Trivy", "LiteLLM", "Axios", "TeamP
 excerpt: "In 2014 I stood at DEF CON and showed the internet's foundational software was held together by wishful thinking. In 2026, two nation-states proved the security tooling itself is now the attack surface."
 ---
 
-{% include glasswing_styles.html %}
 
 <div class="glasswing-wrapper">
 

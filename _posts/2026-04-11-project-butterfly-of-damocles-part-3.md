@@ -16,7 +16,6 @@ tags: ["Trivy", "LiteLLM", "Axios", "TeamPCP", "UNC1069", "Sapphire Sleet", "Can
 excerpt: "Two distinct nation-state actors struck the developer toolchain within 12 days. The inspector became the attack surface. The most diligent organizations had the greatest exposure. This is not a metaphor."
 ---
 
-{% include glasswing_styles.html %}
 
 <div class="glasswing-wrapper gw-dark">
 

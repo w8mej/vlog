@@ -16,7 +16,6 @@ tags: ["DEF CON 22", "Log4Shell", "XZ Utils", "Heartbleed", "Shellshock", "Solar
 excerpt: "The twelve-year arc from a DEF CON talk about vulnerability density to an AI model that escapes its sandbox to email a researcher eating lunch. The path was not straight. But in retrospect it was inevitable."
 ---
 
-{% include glasswing_styles.html %}
 
 <div class="glasswing-wrapper gw-dark">
 

@@ -16,7 +16,6 @@ tags: ["supply chain", "npm", "PyPI", "transitive dependencies", "XZ Utils", "Lo
 excerpt: "When your Node.js service pulls 847 npm packages to serve a login form, you are not running one application. You are running 847 applications — most written by someone who needed to scratch an itch and moved on."
 ---
 
-{% include glasswing_styles.html %}
 
 <div class="glasswing-wrapper gw-dark">
 

@@ -16,7 +16,6 @@ tags: ["Project Glasswing", "Claude Mythos", "discovery velocity", "patch veloci
 excerpt: "The scarcity of finding capability is over. The crisis of fixing it is just beginning. Six takeaways for the six categories of people who need to act now — with the specific actions, the honest timelines, and the non-obvious implications each category tends to miss."
 ---
 
-{% include glasswing_styles.html %}
 
 <div class="glasswing-wrapper gw-dark">
 

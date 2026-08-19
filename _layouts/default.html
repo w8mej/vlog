@@ -17,6 +17,9 @@
     />
 
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css" />
+    {% if page.glasswing or page.series == 'project-butterfly-of-damocles' %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/glasswing.css" />
+    {% endif %}
 
     <link
       rel="alternate"

@@ -3,97 +3,45 @@
 # This file contains configuration flags to customize your site
 #
 
- # Name of your site (displayed in the header)
+# Name of your site (displayed in the header)
 name: John Menerick | Security Engineer
-#title: Menerick's Security Ledger
 # Name of the author
 author: John W8MEJ Menerick
 
 # Short bio or description (displayed in the header)
 description: Explore cutting-edge cybersecurity insights and protective strategies with John Menerick. Deep dives, threat analysis, and live streams from securesql.info.
 
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
+# URL of your avatar or profile pic (used by post author card)
 avatar: /images/reverie.png.avif
 
-# timezone
+# Timezone
 timezone: America/Los_Angeles
-
-## optionals?
-profile: true
 
 future: true
 
-#
-# Flags below are optional
-#
-
-# Includes an icon in the footer for each username you enter
-footer-links:
-  dribbble:
-  email: contact@haxx.ninja
-  facebook: john.menerick/
-  flickr:
-  github: w8mej
-  instagram: w8mej
-  linkedin: w8mej
-  pinterest:
-  rss: rss
-  twitter: w8mej
-  stackoverflow: 
-  youtube: channel/UCUfaf6mQgh_cX6V-SaAww1w
-  googleplus: # anything in your profile username that comes after plus.google.com/
-  playconsole:
-  mastodon: # <your-mastodon-instance>/@<your-user-name> eg. fosstodon.org/@username
-
-
-# For newer "GA4" analytics, use the following instead of the "UA" entry above
-google_analytics_ga4: G-QSRPMJBJVC
-
-# Your website URL (e.g. http://amitmerchant1990.github.io or http://www.amitmerchant.com)
-# Used for Sitemap.xml and your RSS feed
+# Your website URL
 url: https://www.securesql.info
-enforce_ssl: https://www.securesql.info
-
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
-#
-# !! You don't need to change any of the configuration flags below !!
-#
-
-#permalink: /:title/
 permalink: /:year/:month/:day/:title/
-
 
 collections:
   tech_posts:
     output: true
     permalink: /tech_posts/:year/:month/:day/:title/
 
-# The release of Jekyll Now that you're using
-version: v1.2.0
-
-# Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
   input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
   syntax_highlighter: rouge
   syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
     css_class: 'highlight'
 
-# Set the Sass partials directory, as we're using @imports
 sass:
-  style: "expanded" # You might prefer to minify using :compressed
+  style: "expanded"
 
-# Use the following plug-ins
 plugins:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-sitemap
+  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-redirect-from
 
@@ -110,10 +58,6 @@ exclude:
   - CNAME
 
 defaults:
-  - scope:
-      path: "page"
-    values:
-      sitemap: false
   - scope:
       path: ""
       type: "pages"

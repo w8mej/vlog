@@ -1,18 +1,18 @@
 
 .highlight {
-  background-color: #1e1c3f;
+  background-color: #fdf6e3;
   padding: 7px 7px 7px 10px;
   overflow: auto;
   font-size: 90%;
 }
 
 code {
-  font-family:'Bitstream Vera Sans Mono','Courier', monospace;
+  font-family: var(--mono, 'Bitstream Vera Sans Mono', 'Courier', monospace);
   color: inherit; // Inherit from parent (e.g., blockquote or body)
 }
 
 .highlight code {
-  color: #d8d8d8; // Preserve light color for dark code blocks
+  color: #586e75;
 }
 
 .highlighter-rouge { 

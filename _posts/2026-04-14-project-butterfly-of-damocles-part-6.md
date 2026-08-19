@@ -16,7 +16,6 @@ tags: ["Project Glasswing", "Claude Mythos", "Glasswing Doctrine", "AI governanc
 excerpt: "Glasswing is the first time a frontier AI lab publicly declared that a capability in its own model is too dangerous to release. That is not a product launch. It is a policy precedent. And policy precedents are defined not by the first organization that sets them, but by whether subsequent organizations follow them."
 ---
 
-{% include glasswing_styles.html %}
 
 <div class="glasswing-wrapper gw-dark">
 

@@ -48,14 +48,13 @@ plugins:
 feed:
   posts_limit: 200
 
-include: ['_pages']
+include: ['_pages', 'CNAME']
 
 exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
   - README.md
-  - CNAME
   - vendor/
   - .bundle/
   - scratchpad/

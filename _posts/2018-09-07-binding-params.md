@@ -1,0 +1,148 @@
+---
+layout: post
+title: Binding Parameters
+image: /images/2018/binding-params.jpg   # full-bleed hero, 16:7
+image_alt: "SQL parameter binding memory structure demonstrating complete elimination of SQL injection vulnerabilities"
+takeaways:
+  - "Parameterized queries separate code from data, completely neutralizing SQL injection."
+  - "String concatenation in database queries is architectural malpractice."
+  - "Parameterized interfaces make SQL injection physically impossible by compiler design."
+date: 2018-09-07
+categories: ["Injection", "SQL Injection", "Input Validation", "Parameterized Statements", "ORM", "Secure Coding", "Code Review"]
+excerpt: Notice that the single quote in the name O’Brien is causing a syntax error. The SQL command processor considers the string ends
+---
+In the previous article we reviewed **Input Validation**. While **Input
+Validation** is an effective deterrent to a large number of attacks, including
+**Injection** , not all input can be filtered.
+
+For example imagine someone’s name is **O’Brien**. The single quote in**
+O’Brien**happens to also be part of SQL command syntax. For example a website
+may perform a database record search like this:
+
+<img loading="lazy" src="/images/simple.png.avif" alt="SQL query vulnerable to injection due to unescaped single quote" width="1880" height="320">
+
+Notice that the single quote in the name O’Brien is causing a syntax error.
+The SQL command processor considers the string ends with **O**  and the rest,
+**BRIEN%,**  is just an unrecognized command.
+
+In order to work around this problem one must escape the single quote with a
+another single quote like in the image below.
+
+<img loading="lazy" src="/images/simple2.png.avif" alt="SQL query with manually escaped single quote" width="1876" height="282">
+
+However when this query is executed by a program, things look different. The
+name would be read from a variable and the database query would be constructed
+dynamically.
+
+Let’s take a look at the following code snippet.
+
+<img loading="lazy" src="/images/simple3.png.avif" alt="Vulnerable code snippet concatenating user input into an SQL query" width="2000" height="403">
+
+The variable **lastName  **contains input coming from the user. It is
+concatenated to a constant SQL query string and the resulting command is
+passed to the database server.
+
+There is no input validation and no input escaping whatsoever. This means that
+a user entering **O’Brien**  would cause an SQL syntax error, which is a bug.
+However a malicious user would take advantage of this behaviour. What would
+happen if the user entered something like the string below?
+
+<img loading="lazy" src="/images/simple4.png.avif" alt="Malicious input string designed for SQL injection" width="600" height="73">
+
+The SQL query being passed to the database would end up being two different
+commands. One selects all users in the database, while the other deletes the
+users table.
+
+<img loading="lazy" src="/images/simple5.png.avif" alt="Resulting injected SQL query showing multiple commands" width="800" height="38">
+
+If these concepts are new to you, now you can finally enjoy this old hacker
+joke about little Bobby Tables.
+
+<img loading="lazy" src="/images/simple6.png.avif" alt="Little Bobby Tables XKCD comic about SQL injection" width="666" height="205">
+
+Preventing Injection
+
+As the old comic suggests, sanitizing the user input could have prevented the
+issue. “Sanitizing” could have been done with Input Validation or escaping of
+the single quote. However not all input can be validated and not all SQL
+Injection is done with single quotes.
+
+In the example below Injection takes advantage of an un-sanitized **ORDER BY**
+parameter:
+
+<img loading="lazy" src="/images/simple7.png.avif" alt="SQL injection vulnerability in ORDER BY clause" width="1642" height="110">
+
+In this case **Input Validation**  could be employed because column names
+should be alphanumeric however this leads to a more complex defence strategy
+where the application must employ **Input Validation**  for values going into
+the **ORDER BY  **section and **Escaping**  for values going into the
+**WHERE** clause.
+
+There is however a simpler way. **Do not use concatenation at all**. This
+approach also holds true for other Injection scenarios like Command Injection.
+
+<img loading="lazy" src="/images/simple8.png.avif" alt="Diagram showing various injection scenarios" width="2000" height="1057">
+
+This is a scenario where we can employ [Occam’s
+Razor](https://simple.wikipedia.org/wiki/Occam%27s_razor) to identify the
+simplest most universal defence to Injection attacks. The solution here is
+using **Parameterized Statements.**
+
+**Parameterized Statements**  interact with the command processor to separate
+the variables from the SQL query, thus effectively neutralizing characters
+that may influence the query.
+
+<img loading="lazy" src="/images/simple9.png.avif" alt="Separation of variables from SQL query using parameterized statements" width="1556" height="532">
+
+In Java this can be achieved by using a **Prepared Statement  **as per the
+example below**.  **The question mark in the query string at line 3 is a
+placeholder for the parameter value.
+
+<img loading="lazy" src="/images/simple10.png.avif" alt="Java Prepared Statement example using placeholders" width="2000" height="521">
+
+When dealing with OS Commands, is best to avoid them completely and write the
+equivalent functionality in your programming language of choice. For example
+if you must read a file in Java use APIs such as **File**  and
+**BufferedReader  **rather than the Linux **cat**  command. However in certain
+cases there’s no choice and the code must **“Shell Out”**. For those
+situations the equivalent of a **Prepared Statement  **is passing command line
+arguments as a separate array, thus avoiding concatenation.
+
+<img loading="lazy" src="/images/simple11.png.avif" alt="Secure command execution using array-based arguments in Java" width="2000" height="185">
+
+## Object-Relational Mapping (ORM)
+
+There’s an even better way to abstract SQL statements from application code.
+ORM frameworks allow developers to work with objects rather than SQL queries.
+Instead of working with the **users**  table developers would work with a
+users collection and execute a method on that collection to return the
+corresponding record.
+
+<img loading="lazy" src="/images/simple12.png.avif" alt="ORM framework abstraction of SQL queries into objects" width="1820" height="348">
+
+Under the covers the framework would perform a transformation similar to the
+diagram below.
+
+<img loading="lazy" src="/images/simple13.png.avif" alt="Diagram of ORM transforming object methods into parameterized SQL" width="2000" height="443">
+
+## Caution
+
+There are cases where **Injection**  will still occur in spite of
+**Parameterized Statements**  being used. For example when the injection
+occurs in a database stored procedure or the OS shell script being executed
+
+In order to reduce the likelihood of such scenarios occurring, **Input
+Validation**  should still be used as much as possible.
+
+## To sum it all up
+
+When reviewing a code change that involves a command processor look for the
+following:
+
+  * **Input Validation**  for known alphanumeric values
+
+  * Employing **Parameterized Statements**
+
+  * Using a **ORM framework**  where applicable
+
+

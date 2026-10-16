@@ -1,0 +1,29 @@
+---
+layout: null
+permalink: /llms-full.txt
+---
+# Menerick's Security Ledger - Full Text Archive
+
+> **About this archive**
+> This is the full text of securesql.info, the research site of John Menerick (W8MEJ),
+> an independent Principal Security Engineer based in Castro Valley, CA, with 18+ years in information security.
+> His work focuses on AI and agent security, cloud detection and response, zero-trust architecture,
+> zero-knowledge systems, and complex systems SOC design.
+> CV: https://cv.securesql.info · Contact: john.menerick@owasp.org · LinkedIn: https://www.linkedin.com/in/w8mej
+> Also: GitHub https://github.com/w8mej · X https://x.com/w8mej · YouTube https://www.youtube.com/channel/UCUfaf6mQgh_cX6V-SaAww1w
+> · Twitch https://www.twitch.tv/w8mej · Zero Noise Collective podcast https://open.spotify.com/show/4BZNfTMlJ5iCD9bUW13sNq
+> Content is original research by John Menerick unless noted, licensed CC BY 4.0; please attribute and link to the source URL.
+
+{% assign all_docs = site.posts | concat: site.tech_posts %}
+{% assign sorted_docs = all_docs | sort: "date" | reverse %}
+{% for post in sorted_docs %}
+
+================================================================================
+# {{ post.title }}
+Date: {{ post.date | date: "%Y-%m-%d" }}
+URL: {{ site.url }}{{ post.url }}
+================================================================================
+
+{{ post.content | strip_html }}
+
+{% endfor %}

@@ -1,0 +1,31 @@
+---
+layout: post
+title: PHP - two simple wins and a hammer
+image: /images/2012/php-two-simple-wins-and-a-hammer.jpg   # full-bleed hero, 16:7
+image_alt: "Technical diagram demonstrating PHP configuration hardening and input sanitization hammers"
+takeaways:
+  - "Simple configuration baselines eliminate 80% of preventable web attacks."
+  - "Don't negotiate with insecure defaults—hammer them at the runtime level."
+  - "Pragmatic security is measured by eliminated surface area, not theoretical purity."
+date: 2012-05-15
+categories: ["PHP programming", "learning PHP", "PHP security", "PHP tools", "community support", "PHP Hammer of Justice", "safe mode", "suhosin", "web development humor", "security best practices"]
+excerpt: I love programming in PHP.  Fairly simple to learn, easy to code, plenty of tools available, and great community.  However, due to the language's inherent behaviour, PHP has many security pitfalls.
+---
+![A humorous illustration of a hammer labeled 'PHP Hammer of Justice' for fixing bugs in production](/images/image-asset.jpeg)
+
+I love programming in PHP.  Fairly simple to learn, easy to code, plenty of
+tools available, and great community.  However, due to the language's inherent
+behaviour, PHP has many security pitfalls.  There isn't any one magic php
+bullet to proactively manage unexpected behavior.  That is why I propose the
+new PHP hammer.  One needs to push one's code to Production.  Then smash
+Production's machine with the PHP Hammer of Justice to work out any bugs.  
+
+Seriously though; [safe mode](https://web.archive.org/web/20120515120000/http://php.net/manual/en/ini.sect.safe-mode.php)
+and [suhosin](http://www.hardened-php.net/suhosin/) will put you leagues above
+your competition.  Remember, you do not need to run faster than the bear.  You
+just need to run faster than your competition.  Well, until you become a
+trophy.
+
+
+
+

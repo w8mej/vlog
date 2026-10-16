@@ -1,0 +1,25 @@
+name: "IndexNow Ping"
+
+on:
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - '_posts/**'
+      - '_tech_posts/**'
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping IndexNow with Sitemap
+        run: |
+          echo "Submitting sitemap to IndexNow..."
+          HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" "https://api.indexnow.org/indexnow?url=https://www.securesql.info/sitemap.xml&key=1ce387df44a949eda3930b8089bff234")
+          if [ "$HTTP_STATUS" -eq 200 ] || [ "$HTTP_STATUS" -eq 202 ]; then
+            echo "Successfully submitted to IndexNow (Status: $HTTP_STATUS)"
+          else
+            echo "Failed to submit to IndexNow. HTTP Status: $HTTP_STATUS"
+            exit 1
+          fi

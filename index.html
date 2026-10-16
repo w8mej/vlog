@@ -1,0 +1,131 @@
+---
+layout: default
+description: "John Menerick is an independent Principal Security Engineer in cloud security, detection & response, zero-knowledge architectures, and AI and agent security. Explore actionable strategies and 18+ years of insights."
+redirect_from:
+  - /categories/cybersecurity/
+  - /tags/
+  - /s/42PBSizeCompact.zip
+  - /hacks/2014/8/22/hacktheplanetninjas-data-sets
+  - /s/selfgzMassExplosionUnpacked.gz
+  - /categories/ai governance/
+---
+
+{% assign lede = site.posts | first %}
+{% assign current_posts = site.posts | where: "series", "beyond-verifiable-reward" | sort: "episode" %}
+
+<div class="ed-index">
+
+  <section class="ed-hero">
+    <div class="ed-hero-text">
+      <div class="ed-kicker">AI security engineering &middot; Non-human identity &middot; Open source</div>
+      <h1 class="ed-hero-title">John Menerick</h1>
+      <p class="ed-hero-standfirst">Signal over noise. Systems that think about risk before someone breaks them.</p>
+      <p class="ed-hero-body">In most networks I work in, humans are outnumbered 700 to 1. Security engineering, incident response, and systems engineering for the other 699 &mdash; equal parts builder and breaker, for Fortune 500s, startups, and public-sector systems.</p>
+      <div class="ed-hero-cta">
+        <a class="ed-btn" href="{{ site.baseurl }}/about">About John</a>
+        <a class="ed-btn-ghost" href="https://calendly.com/w8mej/30min" target="_blank" rel="noopener">Book a coffee chat &rarr;</a>
+      </div>
+    </div>
+    <div class="ed-hero-portrait">
+      <img src="{{ site.baseurl }}/images/JohnMenerick.webp" alt="John Menerick" width="320" height="400" fetchpriority="high" />
+    </div>
+  </section>
+
+  <div class="ed-statbar ed-statbar-wide">
+    <div class="ed-stat"><div class="ed-stat-num">{{ site.posts | size }}</div><div class="ed-stat-label">Posts published</div></div>
+    <div class="ed-stat"><div class="ed-stat-num">259</div><div class="ed-stat-label">GitHub stars</div></div>
+    <div class="ed-stat"><div class="ed-stat-num">18+</div><div class="ed-stat-label">Years in infosec</div></div>
+    <div class="ed-stat"><div class="ed-stat-num">83</div><div class="ed-stat-label">CVEs tracked daily (VulnMetrics)</div></div>
+    <div class="ed-stat"><div class="ed-stat-num">78+</div><div class="ed-stat-label">Engineers mentored</div></div>
+  </div>
+
+  {% if lede %}
+  <section class="ed-block">
+    <div class="ed-block-head">
+      <h2 class="ed-block-title">Latest insight</h2>
+      <a class="ed-textlink" href="{{ site.baseurl }}/blog">All insights &rarr;</a>
+    </div>
+
+    <div class="ed-split">
+      <div class="ed-split-main">
+        <a class="ed-lede-thumb" href="{{ lede.url }}" tabindex="-1" aria-hidden="true">
+          {% if lede.image %}<img src="{{ lede.image }}" alt="" width="820" height="461" loading="lazy" decoding="async" />{% endif %}
+        </a>
+        <div class="ed-kicker">
+          {% if lede.series_name %}{{ lede.series_name }}{% if lede.episode %} &middot; Episode {{ lede.episode }}{% endif %}
+          {% else %}{{ lede.categories.first | default: "Latest" }}{% endif %}
+        </div>
+        <h3 class="ed-lede-title"><a href="{{ lede.url }}">{{ lede.title }}</a></h3>
+        {% if lede.excerpt %}
+        <p class="ed-lede-excerpt">{{ lede.excerpt | strip_html | strip_newlines | truncate: 200 }}</p>
+        {% endif %}
+        <div class="ed-meta">{{ lede.date | date: "%B %-d, %Y" }}</div>
+      </div>
+
+      <aside class="ed-split-side">
+        <div class="ed-side-label">More recent</div>
+        {% assign shown = 0 %}
+        {% for post in site.posts %}
+          {% if post.url != lede.url and shown < 5 %}
+          <a class="ed-side-row" href="{{ post.url }}">
+            <span class="ed-kicker">
+              {% if post.series_name %}{{ post.series_name }}{% else %}{{ post.categories.first | default: "Article" }}{% endif %}
+            </span>
+            <span class="ed-side-title">{{ post.title }}</span>
+            <span class="ed-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
+          </a>
+          {% assign shown = shown | plus: 1 %}
+          {% endif %}
+        {% endfor %}
+      </aside>
+    </div>
+  </section>
+  {% endif %}
+
+  <section class="ed-block">
+    <div class="ed-block-head">
+      <h2 class="ed-block-title">How I work</h2>
+    </div>
+    <div class="ed-principles">
+      <div class="ed-principle">
+        <div class="ed-principle-num">01</div>
+        <h3 class="ed-principle-title">Engineer first</h3>
+        <p>Builds systems that detect and prevent threats, not just react to them.</p>
+      </div>
+      <div class="ed-principle">
+        <div class="ed-principle-num">02</div>
+        <h3 class="ed-principle-title">No buzzwords</h3>
+        <p>Communicates clearly &mdash; with engineers, executives, and everyone in between.</p>
+      </div>
+      <div class="ed-principle">
+        <div class="ed-principle-num">03</div>
+        <h3 class="ed-principle-title">Open source</h3>
+        <p>Writes tools, mentors defenders, and shares the work with the community.</p>
+      </div>
+      <div class="ed-principle">
+        <div class="ed-principle-num">04</div>
+        <h3 class="ed-principle-title">Proven under pressure</h3>
+        <p>High-tempo incident response and secure-by-default zero trust architecture.</p>
+      </div>
+    </div>
+  </section>
+
+  {% if current_posts.size > 0 %}
+  <section class="ed-block">
+    <div class="ed-block-head">
+      <h2 class="ed-block-title">Current series &mdash; Beyond Verifiable Reward</h2>
+      <a class="ed-textlink" href="{{ site.baseurl }}/blog">All series &rarr;</a>
+    </div>
+    <div class="ed-series-strip">
+      {% for ep in current_posts limit:4 %}
+      <a class="ed-strip-card" href="{{ ep.url }}">
+        <span class="ed-ep-num">Episode {{ ep.episode }}</span>
+        <span class="ed-strip-title">{{ ep.title }}</span>
+        <span class="ed-meta">{{ ep.date | date: "%B %Y" }}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+</div>

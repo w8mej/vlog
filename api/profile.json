@@ -1,0 +1,468 @@
+{
+  "name": "John Menerick",
+  "slug": "john-menerick",
+  "location": {
+    "city": "Castro Valley",
+    "region": "California",
+    "country": "United States"
+  },
+  "headline": "Principal Security Engineer (Independent Consultant) | Cloud Security, Detection & Response, and Zero-Knowledge Architectures",
+  "tagline": "Security engineering for AI systems, cloud infrastructure, and the people who run them",
+  "avatar": {
+    "source": "google",
+    "url": "https://lh3.googleusercontent.com/a/XYZPhotoURL"
+  },
+  "contact": {
+    "primary_email": "john.menerick@owasp.org",
+    "emails": [
+      "john.menerick@owasp.org",
+      "picklejar@haxx.ninja",
+      "sephiroth@haxx.ninja"
+    ],
+    "website": "https://www.securesql.info",
+    "cv": "https://cv.securesql.info",
+    "keyoxide": "https://keyoxide.org/hkp/sephiroth@haxx.ninja",
+    "pgp": {
+      "fingerprint_primary": "31E4 A5AB A427 601E AF2A BCE0 4643 6F93 8667 D7F6",
+      "fingerprint_subkey": "4307 4142 919F 68F5 5EFE 2B87 5304 CD1A 6469 48ED",
+      "openpgpkey_url": "https://openpgpkey.haxx.ninja"
+    },
+    "social": [
+      {
+        "platform": "LinkedIn",
+        "handle": "w8mej",
+        "url": "https://www.linkedin.com/in/w8mej"
+      },
+      {
+        "platform": "Mastodon",
+        "handle": "@w8mej",
+        "url": "https://mastodon.social/@w8mej"
+      },
+      {
+        "platform": "GitHub",
+        "handle": "w8mej",
+        "url": "https://github.com/w8mej"
+      },
+      {
+        "platform": "GitLab",
+        "handle": "w8mej",
+        "url": "https://gitlab.com/w8mej"
+      },
+      {
+        "platform": "Docker Hub",
+        "handle": "w8mej",
+        "url": "https://hub.docker.com/u/w8mej"
+      },
+      {
+        "platform": "Docker Hub",
+        "handle": "projectnexus",
+        "url": "https://hub.docker.com/u/projectnexus"
+      },
+      {
+        "platform": "X",
+        "handle": "w8mej",
+        "url": "https://x.com/w8mej"
+      },
+      {
+        "platform": "YouTube",
+        "handle": "@W8MEJ",
+        "url": "https://www.youtube.com/channel/UCUfaf6mQgh_cX6V-SaAww1w"
+      },
+      {
+        "platform": "Twitch",
+        "handle": "w8mej",
+        "url": "https://www.twitch.tv/w8mej"
+      },
+      {
+        "platform": "Spotify (Zero Noise Collective podcast)",
+        "handle": "Zero Noise Collective",
+        "url": "https://open.spotify.com/show/4BZNfTMlJ5iCD9bUW13sNq"
+      },
+      {
+        "platform": "dev.to",
+        "handle": "w8mej",
+        "url": "https://dev.to/w8mej"
+      }
+    ],
+    "radio": {
+      "amateur_callsign": "W8MEJ",
+      "gmrs_callsign": "WRJH688"
+    }
+  },
+  "roles": [
+    {
+      "type": "primary",
+      "title": "Principal Security Engineer (Independent Consultant)",
+      "focus": [
+        "AI/ML security",
+        "cloud-scale detection & response",
+        "zero-trust architectures",
+        "emergency operations & incident response"
+      ],
+      "summary": "Engineering secure, resilient, AI-powered distributed systems across multi-cloud environments, with deep focus on detection & response, zero-trust, and confidential computing."
+    },
+    {
+      "type": "volunteer",
+      "title": "Volunteer Incident Management & Emergency Communications",
+      "organization": "Alameda County Sheriff's Office - Office of Emergency Services",
+      "summary": "Provides critical emergency communications, coordinates with multiple agencies, and contributes to community preparedness through extensive volunteer service and technical expertise."
+    },
+    {
+      "type": "personal",
+      "title": "Husband, father, uncle",
+      "summary": "Family first. Brings the same discipline to emergency response and community service as to security work."
+    }
+  ],
+  "bios": {
+    "short": "John Menerick is an independent Principal Security Engineer with 18+ years in information security, focused on AI and agent security, cloud-scale detection and response, zero-trust architecture, and confidential computing.",
+    "long": "John Menerick is an independent Principal Security Engineer based in Castro Valley, California, with 18+ years in information security across financial services, technology companies, startups, and the public sector. His work covers AI and agent security, cloud-scale detection and response, zero-trust architecture, and confidential computing across AWS, Google Cloud, Azure, and Oracle Cloud Infrastructure. His personal research covers tamper-evident, ephemeral zero-trust workloads on OCI NVIDIA A100 80 GB GPU clusters.\n\nHe has been the first security hire at several companies, building application and product security programs, secrets and machine-identity platforms, and automated incident response. As a researcher he finds vulnerabilities in widely used software and coordinates their disclosure, holds a Black Badge, and has spoken at DEF CON, Chaos Communication Camp, and ISC2. Outside work he volunteers with the Alameda County Sheriff's Office of Emergency Services Communications Team and holds an FCC Amateur Extra license (W8MEJ)."
+  },
+  "work_style": {
+    "user_manual": [
+      "Passionate about the dynamics of information and its influence on public discourse.",
+      "Anticipates and proactively addresses customer and organizational needs.",
+      "Creates secure, exceptional, and user-focused experiences.",
+      "Drives strategic initiatives, community engagement, and scalable growth.",
+      "Continuously innovates to strengthen the organization’s security posture.",
+      "Takes ownership and resolves issues swiftly and effectively.",
+      "Promotes collaboration, mutual support, and teamwork.",
+      "Actively pursues continuous professional growth and learning.",
+      "Maintains high standards for privacy, security, ethics, diversity, and inclusivity.",
+      "Advocates simplicity, efficiency, and minimal necessary processes."
+    ],
+    "principles": [
+      "Communicate clearly and concisely; avoid unnecessary jargon.",
+      "Emphasize simplicity before optimization.",
+      "Challenge assumptions and validate questions.",
+      "Automate repetitive tasks and build resilient systems.",
+      "Prioritize high-impact work and measurable outcomes."
+    ]
+  },
+  "focus_areas": [
+    "AI/ML security & verifiable training",
+    "Cloud incident response & threat detection",
+    "Zero-trust & confidential computing workloads",
+    "Bug bounties, CTFs, and exploit research",
+    "Emergency communications & incident management",
+    "Threat intelligence, botnet analysis, and internet infrastructure vulnerabilities"
+  ],
+  "skills": {
+    "security_domains": [
+      "Application Security",
+      "Cloud Security",
+      "Threat & Vulnerability Management",
+      "Incident Response & DFIR",
+      "Security Architecture & Zero-Trust",
+      "PKI & Cryptographic Systems",
+      "Security Operations & SIEM/SOAR",
+      "Deception & Threat Intelligence"
+    ],
+    "cloud_platforms": [
+      "AWS",
+      "Google Cloud Platform",
+      "Microsoft Azure",
+      "Oracle Cloud Infrastructure",
+      "Alibaba Cloud"
+    ],
+    "confidential_computing": [
+      "AWS Nitro Enclaves",
+      "Intel SGX",
+      "gVisor and hardened container runtimes",
+      "Zero-trust workloads and cryptographic attestation",
+      "TEEs for AI/ML and sensitive workloads"
+    ],
+    "languages_and_tech": {
+      "programming_languages": [
+        "Python",
+        "Go",
+        "Java",
+        "JavaScript",
+        "TypeScript",
+        "Shell/Bash",
+        "SQL",
+        "T-SQL",
+        "PL/pgSQL",
+        "HCL"
+      ],
+      "frontend": [
+        "React",
+        "TypeScript",
+        "CSS/SCSS",
+        "Webpack",
+        "Bootstrap"
+      ],
+      "backend": [
+        "Node.js",
+        "Django",
+        "Flask",
+        "Ruby on Rails",
+        "Express.js"
+      ],
+      "data_and_storage": [
+        "PostgreSQL",
+        "MySQL",
+        "Oracle",
+        "MongoDB",
+        "Redis",
+        "Elasticsearch"
+      ],
+      "devops": [
+        "Terraform",
+        "Kubernetes",
+        "Docker",
+        "Helm",
+        "CI/CD (Jenkins, GitLab CI, GitHub Actions)"
+      ],
+      "version_control": [
+        "Git",
+        "GitHub",
+        "GitLab",
+        "Bitbucket"
+      ]
+    },
+    "soft_skills": [
+      "Leadership & mentoring",
+      "Crisis & incident management",
+      "Executive communication",
+      "Cross-functional collaboration",
+      "Strategic roadmap design",
+      "Teaching & public speaking"
+    ]
+  },
+  "projects_highlighted": [
+    {
+      "slug": "keywhiz-failing-to-handle-secrets",
+      "title": "Keywhiz failing to handle secrets",
+      "year": 2015,
+      "summary": "Deep vulnerability research into Block's Keywhiz system, uncovering critical flaws and driving responsible remediation before real-world exploitation.",
+      "tags": [
+        "Cybersecurity",
+        "VulnerabilityAssessment",
+        "Keywhiz",
+        "EthicalHacking"
+      ]
+    },
+    {
+      "slug": "open-source-fairy-dust",
+      "title": "Open Source Fairy Dust – Internet infrastructure's vulnerabilities",
+      "year": 2014,
+      "summary": "Talk and research on systemic weaknesses in core internet infrastructure, emphasizing real-world economic and security impacts of deeply embedded vulnerabilities.",
+      "tags": [
+        "DEFCON",
+        "InternetInfrastructure",
+        "RiskManagement"
+      ]
+    },
+    {
+      "slug": "isc2-bug-bounty",
+      "title": "ISC2 Bug Bounty & External Scrutiny",
+      "summary": "Advocacy and lecture work highlighting the importance of external testing, bug bounties, and responsible disclosure to harden institutional security.",
+      "tags": [
+        "BugBounty",
+        "SoftwareSecurity",
+        "ResponsibleDisclosure"
+      ]
+    },
+    {
+      "slug": "kubernetes-rearing",
+      "title": "Kubernetes Rearing",
+      "summary": "Early contributor to Kubernetes’ security and architecture, focusing on code review, architecture review, and vulnerability assessment for multi-cloud, cloud-native infrastructure.",
+      "tags": [
+        "Kubernetes",
+        "CloudNative",
+        "Security",
+        "OpenSource"
+      ]
+    },
+    {
+      "slug": "darpa-cgc-aixcc",
+      "title": "DARPA Cyber Grand Challenge & AI Cyber Challenge",
+      "year": "2015–2023",
+      "summary": "Engagement with DARPA’s Cyber Grand Challenge and AIxCC ecosystem, exploring autonomous systems for vulnerability discovery and cyber defense.",
+      "tags": [
+        "DARPA",
+        "AutonomousSystems",
+        "AICyberChallenge"
+      ]
+    },
+    {
+      "slug": "startup-security-roadmap",
+      "title": "Startup Security Roadmap",
+      "summary": "Sole architect of a startup’s security roadmap, guiding product, infrastructure, risk management, and commercialization strategy in a Silicon Valley R&D context.",
+      "tags": [
+        "StartupSecurity",
+        "Roadmap",
+        "Strategy"
+      ]
+    }
+  ],
+  "volunteering": [
+    {
+      "organization": "Alameda County Sheriff's Office - Office of Emergency Services",
+      "role": "Volunteer Incident Management & Emergency Communications",
+      "areas": [
+        "Emergency communications",
+        "Multi-agency coordination",
+        "Community preparedness",
+        "Disaster response"
+      ]
+    },
+    {
+      "organization": "ARRL VEC & Laurel VEC",
+      "role": "Volunteer Examiner",
+      "areas": [
+        "Amateur radio licensing",
+        "Technical community building",
+        "Emergency communications readiness"
+      ]
+    },
+    {
+      "organization": "NOAA / NWS SKYWARN",
+      "role": "Spotter",
+      "areas": [
+        "Severe weather observation",
+        "Public safety",
+        "Emergency reporting"
+      ]
+    },
+    {
+      "organization": "American Red Cross",
+      "role": "Lifeguard – Open Water",
+      "areas": [
+        "Water safety",
+        "Rescue readiness"
+      ]
+    },
+    {
+      "organization": "AMGA",
+      "role": "Alpine Guide",
+      "areas": [
+        "Mountain safety",
+        "Technical climbing",
+        "High-altitude risk management"
+      ]
+    }
+  ],
+  "credentials": [
+    {
+      "issuer": "ISC2",
+      "name": "CISSP – Certified Information Systems Security Professional"
+    },
+    {
+      "issuer": "CNCF",
+      "name": "Certified Kubernetes Security Specialist (CKS)"
+    },
+    {
+      "issuer": "CNCF",
+      "name": "Certified Kubernetes Administrator (CKA)"
+    },
+    {
+      "issuer": "NSA",
+      "name": "InfoSec Assessment Methodology (IAM) I/II/III"
+    },
+    {
+      "issuer": "NSA",
+      "name": "InfoSec Evaluation Methodology (IEM) I/II/III"
+    },
+    {
+      "issuer": "US Department of Justice / FBI",
+      "name": "Public Trust Clearance"
+    },
+    {
+      "issuer": "Google",
+      "name": "Professional Google Workspace Administrator"
+    },
+    {
+      "issuer": "Oracle",
+      "name": "OCI Foundations Associate",
+      "status": "expired"
+    },
+    {
+      "issuer": "Oracle",
+      "name": "OCI Data Management Foundations Associate",
+      "status": "expired"
+    },
+    {
+      "issuer": "Oracle",
+      "name": "OCI AI Foundations Associate",
+      "status": "expired"
+    },
+    {
+      "issuer": "Sun / Oracle",
+      "name": "SCJP – Sun Certified Java Programmer"
+    },
+    {
+      "issuer": "FEMA",
+      "name": "IS-100.C: Introduction to the Incident Command System"
+    },
+    {
+      "issuer": "FEMA",
+      "name": "IS-200.C: Basic Incident Command System for Initial Response"
+    },
+    {
+      "issuer": "FEMA",
+      "name": "IS-700.B: National Incident Management System"
+    },
+    {
+      "issuer": "FEMA",
+      "name": "IS-800.D: National Response Framework"
+    },
+    {
+      "issuer": "HackerRank",
+      "name": "Software Engineer / Language Certifications"
+    },
+    {
+      "issuer": "Scrum Alliance",
+      "name": "Certified ScrumMaster"
+    },
+    {
+      "issuer": "FCC",
+      "name": "Amateur Radio – Amateur Extra Class (W8MEJ)"
+    },
+    {
+      "issuer": "FCC",
+      "name": "GMRS License (WRJH688)"
+    },
+    {
+      "issuer": "ARRL VEC",
+      "name": "Volunteer Examiner"
+    },
+    {
+      "issuer": "Laurel VEC",
+      "name": "Volunteer Examiner"
+    },
+    {
+      "issuer": "NOAA / NWS",
+      "name": "SKYWARN Spotter Training"
+    },
+    {
+      "issuer": "American Red Cross",
+      "name": "Lifeguard – Open Water"
+    },
+    {
+      "issuer": "AMGA",
+      "name": "Alpine Guide"
+    },
+    {
+      "issuer": "Google Cloud",
+      "name": "Professional Cloud Security Engineer",
+      "status": "expired"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Michigan Technological University",
+      "degrees": [
+        "B.S. Computer Systems Science",
+        "B.S. Computer Science",
+        "B.S. Business"
+      ],
+      "notes": "Triple major."
+    }
+  ],
+  "meta": {
+    "source": "cv.securesql.info + securesql.info/about + conversational context",
+    "last_updated_utc": "2026-10-10T00:00:00Z",
+    "schema_version": "1.0.0"
+  }
+}

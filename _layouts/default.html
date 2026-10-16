@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{% if page.title %}{% if page.layout == 'post' or page.layout == 'tech_post' %}{{ page.title }} | SecureSQL{% else %}{{ page.title }} – {{ site.name }}{% endif %}{% else %}{{ site.name }}{% endif %}</title>
+    {% include meta.html %}
+    {% if paginator and paginator.page > 1 %}
+    <link rel="canonical" href="{{ site.url }}{{ paginator.page_path | replace: 'index.html', '' }}" />
+    {% else %}
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'index.html', '' }}" />
+    {% endif %}
+
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href="{{ site.baseurl }}/assets/fonts/source-serif-4-600.woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href="{{ site.baseurl }}/assets/fonts/libre-franklin-400.woff2"
+      crossorigin
+    />
+
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css" />
+
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="{{ site.name }} - {{ site.description }}"
+      href="{{ site.baseurl }}/feed.xml"
+    />
+
+    <meta name="theme-color" content="#FFFFFF" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="{{ site.baseurl }}/images/favicon-32x32.png.avif"
+    />
+  </head>
+
+  <body>
+    <div id="bar"></div>
+    <div class="wrapper-container">
+      <div class="wrapper-masthead">
+        <div class="container">
+          <header class="masthead">
+            <div class="site-info">
+              <div class="site-name"><a href="{{ site.baseurl }}/">SecureSQL</a></div>
+              <p class="site-description">{{ site.author }}</p>
+            </div>
+
+            <nav aria-label="Primary">
+              <a href="{{ site.baseurl }}/blog">Insights</a>
+              <a href="{{ site.baseurl }}/series">Series</a>
+              <a href="{{ site.baseurl }}/research">Research</a>
+              <a href="{{ site.baseurl }}/speaking">Speaking</a>
+              <a href="{{ site.baseurl }}/tech_posts">Vault</a>
+              <a href="{{ site.baseurl }}/about">About</a>
+            </nav>
+
+            <div class="masthead-actions">
+              <a href="{{ site.baseurl }}/search">Search</a>
+              <a class="masthead-cta" href="{{ site.baseurl }}/feed.xml">Subscribe</a>
+            </div>
+          </header>
+        </div>
+      </div>
+
+      <div class="wrapper-main">
+        <div id="main" role="main" class="container">{{ content }}</div>
+      </div>
+
+      <div class="wrapper-footer">
+        <div class="container">
+          <footer class="footer">
+            <div>
+              <div class="footer-brand">SecureSQL</div>
+              <p>{{ site.description | truncate: 140 }}</p>
+              <div class="footer-note">securesql.info</div>
+            </div>
+
+            <div class="footer-col">
+              <div class="footer-col-label">Read</div>
+              <a href="{{ site.baseurl }}/blog">Insights</a>
+              <a href="{{ site.baseurl }}/series">Series</a>
+              <a href="{{ site.baseurl }}/tech_posts">Vault</a>
+              <a href="{{ site.baseurl }}/archive">Archive</a>
+            </div>
+
+            <div class="footer-col">
+              <div class="footer-col-label">Work</div>
+              <a href="{{ site.baseurl }}/research">Research</a>
+              <a href="{{ site.baseurl }}/speaking">Speaking</a>
+              <a href="{{ site.baseurl }}/kudos/">Kudos</a>
+              <a href="{{ site.baseurl }}/casting">Casting</a>
+            </div>
+
+            <div class="footer-col">
+              <div class="footer-col-label">Legal</div>
+              <a href="{{ site.baseurl }}/privacy/">Privacy</a>
+              <a href="{{ site.baseurl }}/terms/">Terms</a>
+              <a href="{{ site.baseurl }}/disclosures/">Disclosures</a>
+              <a href="{{ site.baseurl }}/search">Search</a>
+            </div>
+
+            <div class="footer-note" style="grid-column: 1 / -1;">
+              Editorial note: this site contains security research and professional consulting insights.
+              Opinions are my own and do not represent any employer.
+              See <a href="{{ site.baseurl }}/disclosures/">disclosures</a>.
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+    <script data-cfasync="false">
+      document.addEventListener('click', function (e) {
+        var facade = e.target.closest('.youtube-facade');
+        if (!facade) return;
+        var videoId = facade.getAttribute('data-id');
+        var isPlaylist = videoId.length > 11;
+        var src = isPlaylist
+          ? 'https://www.youtube-nocookie.com/embed/videoseries?list=' + videoId + '&autoplay=1'
+          : 'https://www.youtube-nocookie.com/embed/' + videoId + '?autoplay=1';
+        var iframe = document.createElement('iframe');
+        iframe.setAttribute('src', src);
+        iframe.setAttribute('frameborder', '0');
+        iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
+        iframe.setAttribute('allowfullscreen', '1');
+        iframe.setAttribute('loading', 'lazy');
+        facade.parentNode.replaceChild(iframe, facade);
+      });
+    </script>
+  </body>
+</html>

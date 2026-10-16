@@ -1,0 +1,15 @@
+{% assign postsByYear = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+{% for year in postsByYear %}
+<div class="ed-year">
+  <div class="ed-year-label" id="{{ year.name }}-ref">{{ year.name }}</div>
+  <div class="ed-archive-list">
+    {% for post in year.items %}
+    <a class="ed-archive-row" href="{{ site.baseurl }}{{ post.url }}">
+      <span class="ed-archive-date">{{ post.date | date: "%b %-d" }}</span>
+      <span class="ed-archive-title">{% if post.title and post.title != "" %}{{ post.title }}{% else %}{{ post.excerpt | strip_html | truncate: 90 }}{% endif %}</span>
+      {% if post.series %}<span class="ed-archive-tag">{{ post.series_name | default: "Series" }}</span>{% endif %}
+    </a>
+    {% endfor %}
+  </div>
+</div>
+{% endfor %}
